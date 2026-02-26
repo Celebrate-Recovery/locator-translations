@@ -1,0 +1,189 @@
+sw:
+  locator:
+    # ============================================================================
+    # SHARED/COMMON TRANSLATIONS
+    # Use these across multiple sections with t('locator.shared.key_name')
+    # ============================================================================
+    shared:
+      # Brand & App Names
+      cr_locator: Kipataji CR # CR Locator
+      locator: Kipataji # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      
+      # Common Actions
+      email: Barua pepe # Email
+      details: Maelezo # Details
+      search: Tafuta # Search
+      filter: Chuja # Filter
+      
+      # Meeting Formats
+      online: Mtandaoni # Online
+      in_person: Mtu kwa mtu # In Person
+      
+      # Group Types
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Kikundi Kikubwa # Large Group
+      open_share_groups: Vikundi vya Kushiriki Wazi # Open Share Groups
+      step_studies: Masomo ya Hatua # Step Studies
+      
+      # Distance/Location
+      distance: "%{distance_unit}" # %{distance_unit}
+      mile: maili # miles
+      kilometer: kilomita # kilometers
+      location: Mahali # Location
+      
+      # Common Labels
+      groups: Vikundi # Groups
+      reps: Wawakilishi # Reps
+      language: Lugha # Language
+      format: Muundo # Format
+      
+      # Days of Week (Full)
+      days:
+        sunday: Jumapili # Sunday
+        monday: Jumatatu # Monday
+        tuesday: Jumanne # Tuesday
+        wednesday: Jumatano # Wednesday
+        thursday: Alhamisi # Thursday
+        friday: Ijumaa # Friday
+        saturday: Jumamosi # Saturday
+      
+      # Days of Week (Short)
+      days_short:
+        sunday: Jp # Sun
+        monday: Jt # Mon
+        tuesday: Jn # Tue
+        wednesday: Jt # Wed
+        thursday: Ah # Thu
+        friday: Ij # Fri
+        saturday: Jm # Sat
+      
+      # Days of Week (Initial)
+      days_initial:
+        sunday: J # S
+        monday: J # M
+        tuesday: J # T
+        wednesday: J # W
+        thursday: A # T
+        friday: I # F
+        saturday: J # S
+
+    # ============================================================================
+    # LAYOUT TRANSLATIONS
+    # ============================================================================
+    layouts:
+      partials:
+        header:
+          close_menu: Funga Menyu # Close Menu
+          about: Kuhusu # About
+          get_your_cr_on_the_locator: Jisajili # Get Listed
+          main_menu: Menyu Kuu # Main Menu
+          login_in: Ingia # Login
+          dashboard: Dashibodi # Dashboard
+
+    # ============================================================================
+    # HOME PAGE TRANSLATIONS
+    # ============================================================================
+    home:
+      # Controller-level messages
+      please_enter_location: "Tafadhali weka mahali au msimbo wa posta kutafuta vikundi au wawakilishi." # Please enter a location or postal code to search for groups or reps.
+      email_sent: 'Barua pepe imetumwa kwa mafanikio.' # Email sent successfully.
+
+      # Index page
+      index:
+        # Page metadata
+        html_title: Mwanzo # Home
+        html_title_groups: Vikundi katika # Groups in
+        html_title_in: katika # in
+        full_title: Kipataji CR # CR Locator
+        title: Kipataji # Locator
+        default_title: "Tafuta Uhuru, Tafuta Jumuiya - Kipataji CR" # Find Freedom, Find Community - CR Locator
+
+        # Search status messages
+        enter: "Tafadhali weka mahali au msimbo wa posta kuanza utafutaji wako" # Please enter a location or postal code to begin your search
+        error: "Hitilafu ilitokea wakati wa kutafuta. Tafadhali jaribu tena." # An error occurred while searching. Please try again.
+        none_found_group: "Hakuna vikundi vilivyopatikana ndani ya %{radius} %{distance_unit}" # No groups found within %{radius} %{distance_unit}
+        none_found_rep: "Hakuna wawakilishi waliopatikana ndani ya %{radius} %{distance_unit}" # No reps found within %{radius} %{distance_unit}
+        closest_group: "Inaonyesha vikundi vilio karibu zaidi." # Showing the closest groups.
+        closest_rep: "Inaonyesha wawakilishi walio karibu zaidi." # Showing the closest reps.
+        help: "Msaada" # Help
+
+      # Search form
+      form:
+        # Form labels
+        search_title: Mahali pako / Msimbo wa posta # Your location / ZIP code
+        search_placeholder: Weka mahali # Enter a location
+        search_nearby: Tafuta Karibu # Search Nearby
+        location_name: Jina la mahali # Location name
+        search_type: Aina # Type
+        radius: Radius # Radius
+        day_of_week: Siku za wiki # Days of the week
+        
+        # Radius options (using interpolation)
+        within_10: "ndani ya 10 %{distance_unit}" # within 10 %{distance_unit}
+        within_25: "ndani ya 25 %{distance_unit}" # within 25 %{distance_unit}
+        within_50: "ndani ya 50 %{distance_unit}" # within 50 %{distance_unit}
+        within_100: "ndani ya 100 %{distance_unit}" # within 100 %{distance_unit}
+        within_150: "ndani ya 150 %{distance_unit}" # within 150 %{distance_unit}
+        within_200: "ndani ya 200 %{distance_unit}" # within 200 %{distance_unit}
+        within_250: "ndani ya 250 %{distance_unit}" # within 250 %{distance_unit}
+        within_500: "ndani ya 500 %{distance_unit}" # within 500 %{distance_unit}
+
+        # Rep/Advocate types
+        rep_ambassador: Mwakilishi / Mtetezi # Rep / Advocate
+        all_reps: Wawakilishi / Watetezi Wote # All Reps / Advocates
+        all_reps_filter: Wawakilishi / Watetezi # Reps / Advocates
+        cr_reps: Wawakilishi wa CR # CR Reps
+        landing_reps: Wawakilishi wa Landing # Landing Reps
+        celebration_place_reps: Wawakilishi wa Celebration Place # Celebration Place Reps
+        
+        # Ambassador types
+        ambassadors:
+          mental_health: Mtetezi wa Afya ya Akili # Mental Health Advocate
+          cr_inside: Mtetezi wa CR Inside # CR Inside Advocate
+          cr_international: Mtetezi wa CR International # CR International Advocate
+          cultural_communities: Mtetezi wa Jumuiya za Kitamaduni # Cultural Communities Advocate
+          welcome_home: Mtetezi wa Welcome Home # Welcome Home Advocate
+          opioid: Mtetezi wa Opioid # Opioid Advocate
+          cpr: Mtetezi wa CPR # CPR Advocate
+
+        # Group types
+        all_groups: Vikundi Vyote # All Groups
+        all_groups_filter: Vikundi # Groups
+        online_large_group: Kikundi Kikubwa Mtandaoni # Online Large Group
+        online_open_share: Vikundi vya Kushiriki Mtandaoni # Online Open Share Groups
+        
+        # Additional ministries
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Chakula cha Ushirika # Fellowship Meal
+        childcare: Utunzaji wa Watoto # Childcare
+
+      # Group partial
+      partials:
+        group:
+          distance: "%{distance_unit}" # %{distance_unit}
+          available: Inapatikana # Available
+          offered_in: Inatolewa katika # Offered in
+
+    # ============================================================================
+    # RESULTS PAGE TRANSLATIONS
+    # ============================================================================
+    results:
+      partials:
+        group:
+          directions: Pata Maelekezo # Get Directions
+          email: Barua pepe # Email
+          language: Lugha Zinazotolewa Hapa # Languages Offered Here
+          location: Mahali # Location
+          contact: Mawasiliano ya Kikundi # Group Contacts
+          rep_contact: Mawasiliano ya Mwakilishi # Rep Contact
+          ministry_leader: Kiongozi wa Huduma # Ministry Leader
+          upcomming_step_study: Masomo ya Hatua Yanayokuja # Upcoming Step Studies
+          starting: Kuanza # Starting
+          additional_information: Maelezo ya Ziada # Additional Information
+
+        rep:
+          based_in: "Anapatikana %{location}" # Based in %{location}
+          about: "Kidogo kuhusu %{rep_name}" # A little bit about %{rep_name}
+          groups: "%{rep_name} ni sehemu ya vikundi vifuatavyo kila wiki:" # %{rep_name} is a part of the following groups weekly:

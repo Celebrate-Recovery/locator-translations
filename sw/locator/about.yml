@@ -1,0 +1,37 @@
+sw:
+  locator:
+    info:
+      about:
+        # Page metadata
+        page_title: "Kuhusu Kipataji Vikundi - CR Locator" # About The Group Locator - CR Locator
+        
+        # Page header
+        title: "Kuhusu Tovuti ya Celebrate Recovery Locator" # About the Celebrate Recovery Locator Site
+        subtitle: "CR Locator" # CR Locator
+        intro: "Karibu kwenye Tovuti ya Celebrate Recovery Locator, chombo chako kamili cha kupata vikundi vya Celebrate Recovery na masomo ya hatua karibu nawe. Tovuti yetu imeundwa kukusaidia kuungana na jumuiya ya ukombozi iliyozingatia Kristo, iwe unatafuta mikutano ya mtu kwa mtu au msaada mtandaoni." # Welcome to the Celebrate Recovery Locator Site...
+        
+        # Testimonial section
+        testimonial:
+          quote: "Nilipodhani nilikuwa nimeshuka chini kabisa na kulikuwa hakuna matumaini, niliweza kupata kikundi karibu nami kujiunga na jumuiya ya uponyaji. Nina shukrani kwa matumaini katika jumuiya hii ya waamini inayounda nafasi salama ya kushiriki maisha katika Kristo." # When I thought I had hit rock bottom...
+          author: "Rodney Holmstrom" # Rodney Holmstrom
+          location: "Rogers, AK" # Rogers, AK
+        
+        # Main content sections
+        sections:
+          find_group:
+            title: "Tafuta Kikundi Karibu Nawe" # Find a Group Near You
+            content: "Chombo chetu cha Kipataji Vikundi rahisi kinakuruhusu kutafuta mikutano ya Celebrate Recovery kulingana na mahali ulipo. Weka tu anwani yako, na tutakupatia orodha ya vikundi karibu nawe. Kila orodha inajumuisha maelezo ya kina kuhusu majira ya mikutano, maeneo, na maeneo maalum ya kuzingatia. Hivyo, unaweza kupata kinachofaa kwa safari yako ya ukombozi." # Our easy-to-use Group Locator tool...
+          step_studies:
+            title: "Gundua Masomo ya Hatua" # Explore Step Studies
+            content: "Katika Celebrate Recovery, tunatoa masomo ya hatua yanayozingatia kanuni za ukombozi. Unaweza kutafuta masomo ya hatua mtandaoni na mtu kwa mtu, kuhakikisha unapata muundo unaofaa zaidi kwa ratiba na mapendeleo yako. Iwe unapendelea urahisi wa kikundi mtandaoni au ushirika wa kukutana mtu kwa mtu, Celebrate Recovery ina chaguzi za kusaidia ukuaji wako." # At Celebrate Recovery, we offer comprehensive step studies...
+          connect:
+            title: "Ungana na Wawakilishi na Mtetezi" # Connect with Representatives and Advocate
+            content: "Mbali na mikutano ya vikundi, jukwaa letu linakusaidia kuungana na wawakilishi na watetezi wa Celebrate Recovery wa eneo. Watu hawa waliojitolea wapo hapa kutoa mwongozo, kujibu maswali yako, na kukusaidia kwenye safari yako ya ukombozi. Tumia kipengele chetu cha utafuti kupata na kuwasiliana na wawakilishi na watetezi eneo lako." # In addition to group meetings...
+          churches:
+            title: "Kwa Makanisa" # For Churches
+            content: "Celebrate Recovery inajivunia kushirikiana na makanisa ulimwenguni. Jukwaa letu linawaruhusu makanisa kusimamia orodha zao za vikundi, na kurahisisha kuweka taarifa sasa na sahihi. Makanisa yanaweza kubinafsisha orodha zao na picha, maelezo ya kina, na taarifa kuhusu programu zao maalum za Celebrate Recovery, na kuunda uwepo wa kupokea na kuelimisha wanaotafuta msaada." # Celebrate Recovery is proud to partner with churches...
+          about_cr:
+            title: "Kuhusu Celebrate Recovery" # About Celebrate Recovery
+            content_html: "Celebrate Recovery ni programu ya ukombozi iliyozingatia Kristo ambapo unaweza kupata jumuiya na uhuru kutoka kwa majeraha, tabia na mambo yanayokusumbua. Iwe wewe ni mpya kwenye ukombozi au unatafuta msaada unaoendelea, Celebrate Recovery iko hapa kusaidia.<br /><br />Katika Celebrate Recovery, tunaamini nguvu ya jumuiya na matumaini yanayotokana na kutembea pamoja kuelekea uponyaji na ukamilifu. Jiunge nasi na ugundue mahali salama pa kupata uhuru katika Kristo.<br /><br />Jifunze zaidi kuhusu Celebrate Recovery %{cr_link} au rudi kwenye %{locator_link} kupata kikundi au mwakilishi" # Celebrate Recovery is a Christ-centered recovery program...
+            cr_link_text: "hapa" # here
+            locator_link_text: "CR Locator" # CR Locator

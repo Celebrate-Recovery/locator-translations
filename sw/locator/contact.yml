@@ -1,0 +1,29 @@
+sw:
+  locator:
+    contact:
+      # Controller-level messages
+      contact_title: mawasiliano # contact
+      success: Barua pepe imetumwa kwa mafanikio. # Email sent successfully.
+      invalid: 'Wasilisho la fomu si sahihi. Tafadhali jaribu tena.' # Invalid form submission. Please try again.
+      
+      # Contact form view
+      contact:
+        # Page header
+        title: "Wasiliana na %{rep_name}" # Get in touch with %{rep_name}
+        detail: Tumia fomu hii kutuma ombi kwa %{rep_name}. Watafanya kazi yao bora kukujibu kwa wakati. # Use this form to send a request over to %{rep_name}...
+        
+        # Contact info labels (use shared for email)
+        type: Aina ya Mwakilishi / Mtetezi # Rep / Advocate Type
+        ministry_leader: Kiongozi wa Huduma # Ministry Leader
+        
+        # Form fields (generic - could be moved to shared if used elsewhere)
+        name: Jina # Name
+        phone: Nambari ya simu # Phone number
+        message: Ujumbe # Message
+        
+        # Actions
+        back: Rudi kwenye kipataji # Back to finder
+        send: Tuma Ujumbe # Send Message
+        
+        # Error messages
+        no_results: Hakuna kilichopatikana kwenye anwani hii # Nothing was found at this address

@@ -6,37 +6,38 @@ Thank you for helping make the CR Locator accessible to people around the world.
 
 ## Supported languages
 
-**25 languages** — 8 reviewed by a native speaker, 17 awaiting review.
+**26 languages** — 8 reviewed by a native speaker, 18 awaiting review.
 
-| Language              | Code     | Reviewed | Notes              |
-| --------------------- | -------- | -------- | ------------------ |
-| Afrikaans             | `af`     | Yes      |                    |
-| Chinese (Traditional) | `zh-TW`  | Yes      |                    |
-| English                | `en`     | Yes      |                    |
-| Filipino               | `fil`    | Yes      |                    |
-| French (Canadian)      | `fr-CA`  | Yes      |                    |
-| Japanese               | `ja`     | Yes      |                    |
-| Portuguese             | `pt`     | Yes      |                    |
-| Spanish                | `es`     | Yes      |                    |
-| Arabic                 | `ar`     | No       |                    |
-| Chinese (Simplified)   | `zh-CN`  | No       |                    |
-| Croatian               | `hr`     | No       |                    |
-| Danish                 | `da`     | No       |                    |
-| Dutch                  | `nl`     | No       |                    |
-| French                 | `fr`     | No       | Copied from fr-CA  |
-| German                 | `de`     | No       |                    |
-| Greek                  | `el`     | No       |                    |
-| Indonesian             | `id`     | No       |                    |
-| Khmer                  | `km`     | No       |                    |
-| Korean                 | `ko`     | No       |                    |
-| Polish                 | `pl`     | No       |                    |
-| Romanian               | `ro`     | No       |                    |
-| Russian                | `ru`     | No       |                    |
-| Turkish                | `tr`     | No       |                    |
-| Ukrainian              | `uk`     | No       |                    |
-| Vietnamese             | `vi`     | No       |                    |
+| Language              | Code    | Reviewed | Notes             |
+| --------------------- | ------- | -------- | ----------------- |
+| Afrikaans             | `af`    | Yes      |                   |
+| Chinese (Traditional) | `zh-TW` | Yes      |                   |
+| English               | `en`    | Yes      |                   |
+| Filipino              | `fil`   | Yes      |                   |
+| French (Canadian)     | `fr-CA` | Yes      |                   |
+| Japanese              | `ja`    | Yes      |                   |
+| Portuguese            | `pt`    | Yes      |                   |
+| Spanish               | `es`    | Yes      |                   |
+| Arabic                | `ar`    | No       |                   |
+| Chinese (Simplified)  | `zh-CN` | No       |                   |
+| Croatian              | `hr`    | No       |                   |
+| Danish                | `da`    | No       |                   |
+| Dutch                 | `nl`    | No       |                   |
+| French                | `fr`    | No       | Copied from fr-CA |
+| German                | `de`    | No       |                   |
+| Greek                 | `el`    | No       |                   |
+| Indonesian            | `id`    | No       |                   |
+| Khmer                 | `km`    | No       |                   |
+| Korean                | `ko`    | No       |                   |
+| Polish                | `pl`    | No       |                   |
+| Romanian              | `ro`    | No       |                   |
+| Russian               | `ru`    | No       |                   |
+| Swahili               | `sw`    | No       |                   |
+| Turkish               | `tr`    | No       |                   |
+| Ukrainian             | `uk`    | No       |                   |
+| Vietnamese            | `vi`    | No       |                   |
 
-*Reviewed* = checked or created by a native speaker. Languages marked *No* were machine-translated and would benefit from review. Details in each locale folder (e.g. `config/locales/de/GERMAN.md`).
+_Reviewed_ = checked or created by a native speaker. Languages marked _No_ were machine-translated and would benefit from review. Details in each locale folder.
 
 ## File Format
 
@@ -47,11 +48,11 @@ Each translation file follows this format:
 ```yaml
 language_code:
   locator:
-    shared:           # Common translations used everywhere
-    layouts:          # Header, footer, navigation
-    home:             # Homepage and search
-    results:          # Search results pages
-  devise:             # Sign in and sign up translations
+    shared: # Common translations used everywhere
+    layouts: # Header, footer, navigation
+    home: # Homepage and search
+    results: # Search results pages
+  devise: # Sign in and sign up translations
 ```
 
 ### English Comments
@@ -65,6 +66,7 @@ sunday: Domingo # Sunday
 ```
 
 **Format:**
+
 ```yaml
 key: Your Translation # English Reference
 ```
@@ -76,12 +78,14 @@ key: Your Translation # English Reference
 ### 1. Keep the Structure
 
 **DO NOT change:**
+
 - Indentation (spaces)
 - Key names (left side of `:`)
 - Section organization
 - syntax
 
 **Example - DO NOT DO THIS:**
+
 ```yaml
 # ❌ WRONG - Changed key name
 correo_electronico: Correo electrónico # Email
@@ -103,6 +107,7 @@ none_found_group: "No se encontraron grupos en un radio de %{radio} %{unidad}"
 ```
 
 **Common variables:**
+
 - `%{distance_unit}` - miles or kilometers
 - `%{radius}` - search radius number
 - `%{location}` - location name
@@ -111,6 +116,7 @@ none_found_group: "No se encontraron grupos en un radio de %{radio} %{unidad}"
 ### 3. Quotes
 
 Use quotes when:
+
 - Text contains special characters
 - Text contains colons `:`
 - Text is a full sentence
@@ -129,6 +135,7 @@ Use the same translation for the same English word throughout:
 
 **Example:**
 If you translate "Search" as "Buscar", use "Buscar" everywhere, not:
+
 - ❌ "Buscar" in one place
 - ❌ "Búsqueda" in another
 - ❌ "Investigar" in yet another
@@ -145,20 +152,20 @@ Three formats are needed:
 
 ```yaml
 days:
-  sunday: Domingo        # Full name: Sunday
-  
+  sunday: Domingo # Full name: Sunday
+
 days_short:
-  sunday: Dom            # Short: Sun
-  
+  sunday: Dom # Short: Sun
+
 days_initial:
-  sunday: D              # Initial: S
+  sunday: D # Initial: S
 ```
 
 ### Distance Units
 
 ```yaml
-mile: millas             # miles (singular)
-kilometer: kilómetros    # kilometers (singular)
+mile: millas # miles (singular)
+kilometer: kilómetros # kilometers (singular)
 ```
 
 **Note:** Even though it says "miles/kilometers", use the singular form in your language if that's more natural.
@@ -166,40 +173,8 @@ kilometer: kilómetros    # kilometers (singular)
 ### Meeting Formats
 
 ```yaml
-online: En línea         # Online
-in_person: En persona    # In Person
-```
-
----
-
-## Testing Your Translations
-
-### 1. YAML Syntax Check
-
-After editing, verify the file is valid YAML:
-
-```bash
-# In terminal
-ruby -ryaml -e "YAML.load_file('config/locales/es/locator/locator.yml')"
-```
-
-If no error appears, your syntax is correct! ✅
-
-### 2. View in Browser
-
-```
-http://localhost:3000?locale=es
-http://localhost:3000?locale=fr
-# etc.
-```
-
-### 3. Check for Missing Translations
-
-```bash
-# In Rails console
-I18n.locale = :es
-I18n.t('locator.shared.email')
-# Should return: "Correo electrónico"
+online: En línea # Online
+in_person: En persona # In Person
 ```
 
 ---
@@ -270,13 +245,46 @@ Before submitting your translation:
 - [ ] All English comments are still present
 - [ ] No key names were changed
 - [ ] All variables (`%{...}`) are preserved
-- [ ] Brand names are NOT translated
 - [ ] Quotes are used where needed
 - [ ] Indentation is correct (2 spaces per level)
 - [ ] YAML syntax is valid (test with Ruby command)
 - [ ] Translations are consistent throughout
 - [ ] Cultural appropriateness checked
 - [ ] Tested in browser (if possible)
+
+---
+
+## Testing Your Translations
+
+Once you have completed your translations, using the methods below. Most likely you will not need to do the tests yourself as the developer will check the translations for you.
+
+### 1. YAML Syntax Check
+
+After editing, verify the file is valid YAML:
+
+```bash
+# In terminal
+ruby -ryaml -e "YAML.load_file('config/locales/es/locator/locator.yml')"
+```
+
+If no error appears, your syntax is correct! ✅
+
+### 2. View in Browser
+
+```
+http://localhost:3000?locale=es
+http://localhost:3000?locale=fr
+# etc.
+```
+
+### 3. Check for Missing Translations
+
+```bash
+# In Rails console
+I18n.locale = :es
+I18n.t('locator.shared.email')
+# Should return: "Correo electrónico"
+```
 
 ---
 
@@ -301,6 +309,7 @@ search_placeholder: Búsqueda # Enter a location
 ### Technical Issues?
 
 If you get YAML syntax errors:
+
 1. Check indentation (use spaces, not tabs)
 2. Check quotes (must be matching pairs)
 3. Check colons (space after `:`)
@@ -320,16 +329,16 @@ es:
       cr_locator: Localizador CR # CR Locator
       locator: Localizador # Locator
       celebrate_recovery: Celebrate Recovery # Celebrate Recovery
-      
+
       # Common Actions
       email: Correo electrónico # Email
       details: Detalles # Details
       search: Búsqueda # Search
-      
+
       # Meeting Formats
       online: En línea # Online
       in_person: En persona # In Person
-      
+
       # Days of Week (Full)
       days:
         sunday: Domingo # Sunday
@@ -337,6 +346,7 @@ es:
 ```
 
 **Notice:**
+
 - ✅ Structure preserved
 - ✅ Keys unchanged
 - ✅ English comments kept
@@ -351,6 +361,7 @@ es:
 ### Formality Level
 
 Choose the appropriate level of formality for your language:
+
 - **Spanish:** Use "tú" or "usted"? (We use "tú" - informal)
 - **French:** Use "tu" or "vous"? (We use "vous" - formal)
 - **Japanese:** Use casual or polite form? (We use polite form)
@@ -358,6 +369,7 @@ Choose the appropriate level of formality for your language:
 ### Date/Time Formats
 
 Some languages have different conventions:
+
 - **US English:** Sunday is first day of week
 - **Europe:** Monday is first day of week
 - **Middle East:** Saturday is first day of week
@@ -376,13 +388,16 @@ Some languages have different conventions:
 ## Resources
 
 ### YAML Syntax
+
 - [YAML Official Site](https://yaml.org/)
 - [YAML Validator](http://www.yamllint.com/)
 
 ### Rails I18n
+
 - [Rails I18n Guide](https://guides.rubyonrails.org/i18n.html)
 
 ### Translation Tools
+
 - [DeepL Translator](https://www.deepl.com/) - High quality machine translation
 - [Google Translate](https://translate.google.com/) - Quick reference
 - **Note:** Always review machine translations!

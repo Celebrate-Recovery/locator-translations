@@ -1,0 +1,45 @@
+sw:
+  locator:
+    info:
+      listed:
+        # Page metadata
+        page_title: "Jisajili kikundi chako - CR Locator" # Get your group listed - CR Locator
+        
+        # Page header
+        subtitle: "CR Locator" # CR Locator
+        title: "Jisajili kikundi chako" # Get your group listed
+        intro: "Asante kwa kupendezwa na kuongeza Huduma yako ya Celebrate Recovery kwenye CR Locator! Tafadhali soma mahitaji ya kuongeza kikundi chako kwenye Locator, hapa chini:" # Thank you for your interest in adding your Celebrate Recovery Ministry...
+        
+        # Abbreviations
+        abbreviations:
+          fe_cr: "FE CR = Huduma ya Celebrate Recovery ya Utoaji Kamili" # FE CR = Full Expression Celebrate Recovery Ministry
+          osgo_cr: "OSGO CR = Huduma ya Celebrate Recovery ya Vikundi vya Kushiriki Tu" # OSGO CR = Open Share Group Only Celebrate Recovery Ministry
+        
+        # Requirements
+        requirements:
+          running_time:
+            title: "(FE CR) Usiku wa Sherehe au (OSGO CR) Vikundi vya Kushiriki Wameendesha kwa angalau siku 90." # (FE CR) Celebration Night or (OSGO CR) Open Share Groups have been running...
+            description: "Hii haijumuishi Masomo ya Hatua/mafunzo ya awali ya Kiongozi kabla ya kuzindua Usiku wa Sherehe." # This does not include the Step Studies/initial Leader training...
+          dna:
+            title: "(FE na OSGO CR) Kanisa na Uongozi wa CR wanakubaliana, kutekeleza na kufuata DNA ya Celebrate Recovery" # (FE and OSGO CR) Church and CR Leadership agree...
+            link_text: "DNA ya Celebrate Recovery" # DNA of Celebrate Recovery
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # https://celebraterecovery.com/...
+            note: "(celebraterecovery.com > Rasilimali > DNA Yetu)" # (celebraterecovery.com > Resources > Our DNA)
+          training:
+            title: "(OSGO CR) Viongozi wamekamilisha Mafunzo Mtandaoni" # (OSGO CR) Leaders completed the Online Training
+            description_html: "Video za mafunzo ya Kikundi cha Kushiriki cha CR zinaweza kupatikana kwenye ukurasa wa Jumuiya ya CR kwenye Mighty Networks. Nenda %{community_link} kuchagua mpango na kujiunga. Kuna mipango ya bure na ya kulipia. Mafunzo ya Kikundi cha Kushiriki cha CR yamejumuishwa katika mipango yote. Unapojiunga, nenda kwenye nafasi ya MAFUNZO YA BURE kwenye menyu ya urambazaji kupata mafunzo." # The CR Open Share Group training videos...
+            community_url: "https://celebraterecovery.com/cr-community/" # https://celebraterecovery.com/cr-community/
+        
+        # Next steps
+        next_steps:
+          not_meeting:
+            title: "Ikiwa CR yako HAIKUTIMIZI mahitaji hapa juu:" # If your CR DOES NOT meet the requirements above:
+            content: "Fanya mabadiliko muhimu kwenye Celebrate Recovery yako kabla ya kuendelea. Tafadhali wasiliana na Mwakilishi wa Celebrate Recovery ikiwa una maswali. Rudi kwenye CR Locator kutafuta Mwakilishi au kikundi cha CR." # Make the necessary changes...
+          meeting:
+            title: "Ikiwa CR yako INAKUTIMIZA mahitaji hapa juu:" # If your CR DOES meet the requirements above:
+            content: "Bofya kiungo hapa chini kuanza mchakato wa kuongeza CR yako kwenye Locator." # Click on the link below to begin the process...
+        
+        # Action buttons
+        buttons:
+          dashboard: "Nenda kwenye dashibodi yako" # Go to your dashboard
+          setup: "Sanidi Kikundi Chako cha Celebrate Recovery" # Setup Your Celebrate Recovery Group
