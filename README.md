@@ -39,6 +39,20 @@ Thank you for helping make the CR Locator accessible to people around the world.
 
 _Reviewed_ = checked or created by a native speaker. Languages marked _No_ were machine-translated and would benefit from review. Details in each locale folder.
 
+## Getting the files from GitHub
+
+You can get the translation files in two ways:
+
+### Option 1: Download as ZIP (no Git required)
+
+1. Open the repository on GitHub (e.g. `https://github.com/Celebrate-Recovery/locator-translations`).
+2. Click the green **Code** button.
+3. Click **Download ZIP**.
+4. Unzip the file on your computer.
+5. The locale files are in its own folder (each language has its own folder, e.g. `es`, `fr-CA`, `de`).
+
+To work on a language, open the folder for that language’s code (e.g. `de/` for German). When you’re done, you can share the changed files with the team or submit them via a pull request (upload the modified files in the GitHub web interface).
+
 ## File Format
 
 ### Structure
