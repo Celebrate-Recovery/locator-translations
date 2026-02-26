@@ -1,0 +1,37 @@
+zh:
+  locator:
+    info:
+      about:
+        # Page metadata
+        page_title: "關於CR搜尋器 - CR 搜尋器" # About The Group Locator - CR Locator
+        
+        # Page header
+        title: "關於Celebrate Recovery搜尋器網站" # About the Celebrate Recovery Locator Site
+        subtitle: "CR 搜尋器" # CR Locator
+        intro: "歡迎來到Celebrate Recovery搜尋器網站，這是讓您尋找附近的CR課程和12步驟小組的綜合工具。我們網站的目的在幫助您與以基督為中心的生命更新社群建立聯繫，無論您要尋找的是實體或線上的課程。" # Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support.
+        
+        # Testimonial section
+        testimonial:
+          quote: "當我以為自己已經跌到谷底、沒有希望的時候，我找到了附近的一個課程，加入了一個生命更新社群。我感謝這個充滿希望的信徒社群，它創造了一個安全的空間，讓我在基督中分享生活。" # When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ.
+          author: "Rodney Holmstrom" # Rodney Holmstrom
+          location: "Rogers, AK" # Rogers, AK
+        
+        # Main content sections
+        sections:
+          find_group:
+            title: "尋找您附近的課程" # Find a Group Near You
+            content: "這個很容易使用的搜尋器可讓您根據您的地點搜尋CR課程。只需輸入您的地址，我們就會為您列出附近的CR課程。每個列出的CR課程都包含有關上課時間、地點和注意事項的詳細資訊。這樣，您就可以找到最適合您的生命更新課程。" # Our easy-to-use Group Locator tool allows you to search for Celebrate Recovery meetings based on your current location. Simply enter your address, and we'll provide you with a list of groups near you. Each listing includes detailed information about meeting times, locations, and special focus areas. This way, you can find the perfect fit for your recovery journey.
+          step_studies:
+            title: "關於12步驟小組" # Explore Step Studies
+            content: "在CR課程中，我們提供深入探討生命更新原則的12步驟小組。您可以搜尋線上或實體的12步驟小組，找到最適合您的時間與形式。無論您喜歡線上群組的便利性還是喜歡實體聚會的團契感，CR 都提供了幫助您生命更新的選項。" # At Celebrate Recovery, we offer comprehensive step studies that dive deep into recovery principles. You can search for step studies both online and in-person, ensuring you find a format that works best for your schedule and preferences. Whether you prefer the convenience of an online group or the fellowship of meeting in person, Celebrate Recovery has options to support your growth.
+          connect:
+            title: "聯繫代表和大使" # Connect with Representatives and Advocate
+            content: "除了課程之外，我們的平台還可以幫助您與當地的CR代表和大使建立聯繫。這些敬業的同工將為您提供指引、解答您的問題並支持您的生命更新之旅。您可以使用這個搜尋器來尋找並聯絡您所在地區的代表和大使。" # In addition to group meetings, our platform helps you connect with local Celebrate Recovery representatives and advocates. These dedicated individuals are here to provide guidance, answer your questions, and support you on your recovery journey. Use our search feature to find and contact representatives and advocates in your area.
+          churches:
+            title: "對教會的支援" # For Churches
+            content: "Celebrate Recovery 很榮幸能與世界各地的教會合作。我們的平台允許各教會管理自己課程的顯示，以確保資訊的準確和即時性。教會可以在他們課程的顯示中使用照片並詳細描述他們的CR課程，為那些尋求幫助的人提供豐富的資訊並營造讓他們受到歡迎的氛圍。" # Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help.
+          about_cr:
+            title: "關於Celebrate Recovery" # About Celebrate Recovery
+            content_html: "Celebrate Recovery是一個以基督為中心的生命更新課程，您可以找到支持夥伴和自由，因而擺脫傷害、心結和不良習慣。無論您是剛開始更新還是尋求持續，CR都會為您提供幫助。 <br /><br />在Celebrate Recovery，我們相信社群的力量以及共同走向更新和完善的希望。歡迎加入我們，找到一個在基督裡尋求自由的安全之地。 <br /><br />進一步了解有關CR %{cr_link} 的資訊，或返回搜尋器 %{locator_link} 搜尋課程或代表" # Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative
+            cr_link_text: "這裡" # here
+            locator_link_text: "CR 搜尋器" # CR Locator

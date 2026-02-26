@@ -1,0 +1,30 @@
+hr:
+  locator:
+    info:
+      about:
+        page_title: "O lokatoru grupa - CR Locator"
+        title: "O stranici Celebrate Recovery Locator"
+        subtitle: "CR Locator"
+        intro: "Dobrodošli na stranicu Celebrate Recovery Locator – vaš alat za pronalaženje grupa i studija koraka Celebrate Recovery u vašoj blizini. Stranica vam pomaže povezati se s kršćanski usmjerénom zajednicom oporavka, bilo da tražite osobne sastanke ili online podršku."
+        testimonial:
+          quote: "Kad sam mislio da sam na dnu i nema nade, uspio sam pronaći grupu u blizini i pridružiti se zajednici iscjeljenja. Zahvalan sam na nadi u ovoj zajednici vjernika koja stvara siguran prostor za dijeljenje života u Kristu."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Pronađite grupu u vašoj blizini"
+            content: "Naš jednostavan lokator grupa omogućuje pretragu sastanaka Celebrate Recovery na temelju vaše lokacije. Unesite adresu i prikazat ćemo vam grupe u blizini. Svaki unos uključuje informacije o vremenima, lokacijama i posebnim fokusima kako biste pronašli pravu grupu za svoj put oporavka."
+          step_studies:
+            title: "Istražite studije koraka"
+            content: "U Celebrate Recovery nudimo studije koraka koje duboko ulaze u načela oporavka. Možete pretraživati studije koraka online i osobno kako biste pronašli format koji vam odgovara. Bilo da preferirate online grupu ili osobne sastanke, Celebrate Recovery nudi opcije za vaš rast."
+          connect:
+            title: "Povežite se s predstavnicima i zagovornicima"
+            content: "Osim sastanaka grupa, naša platforma pomaže vam povezati se s lokalnim predstavnicima i zagovornicima Celebrate Recovery. Ove predane osobe tu su da vam pruže smjernice, odgovore na pitanja i podršku na putu oporavka. Koristite pretragu za pronalaženje i kontaktiranje predstavnika i zagovornika u vašem području."
+          churches:
+            title: "Za crkve"
+            content: "Celebrate Recovery s ponosom surađuje s crkvama diljem svijeta. Naša platforma omogućuje crkvama upravljanje vlastitim unosima grupa kako bi informacije bile ažurne. Crkve mogu prilagoditi unose fotografijama, opisima i informacijama o svojim programima Celebrate Recovery, stvarajući gostoljubivu ponudu za one koji traže pomoć."
+          about_cr:
+            title: "O Celebrate Recovery"
+            content_html: "Celebrate Recovery je kršćanski program oporavka u kojem možete pronaći zajednicu i slobodu od ozljeda, navika i zapreka. Bilo da ste novi u oporavku ili tražite kontinuiranu podršku, Celebrate Recovery je tu da pomogne.<br /><br />U Celebrate Recovery vjerujemo u snagu zajednice i nadu koja dolazi kada zajedno idemo prema iscjeljenju i cjelovitosti. Pridružite nam se i otkrijte sigurno mjesto za slobodu u Kristu.<br /><br />Saznajte više o Celebrate Recovery %{cr_link} ili se vratite na %{locator_link} za pronalaženje grupe ili predstavnika"
+            cr_link_text: "ovdje"
+            locator_link_text: "CR Locator"

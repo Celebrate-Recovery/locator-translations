@@ -1,0 +1,29 @@
+en:
+  locator:
+    contact:
+      # Controller-level messages
+      contact_title: contact # contact
+      success: Email sent successfully. # Email sent successfully.
+      invalid: 'Invalid form submission. Please try again.' # Invalid form submission. Please try again.
+      
+      # Contact form view
+      contact:
+        # Page header
+        title: "Get in touch with %{rep_name}" # Get in touch with %{rep_name}
+        detail: Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        
+        # Contact info labels (use shared for email)
+        type: Rep / Advocate Type # Rep / Advocate Type
+        ministry_leader: Ministry Leader # Ministry Leader
+        
+        # Form fields (generic - could be moved to shared if used elsewhere)
+        name: Name # Name
+        phone: Phone number # Phone number
+        message: Message # Message
+        
+        # Actions
+        back: Back to finder # Back to finder
+        send: Send Message # Send Message
+        
+        # Error messages
+        no_results: Nothing was found at this address # Nothing was found at this address

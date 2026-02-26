@@ -1,0 +1,17 @@
+id:
+  locator:
+    contact:
+      contact_title: kontak
+      success: Email berhasil dikirim.
+      invalid: 'Pengiriman tidak valid. Silakan coba lagi.'
+      contact:
+        title: "Hubungi %{rep_name}"
+        detail: Gunakan formulir ini untuk mengirim permintaan ke %{rep_name}. Mereka akan berusaha membalas Anda tepat waktu.
+        type: Tipe perwakilan / Advokat
+        ministry_leader: Pemimpin pelayanan
+        name: Nama
+        phone: Nomor telepon
+        message: Pesan
+        back: Kembali ke pencari
+        send: Kirim pesan
+        no_results: Tidak ada yang ditemukan di alamat ini

@@ -1,0 +1,34 @@
+el:
+  locator:
+    info:
+      listed:
+        page_title: "Εγγραφή ομάδας - CR Locator"
+        subtitle: "CR Locator"
+        title: "Εγγράψτε την ομάδα σας"
+        intro: "Ευχαριστούμε για το ενδιαφέρον σας να προσθέσετε την υπηρεσία Celebrate Recovery σας στο CR Locator! Διαβάστε τις απαιτήσεις για την εγγραφή της ομάδας σας παρακάτω:"
+        abbreviations:
+          fe_cr: "FE CR = Πλήρης έκφραση υπηρεσίας Celebrate Recovery"
+          osgo_cr: "OSGO CR = Μόνο ομάδες ανοιχτού διαμοιρασμού Celebrate Recovery"
+        requirements:
+          running_time:
+            title: "(FE CR) Celebration Night ή (OSGO CR) Ομάδες ανοιχτού διαμοιρασμού λειτουργούν για τουλάχιστον 90 ημέρες."
+            description: "Αυτό δεν περιλαμβάνει τις μελέτες βημάτων/αρχική εκπαίδευση προέδρων πριν την έναρξη του Celebration Night."
+          dna:
+            title: "(FE και OSGO CR) Η εκκλησία και η ηγεσία CR συμφωνούν, εφαρμόζουν και ακολουθούν το DNA του Celebrate Recovery"
+            link_text: "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)"
+          training:
+            title: "(OSGO CR) Οι πρόεδροι ολοκλήρωσαν την διαδικτυακή εκπαίδευση"
+            description_html: "Τα εκπαιδευτικά βίντεο CR Open Share Group βρίσκονται στη σελίδα CR Community στο Mighty Networks. Πηγαίνετε στο %{community_link} για να επιλέξετε πρόγραμμα και να εγγραφείτε. Υπάρχουν δωρεάν και επί πληρωμή προγράμματα. Η εκπαίδευση CR Open Share Group περιλαμβάνεται σε όλα. Μετά την εγγραφή, πηγαίνετε στο FREE TRAINING στο μενού πλοήγησης για να βρείτε την εκπαίδευση."
+            community_url: "https://celebraterecovery.com/cr-community/"
+        next_steps:
+          not_meeting:
+            title: "Αν το CR σας ΔΕΝ πληροί τις παραπάνω απαιτήσεις:"
+            content: "Κάντε τις απαραίτητες αλλαγές στο Celebrate Recovery σας πριν συνεχίσετε. Επικοινωνήστε με αντιπρόσωπο Celebrate Recovery για ερωτήσεις. Επιστρέψτε στο CR Locator για αναζήτηση αντιπροσώπου ή ομάδας CR."
+          meeting:
+            title: "Αν το CR σας ΠΛΗΡΟΙ τις παραπάνω απαιτήσεις:"
+            content: "Κάντε κλικ στον παρακάτω σύνδεσμο για να ξεκινήσετε τη διαδικασία εγγραφής του CR σας στον Locator."
+        buttons:
+          dashboard: "Μετάβαση στον πίνακα ελέγχου"
+          setup: "Ρύθμιση ομάδας Celebrate Recovery"

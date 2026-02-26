@@ -1,0 +1,37 @@
+pt:
+  locator:
+    info:
+      about:
+        # Page metadata
+        page_title: "Sobre o Localizador de Grupos - Encontre um CR" # About The Group Locator - CR Locator
+        
+        # Page header
+        title: "Sobre o site localizador Celebrando a Recuperação" # About the Celebrate Recovery Locator Site
+        subtitle: "Encontre um CR" # CR Locator
+        intro: "Bem-vindo ao site localizador Celebrando a Recuperação, sua ferramenta completa para encontrar grupos de apoio do Celebrando a Recuperação e grupo de passos perto de você. Nosso site foi criado para ajudar você a se conectar com uma comunidade de recuperação centrada em Cristo, seja para encontros presenciais ou suporte online." # Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support.
+        
+        # Testimonial section
+        testimonial:
+          quote: "Quando pensei que tinha chegado ao fundo do poço e não havia mais esperança, consegui encontrar um grupo perto de mim para me juntar a uma comunidade de cura. Sou grata pela esperança presente nesta comunidade de cristãos, que cria um espaço seguro para compartilhar a vida em Cristo." # When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ.
+          author: "Rodney Holmstrom" # Rodney Holmstrom
+          location: "Rogers, AK" # Rogers, AK
+        
+        # Main content sections
+        sections:
+          find_group:
+            title: "Encontre um grupo de apoio perto de você" # Find a Group Near You
+            content: "Nossa ferramenta de localização de grupos, fácil de usar, permite que você busque reuniões do Celebrando a Recuperação com base na sua localização atual. Basta inserir seu endereço e forneceremos uma lista de grupos perto de você. Cada lista inclui informações detalhadas sobre horários, locais e áreas de foco das reuniões. Assim, você pode encontrar o grupo ideal para sua jornada de recuperação." # Our easy-to-use Group Locator tool allows you to search for Celebrate Recovery meetings based on your current location. Simply enter your address, and we'll provide you with a list of groups near you. Each listing includes detailed information about meeting times, locations, and special focus areas. This way, you can find the perfect fit for your recovery journey.
+          step_studies:
+            title: "Explore os Grupos de Passos" # Explore Step Studies
+            content: "No Celebrando a Recuperação, oferecemos estudos abrangentes por etapas que se aprofundam nos princípios da recuperação. Você pode pesquisar grupos de passos online e presenciais, garantindo que encontre o formato que melhor se adapta à sua agenda e preferências. Seja para a conveniência de um grupo online ou para a confraternização de um encontro presencial, o Celebrando a Recuperação oferece opções para apoiar o seu crescimento." # At Celebrate Recovery, we offer comprehensive step studies that dive deep into recovery principles. You can search for step studies both online and in-person, ensuring you find a format that works best for your schedule and preferences. Whether you prefer the convenience of an online group or the fellowship of meeting in person, Celebrate Recovery has options to support your growth.
+          connect:
+            title: "Conecte-se com representantes e embaixadores" # Connect with Representatives and Advocate
+            content: "Além das reuniões em grupo, nossa plataforma ajuda você a se conectar com representantes e embaixadores locais do Celebrando a Recuperação. Essas pessoas dedicadas estão aqui para orientar, responder às suas perguntas e apoiar você em sua jornada de recuperação. Use nossa ferramenta de busca para encontrar e entrar em contato com representantes e embaixadores em sua região." # In addition to group meetings, our platform helps you connect with local Celebrate Recovery representatives and advocates. These dedicated individuals are here to provide guidance, answer your questions, and support you on your recovery journey. Use our search feature to find and contact representatives and advocates in your area.
+          churches:
+            title: "Para Igrejas" # For Churches
+            content: "O Celebrando a Recuperação tem orgulho de ser parceiro de igrejas em todo o mundo. Nossa plataforma permite que as igrejas gerenciem suas próprias listas de grupos, facilitando a atualização e a precisão das informações. As igrejas podem personalizar suas listas com fotos, descrições detalhadas e informações sobre seus programas específicos do Celebrando a Recuperação, criando uma presença acolhedora e informativa para quem busca ajuda." # Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help.
+          about_cr:
+            title: "Conheça o Celebrando a Recuperação" # About Celebrate Recovery
+            content_html: "Celebrando a Recuperação é um programa de recuperação centrado em Jesus Cristo, onde você pode encontrar comunidade e liberdade para suas feridas emocionais, compulsões e maus hábitos. Seja você um novato em recuperação ou esteja buscando apoio contínuo, Celebrando a Recuperação está aqui para ajudar.<br /><br />No Celebrando a Recuperação, acreditamos no poder da comunidade e na esperança que advém de caminhar juntos em direção à cura e à plenitude. Junte-se a nós e descubra um lugar seguro para encontrar liberdade em Jesus Cristo.<br /><br />Saiba mais sobre Celebrando a Recuperação %{cr_link} ou volte para %{locator_link} para encontrar um grupo ou representante." # Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative
+            cr_link_text: "aqui" # here
+            locator_link_text: "Encontre um CR" # CR Locator

@@ -1,0 +1,30 @@
+pl:
+  locator:
+    info:
+      about:
+        page_title: "O wyszukiwarce grup - CR Locator"
+        title: "O stronie Celebrate Recovery Locator"
+        subtitle: "CR Locator"
+        intro: "Witamy na stronie Celebrate Recovery Locator – narzędziu do wyszukiwania grup i studiów kroków Celebrate Recovery w Twojej okolicy. Strona pomaga połączyć się z chrześcijańską wspólnotą trzeźwości, niezależnie od tego, czy szukasz spotkań na żywo, czy wsparcia online."
+        testimonial:
+          quote: "Gdy myślałem, że dotarłem do dna i nie ma nadziei, znalazłem grupę w pobliżu i dołączyłem do wspólnoty uzdrowienia. Jestem wdzięczny za nadzieję w tej wspólnocie wierzących, która tworzy bezpieczną przestrzeń do dzielenia się życiem w Chrystusie."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Znajdź grupę w swojej okolicy"
+            content: "Nasza wyszukiwarka grup pozwala wyszukiwać spotkania Celebrate Recovery na podstawie Twojej lokalizacji. Wprowadź adres, a pokażemy grupy w pobliżu. Każdy wpis zawiera informacje o terminach, miejscach i szczególnych obszarach, aby znaleźć odpowiednią grupę na Twoją drogę trzeźwości."
+          step_studies:
+            title: "Poznaj studia kroków"
+            content: "W Celebrate Recovery oferujemy studia kroków pogłębiające zasady trzeźwości. Możesz wyszukiwać studia kroków online i na żywo, aby znaleźć format dopasowany do planu dnia. Niezależnie od tego, czy wolisz grupę online, czy spotkania na żywo, Celebrate Recovery wspiera Twój rozwój."
+          connect:
+            title: "Połącz się z reprezentantami i adwokatami"
+            content: "Oprócz spotkań grupowych platforma pomaga łączyć się z lokalnymi reprezentantami i adwokatami Celebrate Recovery. Ci zaangażowani ludzie są po to, by doradzać, odpowiadać na pytania i wspierać Cię w drodze trzeźwości. Użyj wyszukiwarki, aby znaleźć i skontaktować się z reprezentantami i adwokatami w Twojej okolicy."
+          churches:
+            title: "Dla kościołów"
+            content: "Celebrate Recovery z radością współpracuje z kościołami na całym świecie. Platforma umożliwia kościołom zarządzanie własnymi wpisami grup, dzięki czemu informacje pozostają aktualne. Kościoły mogą dostosować wpisy zdjęciami, opisami i informacjami o programach Celebrate Recovery, tworząc gościnne miejsce dla osób szukających pomocy."
+          about_cr:
+            title: "O Celebrate Recovery"
+            content_html: "Celebrate Recovery to chrześcijański program trzeźwości, w którym możesz znaleźć wspólnotę i wolność od ran, nawyków i nałogów. Niezależnie od tego, czy dopiero zaczynasz drogę trzeźwości, czy szukasz stałego wsparcia, Celebrate Recovery jest po to, by pomagać.<br /><br />W Celebrate Recovery wierzymy w moc wspólnoty i nadzieję, która płynie z wspólnego dążenia do uzdrowienia i pełni. Dołącz do nas i odkryj bezpieczne miejsce, by znaleźć wolność w Chrystusie.<br /><br />Więcej o Celebrate Recovery %{cr_link} lub wróć do %{locator_link}, aby znaleźć grupę lub reprezentanta"
+            cr_link_text: "tutaj"
+            locator_link_text: "CR Locator"

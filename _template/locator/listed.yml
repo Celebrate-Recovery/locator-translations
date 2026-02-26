@@ -1,0 +1,45 @@
+en:
+  locator:
+    info:
+      listed:
+        # Page metadata
+        page_title: "Get your group listed - CR Locator" # Get your group listed - CR Locator
+        
+        # Page header
+        subtitle: "CR Locator" # CR Locator
+        title: "Get your group listed" # Get your group listed
+        intro: "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:" # Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:
+        
+        # Abbreviations
+        abbreviations:
+          fe_cr: "FE CR = Full Expression Celebrate Recovery Ministry" # FE CR = Full Expression Celebrate Recovery Ministry
+          osgo_cr: "OSGO CR = Open Share Group Only Celebrate Recovery Ministry" # OSGO CR = Open Share Group Only Celebrate Recovery Ministry
+        
+        # Requirements
+        requirements:
+          running_time:
+            title: "(FE CR) Celebration Night or (OSGO CR) Open Share Groups have been running for a minimum of 90 days." # (FE CR) Celebration Night or (OSGO CR) Open Share Groups have been running for a minimum of 90 days.
+            description: "This does not include the Step Studies/initial Leader training before the launch of Celebration Night." # This does not include the Step Studies/initial Leader training before the launch of Celebration Night.
+          dna:
+            title: "(FE and OSGO CR) Church and CR Leadership agree, implement and follow the DNA of Celebrate Recovery" # (FE and OSGO CR) Church and CR Leadership agree, implement and follow the DNA of Celebrate Recovery
+            link_text: "DNA of Celebrate Recovery" # DNA of Celebrate Recovery
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf
+            note: "(celebraterecovery.com > Resources > Our DNA)" # (celebraterecovery.com > Resources > Our DNA)
+          training:
+            title: "(OSGO CR) Leaders completed the Online Training" # (OSGO CR) Leaders completed the Online Training
+            description_html: "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training." # The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training.
+            community_url: "https://celebraterecovery.com/cr-community/" # https://celebraterecovery.com/cr-community/
+        
+        # Next steps
+        next_steps:
+          not_meeting:
+            title: "If your CR DOES NOT meet the requirements above:" # If your CR DOES NOT meet the requirements above:
+            content: "Make the necessary changes at your Celebrate Recovery before proceeding. Please contact a Celebrate Recovery Representative if you have any questions. Return to the CR Locator to search for a Rep or CR group." # Make the necessary changes at your Celebrate Recovery before proceeding. Please contact a Celebrate Recovery Representative if you have any questions. Return to the CR Locator to search for a Rep or CR group.
+          meeting:
+            title: "If your CR DOES meet the requirements above:" # If your CR DOES meet the requirements above:
+            content: "Click on the link below to begin the process of adding your CR to the Locator." # Click on the link below to begin the process of adding your CR to the Locator.
+        
+        # Action buttons
+        buttons:
+          dashboard: "Go to your dashboard" # Go to your dashboard
+          setup: "Setup Your Celebrate Recovery Group" # Setup Your Celebrate Recovery Group

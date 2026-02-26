@@ -1,0 +1,17 @@
+vi:
+  locator:
+    contact:
+      contact_title: liên hệ
+      success: Đã gửi email thành công.
+      invalid: 'Gửi không hợp lệ. Vui lòng thử lại.'
+      contact:
+        title: "Liên hệ với %{rep_name}"
+        detail: Dùng form này để gửi yêu cầu đến %{rep_name}. Họ sẽ cố gắng phản hồi bạn kịp thời.
+        type: Loại đại diện / Người ủng hộ
+        ministry_leader: Trưởng chức vụ
+        name: Tên
+        phone: Số điện thoại
+        message: Tin nhắn
+        back: Quay lại tìm kiếm
+        send: Gửi tin nhắn
+        no_results: Không tìm thấy gì tại địa chỉ này

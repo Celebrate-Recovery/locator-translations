@@ -1,0 +1,17 @@
+tr:
+  locator:
+    contact:
+      contact_title: iletişim
+      success: E-posta başarıyla gönderildi.
+      invalid: 'Geçersiz gönderim. Lütfen tekrar deneyin.'
+      contact:
+        title: "%{rep_name} ile iletişime geçin"
+        detail: %{rep_name} adresine istek göndermek için bu formu kullanın. En kısa sürede size dönmeye çalışacaklardır.
+        type: Temsilci / Savunucu türü
+        ministry_leader: Hizmet lideri
+        name: Ad
+        phone: Telefon numarası
+        message: Mesaj
+        back: Aramaya dön
+        send: Mesaj gönder
+        no_results: Bu adreste hiçbir şey bulunamadı

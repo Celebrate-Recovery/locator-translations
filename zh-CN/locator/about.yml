@@ -1,0 +1,30 @@
+zh-CN:
+  locator:
+    info:
+      about:
+        page_title: "关于小组查找 - CR Locator"
+        title: "关于 Celebrate Recovery 查找网站"
+        subtitle: "CR Locator"
+        intro: "欢迎使用 Celebrate Recovery 查找网站，这是您查找附近 Celebrate Recovery 小组和步骤学习的工具。本网站旨在帮助您与以基督为中心的康复群体连接，无论您需要线下聚会还是在线支持。"
+        testimonial:
+          quote: "当我以为已跌到谷底、毫无盼望时，我找到了附近的小组，加入了医治的群体。我感谢这个信徒群体中的盼望，它创造了在基督里分享生命的安全空间。"
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "在您附近找小组"
+            content: "我们的小组查找工具便于根据您的位置搜索 Celebrate Recovery 聚会。输入地址即可看到附近的小组列表。每条信息包含聚会时间、地点和特别关注领域，帮助您找到适合康复之路的小组。"
+          step_studies:
+            title: "探索步骤学习"
+            content: "在 Celebrate Recovery 我们提供深入的步骤学习，帮助掌握康复原则。您可以搜索在线和线下的步骤学习，找到适合您时间和偏好的形式。无论您更喜欢在线小组还是线下聚会，Celebrate Recovery 都有选项支持您的成长。"
+          connect:
+            title: "与代表和倡导者联系"
+            content: "除小组聚会外，本平台帮助您联系当地的 Celebrate Recovery 代表和倡导者。他们愿意提供指导、回答问题并在您的康复路上给予支持。使用搜索功能查找并联系您所在地区的代表和倡导者。"
+          churches:
+            title: "面向教会"
+            content: "Celebrate Recovery 与全球教会合作。本平台允许教会管理自己的小组信息，便于保持信息准确更新。教会可用照片、描述和 Celebrate Recovery 项目信息自定义信息，为寻求帮助的人提供友好、清晰的环境。"
+          about_cr:
+            title: "关于 Celebrate Recovery"
+            content_html: "Celebrate Recovery 是以基督为中心的康复项目，您可以在其中找到群体，并从伤害、习惯和缠累中得自由。无论您刚接触康复还是需要持续支持，Celebrate Recovery 都在这里帮助您。<br /><br />我们相信群体的力量，以及一起走向医治与完全时带来的盼望。加入我们，在基督里找到自由的安身之处。<br /><br />了解更多 Celebrate Recovery %{cr_link} 或返回 %{locator_link} 查找小组或代表"
+            cr_link_text: "这里"
+            locator_link_text: "CR Locator"

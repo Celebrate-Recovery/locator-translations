@@ -1,0 +1,134 @@
+uk:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: Email
+      details: Деталі
+      search: Пошук
+      filter: Фільтр
+      online: Онлайн
+      in_person: Особисто
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Велика група
+      open_share_groups: Групи відкритого обміну
+      step_studies: Вивчення кроків
+      distance: "%{distance_unit}"
+      mile: миль
+      kilometer: кілометрів
+      location: Місце
+      groups: Групи
+      reps: Представники
+      language: Мова
+      format: Формат
+      days:
+        sunday: Неділя
+        monday: Понеділок
+        tuesday: Вівторок
+        wednesday: Середа
+        thursday: Четвер
+        friday: П'ятниця
+        saturday: Субота
+      days_short:
+        sunday: Нд
+        monday: Пн
+        tuesday: Вт
+        wednesday: Ср
+        thursday: Чт
+        friday: Пт
+        saturday: Сб
+      days_initial:
+        sunday: Н
+        monday: П
+        tuesday: В
+        wednesday: С
+        thursday: Ч
+        friday: П
+        saturday: С
+    layouts:
+      partials:
+        header:
+          close_menu: Закрити меню
+          about: Про нас
+          get_your_cr_on_the_locator: Зареєструватися
+          main_menu: Головне меню
+          login_in: Увійти
+          dashboard: Панель
+    home:
+      please_enter_location: "Введіть місце або поштовий індекс для пошуку груп або представників."
+      email_sent: 'Лист успішно надіслано.'
+      index:
+        html_title: Головна
+        html_title_groups: Групи в
+        html_title_in: в
+        full_title: CR Locator
+        title: Locator
+        default_title: "Знайдіть свободу, знайдіть спільноту - CR Locator"
+        enter: "Введіть місце або поштовий індекс для початку пошуку"
+        error: "Під час пошуку сталася помилка. Спробуйте ще раз."
+        none_found_group: "Групи в радіусі %{radius} %{distance_unit} не знайдено"
+        none_found_rep: "Представників у радіусі %{radius} %{distance_unit} не знайдено"
+        closest_group: "Показано найближчі групи."
+        closest_rep: "Показано найближчих представників."
+        help: "Допомога"
+      form:
+        search_title: Ваше місце / індекс
+        search_placeholder: Введіть місце
+        search_nearby: Шукати поруч
+        location_name: Назва місця
+        search_type: Тип
+        radius: Радіус
+        day_of_week: Дні тижня
+        within_10: "в радіусі 10 %{distance_unit}"
+        within_25: "в радіусі 25 %{distance_unit}"
+        within_50: "в радіусі 50 %{distance_unit}"
+        within_100: "в радіусі 100 %{distance_unit}"
+        within_150: "в радіусі 150 %{distance_unit}"
+        within_200: "в радіусі 200 %{distance_unit}"
+        within_250: "в радіусі 250 %{distance_unit}"
+        within_500: "в радіусі 500 %{distance_unit}"
+        rep_ambassador: Представник / Адвокат
+        all_reps: Усі представники / Адвокати
+        all_reps_filter: Представники / Адвокати
+        cr_reps: Представники CR
+        landing_reps: Представники Landing
+        celebration_place_reps: Представники Celebration Place
+        ambassadors:
+          mental_health: Адвокат психічного здоров'я
+          cr_inside: Адвокат CR Inside
+          cr_international: Адвокат CR International
+          cultural_communities: Адвокат культурних спільнот
+          welcome_home: Адвокат Welcome Home
+          opioid: Адвокат опіоїдів
+          cpr: Адвокат CPR
+        all_groups: Усі групи
+        all_groups_filter: Групи
+        online_large_group: Онлайн велика група
+        online_open_share: Онлайн групи відкритого обміну
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Трапеза Fellowship
+        childcare: Дитяча кімната
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Доступно
+          offered_in: Проводиться мовою
+    results:
+      partials:
+        group:
+          directions: Маршрут
+          email: Email
+          language: Мови проведення
+          location: Місце
+          contact: Контакти групи
+          rep_contact: Контакт представника
+          ministry_leader: Керівник служіння
+          upcomming_step_study: Майбутні вивчення кроків
+          starting: Початок
+          additional_information: Додаткова інформація
+        rep:
+          based_in: "Розташований у %{location}"
+          about: "Трохи про %{rep_name}"
+          groups: "%{rep_name} щотижня бере участь у таких групах:"

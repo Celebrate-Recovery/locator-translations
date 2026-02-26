@@ -1,0 +1,134 @@
+ar:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: البريد الإلكتروني
+      details: التفاصيل
+      search: بحث
+      filter: تصفية
+      online: عبر الإنترنت
+      in_person: حضورياً
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: مجموعة كبيرة
+      open_share_groups: مجموعات المشاركة المفتوحة
+      step_studies: دراسات الخطوات
+      distance: "%{distance_unit}"
+      mile: أميال
+      kilometer: كيلومترات
+      location: الموقع
+      groups: المجموعات
+      reps: الممثلون
+      language: اللغة
+      format: النوع
+      days:
+        sunday: الأحد
+        monday: الاثنين
+        tuesday: الثلاثاء
+        wednesday: الأربعاء
+        thursday: الخميس
+        friday: الجمعة
+        saturday: السبت
+      days_short:
+        sunday: أحد
+        monday: اثن
+        tuesday: ثلا
+        wednesday: أرب
+        thursday: خمي
+        friday: جمعة
+        saturday: سبت
+      days_initial:
+        sunday: ح
+        monday: ن
+        tuesday: ث
+        wednesday: ر
+        thursday: خ
+        friday: ج
+        saturday: س
+    layouts:
+      partials:
+        header:
+          close_menu: إغلاق القائمة
+          about: عن الموقع
+          get_your_cr_on_the_locator: سجّل مجموعتك
+          main_menu: القائمة الرئيسية
+          login_in: تسجيل الدخول
+          dashboard: لوحة التحكم
+    home:
+      please_enter_location: "يرجى إدخال موقع أو رمز بريدي للبحث عن مجموعات أو ممثلين."
+      email_sent: 'تم إرسال البريد الإلكتروني بنجاح.'
+      index:
+        html_title: الرئيسية
+        html_title_groups: المجموعات في
+        html_title_in: في
+        full_title: CR Locator
+        title: Locator
+        default_title: "اعثر على الحرية، اعثر على المجتمع - CR Locator"
+        enter: "أدخل موقعاً أو رمزاً بريدياً لبدء البحث"
+        error: "حدث خطأ أثناء البحث. يرجى المحاولة مرة أخرى."
+        none_found_group: "لم يتم العثور على مجموعات ضمن %{radius} %{distance_unit}"
+        none_found_rep: "لم يتم العثور على ممثلين ضمن %{radius} %{distance_unit}"
+        closest_group: "عرض أقرب المجموعات."
+        closest_rep: "عرض أقرب الممثلين."
+        help: "مساعدة"
+      form:
+        search_title: موقعك / الرمز البريدي
+        search_placeholder: أدخل موقعاً
+        search_nearby: بحث قريب
+        location_name: اسم الموقع
+        search_type: النوع
+        radius: نصف القطر
+        day_of_week: أيام الأسبوع
+        within_10: "ضمن 10 %{distance_unit}"
+        within_25: "ضمن 25 %{distance_unit}"
+        within_50: "ضمن 50 %{distance_unit}"
+        within_100: "ضمن 100 %{distance_unit}"
+        within_150: "ضمن 150 %{distance_unit}"
+        within_200: "ضمن 200 %{distance_unit}"
+        within_250: "ضمن 250 %{distance_unit}"
+        within_500: "ضمن 500 %{distance_unit}"
+        rep_ambassador: ممثل / مدافع
+        all_reps: كل الممثلين / المدافعين
+        all_reps_filter: الممثلون / المدافعون
+        cr_reps: ممثلو CR
+        landing_reps: ممثلو Landing
+        celebration_place_reps: ممثلو Celebration Place
+        ambassadors:
+          mental_health: مدافع الصحة النفسية
+          cr_inside: مدافع CR Inside
+          cr_international: مدافع CR International
+          cultural_communities: مدافع المجتمعات الثقافية
+          welcome_home: مدافع Welcome Home
+          opioid: مدافع الأفيونيات
+          cpr: مدافع CPR
+        all_groups: كل المجموعات
+        all_groups_filter: المجموعات
+        online_large_group: مجموعة كبيرة عبر الإنترنت
+        online_open_share: مجموعات المشاركة المفتوحة عبر الإنترنت
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: وجبة Fellowship
+        childcare: رعاية الأطفال
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: متاح
+          offered_in: يُقدّم بـ
+    results:
+      partials:
+        group:
+          directions: الحصول على الاتجاهات
+          email: البريد الإلكتروني
+          language: اللغات المتاحة هنا
+          location: الموقع
+          contact: جهات اتصال المجموعة
+          rep_contact: جهة اتصال الممثل
+          ministry_leader: قائد الخدمة
+          upcomming_step_study: دراسات الخطوات القادمة
+          starting: البداية
+          additional_information: معلومات إضافية
+        rep:
+          based_in: "مقره في %{location}"
+          about: "القليل عن %{rep_name}"
+          groups: "%{rep_name} يشارك أسبوعياً في المجموعات التالية:"

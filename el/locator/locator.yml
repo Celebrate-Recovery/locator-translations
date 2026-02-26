@@ -1,0 +1,134 @@
+el:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: Email
+      details: Λεπτομέρειες
+      search: Αναζήτηση
+      filter: Φίλτρο
+      online: Διαδικτυακά
+      in_person: Προσωπικά
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Μεγάλη ομάδα
+      open_share_groups: Ομάδες ανοιχτού διαμοιρασμού
+      step_studies: Μελέτες βημάτων
+      distance: "%{distance_unit}"
+      mile: μίλια
+      kilometer: χιλιόμετρα
+      location: Τοποθεσία
+      groups: Ομάδες
+      reps: Αντιπρόσωποι
+      language: Γλώσσα
+      format: Μορφή
+      days:
+        sunday: Κυριακή
+        monday: Δευτέρα
+        tuesday: Τρίτη
+        wednesday: Τετάρτη
+        thursday: Πέμπτη
+        friday: Παρασκευή
+        saturday: Σάββατο
+      days_short:
+        sunday: Κυρ
+        monday: Δευ
+        tuesday: Τρι
+        wednesday: Τετ
+        thursday: Πεμ
+        friday: Παρ
+        saturday: Σαβ
+      days_initial:
+        sunday: Κ
+        monday: Δ
+        tuesday: Τ
+        wednesday: Τ
+        thursday: Π
+        friday: Π
+        saturday: Σ
+    layouts:
+      partials:
+        header:
+          close_menu: Κλείσιμο μενού
+          about: Σχετικά
+          get_your_cr_on_the_locator: Εγγραφή
+          main_menu: Κύριο μενού
+          login_in: Σύνδεση
+          dashboard: Πίνακας ελέγχου
+    home:
+      please_enter_location: "Εισάγετε τοποθεσία ή ταχυδρομικό κώδικα για αναζήτηση ομάδων ή αντιπροσώπων."
+      email_sent: 'Το email στάλθηκε επιτυχώς.'
+      index:
+        html_title: Αρχική
+        html_title_groups: Ομάδες στο
+        html_title_in: στο
+        full_title: CR Locator
+        title: Locator
+        default_title: "Βρείτε ελευθερία, βρείτε κοινότητα - CR Locator"
+        enter: "Εισάγετε τοποθεσία ή ταχυδρομικό κώδικα για να ξεκινήσετε την αναζήτηση"
+        error: "Προέκυψε σφάλμα κατά την αναζήτηση. Δοκιμάστε ξανά."
+        none_found_group: "Δεν βρέθηκαν ομάδες εντός %{radius} %{distance_unit}"
+        none_found_rep: "Δεν βρέθηκαν αντιπρόσωποι εντός %{radius} %{distance_unit}"
+        closest_group: "Εμφανίζονται οι πλησιέστερες ομάδες."
+        closest_rep: "Εμφανίζονται οι πλησιέστεροι αντιπρόσωποι."
+        help: "Βοήθεια"
+      form:
+        search_title: Η τοποθεσία σας / Ταχυδρομικός κώδικας
+        search_placeholder: Εισάγετε τοποθεσία
+        search_nearby: Αναζήτηση κοντά
+        location_name: Όνομα τοποθεσίας
+        search_type: Τύπος
+        radius: Ακτίνα
+        day_of_week: Ημέρες εβδομάδας
+        within_10: "εντός 10 %{distance_unit}"
+        within_25: "εντός 25 %{distance_unit}"
+        within_50: "εντός 50 %{distance_unit}"
+        within_100: "εντός 100 %{distance_unit}"
+        within_150: "εντός 150 %{distance_unit}"
+        within_200: "εντός 200 %{distance_unit}"
+        within_250: "εντός 250 %{distance_unit}"
+        within_500: "εντός 500 %{distance_unit}"
+        rep_ambassador: Αντιπρόσωπος / Συνήγορος
+        all_reps: Όλοι οι αντιπρόσωποι / Συνήγοροι
+        all_reps_filter: Αντιπρόσωποι / Συνήγοροι
+        cr_reps: Αντιπρόσωποι CR
+        landing_reps: Αντιπρόσωποι Landing
+        celebration_place_reps: Αντιπρόσωποι Celebration Place
+        ambassadors:
+          mental_health: Συνήγορος ψυχικής υγείας
+          cr_inside: Συνήγορος CR Inside
+          cr_international: Συνήγορος CR International
+          cultural_communities: Συνήγορος πολιτιστικών κοινοτήτων
+          welcome_home: Συνήγορος Welcome Home
+          opioid: Συνήγορος οπιοειδών
+          cpr: Συνήγορος CPR
+        all_groups: Όλες οι ομάδες
+        all_groups_filter: Ομάδες
+        online_large_group: Διαδικτυακή μεγάλη ομάδα
+        online_open_share: Διαδικτυακές ομάδες ανοιχτού διαμοιρασμού
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Γεύμα Fellowship
+        childcare: Παιδική φροντίδα
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Διαθέσιμο
+          offered_in: Προσφέρεται σε
+    results:
+      partials:
+        group:
+          directions: Οδηγίες
+          email: Email
+          language: Γλώσσες που προσφέρονται εδώ
+          location: Τοποθεσία
+          contact: Επαφές ομάδας
+          rep_contact: Επαφή αντιπροσώπου
+          ministry_leader: Υπεύθυνος υπηρεσίας
+          upcomming_step_study: Επερχόμενες μελέτες βημάτων
+          starting: Έναρξη
+          additional_information: Επιπλέον πληροφορίες
+        rep:
+          based_in: "Βάση στο %{location}"
+          about: "Λίγα λόγια για τον/την %{rep_name}"
+          groups: "Ο/Η %{rep_name} συμμετέχει εβδομαδιαίως στις ακόλουθες ομάδες:"

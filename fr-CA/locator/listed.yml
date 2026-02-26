@@ -1,0 +1,45 @@
+fr-CA:
+  locator:
+    info:
+      listed:
+        # Page metadata
+        page_title: "Faites référencer votre groupe - CR Locator" # Get your group listed - CR Locator
+
+        # Page header
+        subtitle: "Localisateur CR" # CR Locator
+        title: "Faites inscrire votre groupe" # Get your group listed
+        intro: "Merci de votre intérêt à ajouter votre ministère Celebrate Recovery au localisateur CR ! Veuillez lire les exigences pour ajouter votre groupe au localisateur, ci-dessous :" # Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:
+
+        # Abbreviations
+        abbreviations:
+          fe_cr: "FE CR = Ministère de la Célébration de la Récupération en Expression Complète" # FE CR = Full Expression Celebrate Recovery Ministry
+          osgo_cr: "OSGO CR = Groupe de partage ouvert uniquement Celebrate Recovery Ministry" # OSGO CR = Open Share Group Only Celebrate Recovery Ministry
+
+        # Requirements
+        requirements:
+          running_time:
+            title: "(FE CR) Les groupes Celebration Night ou (OSGO CR) Open Share fonctionnent depuis au moins 90 jours." # (FE CR) Celebration Night or (OSGO CR) Open Share Groups have been running for a minimum of 90 days.
+            description: "Cela n'inclut pas les études par étapes/la formation initiale des leaders avant le lancement de Celebration Night." # This does not include the Step Studies/initial Leader training before the launch of Celebration Night.
+          dna:
+            title: "(FE et OSGO CR) Les dirigeants de l'Église et du CR s'entendent, mettent en œuvre et suivent l'ADN de Celebrate Recovery" # (FE and OSGO CR) Church and CR Leadership agree, implement and follow the DNA of Celebrate Recovery
+            link_text: "ADN de Celebrate Recovery" # DNA of Celebrate Recovery
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf
+            note: "(celebraterecovery.com > Resources > Our DNA)" # (celebraterecovery.com > Resources > Our DNA)
+          training:
+            title: "(OSGO CR) Les dirigeants ont terminé la formation en ligne" # (OSGO CR) Leaders completed the Online Training
+            description_html: "Les vidéos de formation du groupe CR Open Share sont disponibles sur la page de la communauté CR sur Mighty Networks. Allez à %{community_link} pour choisir un forfait et vous inscrire. Il existe des forfaits gratuits et payants parmi lesquels choisir. La formation CR Open Share Group est incluse dans tous les plans. Une fois inscrit, rendez-vous dans l'espace FORMATION GRATUITE dans le menu de navigation pour retrouver la formation." # The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training.
+            community_url: "https://celebraterecovery.com/cr-community/" # https://celebraterecovery.com/cr-community/
+
+        # Next steps
+        next_steps:
+          not_meeting:
+            title: "Si votre CR NE répond PAS aux exigences ci-dessus :" # If your CR DOES NOT meet the requirements above:
+            content: "Faites les changements nécessaires à votre récupération Celebrate avant de continuer. Veuillez communiquer avec un représentant de Celebrate Recovery si vous avez des questions. Retournez au localisateur CR pour trouver un représentant ou un groupe CR." # Make the necessary changes at your Celebrate Recovery before proceeding. Please contact a Celebrate Recovery Representative if you have any questions. Return to the CR Locator to search for a Rep or CR group.
+          meeting:
+            title: "Si votre CR répond aux exigences ci-dessus :" # If your CR DOES meet the requirements above:
+            content: "Cliquez sur le lien ci-dessous pour commencer le processus d'ajout de votre CR au localisateur." # Click on the link below to begin the process of adding your CR to the Locator.
+
+        # Action buttons
+        buttons:
+          dashboard: "Accédez à votre tableau de bord" # Go to your dashboard
+          setup: "Créez votre groupe Recovery Celebrate" # Setup Your Celebrate Recovery Group

@@ -1,0 +1,30 @@
+id:
+  locator:
+    info:
+      about:
+        page_title: "Tentang Pencari Kelompok - CR Locator"
+        title: "Tentang Situs Celebrate Recovery Locator"
+        subtitle: "CR Locator"
+        intro: "Selamat datang di Situs Celebrate Recovery Locator – alat Anda untuk menemukan kelompok dan studi langkah Celebrate Recovery di dekat Anda. Situs ini dirancang untuk membantu Anda terhubung dengan komunitas pemulihan yang berpusat pada Kristus, baik Anda mencari pertemuan tatap muka atau dukungan daring."
+        testimonial:
+          quote: "Ketika saya pikir saya telah mencapai titik terendah dan tidak ada harapan, saya bisa menemukan kelompok di dekat saya untuk bergabung dengan komunitas penyembuhan. Saya bersyukur atas harapan dalam komunitas orang percaya ini yang menciptakan ruang aman untuk berbagi kehidupan dalam Kristus."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Temukan kelompok di dekat Anda"
+            content: "Alat Pencari Kelompok kami yang mudah digunakan memungkinkan Anda mencari pertemuan Celebrate Recovery berdasarkan lokasi Anda. Cukup masukkan alamat Anda, dan kami akan memberikan daftar kelompok di dekat Anda. Setiap entri mencakup informasi tentang waktu, lokasi, dan area fokus khusus sehingga Anda dapat menemukan yang cocok untuk perjalanan pemulihan Anda."
+          step_studies:
+            title: "Jelajahi Studi Langkah"
+            content: "Di Celebrate Recovery kami menawarkan studi langkah yang mendalam ke prinsip-prinsip pemulihan. Anda dapat mencari studi langkah secara daring dan tatap muka, sehingga Anda menemukan format yang sesuai jadwal dan preferensi Anda. Baik Anda lebih suka kelompok daring atau pertemuan tatap muka, Celebrate Recovery punya pilihan untuk mendukung pertumbuhan Anda."
+          connect:
+            title: "Terhubung dengan perwakilan dan advokat"
+            content: "Selain pertemuan kelompok, platform kami membantu Anda terhubung dengan perwakilan dan advokat Celebrate Recovery setempat. Orang-orang yang berdedikasi ini hadir untuk memberikan bimbingan, menjawab pertanyaan, dan mendukung Anda dalam perjalanan pemulihan. Gunakan fitur pencarian untuk menemukan dan menghubungi perwakilan serta advokat di area Anda."
+          churches:
+            title: "Untuk gereja"
+            content: "Celebrate Recovery bangga bermitra dengan gereja di seluruh dunia. Platform kami memungkinkan gereja mengelola entri kelompok mereka sendiri, sehingga informasi tetap mutakhir. Gereja dapat menyesuaikan entri dengan foto, deskripsi, dan informasi tentang program Celebrate Recovery mereka, menciptakan kehadiran yang ramah bagi yang mencari bantuan."
+          about_cr:
+            title: "Tentang Celebrate Recovery"
+            content_html: "Celebrate Recovery adalah program pemulihan yang berpusat pada Kristus di mana Anda dapat menemukan komunitas dan kebebasan dari luka, kebiasaan, dan kecanduan. Baik Anda baru dalam pemulihan atau mencari dukungan berkelanjutan, Celebrate Recovery hadir untuk membantu.<br /><br />Di Celebrate Recovery kami percaya pada kekuatan komunitas dan harapan yang datang ketika kita berjalan bersama menuju penyembuhan dan kepenuhan. Bergabunglah dengan kami dan temukan tempat aman untuk menemukan kebebasan dalam Kristus.<br /><br />Pelajari lebih lanjut tentang Celebrate Recovery %{cr_link} atau kembali ke %{locator_link} untuk menemukan kelompok atau perwakilan"
+            cr_link_text: "di sini"
+            locator_link_text: "CR Locator"

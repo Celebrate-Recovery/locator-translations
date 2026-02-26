@@ -1,0 +1,190 @@
+ja:
+  locator:
+    # ============================================================================
+    # SHARED/COMMON TRANSLATIONS
+    # Use these across multiple sections with t('locator.shared.key_name')
+    # ============================================================================
+    shared:
+      # Brand & App Names
+      cr_locator: CRロケーター # CR Locator
+      locator: ロケーター # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      
+      # Common Actions
+      email: Eメール # Email
+      details: 詳細 # Details
+      search: 検索 # Search
+      filter: フィルター # Filter
+      
+      # Meeting Formats
+      online: オンライン # Online
+      in_person: 対面 # In Person
+      
+      # Group Types
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: ラージ・グループ(全体集会) # Large Group
+      open_share_groups: オープンシェア・グループ # Open Share Groups
+      step_studies: ステップスタディ # Step Studies
+      
+      # Distance/Location
+      distance: "%{distance_unit}" # %{distance_unit}
+      mile: マイル # miles
+      kilometer: キロメートル # kilometers
+      location: 住所 # Location
+      
+      # Common Labels
+      groups: グループ # Groups
+      reps: 代表者 # Reps
+      language: 言語 # Language
+      format: 形式 # Format
+      
+      # Days of Week (Full)
+      days:
+        sunday: 日曜日 # Sunday
+        monday: 月曜日 # Monday
+        tuesday: 火曜日 # Tuesday
+        wednesday: 水曜日 # Wednesday
+        thursday: 木曜日 # Thursday
+        friday: 金曜日 # Friday
+        saturday: 土曜日 # Saturday
+      
+      # Days of Week (Short)
+      days_short:
+        sunday: 日 # Sun
+        monday: 月 # Mon
+        tuesday: 火 # Tue
+        wednesday: 水 # Wed
+        thursday: 木 # Thu
+        friday: 金 # Fri
+        saturday: 土 # Sat
+      
+      # Days of Week (Initial)
+      days_initial:
+        sunday: 日 # S
+        monday: 月 # M
+        tuesday: 火 # T
+        wednesday: 水 # W
+        thursday: 木 # T
+        friday: 金 # F
+        saturday: 土 # S
+
+    # ============================================================================
+    # LAYOUT TRANSLATIONS
+    # ============================================================================
+    layouts:
+      partials:
+        header:
+          close_menu: メニューを閉じる # Close Menu
+          about: 概要 # About
+          get_your_cr_on_the_locator: CRを掲載する # Get Listed
+          main_menu: メインメニュー # Main Menu
+          login_in: ログイン # Login
+          dashboard: ダッシュボード # Dashboard
+
+    # ============================================================================
+    # HOME PAGE TRANSLATIONS
+    # ============================================================================
+    home:
+      # Controller-level messages
+      please_enter_location: "グループまたは代表者を検索するには、場所または郵便番号を入力してください。" # Please enter a location or postal code to search for groups or reps.
+      email_sent: 'メールが送信されました。' # Email sent successfully.
+
+      # Index page
+      index:
+        # Page metadata
+        html_title: ホーム # Home
+        html_title_groups: グループ所在地 # Groups in
+        html_title_in: "" # in
+        full_title: CRロケーター # CR Locator
+        title: ロケーター # Locator
+        default_title: "自由を見つけ、コミュニティを見つけよう - CRロケーター" # Find Freedom, Find Community - CR Locator
+
+        # Search status messages
+        enter: "場所または郵便番号を入力して検索を開始してください" # Please enter a location or postal code to begin your search
+        error: "検索中にエラーが発生しました。もう一度お試しください。" # An error occurred while searching. Please try again.
+        
+        none_found_group: "%{radius} %{distance_unit} 以内にグループは見つかりませんでした" # No groups found within %{radius} %{distance_unit}
+        none_found_rep: "%{radius} %{distance_unit} 以内に代表者は見つかりませんでした" # No reps found within %{radius} %{distance_unit}
+        closest_group: "最も近いグループを表示しています。" # Showing the closest groups.
+        closest_rep: "最も近い担当者を表示しています。" # Showing the closest reps.
+        help: "ヘルプ" # Help
+
+      # Search form
+      form:
+        # Form labels
+        search_title: 所在地 / 郵便番号 # Your location / ZIP code
+        search_placeholder: 検索 # Enter a location
+        search_nearby: "近くを検索" # Search Nearby
+        location_name: 住所 # Location name
+        search_type: 種類 # Type
+        radius: 半径 # Radius
+        day_of_week: 曜日 # Days of the week
+        
+        # Radius options (using interpolation)
+        within_10: "10%{distance_unit}以内" # within 10 %{distance_unit}
+        within_25: "25%{distance_unit}以内" # within 25 %{distance_unit}
+        within_50: "50%{distance_unit}以内" # within 50 %{distance_unit}
+        within_100: "100%{distance_unit}以内" # within 100 %{distance_unit}
+        within_150: "150%{distance_unit}以内" # within 150 %{distance_unit}
+        within_200: "200%{distance_unit}以内" # within 200 %{distance_unit}
+        within_250: "250%{distance_unit}以内" # within 250 %{distance_unit}
+        within_500: "500%{distance_unit}以内" # within 500 %{distance_unit}
+
+        # Rep/Advocate types
+        rep_ambassador: 代表者／アンバサダー # Rep / Advocate
+        all_reps: すべての代表者／アンバサダー # All Reps / Advocates
+        all_reps_filter: 代表者／アンバサダー # Reps / Advocates
+        cr_reps: CR代表者 # CR Reps
+        landing_reps: Landing代表者 # Landing Reps
+        celebration_place_reps: Celebration Place代表者 # Celebration Place Reps
+        
+        # Ambassador types
+        ambassadors:
+          mental_health: メンタルヘルス・アンバサダー # Mental Health Advocate
+          cr_inside: CRインサイド・アンバサダー # CR Inside Advocate
+          cr_international: CRインターナショナル・アンバサダー # CR International Advocate
+          cultural_communities: カルチュアル・コミュニティ・アンバサダー # Cultural Communities Advocate
+          welcome_home: ウェルカムホーム・アンバサダー # Welcome Home Advocate
+          opioid: オピオイド・アンバサダー # Opioid Advocate
+          cpr: CPRアンバサダー # CPR Advocate
+
+        # Group types
+        all_groups: すべてのグループ # All Groups
+        all_groups_filter: グループ # Groups
+        online_large_group: オンライン・ラージ・グループ (オンライン全体集会) # Online Large Group
+        online_open_share: オンライン・オープンシェア・グループ # Online Open Share Groups
+        
+        # Additional ministries
+        fellowship_cafe: フェローシップカフェ # Fellowship Cafe
+        fellowship_meal: フェローシップミール # Fellowship Meal
+        childcare: 託児所 # Childcare
+
+      # Group partial
+      partials:
+        group:
+          distance: "%{distance_unit}" # %{distance_unit}
+          available: 利用可能 # Available
+          offered_in: 提供言語 # Offered in
+
+    # ============================================================================
+    # RESULTS PAGE TRANSLATIONS
+    # ============================================================================
+    results:
+      partials:
+        group:
+          directions: 道順を取得 # Get Directions
+          email: Eメール # Email
+          language: 対応言語 # Languages Offered Here
+          location: 住所 # Location
+          contact: グループ連絡先 # Group Contacts
+          rep_contact: 代表者連絡先 # Rep Contact
+          ministry_leader: ミニストリーリーダー # Ministry Leader
+          upcomming_step_study: 今後のステップスタディ # Upcoming Step Studies
+          starting: 開始 # Starting
+          additional_information: 追加情報 # Additional Information
+
+        rep:
+          based_in: "%{location} 在住" # Based in %{location}
+          about: "%{rep_name} について" # A little bit about %{rep_name}
+          groups: "%{rep_name} さんは毎週以下のグループに参加しています:" # %{rep_name} is a part of the following groups weekly:

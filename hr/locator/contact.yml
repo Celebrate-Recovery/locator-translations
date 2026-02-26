@@ -1,0 +1,17 @@
+hr:
+  locator:
+    contact:
+      contact_title: kontakt
+      success: E-mail uspješno poslan.
+      invalid: 'Nevažeća prijava. Pokušajte ponovno.'
+      contact:
+        title: "Javite se %{rep_name}"
+        detail: Koristite ovaj obrazac za slanje zahtjeva %{rep_name}. Potrudit će se odgovoriti vam na vrijeme.
+        type: Vrsta predstavnika / Zagovornika
+        ministry_leader: Voditelj službe
+        name: Ime
+        phone: Broj telefona
+        message: Poruka
+        back: Natrag na pretragu
+        send: Pošalji poruku
+        no_results: Na ovoj adresi nije ništa pronađeno

@@ -1,0 +1,17 @@
+pl:
+  locator:
+    contact:
+      contact_title: kontakt
+      success: E-mail wysłany pomyślnie.
+      invalid: 'Nieprawidłowe dane. Spróbuj ponownie.'
+      contact:
+        title: "Skontaktuj się z %{rep_name}"
+        detail: Użyj tego formularza, aby wysłać wiadomość do %{rep_name}. Postara się odpowiedzieć w możliwie krótkim czasie.
+        type: Typ reprezentanta / Adwokata
+        ministry_leader: Lider posługi
+        name: Imię i nazwisko
+        phone: Numer telefonu
+        message: Wiadomość
+        back: Powrót do wyszukiwarki
+        send: Wyślij wiadomość
+        no_results: Pod tym adresem nic nie znaleziono

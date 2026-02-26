@@ -1,0 +1,134 @@
+tr:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: E-posta
+      details: Detaylar
+      search: Ara
+      filter: Filtrele
+      online: Çevrimiçi
+      in_person: Yüz yüze
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Büyük grup
+      open_share_groups: Açık Paylaşım Grupları
+      step_studies: Adım Çalışmaları
+      distance: "%{distance_unit}"
+      mile: mil
+      kilometer: kilometre
+      location: Konum
+      groups: Gruplar
+      reps: Temsilciler
+      language: Dil
+      format: Format
+      days:
+        sunday: Pazar
+        monday: Pazartesi
+        tuesday: Salı
+        wednesday: Çarşamba
+        thursday: Perşembe
+        friday: Cuma
+        saturday: Cumartesi
+      days_short:
+        sunday: Paz
+        monday: Pzt
+        tuesday: Sal
+        wednesday: Çar
+        thursday: Per
+        friday: Cum
+        saturday: Cmt
+      days_initial:
+        sunday: P
+        monday: P
+        tuesday: S
+        wednesday: Ç
+        thursday: P
+        friday: C
+        saturday: C
+    layouts:
+      partials:
+        header:
+          close_menu: Menüyü kapat
+          about: Hakkında
+          get_your_cr_on_the_locator: Kayıt ol
+          main_menu: Ana menü
+          login_in: Giriş
+          dashboard: Pano
+    home:
+      please_enter_location: "Grup veya temsilci aramak için konum veya posta kodu girin."
+      email_sent: 'E-posta başarıyla gönderildi.'
+      index:
+        html_title: Ana sayfa
+        html_title_groups: Gruplar
+        html_title_in: içinde
+        full_title: CR Locator
+        title: Locator
+        default_title: "Özgürlüğü bulun, topluluğu bulun - CR Locator"
+        enter: "Aramaya başlamak için konum veya posta kodu girin"
+        error: "Arama sırasında bir hata oluştu. Lütfen tekrar deneyin."
+        none_found_group: "%{radius} %{distance_unit} içinde grup bulunamadı"
+        none_found_rep: "%{radius} %{distance_unit} içinde temsilci bulunamadı"
+        closest_group: "En yakın gruplar gösteriliyor."
+        closest_rep: "En yakın temsilciler gösteriliyor."
+        help: "Yardım"
+      form:
+        search_title: Konumunuz / Posta kodu
+        search_placeholder: Konum girin
+        search_nearby: Yakında ara
+        location_name: Konum adı
+        search_type: Tür
+        radius: Yarıçap
+        day_of_week: Haftanın günleri
+        within_10: "10 %{distance_unit} içinde"
+        within_25: "25 %{distance_unit} içinde"
+        within_50: "50 %{distance_unit} içinde"
+        within_100: "100 %{distance_unit} içinde"
+        within_150: "150 %{distance_unit} içinde"
+        within_200: "200 %{distance_unit} içinde"
+        within_250: "250 %{distance_unit} içinde"
+        within_500: "500 %{distance_unit} içinde"
+        rep_ambassador: Temsilci / Savunucu
+        all_reps: Tüm temsilciler / Savunucular
+        all_reps_filter: Temsilciler / Savunucular
+        cr_reps: CR temsilcileri
+        landing_reps: Landing temsilcileri
+        celebration_place_reps: Celebration Place temsilcileri
+        ambassadors:
+          mental_health: Ruh sağlığı savunucusu
+          cr_inside: CR Inside savunucusu
+          cr_international: CR International savunucusu
+          cultural_communities: Kültürel topluluklar savunucusu
+          welcome_home: Welcome Home savunucusu
+          opioid: Opioid savunucusu
+          cpr: CPR savunucusu
+        all_groups: Tüm gruplar
+        all_groups_filter: Gruplar
+        online_large_group: Çevrimiçi büyük grup
+        online_open_share: Çevrimiçi Açık Paylaşım Grupları
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Fellowship yemeği
+        childcare: Çocuk bakımı
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Mevcut
+          offered_in: Sunulan dil
+    results:
+      partials:
+        group:
+          directions: Yol tarifi al
+          email: E-posta
+          language: Burada sunulan diller
+          location: Konum
+          contact: Grup iletişimleri
+          rep_contact: Temsilci iletişimi
+          ministry_leader: Hizmet lideri
+          upcomming_step_study: Yaklaşan adım çalışmaları
+          starting: Başlangıç
+          additional_information: Ek bilgi
+        rep:
+          based_in: "%{location} merkezli"
+          about: "%{rep_name} hakkında"
+          groups: "%{rep_name} haftalık olarak şu gruplara katılıyor:"

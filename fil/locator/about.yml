@@ -1,0 +1,37 @@
+fil:
+  locator:
+    info:
+      about:
+        # Page metadata
+        page_title: "Tungkol Sa Tagahanap ng Grupo - CR Tagahanap" # About The Group Locator - CR Locator
+        
+        # Page header
+        title: "Tungkol sa Celebrate Recovery Tagahanap na Site" # About the Celebrate Recovery Locator Site
+        subtitle: "CR Tagahanap" # CR Locator
+        intro: "Maligayang pagdating sa Celebrate Recovery Tagahanap na Site, ang iyong komprehensibong kasangkapan para makahanap ng mga grupo ng Celebrate Recovery at step studies na malapit sa iyo. Ang aming site ay idinisenyo upang tulungan kang kumonekta sa isang komunidad ng pagpapagaling na nakasentro kay Kristo, maging naghahanap ka man ng mga personal na pagpupulong o online na suporta." # Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support.
+        
+        # Testimonial section
+        testimonial:
+          quote: "Noong akala ko na nasa pinakamababang punto na ako at wala nang pag-asa, nakahanap ako ng grupo na malapit sa akin para sumali sa isang komunidad ng pagpapagaling. Ako ay nagpapasalamat para sa pag-asa sa komunidad na ito ng mga mananampalataya na lumilikha ng ligtas na espasyo para magbahagi ng buhay kay Kristo." # When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ.
+          author: "Rodney Holmstrom" # Rodney Holmstrom
+          location: "Rogers, AK" # Rogers, AK
+        
+        # Main content sections
+        sections:
+          find_group:
+            title: "Maghanap ng Grupong Malapit Sa Iyo" # Find a Group Near You
+            content: "Ang aming madaling gamitin na Tagahanap ng Grupo ay nagbibigay-daan sa iyo na maghanap ng mga pagpupulong ng Celebrate Recovery batay sa iyong kasalukuyang lokasyon. Ilagay lamang ang iyong address, at bibigyan ka namin ng listahan ng mga grupo na malapit sa iyo. Bawat listahan ay naglalaman ng detalyadong impormasyon tungkol sa mga oras ng pagpupulong, lokasyon, at mga espesyal na area na pinagtutuunan. Sa ganitong paraan, makakahapak ka ng perpektong angkop para sa iyong paglalakbay sa pagpapagaling." # Our easy-to-use Group Locator tool allows you to search for Celebrate Recovery meetings based on your current location. Simply enter your address, and we'll provide you with a list of groups near you. Each listing includes detailed information about meeting times, locations, and special focus areas. This way, you can find the perfect fit for your recovery journey.
+          step_studies:
+            title: "Tuklasin ang mga Step Study" # Explore Step Studies
+            content: "Sa Celebrate Recovery, nag-aalok kami ng komprehensibong step studies na maglalaman ng malalimang prinsipyo ng pagpapagaling. Maaari kang maghanap ng step studies online at personal, tinitiyak na makakahanap ka ng format na pinakamainam para sa iyong iskedyul at kagustuhan. Maging mas gusto mo man ang kaginhawaan ng online na grupo o ang pakikiisa sa personal na pagkikita, ang Celebrate Recovery ay may mga opsyon upang suportahan ang iyong paglago." # At Celebrate Recovery, we offer comprehensive step studies that dive deep into recovery principles. You can search for step studies both online and in-person, ensuring you find a format that works best for your schedule and preferences. Whether you prefer the convenience of an online group or the fellowship of meeting in person, Celebrate Recovery has options to support your growth.
+          connect:
+            title: "Kumonekta sa mga Kinatawan at mga Ambassador" # Connect with Representatives and Advocate
+            content: "Bukod sa mga pagpupulong ng grupo, tinutulungan ka ng aming platform na kumonekta sa mga lokal na kinatawan ng Celebrate Recovery at mga ambassador. Ang mga dedikadong indibidwal na ito ay narito upang magbigay ng patnubay, sagutin ang iyong mga tanong, at suportahan ka sa iyong paglalakbay sa pagpapagaling. Gamitin ang aming search feature para makahanap at makipag-ugnayan sa mga kinatawan at ambassador sa iyong lugar." # In addition to group meetings, our platform helps you connect with local Celebrate Recovery representatives and advocates. These dedicated individuals are here to provide guidance, answer your questions, and support you on your recovery journey. Use our search feature to find and contact representatives and advocates in your area.
+          churches:
+            title: "Para sa mga Simbahan" # For Churches
+            content: "Ipinagmamalaki ng Celebrate Recovery ang pakikipagtulungan sa mga simbahan sa buong mundo. Ang aming platform ay nagbibigay-daan sa mga simbahan na pamahalaan ang kanilang sariling mga listahan ng grupo, na ginagawang madali ang pagpapanatili ng napapanahon at tumpak na impormasyon. Ang mga simbahan ay maaaring i-customize ang kanilang mga listahan gamit ang mga larawan, detalyadong paglalarawan, at impormasyon tungkol sa kanilang mga partikular na programa ng Celebrate Recovery, na lumilikha ng mapagbati at kapaki-pakinabang na presensya para sa mga naghahanap ng tulong." # Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help.
+          about_cr:
+            title: "Tungkol sa Celebrate Recovery" # About Celebrate Recovery
+            content_html: "Ang Celebrate Recovery ay isang programa ng pagpapagaling na nakasentro kay Kristo kung saan maaari kang makahanap ng komunidad at kalayaan mula sa iyong mga sakit, gawi, at problema. Maging ikaw man ay bago sa pagpapagaling o naghahanap ng patuloy na suporta, ang Celebrate Recovery ay narito upang tumulong.<br /><br />Sa Celebrate Recovery, naniniwala kami sa kapangyarihan ng komunidad at sa pag-asa na nagmumula sa paglalakad nang magkakasama tungo sa paggaling at kabuuan. Sumali sa amin at tuklasin ang isang ligtas na lugar upang makahanap ng kalayaan kay Kristo.<br /><br />Alamin pa ang tungkol sa Celebrate Recovery %{cr_link} o bumalik sa %{locator_link} upang maghanap ng grupo o kinatawan" # Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative
+            cr_link_text: "dito" # here
+            locator_link_text: "CR Tagahanap" # CR Locator

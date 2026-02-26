@@ -1,0 +1,30 @@
+nl:
+  locator:
+    info:
+      about:
+        page_title: "Over de groepenlocator - CR Locator"
+        title: "Over de Celebrate Recovery-locatorsite"
+        subtitle: "CR Locator"
+        intro: "Welkom bij de Celebrate Recovery-locatorsite, uw hulpmiddel voor het vinden van Celebrate Recovery-groepen en stappenstudies bij u in de buurt. Onze site helpt u in contact te komen met een christelijk herstelgemeenschap, of u nu op zoek bent naar persoonlijke bijeenkomsten of online ondersteuning."
+        testimonial:
+          quote: "Toen ik dacht dat ik op het dieptepunt was en er geen hoop was, kon ik een groep bij mij in de buurt vinden om deel te nemen aan een gemeenschap van genezing. Ik ben dankbaar voor de hoop in deze gemeenschap van gelovigen die een veilige ruimte creëert om het leven in Christus te delen."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Vind een groep bij u in de buurt"
+            content: "Onze gebruiksvriendelijke groepenlocator stelt u in staat te zoeken naar Celebrate Recovery-bijeenkomsten op basis van uw huidige locatie. Voer uw adres in en wij geven u een lijst met groepen bij u in de buurt. Elke vermelding bevat gedetailleerde informatie over tijden, locaties en speciale aandachtsgebieden, zodat u de juiste plek vindt voor uw herstel."
+          step_studies:
+            title: "Verken stappenstudies"
+            content: "Bij Celebrate Recovery bieden we uitgebreide stappenstudies die diep ingaan op herstelprincipes. U kunt zoeken naar stappenstudies zowel online als persoonlijk, zodat u een formaat vindt dat het beste past bij uw schema en voorkeuren. Of u nu de voorkeur geeft aan een online groep of aan persoonlijke ontmoetingen, Celebrate Recovery heeft opties om uw groei te ondersteunen."
+          connect:
+            title: "Maak contact met vertegenwoordigers en pleitbezorgers"
+            content: "Naast groepsbijeenkomsten helpt ons platform u in contact te komen met lokale Celebrate Recovery-vertegenwoordigers en -pleitbezorgers. Deze toegewijde mensen zijn er om u te begeleiden, uw vragen te beantwoorden en u te ondersteunen op uw herstelpad. Gebruik onze zoekfunctie om vertegenwoordigers en pleitbezorgers in uw regio te vinden en te contacteren."
+          churches:
+            title: "Voor kerken"
+            content: "Celebrate Recovery werkt graag samen met kerken wereldwijd. Ons platform stelt kerken in staat hun eigen groepsvermeldingen te beheren, zodat informatie eenvoudig actueel en correct blijft. Kerken kunnen hun vermeldingen aanpassen met foto's, beschrijvingen en informatie over hun Celebrate Recovery-programma's, voor een gastvrije en informatieve presentatie voor mensen die hulp zoeken."
+          about_cr:
+            title: "Over Celebrate Recovery"
+            content_html: "Celebrate Recovery is een christelijk herstelprogramma waar u gemeenschap en vrijheid kunt vinden van uw pijn, gewoonten en hang-ups. Of u nieuw bent in herstel of doorlopende ondersteuning zoekt, Celebrate Recovery staat voor u klaar.<br /><br />Bij Celebrate Recovery geloven we in de kracht van gemeenschap en de hoop die ontstaat wanneer we samen naar genezing en heelheid toewerken. Sluit u bij ons aan en ontdek een veilige plek om vrijheid in Christus te vinden.<br /><br />Meer over Celebrate Recovery %{cr_link} of ga terug naar de %{locator_link} om een groep of vertegenwoordiger te vinden"
+            cr_link_text: "hier"
+            locator_link_text: "CR Locator"

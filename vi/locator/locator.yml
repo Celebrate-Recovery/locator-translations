@@ -1,0 +1,134 @@
+vi:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: Email
+      details: Chi tiết
+      search: Tìm kiếm
+      filter: Lọc
+      online: Trực tuyến
+      in_person: Trực tiếp
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Nhóm lớn
+      open_share_groups: Nhóm chia sẻ mở
+      step_studies: Nghiên cứu bước
+      distance: "%{distance_unit}"
+      mile: dặm
+      kilometer: cây số
+      location: Địa điểm
+      groups: Nhóm
+      reps: Đại diện
+      language: Ngôn ngữ
+      format: Hình thức
+      days:
+        sunday: Chủ nhật
+        monday: Thứ Hai
+        tuesday: Thứ Ba
+        wednesday: Thứ Tư
+        thursday: Thứ Năm
+        friday: Thứ Sáu
+        saturday: Thứ Bảy
+      days_short:
+        sunday: CN
+        monday: T2
+        tuesday: T3
+        wednesday: T4
+        thursday: T5
+        friday: T6
+        saturday: T7
+      days_initial:
+        sunday: C
+        monday: H
+        tuesday: B
+        wednesday: T
+        thursday: N
+        friday: S
+        saturday: B
+    layouts:
+      partials:
+        header:
+          close_menu: Đóng menu
+          about: Giới thiệu
+          get_your_cr_on_the_locator: Đăng ký
+          main_menu: Menu chính
+          login_in: Đăng nhập
+          dashboard: Bảng điều khiển
+    home:
+      please_enter_location: "Vui lòng nhập địa điểm hoặc mã bưu điện để tìm nhóm hoặc đại diện."
+      email_sent: 'Đã gửi email thành công.'
+      index:
+        html_title: Trang chủ
+        html_title_groups: Nhóm tại
+        html_title_in: tại
+        full_title: CR Locator
+        title: Locator
+        default_title: "Tìm sự tự do, tìm cộng đồng - CR Locator"
+        enter: "Nhập địa điểm hoặc mã bưu điện để bắt đầu tìm kiếm"
+        error: "Đã xảy ra lỗi khi tìm kiếm. Vui lòng thử lại."
+        none_found_group: "Không tìm thấy nhóm trong bán kính %{radius} %{distance_unit}"
+        none_found_rep: "Không tìm thấy đại diện trong bán kính %{radius} %{distance_unit}"
+        closest_group: "Đang hiển thị các nhóm gần nhất."
+        closest_rep: "Đang hiển thị các đại diện gần nhất."
+        help: "Trợ giúp"
+      form:
+        search_title: Địa điểm / Mã bưu điện của bạn
+        search_placeholder: Nhập địa điểm
+        search_nearby: Tìm gần đây
+        location_name: Tên địa điểm
+        search_type: Loại
+        radius: Bán kính
+        day_of_week: Các ngày trong tuần
+        within_10: "trong vòng 10 %{distance_unit}"
+        within_25: "trong vòng 25 %{distance_unit}"
+        within_50: "trong vòng 50 %{distance_unit}"
+        within_100: "trong vòng 100 %{distance_unit}"
+        within_150: "trong vòng 150 %{distance_unit}"
+        within_200: "trong vòng 200 %{distance_unit}"
+        within_250: "trong vòng 250 %{distance_unit}"
+        within_500: "trong vòng 500 %{distance_unit}"
+        rep_ambassador: Đại diện / Người ủng hộ
+        all_reps: Tất cả đại diện / Người ủng hộ
+        all_reps_filter: Đại diện / Người ủng hộ
+        cr_reps: Đại diện CR
+        landing_reps: Đại diện Landing
+        celebration_place_reps: Đại diện Celebration Place
+        ambassadors:
+          mental_health: Người ủng hộ sức khỏe tâm thần
+          cr_inside: Người ủng hộ CR Inside
+          cr_international: Người ủng hộ CR International
+          cultural_communities: Người ủng hộ cộng đồng văn hóa
+          welcome_home: Người ủng hộ Welcome Home
+          opioid: Người ủng hộ opioid
+          cpr: Người ủng hộ CPR
+        all_groups: Tất cả nhóm
+        all_groups_filter: Nhóm
+        online_large_group: Nhóm lớn trực tuyến
+        online_open_share: Nhóm chia sẻ mở trực tuyến
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Bữa Fellowship
+        childcare: Chăm sóc trẻ
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Có sẵn
+          offered_in: Cung cấp bằng
+    results:
+      partials:
+        group:
+          directions: Chỉ đường
+          email: Email
+          language: Ngôn ngữ được cung cấp tại đây
+          location: Địa điểm
+          contact: Liên hệ nhóm
+          rep_contact: Liên hệ đại diện
+          ministry_leader: Trưởng chức vụ
+          upcomming_step_study: Nghiên cứu bước sắp tới
+          starting: Bắt đầu
+          additional_information: Thông tin bổ sung
+        rep:
+          based_in: "Đặt tại %{location}"
+          about: "Đôi nét về %{rep_name}"
+          groups: "%{rep_name} tham gia các nhóm sau hàng tuần:"

@@ -1,0 +1,29 @@
+af:
+  locator:
+    contact:
+      # Controller-level messages
+      contact_title: kontak # contact
+      success: E-pos suksesvol gestuur. # Email sent successfully.
+      invalid: 'Ongeldige vorm ingedien, probeer asseblief weer.' # Invalid form submission. Please try again.
+      
+      # Contact form view
+      contact:
+        # Page header
+        title: "Kom in kontak met %{rep_name}" # Get in touch with %{rep_name}
+        detail: Gebruik hierdie vorm om 'n versoek na %{rep_name} te stuur. Hulle sal hul bes doen om betyds na jou terug te kom. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        
+        # Contact info labels
+        type: Rep / Ambassadeur Tipe # Rep / Advocate Type
+        ministry_leader: Bediening Leier # Ministry Leader
+        
+        # Form fields
+        name: Naam # Name
+        phone: Telefoonnommer # Phone number
+        message: Boodskap # Message
+        
+        # Actions
+        back: Terug na Opspoorder # Back to finder
+        send: Stuur Boodskap # Send Message
+        
+        # Error messages
+        no_results: Niks is by hierdie adres gevind nie # Nothing was found at this address

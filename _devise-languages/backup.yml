@@ -1,0 +1,486 @@
+en:
+  #######################
+  # Common UI Elements
+  #######################
+  layouts:
+    partials:
+      footer:
+        about: About
+        get_your_cr_on_the_locator: Get Listed
+        celebrate_recovery: Celebrate Recovery
+
+  #######################
+  # Error Pages
+  #######################
+  errors:
+    not_found:
+      title: Page not found
+      sorry: Sorry, we couldn't find the page you're looking for.
+      button: Back to home
+    internal_server_error: 
+      title: Server Error
+      sorry: Sorry, an error happened on this page. The error has been reported to our staff.
+      button: Back to home
+    messages:
+      already_confirmed: "was already confirmed, please try signing in"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "has expired, please request a new one"
+      not_found: "not found"
+      not_locked: "was not locked"
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
+
+  #######################
+  # Locator Application
+  #######################
+  locator:      
+    # Common elements used across multiple pages
+    common: &common_elements
+      cr_locator: CR Locator
+      locator: Locator
+      distance: "%{distance_unit}"
+      details: Details
+      online: Online
+      in_person: In Person
+      celebrate_recovery: Celebrate Recovery
+      landing: Landing
+      celebration_place: Celebration Place
+      os_only: Open Share Group Only
+      large_group: Large Group
+      open_share_groups: Open Share Groups
+      online_large_group: Online Large Group
+      online_open_share: Online Open Share Groups
+    
+    layouts:
+      partials:
+        header:
+          cr_locator: CR Locator
+          locator: Locator
+          main_menu: Open main menu
+          close_menu: Close menu
+          login_in: Login
+          dashboard: Dashboard
+          about: About
+          get_your_cr_on_the_locator: Get Listed
+          
+        footer:
+          celebrate_recovery: Celebrate Recovery
+
+    # Home page and search functionality
+    home:
+      # Page titles and headers
+      html_title: Home
+      html_title_groups: Groups in
+      html_title_in: in
+      full_title: CR Locator
+      title: Locator
+      
+      # Search form and results
+      index:
+        <<: *common_elements
+        enter: Enter a location above to start your search
+        error: There was an error with your search. Please try again.
+        default_title: "Find Freedom, Find Community - CR Locator"
+        no_results_within: "No %{type} found within %{radius} miles.\nShowing the 5 closest groups."
+        reps: "reps"
+        groups: "groups"
+      
+      # Search form elements
+      form:
+        # Search types
+        all_groups: All Groups
+        all_reps: All Reps / advocates
+        large_group: Large Group
+        open_share_groups: Open Share Groups
+        step_studies: Step Studies
+        in_person_step_studies: In Person Step Study
+        online_step_studies: Online Step Study
+        groups: Groups
+        format: Format
+        filter: Filter
+        in_person: In Person
+        online: Online
+        rep_ambassador: Rep / Ambassador
+        landing: Landing
+        celebration_place: Celebration Place
+        
+        # Search inputs
+        search_title: Your Location / Zip Code / Postal Code
+        search: Search
+        location: Location name
+        search_type: Type
+        language: Language
+        
+        # Radius options
+        radius: Radius
+        within_10: "within 10 %{distance_unit}"
+        within_25: "within 25 %{distance_unit}"
+        within_50: "within 50 %{distance_unit}"
+        within_100: "within 100 %{distance_unit}"
+        within_150: "within 150 %{distance_unit}"
+        within_200: "within 200 %{distance_unit}"
+        within_250: "within 250 %{distance_unit}"
+        within_500: "within 500 %{distance_unit}"
+        
+        # Additional options
+        more: More search options
+        
+        # Day selection
+        day_of_week: Day of the week
+        sunday: Sunday
+        monday: Monday
+        tuesday: Tuesday
+        wednesday: Wednesday
+        thursday: Thursday
+        friday: Friday
+        saturday: Saturday
+        sunday_short: Sun
+        monday_short: Mon
+        tuesday_short: Tue
+        wednesday_short: Wed
+        thursday_short: Thu
+        friday_short: Fri
+        saturday_short: Sat
+        sunday_initial: S
+        monday_initial: M
+        tuesday_initial: T
+        wednesday_initial: W
+        thursday_initial: T
+        friday_initial: F
+        saturday_initial: S
+        
+
+      # Search results messages
+      none_found_group: "No groups found within %{radius} %{distance_unit}"
+      none_found_rep: "No reps/advocates found within %{radius} %{distance_unit}"
+      closest_group: Showing the closest groups.
+      closest_rep: Showing the closest reps/advocates.
+      help: help
+      all_step_studies: All Step Studies
+
+    info:
+      #######################
+      # About Page
+      #######################
+      about:
+        page_title: "About The Group Locator - CR Locator"
+        title: "About the Celebrate Recovery Locator Site"
+        subtitle: "CR Locator"
+        intro: "Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support."
+        
+        # Testimonial section
+        testimonial:
+          quote: "When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        
+        # Main content sections
+        sections:
+          find_group:
+            title: "Find a Group Near You"
+            content: "Our easy-to-use Group Locator tool allows you to search for Celebrate Recovery meetings based on your current location. Simply enter your address, and we'll provide you with a list of groups near you. Each listing includes detailed information about meeting times, locations, and special focus areas. This way, you can find the perfect fit for your recovery journey."
+          step_studies:
+            title: "Explore Step Studies"
+            content: "At Celebrate Recovery, we offer comprehensive step studies that dive deep into recovery principles. You can search for step studies both online and in-person, ensuring you find a format that works best for your schedule and preferences. Whether you prefer the convenience of an online group or the fellowship of meeting in person, Celebrate Recovery has options to support your growth."
+          connect:
+            title: "Connect with Representatives and advocates"
+            content: "In addition to group meetings, our platform helps you connect with local Celebrate Recovery representatives and advocates. These dedicated individuals are here to provide guidance, answer your questions, and support you on your recovery journey. Use our search feature to find and contact representatives and advocates in your area."
+          churches:
+            title: "For Churches"
+            content: "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
+          about_cr:
+            title: "About Celebrate Recovery"
+            content_html: "Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative"
+            cr_link_text: "here"
+            locator_link_text: "CR Locator"
+
+      #######################
+      # Group Listing Page
+      #######################
+      listed:
+        page_title: "Get your group listed - CR Locator"
+        subtitle: "CR Locator"
+        title: "Get your group listed"
+        intro: "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:"
+        
+        # Abbreviations
+        abbreviations:
+          fe_cr: "FE CR = Full Expression Celebrate Recovery Ministry"
+          osgo_cr: "OSGO CR = Open Share Group Only Celebrate Recovery Ministry"
+        
+        # Requirements
+        requirements:
+          running_time:
+            title: "(FE CR) Celebration Night or (OSGO CR) Open Share Groups have been running for a minimum of 90 days."
+            description: "This does not include the Step Studies/initial Leader training before the launch of Celebration Night."
+          dna:
+            title: "(FE and OSGO CR) Church and CR Leadership agree, implement and follow the DNA of Celebrate Recovery"
+            link_text: "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)"
+          training:
+            title: "(OSGO CR) Leaders completed the Online Training"
+            description_html: "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training."
+            community_url: "https://celebraterecovery.com/cr-community/"
+        
+        # Next steps
+        next_steps:
+          not_meeting:
+            title: "If your CR DOES NOT meet the requirements above:"
+            content: "Make the necessary changes at your Celebrate Recovery before proceeding. Please contact a Celebrate Recovery Representative if you have any questions. Return to the CR Locator to search for a Rep or CR group."
+          meeting:
+            title: "If your CR DOES meet the requirements above:"
+            content: "Click on the link below to begin the process of adding your CR to the Locator."
+        
+        # Action buttons
+        buttons:
+          dashboard: "Go to your dashboard"
+          setup: "Setup Your Celebrate Recovery Group"
+
+    #######################
+    # Contact Forms
+    #######################
+    contact:
+      contact_title: contact
+      contact:
+        title: "Get in touch with %{rep_name}"
+        detail: Use this form to send a request over to %{rep_name}.  They will do their best to get back to you in a timely manner.
+        type: Rep / Ambassador Type
+        ministry_leader: Ministry Leader
+        address: Address
+        email: Email
+        name: Name
+        phone: Phone number
+        message: Message
+        back: Back to finder
+        send: Send Message
+        no_results: Nothing was found at this address
+
+    #######################
+    # Search Results
+    #######################
+    results:
+      # Detailed view
+      show:
+        <<: *common_elements
+        starting: Starting
+        back: Back to results
+        location_info: Location information
+        programs: Programs Available
+        contact_options: Contact options
+        contact: Group Contacts
+        rep_contact: Rep Contact
+        ministry_leader: Ministry Leader
+        email: Email
+        contact_name: "Email %{rep_name}"
+        and_rep: and Rep Contacts
+        local_rep: Local CR Rep
+        rep_info: Rep information
+        upcomming_step_study: Upcoming Step Studies
+        directions: Get Directions
+        language: Languages Offered Here
+
+      # Study results
+      study:
+        <<: *common_elements
+      
+      # Rep results
+      rep:
+        <<: *common_elements
+        
+      # Group results
+      group:
+        <<: *common_elements
+        step_studies: Step Studies
+        available: Available
+
+      # Online meeting info
+      online:
+        group: Online Recovery Meeting
+        text: Meet with a CR Group online from anywhere, click here to find out how to join.
+        time: Wednesday @ 12 PM
+        time_zone: Pacific Time 
+
+  #######################
+  # Devise Authentication
+  #######################
+  devise:
+    confirmations:
+      confirmed: "Your email address has been successfully confirmed."
+      send_instructions: "You will receive an email with instructions for how to confirm your email address in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
+      new:
+        title: "Resend Confirmation - CR Locator"
+        heading: "Resend confirmation instructions"
+        email: "Email address"
+        resend_instructions: "Resend confirmation instructions"
+    failure:
+      already_authenticated: "You are already signed in."
+      inactive: "Your account is not activated yet."
+      invalid: "Invalid %{authentication_keys} or password."
+      locked: "Your account is locked."
+      last_attempt: "You have one more attempt before your account is locked."
+      not_found_in_database: "Invalid %{authentication_keys} or password."
+      timeout: "Your session expired. Please sign in again to continue."
+      unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "You have to confirm your email address before continuing."
+      invited: "You have a pending invitation, accept it to finish creating your account."
+    mailer:
+      confirmation_instructions:
+        subject: "Confirmation instructions"
+        greeting: "Dear %{name},"
+        confirm_email: "You can confirm your account email through the link below:"
+        confirm_account: "Confirm my account"
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because your email was changed"
+      reset_password_instructions:
+        subject: "Reset password instructions"
+        greeting: "Dear %{name},"
+        request_link: "Someone has requested a link to change your password. You can do this through the link below."
+        change_password: "Change my password"
+        ignore_if_not_requested: "If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because you have a CR Locator account and a password reset for %{name} was completed"
+      unlock_instructions:
+        subject: "Unlock instructions"
+        greeting: "Dear %{name},"
+        account_locked: "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+        click_link: "Click the link below to unlock your account:"
+      email_changed:
+        greeting: "Dear %{name},"
+        email_changing: "We're contacting you to notify you that your email is being changed to %{email}."
+        email_changed: "We're contacting you to notify you that your email has been changed to %{email}."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because your email was changed"
+      password_change:
+        subject: "Password Changed"
+        greeting: "Dear %{name},"
+        password_changed: "We're contacting you to notify you that your password has been changed."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because you have a CR Locator account and your password was changed"
+      invitation_instructions:
+        subject: "Invitation instructions"
+        greeting: "Dear %{name},"
+        hello: "Hello %{email}"
+        someone_invited_you: "You have been invited to join %{url}, you can accept it through the link below."
+        accept: "Accept invitation"
+        accept_until: "This invitation will be due in %{due_date}."
+        ignore: "If you don't want to accept the invitation, please ignore this email. Your account won't be created until you access the link above and set your password."
+        role_level_1: "Your account will be used to manage your church, group, and step study listings."
+        role_level_5: "Your account will allow you to manage your listing."
+        role_level_50: "Your account will allow you to manage your listing, and the churches in your area."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because someone has setup an account for you on the CR Locator"
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+    passwords:
+      new:
+        title: "Forgot Password - CR Locator"
+        heading: "Forgot your password"
+        email: "Email address"
+        send_me_reset_password_instructions: "Send me reset password instructions"
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Your password has been changed successfully. You are now signed in."
+      updated_not_active: "Your password has been changed successfully."
+    registrations:
+      new:
+        title: "Sign up - CR Locator"
+        heading: "Sign Up"
+        first_name: "First Name"
+        last_name: "Last Name"
+        email: "Email Address"
+        phone_number: "Phone Number"
+        role: "Select Your Role"
+        role_note: "Note: If you are on staff at the church and you are the ministry leader please select Ministry Leader as you will be the contact for newcomers. Your supervisor will be listed as the church staff member."
+        password: "Password"
+        password_confirmation: "Confirm Password"
+        sign_up: "Sign up"
+      edit:
+        title: "Edit Profile - CR Locator"
+        page_title: "Account settings"
+        waiting_confirmation: "Currently waiting confirmation for:"
+        phone_number: "Phone Number"
+        password_update: "Password Update"
+        leave_blank: "(leave blank if you don't want to change it)"
+        new_password: "New Password"
+        current_password_note: "(we need your current password to confirm your changes)"
+        update_account: "Update Account"
+        or_cancel_account: "Or cancel my account"
+        cancel_account: "Cancel my account"
+        are_you_sure: "Are you sure?"
+      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
+      signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address."
+      updated: "Your account has been updated successfully."
+      updated_but_not_signed_in: "Your account has been updated successfully, but since your password was changed, you need to sign in again."
+    sessions:
+      new:
+        title: "Sign in - CR Locator"
+        heading: "Sign in to your account"
+        email: "Email address"
+        password: "Password"
+        remember_me: "Remember me"
+        forgot_your_password: "Forgot password?"
+        sign_in: "Sign in"
+        back_to_locator: "Back to Locator"
+      signed_in: "Signed in successfully."
+      signed_out: "Signed out successfully."
+      already_signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
+      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+      new:
+        title: "Resend Unlock Instructions - CR Locator"
+        heading: "Resend unlock instructions"
+        email: "Email address"
+        resend_instructions: "Resend unlock instructions"
+    shared:
+      links:
+        back: Back
+        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
+        sign_in: Sign in
+        sign_in_with_provider: "Sign in with %{provider}"
+        sign_up: Sign Up
+        no_account: "Not a member?"
+        already_account: "Already have an account?"
+        forgot_password: "Forgot password?"
+        confirmation: "Didn't receive confirmation instructions?"
+        unlock: "Didn't receive unlock instructions?"
+    invitations:
+      send_instructions: "An invitation email has been sent to %{email}."
+      invitation_token_invalid: "The invitation token provided is not valid!"
+      updated: "Your password was set successfully. You are now signed in."
+      updated_not_active: "Your password was set successfully."
+      no_invitations_remaining: "No invitations remaining"
+      invitation_removed: "Your invitation was removed."
+      new:
+        header: "Send invitation"
+        submit_button: "Send an invitation"
+      edit:
+        header: "Set your password"
+        submit_button: "Set my password"
+    minimum_password_length:
+      one: "Password is too short (minimum is 1 character)"
+      many: "Password is too short (minimum is %{count} characters)"
+      other: "Password is too short (minimum is %{count} characters)"
+
+  time:
+    formats:
+      devise:
+        mailer:
+          invitation_instructions:
+            accept_until_format: "%B %d, %Y %I:%M %p"

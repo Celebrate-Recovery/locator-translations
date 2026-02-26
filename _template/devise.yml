@@ -1,0 +1,204 @@
+en:
+  devise:
+    confirmations:
+      confirmed: Your account has been activated and you are now signed in.
+      new:
+        title: "Resend Confirmation - CR Locator"
+        heading: "Resend confirmation instructions"
+        email: "Email address"
+        resend_confirmation_instructions: Resend confirmation instructions
+      send_instructions: You will receive an email with instructions for confirming your account in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for confirming your account in a few minutes.
+
+    failure:
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid email or password.
+      locked: Your account is locked.
+      last_attempt: "You have one more attempt before your account is locked."
+      not_found_in_database: Invalid email or password.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
+      invited: "You have a pending invitation, accept it to finish creating your account."
+
+    mailer:
+      confirmation_instructions:
+        subject: "Confirmation instructions"
+        greeting: "Dear %{name},"
+        confirm_email: "You can confirm your account email through the link below:"
+        confirm_account: "Confirm my account"
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because your email was changed"
+      reset_password_instructions:
+        subject: "Reset password instructions"
+        greeting: "Dear %{name},"
+        request_link: "Someone has requested a link to change your password. You can do this through the link below."
+        change_password: "Change my password"
+        ignore_if_not_requested: "If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because you have a CR Locator account and a password reset for %{name} was completed"
+      unlock_instructions:
+        subject: "Unlock instructions"
+        greeting: "Dear %{name},"
+        account_locked: "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+        click_link: "Click the link below to unlock your account:"
+      email_changed:
+        subject: "Email Changed"
+        greeting: "Dear %{name},"
+        email_changing: "We're contacting you to notify you that your email is being changed to %{email}."
+        email_changed: "We're contacting you to notify you that your email has been changed to %{email}."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because your email was changed"
+      password_change:
+        subject: "Password Changed"
+        greeting: "Dear %{name},"
+        password_changed: "We're contacting you to notify you that your password has been changed."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because you have a CR Locator account and your password was changed"
+      invitation_instructions:
+        subject: "Invitation instructions"
+        greeting: "Dear %{name},"
+        hello: "Hello %{email}"
+        someone_invited_you: "You have been invited to join %{url}, you can accept it through the link below."
+        accept: "Accept invitation"
+        accept_until: "This invitation will be due in %{due_date}."
+        ignore: "If you don't want to accept the invitation, please ignore this email. Your account won't be created until you access the link above and set your password."
+        role_level_1: "Your account will be used to manage your church, group, and step study listings."
+        role_level_5: "Your account will allow you to manage your listing."
+        role_level_50: "Your account will allow you to manage your listing, and the churches in your area."
+        signature: "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator"
+        footer: "You are receiving this communication because someone has setup an account for you on the CR Locator"
+      invitation_instructions_reminder:
+        subject: "Reminder: Invitation instructions"
+
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+
+    passwords:
+      new:
+        title: "Forgot Password - CR Locator"
+        heading: "Forgot your password"
+        email: "Email address"
+        forgot_your_password: Forgot your password?
+        send_me_reset_password_instructions: Send me reset password instructions
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: You will receive an email with instructions on how to reset your password in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
+
+    registrations:
+      destroyed: Goodbye! Your account has been successfully cancelled. We hope to see you again soon.
+      edit:
+        title: "Edit Profile - CR Locator"
+        page_title: "Account settings"
+        are_you_sure: Are you sure?
+        cancel_my_account: Cancel my account
+        currently_waiting_confirmation_for_email: "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: Leave blank if you don't want to change it
+        title: "Edit %{resource}"
+        unhappy: Unhappy?
+        update: Update
+        we_need_your_current_password_to_confirm_your_changes: We need your current password to confirm your changes
+        phone_number: "Phone Number"
+        password_update: "Password Update"
+        leave_blank: "(leave blank if you don't want to change it)"
+        new_password: "New Password"
+        current_password_note: "(we need your current password to confirm your changes)"
+        update_account: "Update Account"
+        or_cancel_account: "Or cancel my account"
+        cancel_account: "Cancel my account"
+      new:
+        title: "Sign up - CR Locator"
+        heading: "Sign Up"
+        first_name: "First Name"
+        last_name: "Last Name"
+        email: "Email Address"
+        phone_number: "Phone Number"
+        role: "Select Your Role"
+        role_note: "Note: If you are on staff at the church and you are the ministry leader please select Ministry Leader as you will be the contact for newcomers. Your supervisor will be listed as the church staff member."
+        password: "Password"
+        password_confirmation: "Confirm Password"
+        sign_up: "Sign up"
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Your account has been updated successfully.
+      updated_but_not_signed_in: Your account has been updated successfully, but since your password was changed, you need to sign in again.
+
+    sessions:
+      already_signed_out: Signed out successfully.
+      new:
+        title: "Sign in - CR Locator"
+        heading: "Sign in to your account"
+        email: "Email address"
+        password: "Password"
+        remember_me: "Remember me"
+        forgot_your_password: "Forgot password?"
+        sign_in: "Sign in"
+        back_to_locator: "Back to the Locator"
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
+
+    unlocks:
+      new:
+        title: "Resend Unlock Instructions - CR Locator"
+        heading: "Resend unlock instructions"
+        email: "Email address"
+        resend_unlock_instructions: Resend unlock instructions
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+
+    shared:
+      links:
+        back: Back
+        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
+        forgot_your_password: Forgot your password?
+        sign_in: Sign in
+        sign_in_with_provider: "Sign in with %{provider}"
+        sign_up: Sign up
+        no_account: "Not a member?"
+        already_account: "Already have an account?"
+        forgot_password: "Forgot password?"
+        confirmation: "Didn't receive confirmation instructions?"
+        unlock: "Didn't receive unlock instructions?"
+      minimum_password_length:
+        one: "(1 character minimum)"
+        other: "(%{count} characters minimum)"
+
+    invitations:
+      create:
+        send_instructions: An invitation email has been sent to %{email}.
+        send_paranoid_instructions: If your email address exists in our database, you will receive an invitation email in a few minutes.
+        invited: User was successfully invited.
+      destroy:
+        destroyed: Invitation successfully removed.
+      edit:
+        header: Set your password
+        submit_button: Set my password
+      new:
+        header: Send invitation
+        submit_button: Send an invitation
+      update:
+        updated: Your password was set successfully. You are now signed in.
+        updated_not_active: Your password was set successfully.
+      no_token: "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      invitation_token_invalid: "The invitation token provided is not valid!"
+      accepted: "Invitation accepted! Your account has been successfully created."
+      removed: "Invitation removed."
+      updated: "Your invitation was successfully updated."
+      updated_not_active: "Your invitation was successfully updated."
+      no_invitations_remaining: "No invitations remaining"
+      invitation_removed: "Your invitation was removed." 
+      

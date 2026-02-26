@@ -1,0 +1,30 @@
+da:
+  locator:
+    info:
+      about:
+        page_title: "Om gruppelokatoren - CR Locator"
+        title: "Om Celebrate Recovery-lokatorsiden"
+        subtitle: "CR Locator"
+        intro: "Velkommen til Celebrate Recovery-lokatorsiden – dit værktøj til at finde Celebrate Recovery-grupper og trin-studier i nærheden. Siden er designet til at hjælpe dig med at finde et kristent genopretningsfællesskab, uanset om du leder efter personlige møder eller online støtte."
+        testimonial:
+          quote: "Da jeg troede, jeg var nået bunden og der ikke var håb, fandt jeg en gruppe i nærheden og blev en del af et helbredende fællesskab. Jeg er taknemmelig for håbet i dette fællesskab af troende, der skaber et sikkert rum for at dele livet i Kristus."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Find en gruppe i nærheden"
+            content: "Vores brugervenlige gruppelokator giver dig mulighed for at søge efter Celebrate Recovery-møder baseret på din adresse. Indtast din adresse, så viser vi grupper i nærheden. Hver opslag indeholder information om mødetider, steder og særlige fokusområder, så du kan finde det rigtige match til din genopretning."
+          step_studies:
+            title: "Udforsk trin-studier"
+            content: "I Celebrate Recovery tilbyder vi trin-studier, der går i dybden med genopretningsprincipper. Du kan søge efter trin-studier både online og personligt, så du finder et format der passer til din hverdag. Uanset om du foretrækker online grupper eller personlige møder, har Celebrate Recovery muligheder til at støtte din vækst."
+          connect:
+            title: "Kom i kontakt med repræsentanter og fortalere"
+            content: "Ud over gruppmøder hjælper vores platform dig med at finde lokale Celebrate Recovery-repræsentanter og fortalere. Disse engagerede mennesker er her for at vejlede, besvare spørgsmål og støtte dig på din genopretningsrejse. Brug søgefunktionen til at finde og kontakte repræsentanter og fortalere i dit område."
+          churches:
+            title: "For kirker"
+            content: "Celebrate Recovery samarbejder med kirker verden over. Vores platform gør det muligt for kirker at administrere deres egne gruppeopslag, så information holdes opdateret. Kirker kan tilpasse opslag med billeder, beskrivelser og information om deres Celebrate Recovery-programmer og skabe et indbydende og informativt tilbud for dem, der søger hjælp."
+          about_cr:
+            title: "Om Celebrate Recovery"
+            content_html: "Celebrate Recovery er et kristent genopretningsprogram, hvor du kan finde fællesskab og frihed fra smerte, vaner og hængende punkter. Om du er ny i genopretning eller søger løbende støtte, er Celebrate Recovery her for at hjælpe.<br /><br />I Celebrate Recovery tror vi på fællesskabets kraft og håbet om at gå sammen mod helbredelse og helhed. Slut dig til os og opdag et sikkert sted at finde frihed i Kristus.<br /><br />Læs mere om Celebrate Recovery %{cr_link} eller gå tilbage til %{locator_link} for at finde en gruppe eller repræsentant"
+            cr_link_text: "her"
+            locator_link_text: "CR Locator"

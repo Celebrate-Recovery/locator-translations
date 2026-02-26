@@ -1,0 +1,29 @@
+pt:
+  locator:
+    contact:
+      # Controller-level messages
+      contact_title: contato # contact
+      success: E-mail enviado com sucesso. # Email sent successfully.
+      invalid: 'Envio de formulário inválido. Por favor, tente novamente.' # Invalid form submission. Please try again.
+      
+      # Contact form view
+      contact:
+        # Page header
+        title: "Entre em contato com %{rep_name}" # Get in touch with %{rep_name}
+        detail: "Use este formulário para enviar uma solicitação para %{rep_name}. Eles farão o possível para responder o mais breve possível." # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        
+        # Contact info labels
+        type: Tipo de representante/embaixador # Rep / Advocate Type
+        ministry_leader: Líder do Ministério # Ministry Leader
+        
+        # Form fields
+        name: Nome # Name
+        phone: Telefone # Phone number
+        message: Mensagem # Message
+        
+        # Actions
+        back: Voltar ao localizador # Back to finder
+        send: Enviar mensagem # Send Message
+        
+        # Error messages
+        no_results: Nada foi encontrado neste endereço # Nothing was found at this address

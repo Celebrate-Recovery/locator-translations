@@ -1,0 +1,30 @@
+ro:
+  locator:
+    info:
+      about:
+        page_title: "Despre localizatorul de grupuri - CR Locator"
+        title: "Despre site-ul Celebrate Recovery Locator"
+        subtitle: "CR Locator"
+        intro: "Bine ați venit la site-ul Celebrate Recovery Locator – instrumentul pentru găsirea grupurilor și studiilor de pași Celebrate Recovery din apropiere. Site-ul vă ajută să vă conectați la o comunitate de recuperare centrată pe Hristos, fie că căutați întâlniri față în față sau sprijin online."
+        testimonial:
+          quote: "Când am crezut că am atins fundul și nu mai era niciun speranță, am găsit un grup aproape de mine și m-am alăturat unei comunități de vindecare. Sunt recunoscător pentru speranța din această comunitate de credincioși care creează un spațiu sigur pentru a împărtăși viața în Hristos."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Găsiți un grup în apropiere"
+            content: "Localizatorul nostru de grupuri vă permite să căutați întâlniri Celebrate Recovery pe baza locației dvs. Introduceți adresa și vă vom afișa grupuri din apropiere. Fiecare listare include informații despre program, locații și domenii speciale, astfel încât să găsiți grupul potrivit pentru drumul dvs. de recuperare."
+          step_studies:
+            title: "Explorați studiile de pași"
+            content: "La Celebrate Recovery oferim studii de pași care aprofundează principiile recuperării. Puteți căuta studii de pași atât online cât și față în față, pentru a găsi formatul potrivit programului și preferințelor dvs. Fie că preferați un grup online sau întâlniri față în față, Celebrate Recovery vă sprijină în creștere."
+          connect:
+            title: "Conectați-vă cu reprezentanți și avocați"
+            content: "Pe lângă întâlnirile de grup, platforma noastră vă ajută să vă conectați cu reprezentanți și avocați locali Celebrate Recovery. Acești oameni dedicați sunt aici pentru a ghida, răspunde la întrebări și vă sprijini pe drumul de recuperare. Folosiți căutarea pentru a găsi și contacta reprezentanți și avocați în zona dvs."
+          churches:
+            title: "Pentru biserici"
+            content: "Celebrate Recovery colaborează cu biserici din întreaga lume. Platforma noastră permite bisericilor să-și gestioneze propriile listări de grupuri, astfel încât informațiile să rămână actuale. Bisericile pot personaliza listările cu fotografii, descrieri și informații despre programele Celebrate Recovery, creând un spațiu primitor pentru cei care caută ajutor."
+          about_cr:
+            title: "Despre Celebrate Recovery"
+            content_html: "Celebrate Recovery este un program de recuperare centrat pe Hristos unde puteți găsi comunitate și libertate de răni, obiceiuri și dependențe. Fie că sunteți nou în recuperare sau căutați sprijin continuu, Celebrate Recovery este aici să vă ajute.<br /><br />La Celebrate Recovery credem în puterea comunității și speranța care vine când mergem împreună spre vindecare și întregire. Alăturați-vă nouă și descoperiți un loc sigur pentru libertate în Hristos.<br /><br />Aflați mai multe despre Celebrate Recovery %{cr_link} sau reveniți la %{locator_link} pentru a găsi un grup sau reprezentant"
+            cr_link_text: "aici"
+            locator_link_text: "CR Locator"

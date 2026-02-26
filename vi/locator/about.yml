@@ -1,0 +1,30 @@
+vi:
+  locator:
+    info:
+      about:
+        page_title: "Về công cụ tìm nhóm - CR Locator"
+        title: "Về trang Celebrate Recovery Locator"
+        subtitle: "CR Locator"
+        intro: "Chào mừng bạn đến trang Celebrate Recovery Locator – công cụ tìm nhóm và nghiên cứu bước Celebrate Recovery gần bạn. Trang được thiết kế để giúp bạn kết nối với cộng đồng phục hồi lấy Chúa Cơ Đốc làm trung tâm, dù bạn tìm gặp trực tiếp hay hỗ trợ trực tuyến."
+        testimonial:
+          quote: "Khi tôi nghĩ mình đã chạm đáy và không còn hy vọng, tôi đã tìm được một nhóm gần mình để tham gia cộng đồng chữa lành. Tôi biết ơn vì hy vọng trong cộng đồng tín hữu này đã tạo không gian an toàn để chia sẻ sự sống trong Chúa Cơ Đốc."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Tìm nhóm gần bạn"
+            content: "Công cụ tìm nhóm dễ dùng cho phép bạn tìm các buổi gặp Celebrate Recovery theo vị trí của bạn. Chỉ cần nhập địa chỉ, chúng tôi sẽ đưa danh sách nhóm gần bạn. Mỗi mục có thông tin về giờ, địa điểm và lĩnh vực đặc biệt, giúp bạn tìm nhóm phù hợp cho hành trình phục hồi."
+          step_studies:
+            title: "Khám phá nghiên cứu bước"
+            content: "Tại Celebrate Recovery chúng tôi cung cấp nghiên cứu bước toàn diện đi sâu vào nguyên tắc phục hồi. Bạn có thể tìm nghiên cứu bước cả trực tuyến và trực tiếp để chọn hình thức phù hợp lịch và sở thích. Dù bạn thích nhóm trực tuyến hay gặp trực tiếp, Celebrate Recovery có lựa chọn hỗ trợ sự tăng trưởng của bạn."
+          connect:
+            title: "Kết nối với đại diện và người ủng hộ"
+            content: "Ngoài gặp nhóm, nền tảng của chúng tôi giúp bạn kết nối với đại diện và người ủng hộ Celebrate Recovery địa phương. Những người tận tâm này có mặt để hướng dẫn, trả lời câu hỏi và hỗ trợ bạn trên hành trình phục hồi. Dùng tính năng tìm kiếm để tìm và liên hệ đại diện, người ủng hộ trong khu vực của bạn."
+          churches:
+            title: "Cho Hội thánh"
+            content: "Celebrate Recovery tự hào đồng hành với các hội thánh trên toàn thế giới. Nền tảng cho phép hội thánh quản lý mục nhóm của mình, giữ thông tin cập nhật và chính xác. Hội thánh có thể tùy chỉnh mục với ảnh, mô tả và thông tin về chương trình Celebrate Recovery, tạo sự hiện diện thân thiện cho người cần giúp đỡ."
+          about_cr:
+            title: "Về Celebrate Recovery"
+            content_html: "Celebrate Recovery là chương trình phục hồi lấy Chúa Cơ Đốc làm trung tâm, nơi bạn tìm được cộng đồng và sự tự do khỏi tổn thương, thói quen và vướng mắc. Dù bạn mới bắt đầu phục hồi hay cần hỗ trợ lâu dài, Celebrate Recovery ở đây để giúp đỡ.<br /><br />Tại Celebrate Recovery chúng tôi tin vào sức mạnh cộng đồng và hy vọng khi cùng bước về sự chữa lành và trọn vẹn. Hãy tham gia và khám phá nơi an toàn để tìm sự tự do trong Chúa Cơ Đốc.<br /><br />Tìm hiểu thêm về Celebrate Recovery %{cr_link} hoặc quay lại %{locator_link} để tìm nhóm hoặc đại diện"
+            cr_link_text: "tại đây"
+            locator_link_text: "CR Locator"

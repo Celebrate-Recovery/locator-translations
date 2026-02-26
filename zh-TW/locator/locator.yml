@@ -1,0 +1,190 @@
+zh:
+  locator:
+    # ============================================================================
+    # SHARED/COMMON TRANSLATIONS
+    # Use these across multiple sections with t('locator.shared.key_name')
+    # ============================================================================
+    shared:
+      # Brand & App Names
+      cr_locator: CR 搜尋器 # CR Locator
+      locator: 搜尋器 # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      
+      # Common Actions
+      email: 電子郵件 # Email
+      details: 細節 # Details
+      search: 搜尋 # Search
+      filter: 篩選 # Filter
+      
+      # Meeting Formats
+      online: 線上 # Online
+      in_person: 實體 # In Person
+      
+      # Group Types
+      landing: 青少年版CR # Landing
+      celebration_place: 兒童版CR # Celebration Place
+      large_group: 大組聚會 # Large Group
+      open_share_groups: 開放式分享 # Open Share Groups
+      step_studies: 12 步驟小組 # Step Studies
+      
+      # Distance/Location
+      distance: "%{distance_unit}" # %{distance_unit}
+      mile: "英哩" # miles
+      kilometer: "公里" # kilometers
+      location: 地點 # Location
+      
+      # Common Labels
+      groups: 課程 # Groups
+      reps: 代表 # Reps
+      language: 語言 # Language
+      format: 形式 # Format
+      
+      # Days of Week (Full)
+      days:
+        sunday: 星期日 # Sunday
+        monday: 星期一 # Monday
+        tuesday: 星期二 # Tuesday
+        wednesday: 星期三 # Wednesday
+        thursday: 星期四 # Thursday
+        friday: 星期五 # Friday
+        saturday: 星期六 # Saturday
+      
+      # Days of Week (Short)
+      days_short:
+        sunday: 週日 # Sun
+        monday: 週一 # Mon
+        tuesday: 週二 # Tue
+        wednesday: 週三 # Wed
+        thursday: 週四 # Thu
+        friday: 週五 # Fri
+        saturday: 週六 # Sat
+      
+      # Days of Week (Initial)
+      days_initial:
+        sunday: 日 # S
+        monday: 一 # M
+        tuesday: 二 # T
+        wednesday: 三 # W
+        thursday: 四 # T
+        friday: 五 # F
+        saturday: 六 # S
+
+    # ============================================================================
+    # LAYOUT TRANSLATIONS
+    # ============================================================================
+    layouts:
+      partials:
+        header:
+          close_menu: 關閉目錄 # Close Menu
+          about: 關於 # About
+          get_your_cr_on_the_locator: 讓您的 CR 列入名單 # Get Listed
+          main_menu: 主目錄 # Main Menu
+          login_in: 登入 # Login
+          dashboard: 儀表板 # Dashboard
+
+    # ============================================================================
+    # HOME PAGE TRANSLATIONS
+    # ============================================================================
+    home:
+      # Controller-level messages
+      please_enter_location: "請輸入地點或郵遞區號以搜尋課程或代表。" # Please enter a location or postal code to search for groups or reps.
+      email_sent: '電子郵件已成功發送。' # Email sent successfully.
+
+      # Index page
+      index:
+        # Page metadata
+        html_title: 家 # Home
+        html_title_groups: 課程 # Groups in
+        html_title_in: 在 # in
+        full_title: CR 搜尋器 # CR Locator
+        title: 搜尋器 # Locator
+        default_title: "尋找自由與支持團隊 - CR 搜尋器" # Find Freedom, Find Community - CR Locator
+
+        # Search status messages
+        enter: "請輸入地點或郵遞區號以開始搜尋" # Please enter a location or postal code to begin your search
+        error: "搜尋時發生錯誤。請再試一次。" # An error occurred while searching. Please try again.
+        
+        none_found_group: "在 %{radius} %{distance_unit} 範圍內未找到課程" # No groups found within %{radius} %{distance_unit}
+        none_found_rep: "在 %{radius} %{distance_unit} 範圍內未找到代表" # No reps found within %{radius} %{distance_unit}
+        closest_group: "顯示最近的課程。" # Showing the closest groups.
+        closest_rep: "顯示最近的代表。" # Showing the closest reps.
+        help: "幫助" # Help
+
+      # Search form
+      form:
+        # Form labels
+        search_title: 您的位置/郵遞區號 # Your location / ZIP code
+        search_placeholder: 搜尋 # Enter a location
+        search_nearby: "搜尋附近" # Search Nearby
+        location_name: 地點名稱 # Location name
+        search_type: 類型 # Type
+        radius: 半徑 # Radius
+        day_of_week: 星期幾 # Days of the week
+        
+        # Radius options (using interpolation)
+        within_10: "10%{distance_unit} 以內" # within 10 %{distance_unit}
+        within_25: "25%{distance_unit} 以內" # within 25 %{distance_unit}
+        within_50: "50%{distance_unit} 以內" # within 50 %{distance_unit}
+        within_100: "100%{distance_unit} 以內" # within 100 %{distance_unit}
+        within_150: "150%{distance_unit} 以內" # within 150 %{distance_unit}
+        within_200: "200%{distance_unit} 以內" # within 200 %{distance_unit}
+        within_250: "250%{distance_unit} 以內" # within 250 %{distance_unit}
+        within_500: "500%{distance_unit} 以內" # within 500 %{distance_unit}
+
+        # Rep/Advocate types
+        rep_ambassador: 代表/大使 # Rep / Advocate
+        all_reps: 所有代表/大使 # All Reps / Advocates
+        all_reps_filter: 代表/大使 # Reps / Advocates
+        cr_reps: CR 代表 # CR Reps
+        landing_reps: 青少年版CR代表 # Landing Reps
+        celebration_place_reps: 兒童版CR代表 # Celebration Place Reps
+        
+        # Ambassador types
+        ambassadors:
+          mental_health: 心理健康大使 # Mental Health Advocate
+          cr_inside: 獄中 CR 大使 # CR Inside Advocate
+          cr_international: CR國際大使 # CR International Advocate
+          cultural_communities: CR文化社區大使 # Cultural Communities Advocate
+          welcome_home: 返鄉軍人CR大使 # Welcome Home Advocate
+          opioid: 毒品戒癮CR大使 # Opioid Advocate
+          cpr: 牧者CR大使 # CPR Advocate
+
+        # Group types
+        all_groups: 所有課程 # All Groups
+        all_groups_filter: 課程 # Groups
+        online_large_group: 線上大組 # Online Large Group
+        online_open_share: 線上開放式分享小組 # Online Open Share Groups
+        
+        # Additional ministries
+        fellowship_cafe: 團契咖啡館 # Fellowship Cafe
+        fellowship_meal: 團契聚餐 # Fellowship Meal
+        childcare: 兒童照管 # Childcare
+
+      # Group partial
+      partials:
+        group:
+          distance: "%{distance_unit}" # %{distance_unit}
+          available: 提供課程 # Available
+          offered_in: 使用語言 # Offered in
+
+    # ============================================================================
+    # RESULTS PAGE TRANSLATIONS
+    # ============================================================================
+    results:
+      partials:
+        group:
+          directions: 提供路線 # Get Directions
+          email: 電子郵件 # Email
+          language: 提供的語言 # Languages Offered Here
+          location: 地點 # Location
+          contact: 群組聯絡人 # Group Contacts
+          rep_contact: 聯絡代表 # Rep Contact
+          ministry_leader: 事工領袖 # Ministry Leader
+          upcomming_step_study: 即將開課的12 步驟小組 # Upcoming Step Studies
+          starting: 開始於 # Starting
+          additional_information: 其他資訊 # Additional Information
+
+        rep:
+          based_in: "所在地: %{location}" # Based in %{location}
+          about: "關於 %{rep_name} 的簡介" # A little bit about %{rep_name}
+          groups: "%{rep_name} 定期參加的課程:" # %{rep_name} is a part of the following groups weekly:

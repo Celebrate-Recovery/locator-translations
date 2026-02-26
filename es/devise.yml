@@ -1,0 +1,207 @@
+es:
+  support:
+    array:
+      words_connector: ", "
+  devise:
+    confirmations:
+      confirmed: "Tu cuenta ha sido activada y ahora estás conectado."
+      new:
+        title: "Reenviar Confirmación - CR Locator"
+        heading: "Reenviar instrucciones de confirmación"
+        email: "Dirección de correo electrónico"
+        resend_confirmation_instructions: "Reenviar instrucciones de confirmación"
+      send_instructions: "Recibirás un correo electrónico con instrucciones para confirmar tu cuenta en unos minutos."
+      send_paranoid_instructions: "Si tu dirección de correo electrónico existe en nuestra base de datos, recibirás un correo electrónico con instrucciones para confirmar tu cuenta en unos minutos."
+
+    failure:
+      already_authenticated: "Ya estás conectado."
+      inactive: "Tu cuenta aún no está activada."
+      invalid: "Correo electrónico o contraseña inválidos."
+      locked: "Tu cuenta está bloqueada."
+      last_attempt: "Tienes un intento más antes de que tu cuenta sea bloqueada."
+      not_found_in_database: "Correo electrónico o contraseña inválidos."
+      timeout: "Tu sesión ha expirado. Por favor, inicia sesión nuevamente para continuar."
+      unauthenticated: "Necesitas iniciar sesión o registrarte antes de continuar."
+      unconfirmed: "Debes confirmar tu dirección de correo electrónico antes de continuar."
+      invited: "Tienes una invitación pendiente, acéptala para terminar de crear tu cuenta."
+
+    mailer:
+      confirmation_instructions:
+        subject: "Instrucciones de confirmación"
+        greeting: "Estimado/a %{name},"
+        confirm_email: "Puedes confirmar tu correo electrónico a través del siguiente enlace:"
+        confirm_account: "Confirmar mi cuenta"
+        signature: "Gracias,\nEquipo de Celebrate Recovery"
+        logo_alt: "Localizador de Celebrate Recovery"
+        footer: "Estás recibiendo esta comunicación porque tu correo electrónico fue cambiado"
+      reset_password_instructions:
+        subject: "Instrucciones para restablecer la contraseña"
+        greeting: "Estimado/a %{name},"
+        request_link: "Alguien ha solicitado un enlace para cambiar tu contraseña. Puedes hacerlo a través del siguiente enlace."
+        change_password: "Cambiar mi contraseña"
+        ignore_if_not_requested: "Si no solicitaste esto, por favor ignora este correo electrónico. Tu contraseña no cambiará hasta que accedas al enlace anterior y crees una nueva."
+        signature: "Gracias,\nEquipo de Celebrate Recovery"
+        logo_alt: "Localizador de Celebrate Recovery"
+        footer: "Estás recibiendo esta comunicación porque tienes una cuenta en CR Locator y se completó un restablecimiento de contraseña para %{name}"
+      unlock_instructions:
+        subject: "Instrucciones para desbloquear"
+        greeting: "Estimado/a %{name},"
+        account_locked: "Tu cuenta ha sido bloqueada debido a un número excesivo de intentos fallidos de inicio de sesión."
+        click_link: "Haz clic en el siguiente enlace para desbloquear tu cuenta:"
+      email_changed:
+        subject: "Correo electrónico cambiado"
+        greeting: "Estimado/a %{name},"
+        email_changing: "Te contactamos para notificarte que tu correo electrónico está siendo cambiado a %{email}."
+        email_changed: "Te contactamos para notificarte que tu correo electrónico ha sido cambiado a %{email}."
+        signature: "Gracias,\nEquipo de Celebrate Recovery"
+        logo_alt: "Localizador de Celebrate Recovery"
+        footer: "Estás recibiendo esta comunicación porque tu correo electrónico fue cambiado"
+      password_change:
+        subject: "Contraseña cambiada"
+        greeting: "Estimado/a %{name},"
+        password_changed: "Te contactamos para notificarte que tu contraseña ha sido cambiada."
+        signature: "Gracias,\nEquipo de Celebrate Recovery"
+        logo_alt: "Localizador de Celebrate Recovery"
+        footer: "Estás recibiendo esta comunicación porque tienes una cuenta en CR Locator y tu contraseña fue cambiada"
+      invitation_instructions:
+        subject: "Instrucciones de invitación"
+        greeting: "Estimado/a %{name},"
+        hello: "Hola %{email}"
+        someone_invited_you: "Has sido invitado a unirte a %{url}, puedes aceptarlo a través del siguiente enlace."
+        accept: "Aceptar invitación"
+        accept_until: "Esta invitación vencerá en %{due_date}."
+        ignore: "Si no deseas aceptar la invitación, por favor ignora este correo electrónico. Tu cuenta no se creará hasta que accedas al enlace anterior y establezcas tu contraseña."
+        role_level_1: "Tu cuenta se utilizará para administrar las listas de tu iglesia, grupo y estudio de pasos."
+        role_level_5: "Tu cuenta te permitirá administrar tu lista."
+        role_level_50: "Tu cuenta te permitirá administrar tu lista y las iglesias en tu área."
+        signature: "Gracias,\nEquipo de Celebrate Recovery"
+        logo_alt: "Localizador de Celebrate Recovery"
+        footer: "Estás recibiendo esta comunicación porque alguien ha configurado una cuenta para ti en el CR Locator"
+      invitation_instructions_reminder:
+        subject: "Recordatorio: Instrucciones de invitación"
+
+    omniauth_callbacks:
+      failure: "No se pudo autenticar desde %{kind} porque \"%{reason}\"."
+      success: "Autenticado exitosamente desde la cuenta %{kind}."
+
+    passwords:
+      new:
+        title: "Olvidé mi contraseña - CR Locator"
+        heading: "¿Olvidaste tu contraseña?"
+        email: "Dirección de correo electrónico"
+        forgot_your_password: "¿Olvidaste tu contraseña?"
+        send_me_reset_password_instructions: "Enviarme instrucciones para restablecer la contraseña"
+      no_token: "No puedes acceder a esta página sin venir de un correo electrónico de restablecimiento de contraseña. Si vienes de un correo electrónico de restablecimiento de contraseña, asegúrate de usar la URL completa proporcionada."
+      send_instructions: "Recibirás un correo electrónico con instrucciones sobre cómo restablecer tu contraseña en unos minutos."
+      send_paranoid_instructions: "Si tu dirección de correo electrónico existe en nuestra base de datos, recibirás un enlace de recuperación de contraseña en tu correo electrónico en unos minutos."
+      updated: "Tu contraseña ha sido cambiada exitosamente. Ahora estás conectado."
+      updated_not_active: "Tu contraseña ha sido cambiada exitosamente."
+
+    registrations:
+      destroyed: "¡Adiós! Tu cuenta ha sido cancelada exitosamente. Esperamos verte de nuevo pronto."
+      edit:
+        title: "Editar Perfil - CR Locator"
+        page_title: "Configuración de cuenta"
+        are_you_sure: "¿Estás seguro?"
+        cancel_my_account: "Cancelar mi cuenta"
+        currently_waiting_confirmation_for_email: "Actualmente esperando confirmación para: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "Déjalo en blanco si no quieres cambiarlo"
+        title: "Editar %{resource}"
+        unhappy: "¿No estás contento?"
+        update: "Actualizar"
+        we_need_your_current_password_to_confirm_your_changes: "Necesitamos tu contraseña actual para confirmar tus cambios"
+        phone_number: "Número de teléfono"
+        password_update: "Actualización de contraseña"
+        leave_blank: "(déjalo en blanco si no quieres cambiarlo)"
+        new_password: "Nueva contraseña"
+        current_password_note: "(necesitamos tu contraseña actual para confirmar tus cambios)"
+        update_account: "Actualizar cuenta"
+        or_cancel_account: "O cancelar mi cuenta"
+        cancel_account: "Cancelar mi cuenta"
+      new:
+        title: "Registrarse - CR Locator"
+        heading: "Registrarse"
+        first_name: "Nombre"
+        last_name: "Apellido"
+        email: "Dirección de correo electrónico"
+        phone_number: "Número de teléfono"
+        role: "Selecciona tu rol"
+        role_note: "Nota: Si estás en el personal de la iglesia y eres el líder del ministerio, selecciona Líder del Ministerio ya que serás el contacto para los recién llegados. Tu supervisor será listado como miembro del personal de la iglesia."
+        password: "Contraseña"
+        password_confirmation: "Confirmar contraseña"
+        sign_up: "Registrarse"
+      signed_up: "¡Bienvenido! Te has registrado exitosamente."
+      signed_up_but_inactive: "Te has registrado exitosamente. Sin embargo, no pudimos iniciar tu sesión porque tu cuenta aún no está activada."
+      signed_up_but_locked: "Te has registrado exitosamente. Sin embargo, no pudimos iniciar tu sesión porque tu cuenta está bloqueada."
+      signed_up_but_unconfirmed: "Se ha enviado un mensaje con un enlace de confirmación a tu dirección de correo electrónico. Por favor, sigue el enlace para activar tu cuenta."
+      update_needs_confirmation: "Has actualizado tu cuenta exitosamente, pero necesitamos verificar tu nueva dirección de correo electrónico. Por favor, revisa tu correo electrónico y sigue el enlace de confirmación para confirmar tu nuevo correo electrónico."
+      updated: "Tu cuenta ha sido actualizada exitosamente."
+      updated_but_not_signed_in: "Tu cuenta ha sido actualizada exitosamente, pero como tu contraseña fue cambiada, necesitas iniciar sesión nuevamente."
+
+    sessions:
+      already_signed_out: "Sesión cerrada exitosamente."
+      new:
+        title: "Iniciar sesión - CR Locator"
+        heading: "Inicia sesión en tu cuenta"
+        email: "Dirección de correo electrónico"
+        password: "Contraseña"
+        remember_me: "Recordarme"
+        forgot_your_password: "¿Olvidaste tu contraseña?"
+        sign_in: "Iniciar sesión"
+        back_to_locator: "Volver al Localizador"
+      signed_in: "Sesión iniciada exitosamente."
+      signed_out: "Sesión cerrada exitosamente."
+
+    unlocks:
+      new:
+        title: "Reenviar Instrucciones de Desbloqueo - CR Locator"
+        heading: "Reenviar instrucciones de desbloqueo"
+        email: "Dirección de correo electrónico"
+        resend_unlock_instructions: "Reenviar instrucciones de desbloqueo"
+      send_instructions: "Recibirás un correo electrónico con instrucciones sobre cómo desbloquear tu cuenta en unos minutos."
+      send_paranoid_instructions: "Si tu cuenta existe, recibirás un correo electrónico con instrucciones sobre cómo desbloquearla en unos minutos."
+      unlocked: "Tu cuenta ha sido desbloqueada exitosamente. Por favor, inicia sesión para continuar."
+
+    shared:
+      links:
+        back: "Atrás"
+        didn_t_receive_confirmation_instructions: "¿No recibiste las instrucciones de confirmación?"
+        didn_t_receive_unlock_instructions: "¿No recibiste las instrucciones de desbloqueo?"
+        forgot_your_password: "¿Olvidaste tu contraseña?"
+        sign_in: "Iniciar sesión"
+        sign_in_with_provider: "Iniciar sesión con %{provider}"
+        sign_up: "Registrarse"
+        no_account: "¿No eres miembro?"
+        already_account: "¿Ya tienes una cuenta?"
+        forgot_password: "¿Olvidaste tu contraseña?"
+        confirmation: "¿No recibiste las instrucciones de confirmación?"
+        unlock: "¿No recibiste las instrucciones de desbloqueo?"
+      minimum_password_length:
+        one: "(mínimo 1 carácter)"
+        other: "(mínimo %{count} caracteres)"
+
+    invitations:
+      create:
+        send_instructions: "Se ha enviado un correo electrónico de invitación a %{email}."
+        send_paranoid_instructions: "Si tu dirección de correo electrónico existe en nuestra base de datos, recibirás un correo electrónico de invitación en unos minutos."
+        invited: "El usuario fue invitado exitosamente."
+      destroy:
+        destroyed: "Invitación eliminada exitosamente."
+      edit:
+        header: "Establecer tu contraseña"
+        submit_button: "Establecer mi contraseña"
+      new:
+        header: "Enviar invitación"
+        submit_button: "Enviar una invitación"
+      update:
+        updated: "Tu contraseña fue establecida exitosamente. Ahora estás conectado."
+        updated_not_active: "Tu contraseña fue establecida exitosamente."
+      no_token: "No puedes acceder a esta página sin venir de un correo electrónico de invitación válido. Si vienes de un correo electrónico de restablecimiento de contraseña, asegúrate de usar la URL completa proporcionada."
+      invitation_token_invalid: "¡El token de invitación proporcionado no es válido!"
+      accepted: "¡Invitación aceptada! Tu cuenta ha sido creada exitosamente."
+      removed: "Invitación eliminada."
+      updated: "Tu invitación fue actualizada exitosamente."
+      updated_not_active: "Tu invitación fue actualizada exitosamente."
+      no_invitations_remaining: "No quedan invitaciones"
+      invitation_removed: "Tu invitación fue eliminada." 
+      

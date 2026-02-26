@@ -1,0 +1,17 @@
+da:
+  locator:
+    contact:
+      contact_title: kontakt
+      success: E-mail sendt.
+      invalid: 'Ugyldig indsendelse. Prøv igen.'
+      contact:
+        title: "Kontakt %{rep_name}"
+        detail: Brug dette skema til at sende en anmodning til %{rep_name}. De vil gøre deres bedste for at vende tilbage til dig rettidigt.
+        type: Type repræsentant / fortaler
+        ministry_leader: Tjenesteleder
+        name: Navn
+        phone: Telefonnummer
+        message: Besked
+        back: Tilbage til søger
+        send: Send besked
+        no_results: Der blev ikke fundet noget på denne adresse

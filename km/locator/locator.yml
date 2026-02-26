@@ -1,0 +1,134 @@
+km:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: អ៉ីមែល
+      details: ព័ត៌មានលម្អិត
+      search: ស្វែងរក
+      filter: ចម្រោះ
+      online: តាមអនឡាញ
+      in_person: ផ្ទាល់ខ្លួន
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: ក្រុមធំ
+      open_share_groups: ក្រុមចែករំលែកចំហ
+      step_studies: ការសិក្សាជំហាន
+      distance: "%{distance_unit}"
+      mile: ម៉ាយ
+      kilometer: គីឡូម៉ែត្រ
+      location: ទីតាំង
+      groups: ក្រុម
+      reps: តំណាង
+      language: ភាសា
+      format: ទម្រង់
+      days:
+        sunday: អាទិត្យ
+        monday: ច័ន្ទ
+        tuesday: អង្គារ
+        wednesday: ពុធ
+        thursday: ព្រហស្បតិ៍
+        friday: សុក្រ
+        saturday: សៅរ៍
+      days_short:
+        sunday: អា
+        monday: ច
+        tuesday: អ
+        wednesday: ព
+        thursday: ព្រ
+        friday: សុ
+        saturday: ស
+      days_initial:
+        sunday: អ
+        monday: ច
+        tuesday: អ
+        wednesday: ព
+        thursday: ព
+        friday: ស
+        saturday: ស
+    layouts:
+      partials:
+        header:
+          close_menu: បិទម៉ឺនុយ
+          about: អំពី
+          get_your_cr_on_the_locator: ចុះឈ្មោះ
+          main_menu: ម៉ឺនុយចម្បង
+          login_in: ចូល
+          dashboard: ផ្ទាំងគ្រប់គ្រង
+    home:
+      please_enter_location: "សូមបញ្ចូលទីតាំង ឬលេខកូដប្រៃសណីយ៍ ដើម្បីស្វែងរកក្រុម ឬតំណាង។"
+      email_sent: 'ផ្ញើអ៉ីមែលជោគជ័យ។'
+      index:
+        html_title: ផ្ទះ
+        html_title_groups: ក្រុមនៅ
+        html_title_in: នៅ
+        full_title: CR Locator
+        title: Locator
+        default_title: "រកសេរីភាព រកសហគមន៍ - CR Locator"
+        enter: "សូមបញ្ចូលទីតាំង ឬលេខកូដប្រៃសណីយ៍ ដើម្បីចាប់ផ្តើមស្វែងរក"
+        error: "មានបញ្ហាក្នុងការស្វែងរក។ សូមព្យាយាមម្តងទៀត។"
+        none_found_group: "រកមិនឃើញក្រុមក្នុង %{radius} %{distance_unit}"
+        none_found_rep: "រកមិនឃើញតំណាងក្នុង %{radius} %{distance_unit}"
+        closest_group: "បង្ហាញក្រុមជិតបំផុត។"
+        closest_rep: "បង្ហាញតំណាងជិតបំផុត។"
+        help: "ជំនួយ"
+      form:
+        search_title: ទីតាំង / លេខកូដប្រៃសណីយ៍របស់អ្នក
+        search_placeholder: បញ្ចូលទីតាំង
+        search_nearby: ស្វែងរកជិត
+        location_name: ឈ្មោះទីតាំង
+        search_type: ប្រភេទ
+        radius: កាំ
+        day_of_week: ថ្ងៃក្នុងសប្តាហ៍
+        within_10: "ក្នុង 10 %{distance_unit}"
+        within_25: "ក្នុង 25 %{distance_unit}"
+        within_50: "ក្នុង 50 %{distance_unit}"
+        within_100: "ក្នុង 100 %{distance_unit}"
+        within_150: "ក្នុង 150 %{distance_unit}"
+        within_200: "ក្នុង 200 %{distance_unit}"
+        within_250: "ក្នុង 250 %{distance_unit}"
+        within_500: "ក្នុង 500 %{distance_unit}"
+        rep_ambassador: តំណាង / អ្នកគាំទ្រ
+        all_reps: តំណាង / អ្នកគាំទ្រទាំងអស់
+        all_reps_filter: តំណាង / អ្នកគាំទ្រ
+        cr_reps: តំណាង CR
+        landing_reps: តំណាង Landing
+        celebration_place_reps: តំណាង Celebration Place
+        ambassadors:
+          mental_health: អ្នកគាំទ្រសុខភាពផ្លូវចិត្ត
+          cr_inside: អ្នកគាំទ្រ CR Inside
+          cr_international: អ្នកគាំទ្រ CR International
+          cultural_communities: អ្នកគាំទ្រសហគមន៍វប្បធម៌
+          welcome_home: អ្នកគាំទ្រ Welcome Home
+          opioid: អ្នកគាំទ្រអូពីយ៉ូអ៊ីដ
+          cpr: អ្នកគាំទ្រ CPR
+        all_groups: ក្រុមទាំងអស់
+        all_groups_filter: ក្រុម
+        online_large_group: ក្រុមធំតាមអនឡាញ
+        online_open_share: ក្រុមចែករំលែកចំហតាមអនឡាញ
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: អាហារ Fellowship
+        childcare: ថែទាំកូន
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: មាន
+          offered_in: ផ្តល់ជាភាសា
+    results:
+      partials:
+        group:
+          directions: យកទិស
+          email: អ៉ីមែល
+          language: ភាសាដែលផ្តល់នៅទីនេះ
+          location: ទីតាំង
+          contact: ទំនាក់ទំនងក្រុម
+          rep_contact: ទំនាក់ទំនងតំណាង
+          ministry_leader: អ្នកដឹកនាំសេវា
+          upcomming_step_study: ការសិក្សាជំហានរកមកដល់
+          starting: ចាប់ផ្តើម
+          additional_information: ព័ត៌មានបន្ថែម
+        rep:
+          based_in: "មូលដ្ឋាននៅ %{location}"
+          about: "ព័ត៌មានបន្តិចអំពី %{rep_name}"
+          groups: "%{rep_name} ចូលរួមក្រុមខាងក្រោមរៀងរាល់សប្តាហ៍:"

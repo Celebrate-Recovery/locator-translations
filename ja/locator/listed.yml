@@ -1,0 +1,45 @@
+ja:
+  locator:
+    info:
+      listed:
+        # Page metadata
+        page_title: "あなたのグループをCR ロケーターに登録しましょう" # Get your group listed - CR Locator
+        
+        # Page header
+        subtitle: "CR ロケーター" # CR Locator
+        title: "あなたのグループをCR ロケーターに登録しましょう" # Get your group listed
+        intro: "あなたのCelebrate RecoveryミニストリーをCR ロケーターに登録することにご興味をお持ちいただきありがとうございます！ロケーターにあなたのグループを追加するための以下の要件をご確認ください。" # Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:
+        
+        # Abbreviations
+        abbreviations:
+          fe_cr: "FE CR = フルエクスプレッションCelebrate Recoveryミニストリー" # FE CR = Full Expression Celebrate Recovery Ministry
+          osgo_cr: "OSGO CR = オープンシェアグループ限定Celebrate Recoveryミニストリー" # OSGO CR = Open Share Group Only Celebrate Recovery Ministry
+        
+        # Requirements
+        requirements:
+          running_time:
+            title: "(FE CR) ラージグループ(全体集会)または (OSGO CR) オープンシェアグループは、少なくとも90日間運営されています。" # (FE CR) Celebration Night or (OSGO CR) Open Share Groups have been running for a minimum of 90 days.
+            description: "これには、ステップスタディ、及びに、全体集会開始前のリーダートレーニングは含まれません。" # This does not include the Step Studies/initial Leader training before the launch of Celebration Night.
+          dna:
+            title: "(FEとOSGO CR) 教会とCRの指導者は、Celebrate RecoveryのDNAに同意し、実践し、遵守します。" # (FE and OSGO CR) Church and CR Leadership agree, implement and follow the DNA of Celebrate Recovery
+            link_text: "Celebrate RecoveryのDNA" # DNA of Celebrate Recovery
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf
+            note: "(celebraterecovery.com > Resources > Our DNA)" # (celebraterecovery.com > Resources > Our DNA)
+          training:
+            title: "(OSGO CR) リーダーはオンライントレーニングを修了しました" # (OSGO CR) Leaders completed the Online Training
+            description_html: "CRオープンシェアグループのトレーニングビデオは、Mighty NetworksのCRコミュニティページでご覧いただけます。%{community_link} にアクセスしてプランを選択し、ご参加ください。無料プランと有料プランをご用意しています。CRオープンシェアグループのトレーニングはすべてのプランに含まれています。ご参加後は、ナビゲーションメニューの「無料トレーニング」スペースからトレーニングにアクセスしてください。" # The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training.
+            community_url: "https://celebraterecovery.com/cr-community/" # https://celebraterecovery.com/cr-community/
+        
+        # Next steps
+        next_steps:
+          not_meeting:
+            title: "CRが上記の要件を満たしていない場合：" # If your CR DOES NOT meet the requirements above:
+            content: "手続きを進める前に、Celebrate Recoveryで必要な変更を行ってください。ご不明な点がございましたら、Celebrate Recoveryの代表者までお問い合わせください。CRロケーターに戻り、代表者またはCRグループを検索してください。" # Make the necessary changes at your Celebrate Recovery before proceeding. Please contact a Celebrate Recovery Representative if you have any questions. Return to the CR Locator to search for a Rep or CR group.
+          meeting:
+            title: "CRが上記の要件を満たしている場合：" # If your CR DOES meet the requirements above:
+            content: "以下のリンクをクリックして、CRをロケーターに追加するプロセスを開始してください。" # Click on the link below to begin the process of adding your CR to the Locator.
+        
+        # Action buttons
+        buttons:
+          dashboard: "ダッシュボードに移動" # Go to your dashboard
+          setup: "Celebrate Recoveryグループを設定する" # Setup Your Celebrate Recovery Group

@@ -1,0 +1,134 @@
+hr:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: E-mail
+      details: Detalji
+      search: Pretraži
+      filter: Filter
+      online: Online
+      in_person: Osobno
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Velika grupa
+      open_share_groups: Grupe otvorene dijeljenja
+      step_studies: Studiji koraka
+      distance: "%{distance_unit}"
+      mile: milja
+      kilometer: kilometara
+      location: Lokacija
+      groups: Grupe
+      reps: Predstavnici
+      language: Jezik
+      format: Format
+      days:
+        sunday: Nedjelja
+        monday: Ponedjeljak
+        tuesday: Utorak
+        wednesday: Srijeda
+        thursday: Četvrtak
+        friday: Petak
+        saturday: Subota
+      days_short:
+        sunday: Ned
+        monday: Pon
+        tuesday: Uto
+        wednesday: Sri
+        thursday: Čet
+        friday: Pet
+        saturday: Sub
+      days_initial:
+        sunday: N
+        monday: P
+        tuesday: U
+        wednesday: S
+        thursday: Č
+        friday: P
+        saturday: S
+    layouts:
+      partials:
+        header:
+          close_menu: Zatvori izbornik
+          about: O nama
+          get_your_cr_on_the_locator: Prijavi se
+          main_menu: Glavni izbornik
+          login_in: Prijava
+          dashboard: Nadzorna ploča
+    home:
+      please_enter_location: "Unesite lokaciju ili poštanski broj za pretragu grupa ili predstavnika."
+      email_sent: 'E-mail uspješno poslan.'
+      index:
+        html_title: Početna
+        html_title_groups: Grupe u
+        html_title_in: u
+        full_title: CR Locator
+        title: Locator
+        default_title: "Pronađite slobodu, pronađite zajednicu - CR Locator"
+        enter: "Unesite lokaciju ili poštanski broj za početak pretrage"
+        error: "Došlo je do greške pri pretrazi. Pokušajte ponovno."
+        none_found_group: "Nije pronađena nijedna grupa unutar %{radius} %{distance_unit}"
+        none_found_rep: "Nije pronađen nijedan predstavnik unutar %{radius} %{distance_unit}"
+        closest_group: "Prikazuju se najbliže grupe."
+        closest_rep: "Prikazuju se najbliži predstavnici."
+        help: "Pomoć"
+      form:
+        search_title: Vaša lokacija / poštanski broj
+        search_placeholder: Unesite lokaciju
+        search_nearby: Pretraži u blizini
+        location_name: Naziv lokacije
+        search_type: Vrsta
+        radius: Radius
+        day_of_week: Dani u tjednu
+        within_10: "unutar 10 %{distance_unit}"
+        within_25: "unutar 25 %{distance_unit}"
+        within_50: "unutar 50 %{distance_unit}"
+        within_100: "unutar 100 %{distance_unit}"
+        within_150: "unutar 150 %{distance_unit}"
+        within_200: "unutar 200 %{distance_unit}"
+        within_250: "unutar 250 %{distance_unit}"
+        within_500: "unutar 500 %{distance_unit}"
+        rep_ambassador: Predstavnik / Zagovornik
+        all_reps: Svi predstavnici / Zagovornici
+        all_reps_filter: Predstavnici / Zagovornici
+        cr_reps: CR predstavnici
+        landing_reps: Landing predstavnici
+        celebration_place_reps: Celebration Place predstavnici
+        ambassadors:
+          mental_health: Zagovornik mentalnog zdravlja
+          cr_inside: Zagovornik CR Inside
+          cr_international: Zagovornik CR International
+          cultural_communities: Zagovornik kulturnih zajednica
+          welcome_home: Zagovornik Welcome Home
+          opioid: Zagovornik opioida
+          cpr: Zagovornik CPR
+        all_groups: Sve grupe
+        all_groups_filter: Grupe
+        online_large_group: Online velika grupa
+        online_open_share: Online grupe otvorene dijeljenja
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Fellowship obrok
+        childcare: Dječja njega
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Dostupno
+          offered_in: Nudi se na
+    results:
+      partials:
+        group:
+          directions: Prikaži put
+          email: E-mail
+          language: Jezici koji se ovdje nude
+          location: Lokacija
+          contact: Kontakti grupe
+          rep_contact: Kontakt predstavnika
+          ministry_leader: Voditelj službe
+          upcomming_step_study: Nadolazeći studiji koraka
+          starting: Početak
+          additional_information: Dodatne informacije
+        rep:
+          based_in: "Sjedište u %{location}"
+          about: "Malo o %{rep_name}"
+          groups: "%{rep_name} sudjeluje u sljedećim grupama tjedno:"

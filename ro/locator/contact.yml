@@ -1,0 +1,17 @@
+ro:
+  locator:
+    contact:
+      contact_title: contact
+      success: E-mail trimis cu succes.
+      invalid: 'Trimitere invalidă. Încercați din nou.'
+      contact:
+        title: "Contactați %{rep_name}"
+        detail: Folosiți acest formular pentru a trimite o cerere către %{rep_name}. Se vor strădui să răspundă în timp util.
+        type: Tip reprezentant / Avocat
+        ministry_leader: Lider serviciu
+        name: Nume
+        phone: Număr de telefon
+        message: Mesaj
+        back: Înapoi la căutare
+        send: Trimite mesaj
+        no_results: Nu s-a găsit nimic la această adresă

@@ -1,0 +1,190 @@
+pt:
+  locator:
+    # ============================================================================
+    # SHARED/COMMON TRANSLATIONS
+    # Use these across multiple sections with t('locator.shared.key_name')
+    # ============================================================================
+    shared:
+      # Brand & App Names
+      cr_locator: Encontre um CR # CR Locator
+      locator: Localizador # Locator
+      celebrate_recovery: Celebrando a Recuperação # Celebrate Recovery
+      
+      # Common Actions
+      email: E-mail # Email
+      details: Detalhes # Details
+      search: Pesquisar # Search
+      filter: Filtro # Filter
+      
+      # Meeting Formats
+      online: Online # Online
+      in_person: Presencialmente # In Person
+      
+      # Group Types
+      landing: Celebrando Teens # Landing
+      celebration_place: Local da Celebração # Celebration Place
+      large_group: Grupo Grande # Large Group
+      open_share_groups: Grupos de Apoio # Open Share Groups
+      step_studies: Grupos de Passos # Step Studies
+      
+      # Distance/Location
+      distance: "%{distance_unit}" # %{distance_unit}
+      mile: "Milhas" # miles
+      kilometer: "Quilômetros" # kilometers
+      location: Localização # Location
+      
+      # Common Labels
+      groups: Grupos # Groups
+      reps: Representantes # Reps
+      language: Idioma # Language
+      format: Formato # Format
+      
+      # Days of Week (Full)
+      days:
+        sunday: Domingo # Sunday
+        monday: Segunda-feira # Monday
+        tuesday: Terça-feira # Tuesday
+        wednesday: Quarta-feira # Wednesday
+        thursday: Quinta-feira # Thursday
+        friday: Sexta-feira # Friday
+        saturday: Sábado # Saturday
+      
+      # Days of Week (Short)
+      days_short:
+        sunday: Dom # Sun
+        monday: Seg # Mon
+        tuesday: Ter # Tue
+        wednesday: Qua # Wed
+        thursday: Qui # Thu
+        friday: Sex # Fri
+        saturday: Sáb # Sat
+      
+      # Days of Week (Initial)
+      days_initial:
+        sunday: D # S
+        monday: S # M
+        tuesday: T # T
+        wednesday: Q # W
+        thursday: Q # T
+        friday: S # F
+        saturday: S # S
+
+    # ============================================================================
+    # LAYOUT TRANSLATIONS
+    # ============================================================================
+    layouts:
+      partials:
+        header:
+          close_menu: Fechar Menu # Close Menu
+          about: Sobre # About
+          get_your_cr_on_the_locator: Adicione o seu CR # Get Listed
+          main_menu: Menu Principal # Main Menu
+          login_in: Iniciar Sessão # Login
+          dashboard: Painel de Controle # Dashboard
+
+    # ============================================================================
+    # HOME PAGE TRANSLATIONS
+    # ============================================================================
+    home:
+      # Controller-level messages
+      please_enter_location: "Por favor, insira uma localização ou CEP para pesquisar grupos ou representantes." # Please enter a location or postal code to search for groups or reps.
+      email_sent: 'E-mail enviado com sucesso.' # Email sent successfully.
+
+      # Index page
+      index:
+        # Page metadata
+        html_title: Início # Home
+        html_title_groups: Grupos em # Groups in
+        html_title_in: em # in
+        full_title: Encontre um CR # CR Locator
+        title: Localizador # Locator
+        default_title: "Encontre Liberdade, Encontre Comunhão - Encontre um CR" # Find Freedom, Find Community - CR Locator
+
+        # Search status messages
+        enter: "Por favor, insira uma localização ou CEP para começar sua pesquisa" # Please enter a location or postal code to begin your search
+        error: "Ocorreu um erro ao pesquisar. Por favor, tente novamente." # An error occurred while searching. Please try again.
+        
+        none_found_group: "Nenhum grupo encontrado dentro de %{radius} %{distance_unit}" # No groups found within %{radius} %{distance_unit}
+        none_found_rep: "Nenhum representante encontrado dentro de %{radius} %{distance_unit}" # No reps found within %{radius} %{distance_unit}
+        closest_group: "Mostrando os grupos mais próximos." # Showing the closest groups.
+        closest_rep: "Mostrando os representantes mais próximos." # Showing the closest reps.
+        help: "Ajuda" # Help
+
+      # Search form
+      form:
+        # Form labels
+        search_title: Sua localização / CEP # Your location / ZIP code
+        search_placeholder: Pesquisar # Enter a location
+        search_nearby: "Pesquisar nas proximidades" # Search Nearby
+        location_name: Nome do local # Location name
+        search_type: Tipo # Type
+        radius: Raio # Radius
+        day_of_week: Dia da semana # Days of the week
+        
+        # Radius options (using interpolation)
+        within_10: "dentro de 10 %{distance_unit}" # within 10 %{distance_unit}
+        within_25: "dentro de 25 %{distance_unit}" # within 25 %{distance_unit}
+        within_50: "dentro de 50 %{distance_unit}" # within 50 %{distance_unit}
+        within_100: "dentro de 100 %{distance_unit}" # within 100 %{distance_unit}
+        within_150: "dentro de 150 %{distance_unit}" # within 150 %{distance_unit}
+        within_200: "dentro de 200 %{distance_unit}" # within 200 %{distance_unit}
+        within_250: "dentro de 250 %{distance_unit}" # within 250 %{distance_unit}
+        within_500: "dentro de 500 %{distance_unit}" # within 500 %{distance_unit}
+
+        # Rep/Advocate types
+        rep_ambassador: Representante/Embaixador # Rep / Advocate
+        all_reps: Todos os Representantes/Embaixadores # All Reps / Advocates
+        all_reps_filter: Representantes/Embaixadores # Reps / Advocates
+        cr_reps: Representantes de CR # CR Reps
+        landing_reps: Representantes de Celebrando Teens # Landing Reps
+        celebration_place_reps: Representantes de Locais de Celebração # Celebration Place Reps
+        
+        # Ambassador types
+        ambassadors:
+          mental_health: Embaixador da Saúde Mental # Mental Health Advocate
+          cr_inside: Embaixador da CR Inside # CR Inside Advocate
+          cr_international: Embaixador da CR International # CR International Advocate
+          cultural_communities: Embaixador das Comunidades Culturais # Cultural Communities Advocate
+          welcome_home: Embaixador do Bem Vindo a Casa # Welcome Home Advocate
+          opioid: Embaixador dos Opioides # Opioid Advocate
+          cpr: Embaixador do CPR # CPR Advocate
+
+        # Group types
+        all_groups: Todos os Grupos # All Groups
+        all_groups_filter: Grupos # Groups
+        online_large_group: Grupo Grande Online # Online Large Group
+        online_open_share: Grupos de Apoio Online # Online Open Share Groups
+        
+        # Additional ministries
+        fellowship_cafe: Café de Confraternização # Fellowship Cafe
+        fellowship_meal: Refeição de Confraternização # Fellowship Meal
+        childcare: Creche # Childcare
+
+      # Group partial
+      partials:
+        group:
+          distance: "%{distance_unit}" # %{distance_unit}
+          available: Disponível # Available
+          offered_in: Oferecido em # Offered in
+
+    # ============================================================================
+    # RESULTS PAGE TRANSLATIONS
+    # ============================================================================
+    results:
+      partials:
+        group:
+          directions: Como chegar # Get Directions
+          email: E-mail # Email
+          language: Idiomas oferecidos aqui # Languages Offered Here
+          location: Localização # Location
+          contact: Contatos do grupo # Group Contacts
+          rep_contact: Contato do representante # Rep Contact
+          ministry_leader: Líder do ministério # Ministry Leader
+          upcomming_step_study: Próximos Grupos de Passos # Upcoming Step Studies
+          starting: Iniciando # Starting
+          additional_information: Informação Adicional # Additional Information
+
+        rep:
+          based_in: "Baseado em %{location}" # Based in %{location}
+          about: "Um pouco sobre %{rep_name}" # A little bit about %{rep_name}
+          groups: "%{rep_name} participa dos seguintes grupos semanais:" # %{rep_name} is a part of the following groups weekly:

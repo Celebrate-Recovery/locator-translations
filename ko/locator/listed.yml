@@ -1,0 +1,34 @@
+ko:
+  locator:
+    info:
+      listed:
+        page_title: "그룹 등록하기 - CR Locator"
+        subtitle: "CR Locator"
+        title: "그룹 등록하기"
+        intro: "CR Locator에 Celebrate Recovery 사역을 등록해 주시려는 관심에 감사드립니다! 아래에서 로케이터에 그룹을 추가하기 위한 요건을 읽어 주세요:"
+        abbreviations:
+          fe_cr: "FE CR = 풀 익스프레션 Celebrate Recovery 사역"
+          osgo_cr: "OSGO CR = 오픈 셰어 그룹 전용 Celebrate Recovery 사역"
+        requirements:
+          running_time:
+            title: "(FE CR) 셀러브레이션 나이트 또는 (OSGO CR) 오픈 셰어 그룹이 최소 90일 이상 운영되었습니다."
+            description: "셀러브레이션 나이트 시작 전 스텝 스터디/초기 리더 훈련은 포함되지 않습니다."
+          dna:
+            title: "(FE 및 OSGO CR) 교회와 CR 리더십이 Celebrate Recovery의 DNA에 동의하고 실행하며 따릅니다"
+            link_text: "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)"
+          training:
+            title: "(OSGO CR) 리더가 온라인 훈련을 완료했습니다"
+            description_html: "CR 오픈 셰어 그룹 훈련 영상은 Mighty Networks의 CR Community 페이지에서 볼 수 있습니다. %{community_link}로 가서 플랜을 선택하고 가입하세요. 무료 및 유료 플랜이 있습니다. CR 오픈 셰어 그룹 훈련은 모든 플랜에 포함됩니다. 가입 후 내비게이션 메뉴에서 FREE TRAINING으로 가서 훈련을 찾으세요."
+            community_url: "https://celebraterecovery.com/cr-community/"
+        next_steps:
+          not_meeting:
+            title: "위 요건을 충족하지 않는 경우:"
+            content: "진행하기 전에 Celebrate Recovery에서 필요한 변경을 하세요. 질문이 있으면 Celebrate Recovery 대표에게 연락하세요. 대표 또는 CR 그룹 검색을 위해 CR Locator로 돌아가세요."
+          meeting:
+            title: "위 요건을 충족하는 경우:"
+            content: "아래 링크를 클릭하여 CR을 로케이터에 추가하는 과정을 시작하세요."
+        buttons:
+          dashboard: "대시보드로 이동"
+          setup: "Celebrate Recovery 그룹 설정"

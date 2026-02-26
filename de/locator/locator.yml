@@ -1,0 +1,134 @@
+de:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: E-Mail
+      details: Details
+      search: Suchen
+      filter: Filter
+      online: Online
+      in_person: Persönlich
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Große Gruppe
+      open_share_groups: Offene Share-Gruppen
+      step_studies: Schrittenstudien
+      distance: "%{distance_unit}"
+      mile: Meilen
+      kilometer: Kilometer
+      location: Standort
+      groups: Gruppen
+      reps: Repräsentanten
+      language: Sprache
+      format: Format
+      days:
+        sunday: Sonntag
+        monday: Montag
+        tuesday: Dienstag
+        wednesday: Mittwoch
+        thursday: Donnerstag
+        friday: Freitag
+        saturday: Samstag
+      days_short:
+        sunday: So
+        monday: Mo
+        tuesday: Di
+        wednesday: Mi
+        thursday: Do
+        friday: Fr
+        saturday: Sa
+      days_initial:
+        sunday: S
+        monday: M
+        tuesday: D
+        wednesday: M
+        thursday: D
+        friday: F
+        saturday: S
+    layouts:
+      partials:
+        header:
+          close_menu: Menü schließen
+          about: Über uns
+          get_your_cr_on_the_locator: Eintragen
+          main_menu: Hauptmenü
+          login_in: Anmelden
+          dashboard: Dashboard
+    home:
+      please_enter_location: "Bitte geben Sie einen Ort oder eine Postleitzahl ein, um nach Gruppen oder Repräsentanten zu suchen."
+      email_sent: 'E-Mail erfolgreich gesendet.'
+      index:
+        html_title: Startseite
+        html_title_groups: Gruppen in
+        html_title_in: in
+        full_title: CR Locator
+        title: Locator
+        default_title: "Freiheit finden, Gemeinschaft finden - CR Locator"
+        enter: "Bitte geben Sie einen Ort oder eine Postleitzahl ein, um die Suche zu starten"
+        error: "Bei der Suche ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+        none_found_group: "Keine Gruppen innerhalb von %{radius} %{distance_unit} gefunden"
+        none_found_rep: "Keine Repräsentanten innerhalb von %{radius} %{distance_unit} gefunden"
+        closest_group: "Nächstgelegene Gruppen werden angezeigt."
+        closest_rep: "Nächstgelegene Repräsentanten werden angezeigt."
+        help: "Hilfe"
+      form:
+        search_title: Ihr Standort / Postleitzahl
+        search_placeholder: Ort eingeben
+        search_nearby: In der Nähe suchen
+        location_name: Ortsname
+        search_type: Typ
+        radius: Radius
+        day_of_week: Wochentage
+        within_10: "innerhalb von 10 %{distance_unit}"
+        within_25: "innerhalb von 25 %{distance_unit}"
+        within_50: "innerhalb von 50 %{distance_unit}"
+        within_100: "innerhalb von 100 %{distance_unit}"
+        within_150: "innerhalb von 150 %{distance_unit}"
+        within_200: "innerhalb von 200 %{distance_unit}"
+        within_250: "innerhalb von 250 %{distance_unit}"
+        within_500: "innerhalb von 500 %{distance_unit}"
+        rep_ambassador: Repräsentant / Advocate
+        all_reps: Alle Repräsentanten / Advocates
+        all_reps_filter: Repräsentanten / Advocates
+        cr_reps: CR-Repräsentanten
+        landing_reps: Landing-Repräsentanten
+        celebration_place_reps: Celebration Place-Repräsentanten
+        ambassadors:
+          mental_health: Advocate psychische Gesundheit
+          cr_inside: CR Inside Advocate
+          cr_international: CR International Advocate
+          cultural_communities: Advocate kulturelle Gemeinschaften
+          welcome_home: Welcome Home Advocate
+          opioid: Opioid Advocate
+          cpr: CPR Advocate
+        all_groups: Alle Gruppen
+        all_groups_filter: Gruppen
+        online_large_group: Online große Gruppe
+        online_open_share: Online Offene Share-Gruppen
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Fellowship-Mahl
+        childcare: Kinderbetreuung
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Verfügbar
+          offered_in: Angeboten in
+    results:
+      partials:
+        group:
+          directions: Route anzeigen
+          email: E-Mail
+          language: Hier angebotene Sprachen
+          location: Standort
+          contact: Gruppenkontakte
+          rep_contact: Repräsentantenkontakt
+          ministry_leader: Leiter der Dienststelle
+          upcomming_step_study: Kommende Schrittenstudien
+          starting: Start
+          additional_information: Zusätzliche Informationen
+        rep:
+          based_in: "Sitz in %{location}"
+          about: "Ein wenig über %{rep_name}"
+          groups: "%{rep_name} nimmt wöchentlich an folgenden Gruppen teil:"

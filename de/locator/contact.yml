@@ -1,0 +1,17 @@
+de:
+  locator:
+    contact:
+      contact_title: Kontakt
+      success: E-Mail erfolgreich gesendet.
+      invalid: 'Ungültige Eingabe. Bitte versuchen Sie es erneut.'
+      contact:
+        title: "Kontakt mit %{rep_name} aufnehmen"
+        detail: Nutzen Sie dieses Formular, um eine Anfrage an %{rep_name} zu senden. Er oder sie wird sich zeitnah bei Ihnen melden.
+        type: Typ Repräsentant / Advocate
+        ministry_leader: Leiter der Dienststelle
+        name: Name
+        phone: Telefonnummer
+        message: Nachricht
+        back: Zurück zur Suche
+        send: Nachricht senden
+        no_results: An dieser Adresse wurde nichts gefunden

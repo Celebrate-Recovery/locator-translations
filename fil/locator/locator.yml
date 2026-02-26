@@ -1,0 +1,190 @@
+fil:
+  locator:
+    # ============================================================================
+    # SHARED/COMMON TRANSLATIONS
+    # Use these across multiple sections with t('locator.shared.key_name')
+    # ============================================================================
+    shared:
+      # Brand & App Names
+      cr_locator: CR Tagahanap # CR Locator
+      locator: Tagahanap # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      
+      # Common Actions
+      email: Email # Email
+      details: Mga Detalye # Details
+      search: Maghanap # Search
+      filter: I-filter # Filter
+      
+      # Meeting Formats
+      online: Online # Online
+      in_person: Personal # In Person
+      
+      # Group Types
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Malaking Grupo # Large Group
+      open_share_groups: Bukas na Grupo ng Pagbabahagi # Open Share Groups
+      step_studies: Step Studies # Step Studies
+      
+      # Distance/Location
+      distance: "%{distance_unit}" # %{distance_unit}
+      mile: milya # miles
+      kilometer: kilometro # kilometers
+      location: Lokasyon # Location
+      
+      # Common Labels
+      groups: Mga Grupo # Groups
+      reps: Mga Kinatawan # Reps
+      language: Wika # Language
+      format: Format # Format
+      
+      # Days of Week (Full)
+      days:
+        sunday: Linggo # Sunday
+        monday: Lunes # Monday
+        tuesday: Martes # Tuesday
+        wednesday: Miyerkules # Wednesday
+        thursday: Huwebes # Thursday
+        friday: Biyernes # Friday
+        saturday: Sabado # Saturday
+      
+      # Days of Week (Short)
+      days_short:
+        sunday: Lin # Sun
+        monday: Lun # Mon
+        tuesday: Mar # Tue
+        wednesday: Miy # Wed
+        thursday: Huw # Thu
+        friday: Biy # Fri
+        saturday: Sab # Sat
+      
+      # Days of Week (Initial)
+      days_initial:
+        sunday: L # S
+        monday: L # M
+        tuesday: M # T
+        wednesday: M # W
+        thursday: H # T
+        friday: B # F
+        saturday: S # S
+
+    # ============================================================================
+    # LAYOUT TRANSLATIONS
+    # ============================================================================
+    layouts:
+      partials:
+        header:
+          close_menu: Isara ang Menu # Close Menu
+          about: Tungkol Sa # About
+          get_your_cr_on_the_locator: Ipasok ang iyong CR sa Tagahanap # Get Listed
+          main_menu: Pangunahing Menu # Main Menu
+          login_in: Mag-login # Login
+          dashboard: Dashboard # Dashboard
+
+    # ============================================================================
+    # HOME PAGE TRANSLATIONS
+    # ============================================================================
+    home:
+      # Controller-level messages
+      please_enter_location: "Mangyaring magpasok ng lokasyon o postal code para maghanap ng mga grupo o kinatawan." # Please enter a location or postal code to search for groups or reps.
+      email_sent: 'Matagumpay na naipadala ang email.' # Email sent successfully.
+
+      # Index page
+      index:
+        # Page metadata
+        html_title: Home # Home
+        html_title_groups: Mga Grupo sa # Groups in
+        html_title_in: sa # in
+        full_title: CR Tagahanap # CR Locator
+        title: Tagahanap # Locator
+        default_title: "Hanapin ang Kalayaan, Hanapin ang Komunidad - CR Tagahanap" # Find Freedom, Find Community - CR Locator
+
+        # Search status messages
+        enter: "Mangyaring magpasok ng lokasyon o postal code para magsimula ng iyong paghahanap" # Please enter a location or postal code to begin your search
+        error: "May naganap na error habang naghahanap. Mangyaring subukan muli." # An error occurred while searching. Please try again.
+        
+        none_found_group: "Walang nahanap na grupo sa loob ng %{radius} %{distance_unit}" # No groups found within %{radius} %{distance_unit}
+        none_found_rep: "Walang nahanap na kinatawan sa loob ng %{radius} %{distance_unit}" # No reps found within %{radius} %{distance_unit}
+        closest_group: "Ipinapakita ang pinakamalapit na grupo." # Showing the closest groups.
+        closest_rep: "Ipinapakita ang pinakamalapit na kinatawan." # Showing the closest reps.
+        help: "Tulong" # Help
+
+      # Search form
+      form:
+        # Form labels
+        search_title: Iyong lokasyon / ZIP code # Your location / ZIP code
+        search_placeholder: Maghanap # Enter a location
+        search_nearby: "Maghanap sa paligid mo" # Search Nearby
+        location_name: Pangalan ng Lokasyon # Location name
+        search_type: Uri # Type
+        radius: Radius # Radius
+        day_of_week: Mga araw ng linggo # Days of the week
+        
+        # Radius options (using interpolation)
+        within_10: "sa loob ng 10 %{distance_unit}" # within 10 %{distance_unit}
+        within_25: "sa loob ng 25 %{distance_unit}" # within 25 %{distance_unit}
+        within_50: "sa loob ng 50 %{distance_unit}" # within 50 %{distance_unit}
+        within_100: "sa loob ng 100 %{distance_unit}" # within 100 %{distance_unit}
+        within_150: "sa loob ng 150 %{distance_unit}" # within 150 %{distance_unit}
+        within_200: "sa loob ng 200 %{distance_unit}" # within 200 %{distance_unit}
+        within_250: "sa loob ng 250 %{distance_unit}" # within 250 %{distance_unit}
+        within_500: "sa loob ng 500 %{distance_unit}" # within 500 %{distance_unit}
+
+        # Rep/Advocate types
+        rep_ambassador: Kinatawan / Embahador # Rep / Advocate
+        all_reps: Lahat ng Kinatawan / Embahador # All Reps / Advocates
+        all_reps_filter: Mga Kinatawan / Embahador # Reps / Advocates
+        cr_reps: CR Kinatawan # CR Reps
+        landing_reps: Landing Kinatawan # Landing Reps
+        celebration_place_reps: Celebration Place Kinatawan # Celebration Place Reps
+        
+        # Ambassador types
+        ambassadors:
+          mental_health: Mental Health Embahador # Mental Health Advocate
+          cr_inside: CR Inside Embahador # CR Inside Advocate
+          cr_international: CR International Embahador # CR International Advocate
+          cultural_communities: Cultural Communities Embahador # Cultural Communities Advocate
+          welcome_home: Welcome Home Embahador # Welcome Home Advocate
+          opioid: Opioid Embahador # Opioid Advocate
+          cpr: CPR Embahador # CPR Advocate
+
+        # Group types
+        all_groups: Lahat ng Grupo # All Groups
+        all_groups_filter: Mga Grupo # Groups
+        online_large_group: Online na Malaking Grupo # Online Large Group
+        online_open_share: Online na Bukas na Grupo ng Pagbabahagi # Online Open Share Groups
+        
+        # Additional ministries
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship Meal # Fellowship Meal
+        childcare: Pag-aalaga ng Bata # Childcare
+
+      # Group partial
+      partials:
+        group:
+          distance: "%{distance_unit}" # %{distance_unit}
+          available: Magagamit # Available
+          offered_in: Inalok sa # Offered in
+
+    # ============================================================================
+    # RESULTS PAGE TRANSLATIONS
+    # ============================================================================
+    results:
+      partials:
+        group:
+          directions: Kumuha ng Direksyon # Get Directions
+          email: Email # Email
+          language: Mga Wikang Inalok Dito # Languages Offered Here
+          location: Lokasyon # Location
+          contact: Mga Kontak ng Grupo # Group Contacts
+          rep_contact: Kontak ng Kinatawan # Rep Contact
+          ministry_leader: Lider ng Ministeryo # Ministry Leader
+          upcomming_step_study: Paparating na Step Studies # Upcoming Step Studies
+          starting: Simula # Starting
+          additional_information: Karagdagang Impormasyon # Additional Information
+
+        rep:
+          based_in: "Nakabase sa %{location}" # Based in %{location}
+          about: "Kaunting impormasyon tungkol kay %{rep_name}" # A little bit about %{rep_name}
+          groups: "Si %{rep_name} ay bahagi ng sumusunod na mga grupo linggo-linggo:" # %{rep_name} is a part of the following groups weekly:

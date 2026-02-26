@@ -1,0 +1,17 @@
+nl:
+  locator:
+    contact:
+      contact_title: contact
+      success: E-mail succesvol verzonden.
+      invalid: 'Ongeldige formulierinzending. Probeer het opnieuw.'
+      contact:
+        title: "Neem contact op met %{rep_name}"
+        detail: Gebruik dit formulier om een verzoek te sturen naar %{rep_name}. Zij zullen zo snel mogelijk reageren.
+        type: Type vertegenwoordiger / pleitbezorger
+        ministry_leader: Leider van de bediening
+        name: Naam
+        phone: Telefoonnummer
+        message: Bericht
+        back: Terug naar zoeker
+        send: Bericht verzenden
+        no_results: Op dit adres is niets gevonden

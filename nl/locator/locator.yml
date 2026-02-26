@@ -1,0 +1,134 @@
+nl:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: E-mail
+      details: Details
+      search: Zoeken
+      filter: Filter
+      online: Online
+      in_person: Persoonlijk
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Grote groep
+      open_share_groups: Open Share-groepen
+      step_studies: Stappenstudies
+      distance: "%{distance_unit}"
+      mile: mijl
+      kilometer: kilometer
+      location: Locatie
+      groups: Groepen
+      reps: Vertegenwoordigers
+      language: Taal
+      format: Formaat
+      days:
+        sunday: zondag
+        monday: maandag
+        tuesday: dinsdag
+        wednesday: woensdag
+        thursday: donderdag
+        friday: vrijdag
+        saturday: zaterdag
+      days_short:
+        sunday: zo
+        monday: ma
+        tuesday: di
+        wednesday: wo
+        thursday: do
+        friday: vr
+        saturday: za
+      days_initial:
+        sunday: Z
+        monday: M
+        tuesday: D
+        wednesday: W
+        thursday: D
+        friday: V
+        saturday: Z
+    layouts:
+      partials:
+        header:
+          close_menu: Menu sluiten
+          about: Over
+          get_your_cr_on_the_locator: Aanmelden
+          main_menu: Hoofdmenu
+          login_in: Inloggen
+          dashboard: Dashboard
+    home:
+      please_enter_location: "Voer een locatie of postcode in om te zoeken naar groepen of vertegenwoordigers."
+      email_sent: 'E-mail succesvol verzonden.'
+      index:
+        html_title: Home
+        html_title_groups: Groepen in
+        html_title_in: in
+        full_title: CR Locator
+        title: Locator
+        default_title: "Vind vrijheid, vind gemeenschap - CR Locator"
+        enter: "Voer een locatie of postcode in om te beginnen met zoeken"
+        error: "Er is een fout opgetreden bij het zoeken. Probeer het opnieuw."
+        none_found_group: "Geen groepen gevonden binnen %{radius} %{distance_unit}"
+        none_found_rep: "Geen vertegenwoordigers gevonden binnen %{radius} %{distance_unit}"
+        closest_group: "Dichtstbijzijnde groepen worden getoond."
+        closest_rep: "Dichtstbijzijnde vertegenwoordigers worden getoond."
+        help: "Help"
+      form:
+        search_title: Uw locatie / postcode
+        search_placeholder: Voer een locatie in
+        search_nearby: Zoek in de buurt
+        location_name: Locatienaam
+        search_type: Type
+        radius: Straal
+        day_of_week: Dagen van de week
+        within_10: "binnen 10 %{distance_unit}"
+        within_25: "binnen 25 %{distance_unit}"
+        within_50: "binnen 50 %{distance_unit}"
+        within_100: "binnen 100 %{distance_unit}"
+        within_150: "binnen 150 %{distance_unit}"
+        within_200: "binnen 200 %{distance_unit}"
+        within_250: "binnen 250 %{distance_unit}"
+        within_500: "binnen 500 %{distance_unit}"
+        rep_ambassador: Vertegenwoordiger / pleitbezorger
+        all_reps: Alle vertegenwoordigers / pleitbezorgers
+        all_reps_filter: Vertegenwoordigers / pleitbezorgers
+        cr_reps: CR-vertegenwoordigers
+        landing_reps: Landing-vertegenwoordigers
+        celebration_place_reps: Celebration Place-vertegenwoordigers
+        ambassadors:
+          mental_health: Pleitbezorger geestelijke gezondheid
+          cr_inside: CR Inside-pleitbezorger
+          cr_international: CR International-pleitbezorger
+          cultural_communities: Pleitbezorger culturele gemeenschappen
+          welcome_home: Welcome Home-pleitbezorger
+          opioid: Opioïde-pleitbezorger
+          cpr: CPR-pleitbezorger
+        all_groups: Alle groepen
+        all_groups_filter: Groepen
+        online_large_group: Online grote groep
+        online_open_share: Online Open Share-groepen
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Fellowship-maaltijd
+        childcare: Kinderopvang
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Beschikbaar
+          offered_in: Aangeboden in
+    results:
+      partials:
+        group:
+          directions: Routebeschrijving
+          email: E-mail
+          language: Talen die hier worden aangeboden
+          location: Locatie
+          contact: Groepscontacten
+          rep_contact: Contact vertegenwoordiger
+          ministry_leader: Leider van de bediening
+          upcomming_step_study: Komende stappenstudies
+          starting: Start
+          additional_information: Aanvullende informatie
+        rep:
+          based_in: "Gevestigd in %{location}"
+          about: "Een beetje over %{rep_name}"
+          groups: "%{rep_name} neemt wekelijks deel aan de volgende groepen:"

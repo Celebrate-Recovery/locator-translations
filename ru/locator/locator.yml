@@ -1,0 +1,134 @@
+ru:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: Email
+      details: Подробнее
+      search: Поиск
+      filter: Фильтр
+      online: Онлайн
+      in_person: Лично
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Большая группа
+      open_share_groups: Группы открытого обмена
+      step_studies: Изучение шагов
+      distance: "%{distance_unit}"
+      mile: миль
+      kilometer: километров
+      location: Место
+      groups: Группы
+      reps: Представители
+      language: Язык
+      format: Формат
+      days:
+        sunday: Воскресенье
+        monday: Понедельник
+        tuesday: Вторник
+        wednesday: Среда
+        thursday: Четверг
+        friday: Пятница
+        saturday: Суббота
+      days_short:
+        sunday: Вс
+        monday: Пн
+        tuesday: Вт
+        wednesday: Ср
+        thursday: Чт
+        friday: Пт
+        saturday: Сб
+      days_initial:
+        sunday: В
+        monday: П
+        tuesday: В
+        wednesday: С
+        thursday: Ч
+        friday: П
+        saturday: С
+    layouts:
+      partials:
+        header:
+          close_menu: Закрыть меню
+          about: О нас
+          get_your_cr_on_the_locator: Зарегистрироваться
+          main_menu: Главное меню
+          login_in: Вход
+          dashboard: Панель
+    home:
+      please_enter_location: "Введите место или почтовый индекс для поиска групп или представителей."
+      email_sent: 'Письмо успешно отправлено.'
+      index:
+        html_title: Главная
+        html_title_groups: Группы в
+        html_title_in: в
+        full_title: CR Locator
+        title: Locator
+        default_title: "Найдите свободу, найдите сообщество - CR Locator"
+        enter: "Введите место или почтовый индекс для начала поиска"
+        error: "Произошла ошибка при поиске. Попробуйте снова."
+        none_found_group: "Группы в радиусе %{radius} %{distance_unit} не найдены"
+        none_found_rep: "Представители в радиусе %{radius} %{distance_unit} не найдены"
+        closest_group: "Показаны ближайшие группы."
+        closest_rep: "Показаны ближайшие представители."
+        help: "Помощь"
+      form:
+        search_title: Ваше местоположение / индекс
+        search_placeholder: Введите место
+        search_nearby: Искать рядом
+        location_name: Название места
+        search_type: Тип
+        radius: Радиус
+        day_of_week: Дни недели
+        within_10: "в радиусе 10 %{distance_unit}"
+        within_25: "в радиусе 25 %{distance_unit}"
+        within_50: "в радиусе 50 %{distance_unit}"
+        within_100: "в радиусе 100 %{distance_unit}"
+        within_150: "в радиусе 150 %{distance_unit}"
+        within_200: "в радиусе 200 %{distance_unit}"
+        within_250: "в радиусе 250 %{distance_unit}"
+        within_500: "в радиусе 500 %{distance_unit}"
+        rep_ambassador: Представитель / Адвокат
+        all_reps: Все представители / Адвокаты
+        all_reps_filter: Представители / Адвокаты
+        cr_reps: Представители CR
+        landing_reps: Представители Landing
+        celebration_place_reps: Представители Celebration Place
+        ambassadors:
+          mental_health: Адвокат психического здоровья
+          cr_inside: Адвокат CR Inside
+          cr_international: Адвокат CR International
+          cultural_communities: Адвокат культурных сообществ
+          welcome_home: Адвокат Welcome Home
+          opioid: Адвокат опиоидов
+          cpr: Адвокат CPR
+        all_groups: Все группы
+        all_groups_filter: Группы
+        online_large_group: Онлайн большая группа
+        online_open_share: Онлайн группы открытого обмена
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Трапеза Fellowship
+        childcare: Детская комната
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Доступно
+          offered_in: Проводится на
+    results:
+      partials:
+        group:
+          directions: Маршрут
+          email: Email
+          language: Языки проведения
+          location: Место
+          contact: Контакты группы
+          rep_contact: Контакт представителя
+          ministry_leader: Руководитель служения
+          upcomming_step_study: Предстоящие изучения шагов
+          starting: Начало
+          additional_information: Дополнительная информация
+        rep:
+          based_in: "Находится в %{location}"
+          about: "Немного о %{rep_name}"
+          groups: "%{rep_name} еженедельно участвует в следующих группах:"

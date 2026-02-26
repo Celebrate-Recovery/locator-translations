@@ -1,0 +1,30 @@
+tr:
+  locator:
+    info:
+      about:
+        page_title: "Grup bulucu hakkında - CR Locator"
+        title: "Celebrate Recovery Bulucu sitesi hakkında"
+        subtitle: "CR Locator"
+        intro: "Celebrate Recovery Bulucu sitesine hoş geldiniz. Yakınınızdaki Celebrate Recovery gruplarını ve adım çalışmalarını bulmak için kapsamlı aracınız. Sitemiz, yüz yüze toplantı veya çevrimiçi destek arıyor olsanız da Mesih merkezli bir iyileşme topluluğuyla bağlantı kurmanıza yardımcı olmak için tasarlanmıştır."
+        testimonial:
+          quote: "Dibe vurduğumu ve umut kalmadığını düşündüğümde, yakınımda bir grup bulup iyileşme topluluğuna katılabildim. Mesih'te yaşamı paylaşmak için güvenli bir alan yaratan bu inanlılar topluluğundaki umut için minnettarım."
+          author: "Rodney Holmstrom"
+          location: "Rogers, AK"
+        sections:
+          find_group:
+            title: "Yakınınızda bir grup bulun"
+            content: "Kullanımı kolay Grup Bulucu aracımız, mevcut konumunuza göre Celebrate Recovery toplantılarını aramanızı sağlar. Adresinizi girin, size yakındaki grupların listesini sunalım. Her kayıt toplantı saatleri, konumlar ve özel odak alanları hakkında bilgi içerir; böylece iyileşme yolculuğunuz için en uygun grubu bulabilirsiniz."
+          step_studies:
+            title: "Adım çalışmalarını keşfedin"
+            content: "Celebrate Recovery'de iyileşme ilkelerini derinlemesine inceleyen adım çalışmaları sunuyoruz. Hem çevrimiçi hem yüz yüze adım çalışmalarını arayabilir, programınıza ve tercihlerinize uygun formatı bulabilirsiniz. İster çevrimiçi grubu ister yüz yüze toplantıları tercih edin, Celebrate Recovery büyümenizi destekleyecek seçeneklere sahiptir."
+          connect:
+            title: "Temsilciler ve savunucularla bağlantı kurun"
+            content: "Grup toplantılarına ek olarak platformumuz, yerel Celebrate Recovery temsilcileri ve savunucularıyla bağlantı kurmanıza yardımcı olur. Bu adanmış kişiler rehberlik sunmak, sorularınızı yanıtlamak ve iyileşme yolculuğunuzda sizi desteklemek için buradalar. Bölgenizdeki temsilcileri ve savunucuları bulmak ve iletişime geçmek için arama özelliğimizi kullanın."
+          churches:
+            title: "Kiliselere"
+            content: "Celebrate Recovery dünya çapında kiliselerle ortaklık yapmaktan gurur duyar. Platformumuz kiliselerin kendi grup kayıtlarını yönetmesine olanak tanır; böylece bilgiler güncel ve doğru kalır. Kiliseler Celebrate Recovery programlarına ilişkin fotoğraflar, açıklamalar ve bilgilerle kayıtlarını özelleştirebilir; yardım arayanlar için davetkar bir ortam oluşturabilir."
+          about_cr:
+            title: "Celebrate Recovery hakkında"
+            content_html: "Celebrate Recovery, topluluk ve yaralarınızdan, alışkanlıklarınızdan ve takıntılarınızdan özgürlük bulabileceğiniz Mesih merkezli bir iyileşme programıdır. İyileşmeye yeni başlıyor veya sürekli destek arıyor olsanız da Celebrate Recovery yardım etmek için buradadır.<br /><br />Celebrate Recovery'de topluluğun gücüne ve birlikte iyileşme ve bütünlüğe doğru yürürken gelen umuda inanıyoruz. Bize katılın ve Mesih'te özgürlük bulmak için güvenli bir yer keşfedin.<br /><br />Celebrate Recovery hakkında daha fazla bilgi %{cr_link} veya grup veya temsilci bulmak için %{locator_link} sayfasına dönün"
+            cr_link_text: "burada"
+            locator_link_text: "CR Locator"

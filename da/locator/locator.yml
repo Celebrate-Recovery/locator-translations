@@ -1,0 +1,134 @@
+da:
+  locator:
+    shared:
+      cr_locator: CR Locator
+      locator: Locator
+      celebrate_recovery: Celebrate Recovery
+      email: E-mail
+      details: Detaljer
+      search: Søg
+      filter: Filter
+      online: Online
+      in_person: Personligt
+      landing: Landing
+      celebration_place: Celebration Place
+      large_group: Stor gruppe
+      open_share_groups: Åbne delingsgrupper
+      step_studies: Trin-studier
+      distance: "%{distance_unit}"
+      mile: mil
+      kilometer: kilometer
+      location: Beliggenhed
+      groups: Grupper
+      reps: Repræsentanter
+      language: Sprog
+      format: Format
+      days:
+        sunday: søndag
+        monday: mandag
+        tuesday: tirsdag
+        wednesday: onsdag
+        thursday: torsdag
+        friday: fredag
+        saturday: lørdag
+      days_short:
+        sunday: søn
+        monday: man
+        tuesday: tir
+        wednesday: ons
+        thursday: tor
+        friday: fre
+        saturday: lør
+      days_initial:
+        sunday: S
+        monday: M
+        tuesday: T
+        wednesday: O
+        thursday: T
+        friday: F
+        saturday: L
+    layouts:
+      partials:
+        header:
+          close_menu: Luk menu
+          about: Om
+          get_your_cr_on_the_locator: Bliv listet
+          main_menu: Hovedmenu
+          login_in: Log ind
+          dashboard: Dashboard
+    home:
+      please_enter_location: "Indtast en adresse eller postnummer for at søge efter grupper eller repræsentanter."
+      email_sent: 'E-mail sendt.'
+      index:
+        html_title: Hjem
+        html_title_groups: Grupper i
+        html_title_in: i
+        full_title: CR Locator
+        title: Locator
+        default_title: "Find frihed, find fællesskab - CR Locator"
+        enter: "Indtast en adresse eller postnummer for at starte din søgning"
+        error: "Der opstod en fejl under søgningen. Prøv igen."
+        none_found_group: "Ingen grupper fundet inden for %{radius} %{distance_unit}"
+        none_found_rep: "Ingen repræsentanter fundet inden for %{radius} %{distance_unit}"
+        closest_group: "Nærmeste grupper vises."
+        closest_rep: "Nærmeste repræsentanter vises."
+        help: "Hjælp"
+      form:
+        search_title: Din adresse / postnummer
+        search_placeholder: Indtast en adresse
+        search_nearby: Søg i nærheden
+        location_name: Stednavn
+        search_type: Type
+        radius: Radius
+        day_of_week: Ugedage
+        within_10: "inden for 10 %{distance_unit}"
+        within_25: "inden for 25 %{distance_unit}"
+        within_50: "inden for 50 %{distance_unit}"
+        within_100: "inden for 100 %{distance_unit}"
+        within_150: "inden for 150 %{distance_unit}"
+        within_200: "inden for 200 %{distance_unit}"
+        within_250: "inden for 250 %{distance_unit}"
+        within_500: "inden for 500 %{distance_unit}"
+        rep_ambassador: Repræsentant / fortaler
+        all_reps: Alle repræsentanter / fortalere
+        all_reps_filter: Repræsentanter / fortalere
+        cr_reps: CR-repræsentanter
+        landing_reps: Landing-repræsentanter
+        celebration_place_reps: Celebration Place-repræsentanter
+        ambassadors:
+          mental_health: Fortaler for mental sundhed
+          cr_inside: CR Inside-fortaler
+          cr_international: CR International-fortaler
+          cultural_communities: Fortaler for kulturelle fællesskaber
+          welcome_home: Welcome Home-fortaler
+          opioid: Opioid-fortaler
+          cpr: CPR-fortaler
+        all_groups: Alle grupper
+        all_groups_filter: Grupper
+        online_large_group: Online stor gruppe
+        online_open_share: Online åbne delingsgrupper
+        fellowship_cafe: Fellowship Cafe
+        fellowship_meal: Fellowship-måltid
+        childcare: Børnepasning
+      partials:
+        group:
+          distance: "%{distance_unit}"
+          available: Tilgængelig
+          offered_in: Tilbydes på
+    results:
+      partials:
+        group:
+          directions: Få rutevejledning
+          email: E-mail
+          language: Sprog tilbudt her
+          location: Beliggenhed
+          contact: Gruppekontakter
+          rep_contact: Kontakt repræsentant
+          ministry_leader: Tjenesteleder
+          upcomming_step_study: Kommende trin-studier
+          starting: Starter
+          additional_information: Yderligere oplysninger
+        rep:
+          based_in: "Placeret i %{location}"
+          about: "Lidt om %{rep_name}"
+          groups: "%{rep_name} deltager i følgende grupper ugentligt:"

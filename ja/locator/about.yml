@@ -1,0 +1,37 @@
+ja:
+  locator:
+    info:
+      about:
+        # Page metadata
+        page_title: "グループ検索について - CRロケーター" # About The Group Locator - CR Locator
+        
+        # Page header
+        title: "Celebrate Recoveryロケーターサイトについて" # About the Celebrate Recovery Locator Site
+        subtitle: "CRロケーター" # CR Locator
+        intro: "Celebrate Recoveryロケーターサイトへようこそ。このサイトは、お近くのCelebrate Recoveryのグループやステップスタディを見つけるためのツールです。このサイトは、対面のミーティング、及びにオンラインサポートをお探しの方も、キリストを中心としたリカバリーコミュニティとのつながりを築くお手伝いをします。" # Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support.
+        
+        # Testimonial section
+        testimonial:
+          quote: "どん底に落ちて希望がないと思っていた時、近くに癒しのコミュニティを見つけ、参加することができました。キリストにある人生を分かち合う安全な空間を作ってくれる、このクリスチャンのコミュニティに希望があることに感謝しています。" # When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ.
+          author: "ロドニー・ホルムストロム" # Rodney Holmstrom
+          location: "アーカンソー州、ロジャーズ" # Rogers, AK
+        
+        # Main content sections
+        sections:
+          find_group:
+            title: "お近くのグループを探す" # Find a Group Near You
+            content: "便利なグループ・ロケーターツールを使って、現在地に基づいてCelebrate Recoveryのミーティングを検索できます。住所を入力するだけで、お近くのグループのリストが表示されます。各リストには、ミーティングの時間、場所などの情報が詳しく記載されています。これにより、回復の歩みに最適なグループを見つけることができます。" # Our easy-to-use Group Locator tool allows you to search for Celebrate Recovery meetings based on your current location. Simply enter your address, and we'll provide you with a list of groups near you. Each listing includes detailed information about meeting times, locations, and special focus areas. This way, you can find the perfect fit for your recovery journey.
+          step_studies:
+            title: "ステップスタディを見つける" # Explore Step Studies
+            content: "Celebrate Recoveryでは、回復の原則を深く理解し、実践するためのステップスタディを提供しています。オンラインと対面の両方でステップスタディを検索できるので、あなたのスケジュールと用途に合ったグループを見つけることができます。どこにいても参加できるオンライングループ、或いは、対面のフェローシップを持てるグループ、どちらでもCelebrate Recoveryはあなたの成長をサポートします。" # At Celebrate Recovery, we offer comprehensive step studies that dive deep into recovery principles. You can search for step studies both online and in-person, ensuring you find a format that works best for your schedule and preferences. Whether you prefer the convenience of an online group or the fellowship of meeting in person, Celebrate Recovery has options to support your growth.
+          connect:
+            title: "代表者やアンバサダーとつながる" # Connect with Representatives and Advocate
+            content: "グループミーティングに加えて、私たちのプラットフォームでは、各地域のCelebrate Recoveryの代表者やアンバサダーとつながることができます。検索機能を使って、お住まいの地域の代表者やアンバサダーを見つけて、ご質問及びにあらゆる回復の歩みに関するサポートのご相談など、お気軽にご連絡ください。" # In addition to group meetings, our platform helps you connect with local Celebrate Recovery representatives and advocates. These dedicated individuals are here to provide guidance, answer your questions, and support you on your recovery journey. Use our search feature to find and contact representatives and advocates in your area.
+          churches:
+            title: "教会の皆様へ" # For Churches
+            content: "Celebrate Recoveryは、世界中の教会と提携しています。当プラットフォームでは、教会が独自のグループリストを管理しながら、最新の情報を正確に保つことができます。さらに、写真や詳細、そしてそれぞれのCelebrate Recoveryプログラムに関する情報のリストをカスタマイズし、必要な人たちにとって親しみやすい情報源となることができます。" # Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help.
+          about_cr:
+            title: "Celebrate Recoveryについて" # About Celebrate Recovery
+            content_html: "Celebrate Recoveryは、キリストを中心とした回復プログラムです。コミュニティを見つけ、心の傷、習慣、そして心の悩みから解放されるお手伝いをします。回復が初めての方も、継続的なサポートをお探しの方も、Celebrate Recoveryがお手伝いします。<br /><br />Celebrate Recoveryでは、コミュニティの中で癒され、共に健全な人生へと歩むことができます。そしてそこから生まれる力と希望を信じています。キリストにある自由を見つけることのできる安全な場所です。皆様のご参加をお待ちしています。<br /><br />Celebrate Recoveryについて詳しくは、%{cr_link}をご覧ください。または、%{locator_link}に戻ってグループや代表者を探してください。" # Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative
+            cr_link_text: "こちら" # here
+            locator_link_text: "CRロケーター" # CR Locator
