@@ -1,0 +1,7 @@
+en:
+  locator:
+    info:
+      translations:
+        page_title: "Translations"
+        title: "Locator in all languages"
+        intro: "The CR logo with the word Locator in each supported language."

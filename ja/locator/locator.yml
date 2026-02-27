@@ -97,7 +97,6 @@ ja:
         html_title_groups: グループ所在地 # Groups in
         html_title_in: "" # in
         full_title: CRロケーター # CR Locator
-        title: ロケーター # Locator
         default_title: "自由を見つけ、コミュニティを見つけよう - CRロケーター" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
@@ -131,7 +130,8 @@ ja:
         within_250: "250%{distance_unit}以内" # within 250 %{distance_unit}
         within_500: "500%{distance_unit}以内" # within 500 %{distance_unit}
 
-        # Rep/Advocate types
+        # Rep/Advocate types (filter button labels)
+        groups: グループ # Groups
         rep_ambassador: 代表者／アンバサダー # Rep / Advocate
         all_reps: すべての代表者／アンバサダー # All Reps / Advocates
         all_reps_filter: 代表者／アンバサダー # Reps / Advocates

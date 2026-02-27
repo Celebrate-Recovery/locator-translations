@@ -2,29 +2,29 @@ km:
   locator:
     info:
       about:
-        page_title: "អំពីកម្មវិធីស្វែងរកក្រុម - CR Locator"
-        title: "អំពីវេបសាយ Celebrate Recovery Locator"
-        subtitle: "CR Locator"
-        intro: "សូមស្វាគមន៍មកកាន់វេបសាយ Celebrate Recovery Locator ឧបករណ៍ស្វែងរកក្រុម និងការសិក្សាជំហាន Celebrate Recovery នៅក្បែរអ្នក។ វេបសាយរបស់យើងជួយអ្នកភ្ជាប់ទំនាក់ទំនងជាមួយសហគមន៍ជួយជាតិផ្តោតលើគ្រីស្ទ ទោះជាអ្នករកការប្រជុំផ្ទាល់ ឬការគាំទ្រតាមអនឡាញ។"
+        page_title: "អំពីកម្មវិធីស្វែងរកក្រុម - CR Locator" # "About The Group Locator - CR Locator"
+        title: "អំពីវេបសាយ Celebrate Recovery Locator" # "About Celebrate Recovery"
+        subtitle: "CR Locator" # "CR Locator"
+        intro: "សូមស្វាគមន៍មកកាន់វេបសាយ Celebrate Recovery Locator ឧបករណ៍ស្វែងរកក្រុម និងការសិក្សាជំហាន Celebrate Recovery នៅក្បែរអ្នក។ វេបសាយរបស់យើងជួយអ្នកភ្ជាប់ទំនាក់ទំនងជាមួយសហគមន៍ជួយជាតិផ្តោតលើគ្រីស្ទ ទោះជាអ្នករកការប្រជុំផ្ទាល់ ឬការគាំទ្រតាមអនឡាញ។" # "Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support."
         testimonial:
-          quote: "ពេលខ្ញុំគិតថាខ្ញុំធ្លាក់ដល់បាត ហើយគ្មានសង្ឃឹម ខ្ញុំអាចរកក្រុមជិតខ្ញុំ ហើយចូលរួមសហគមន៍ជាសះ។ ខ្ញុំដឹងគុណចំពោះសង្ឃឹមក្នុងសហគមន៍អ្នកជឿនេះ ដែលបង្កើតកន្លែងរឹងមាំក្នុងការចែករំលែកជីវិតក្នុងគ្រីស្ទ។"
-          author: "Rodney Holmstrom"
-          location: "Rogers, AK"
+          quote: "ពេលខ្ញុំគិតថាខ្ញុំធ្លាក់ដល់បាត ហើយគ្មានសង្ឃឹម ខ្ញុំអាចរកក្រុមជិតខ្ញុំ ហើយចូលរួមសហគមន៍ជាសះ។ ខ្ញុំដឹងគុណចំពោះសង្ឃឹមក្នុងសហគមន៍អ្នកជឿនេះ ដែលបង្កើតកន្លែងរឹងមាំក្នុងការចែករំលែកជីវិតក្នុងគ្រីស្ទ។" # "When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ."
+          author: "Rodney Holmstrom" # "Rodney Holmstrom"
+          location: "Rogers, AK" # "Rogers, AK"
         sections:
           find_group:
-            title: "រកក្រុមជិតអ្នក"
-            content: "ឧបករណ៍ស្វែងរកក្រុមរបស់យើងអនុញ្ញាតឱ្យអ្នកស្វែងរកការប្រជុំ Celebrate Recovery ដោយផ្អែកលើទីតាំងរបស់អ្នក។ គ្រាន់តែបញ្ចូលអាសយដ្ឋាន យើងនឹងបង្ហាញក្រុមជិតអ្នក។ រាល់ការចុះឈ្មោះមានព័ត៌មានពីពេល ទីតាំង និងផ្នែកពិសេស ដើម្បីរកកន្លែងដែលសមរម្យសម្រាប់ដំណើរជាសះរបស់អ្នក។"
+            title: "រកក្រុមជិតអ្នក" # "About Celebrate Recovery"
+            content: "ឧបករណ៍ស្វែងរកក្រុមរបស់យើងអនុញ្ញាតឱ្យអ្នកស្វែងរកការប្រជុំ Celebrate Recovery ដោយផ្អែកលើទីតាំងរបស់អ្នក។ គ្រាន់តែបញ្ចូលអាសយដ្ឋាន យើងនឹងបង្ហាញក្រុមជិតអ្នក។ រាល់ការចុះឈ្មោះមានព័ត៌មានពីពេល ទីតាំង និងផ្នែកពិសេស ដើម្បីរកកន្លែងដែលសមរម្យសម្រាប់ដំណើរជាសះរបស់អ្នក។" # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           step_studies:
-            title: "ស្វែងរកការសិក្សាជំហាន"
-            content: "នៅ Celebrate Recovery យើងផ្តល់ការសិក្សាជំហានដែលជ្រាលជ្រៅចូលទៅក្នុងគោលការណ៍ជាសះ។ អ្នកអាចស្វែងរកការសិក្សាជំហានទាំងតាមអនឡាញ និងផ្ទាល់ខ្លួន ដើម្បីរកទម្រង់ដែលសមរម្យនឹងកាលវិភាគ និងចំណង់ចំណូលចិត្តរបស់អ្នក។ ទោះជាអ្នកចូលចិត្តក្រុមអនឡាញ ឬការប្រជុំផ្ទាល់ Celebrate Recovery មានជម្រើសគាំទ្រការលូតលាស់របស់អ្នក។"
+            title: "ស្វែងរកការសិក្សាជំហាន" # "About Celebrate Recovery"
+            content: "នៅ Celebrate Recovery យើងផ្តល់ការសិក្សាជំហានដែលជ្រាលជ្រៅចូលទៅក្នុងគោលការណ៍ជាសះ។ អ្នកអាចស្វែងរកការសិក្សាជំហានទាំងតាមអនឡាញ និងផ្ទាល់ខ្លួន ដើម្បីរកទម្រង់ដែលសមរម្យនឹងកាលវិភាគ និងចំណង់ចំណូលចិត្តរបស់អ្នក។ ទោះជាអ្នកចូលចិត្តក្រុមអនឡាញ ឬការប្រជុំផ្ទាល់ Celebrate Recovery មានជម្រើសគាំទ្រការលូតលាស់របស់អ្នក។" # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           connect:
-            title: "ភ្ជាប់ទំនាក់ទំនងជាមួយតំណាង និងអ្នកគាំទ្រ"
-            content: "ក្រៅពីការប្រជុំក្រុម វេបសាយរបស់យើងជួយអ្នកភ្ជាប់ទំនាក់ទំនងជាមួយតំណាង និងអ្នកគាំទ្រ Celebrate Recovery ក្នុងតំបន់។ មនុស្សទាំងនេះមានដើម្បីផ្តល់ការណែនាំ ឆ្លើយសំណួរ និងគាំទ្រអ្នកក្នុងដំណើរជាសះ។ ប្រើមុខងារស្វែងរករបស់យើងដើម្បីរក និងទំនាក់ទំនងតំណាង និងអ្នកគាំទ្រនៅក្នុងតំបន់របស់អ្នក។"
+            title: "ភ្ជាប់ទំនាក់ទំនងជាមួយតំណាង និងអ្នកគាំទ្រ" # "About Celebrate Recovery"
+            content: "ក្រៅពីការប្រជុំក្រុម វេបសាយរបស់យើងជួយអ្នកភ្ជាប់ទំនាក់ទំនងជាមួយតំណាង និងអ្នកគាំទ្រ Celebrate Recovery ក្នុងតំបន់។ មនុស្សទាំងនេះមានដើម្បីផ្តល់ការណែនាំ ឆ្លើយសំណួរ និងគាំទ្រអ្នកក្នុងដំណើរជាសះ។ ប្រើមុខងារស្វែងរករបស់យើងដើម្បីរក និងទំនាក់ទំនងតំណាង និងអ្នកគាំទ្រនៅក្នុងតំបន់របស់អ្នក។" # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           churches:
-            title: "សម្រាប់ព្រះវិហារ"
-            content: "Celebrate Recovery សហការជាមួយព្រះវិហារជុំវិញពិភពលោក។ វេបសាយរបស់យើងអនុញ្ញាតឱ្យព្រះវិហារគ្រប់គ្រងការចុះឈ្មោះក្រុមរបស់ពួកគេ ដើម្បីរក្សាព័ត៌មានឱ្យទាន់សម័យ។ ព្រះវិហារអាចប្តូរការចុះឈ្មោះដោយរូបថត ការពិពណ៌នា និងព័ត៌មានអំពីកម្មវិធី Celebrate Recovery របស់ពួកគេ បង្កើតវត្តមានទទួលភ្ញៀវ និងផ្តល់ព័ត៌មានសម្រាប់អ្នករកជំនួយ។"
+            title: "សម្រាប់ព្រះវិហារ" # "About Celebrate Recovery"
+            content: "Celebrate Recovery សហការជាមួយព្រះវិហារជុំវិញពិភពលោក។ វេបសាយរបស់យើងអនុញ្ញាតឱ្យព្រះវិហារគ្រប់គ្រងការចុះឈ្មោះក្រុមរបស់ពួកគេ ដើម្បីរក្សាព័ត៌មានឱ្យទាន់សម័យ។ ព្រះវិហារអាចប្តូរការចុះឈ្មោះដោយរូបថត ការពិពណ៌នា និងព័ត៌មានអំពីកម្មវិធី Celebrate Recovery របស់ពួកគេ បង្កើតវត្តមានទទួលភ្ញៀវ និងផ្តល់ព័ត៌មានសម្រាប់អ្នករកជំនួយ។" # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           about_cr:
-            title: "អំពី Celebrate Recovery"
-            content_html: "Celebrate Recovery គឺជាកម្មវិធីជាសះផ្តោតលើគ្រីស្ទ ដែលអ្នកអាចរកសហគមន៍ និងសេរីភាពពីការឈឺចាប់ ទម្លាប់ និងឧបសគ្គ។ ទោះជាអ្នកថ្មីក្នុងការជាសះ ឬរកការគាំទ្របន្ត Celebrate Recovery នៅទីនេះដើម្បីជួយ។<br /><br />នៅ Celebrate Recovery យើងជឿលើអានុភាពសហគមន៍ និងសង្ឃឹមដែលមកពីការដើររួមគ្នាឆ្ពោះទៅរកការជាសះ និងភាពពេញលេញ។ ចូលរួមជាមួយយើង ហើយរកកន្លែងរឹងមាំដើម្បីរកសេរីភាពក្នុងគ្រីស្ទ។<br /><br />ស្វែងយល់បន្ថែមអំពី Celebrate Recovery %{cr_link} ឬត្រឡប់ទៅ %{locator_link} ដើម្បីរកក្រុម ឬតំណាង"
-            cr_link_text: "នៅទីនេះ"
-            locator_link_text: "CR Locator"
+            title: "អំពី Celebrate Recovery" # "About Celebrate Recovery"
+            content_html: "Celebrate Recovery គឺជាកម្មវិធីជាសះផ្តោតលើគ្រីស្ទ ដែលអ្នកអាចរកសហគមន៍ និងសេរីភាពពីការឈឺចាប់ ទម្លាប់ និងឧបសគ្គ។ ទោះជាអ្នកថ្មីក្នុងការជាសះ ឬរកការគាំទ្របន្ត Celebrate Recovery នៅទីនេះដើម្បីជួយ។<br /><br />នៅ Celebrate Recovery យើងជឿលើអានុភាពសហគមន៍ និងសង្ឃឹមដែលមកពីការដើររួមគ្នាឆ្ពោះទៅរកការជាសះ និងភាពពេញលេញ។ ចូលរួមជាមួយយើង ហើយរកកន្លែងរឹងមាំដើម្បីរកសេរីភាពក្នុងគ្រីស្ទ។<br /><br />ស្វែងយល់បន្ថែមអំពី Celebrate Recovery %{cr_link} ឬត្រឡប់ទៅ %{locator_link} ដើម្បីរកក្រុម ឬតំណាង" # "Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative"
+            cr_link_text: "នៅទីនេះ" # "here"
+            locator_link_text: "CR Locator" # "CR Locator"

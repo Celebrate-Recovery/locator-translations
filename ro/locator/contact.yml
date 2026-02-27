@@ -1,17 +1,17 @@
 ro:
   locator:
     contact:
-      contact_title: contact
-      success: E-mail trimis cu succes.
-      invalid: 'Trimitere invalidă. Încercați din nou.'
+      contact_title: contact # contact
+      success: E-mail trimis cu succes. # Email sent successfully.
+      invalid: 'Trimitere invalidă. Încercați din nou.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Contactați %{rep_name}"
-        detail: Folosiți acest formular pentru a trimite o cerere către %{rep_name}. Se vor strădui să răspundă în timp util.
-        type: Tip reprezentant / Avocat
-        ministry_leader: Lider serviciu
-        name: Nume
-        phone: Număr de telefon
-        message: Mesaj
-        back: Înapoi la căutare
-        send: Trimite mesaj
-        no_results: Nu s-a găsit nimic la această adresă
+        title: "Contactați %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Folosiți acest formular pentru a trimite o cerere către %{rep_name}. Se vor strădui să răspundă în timp util. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Tip reprezentant / Avocat # Rep / Advocate Type
+        ministry_leader: Lider serviciu # Ministry Leader
+        name: Nume # Name
+        phone: Număr de telefon # Phone number
+        message: Mesaj # Message
+        back: Înapoi la căutare # Back to finder
+        send: Trimite mesaj # Send Message
+        no_results: Nu s-a găsit nimic la această adresă # Nothing was found at this address

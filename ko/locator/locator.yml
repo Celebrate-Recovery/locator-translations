@@ -1,86 +1,85 @@
 ko:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: 이메일
-      details: 세부정보
-      search: 검색
-      filter: 필터
-      online: 온라인
-      in_person: 대면
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: 대형 그룹
-      open_share_groups: 오픈 셰어 그룹
-      step_studies: 스텝 스터디
-      distance: "%{distance_unit}"
-      mile: 마일
-      kilometer: 킬로미터
-      location: 위치
-      groups: 그룹
-      reps: 대표
-      language: 언어
-      format: 형식
+      cr_locator: CR 로케이터 # CR Locator
+      locator: 로케이터 # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: 이메일 # Email
+      details: 세부정보 # Details
+      search: 검색 # Search
+      filter: 필터 # Filter
+      online: 온라인 # Online
+      in_person: 대면 # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: 대형 그룹 # Large Group
+      open_share_groups: 오픈 셰어 그룹 # Open Share Groups
+      step_studies: 스텝 스터디 # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: 마일 # miles
+      kilometer: 킬로미터 # kilometers
+      location: 위치 # Location
+      groups: 그룹 # "%{rep_name} is a part of the following groups weekly:"
+      reps: 대표 # Reps
+      language: 언어 # Languages Offered Here
+      format: 형식 # Format
       days:
-        sunday: 일요일
-        monday: 월요일
-        tuesday: 화요일
-        wednesday: 수요일
-        thursday: 목요일
-        friday: 금요일
-        saturday: 토요일
+        sunday: 일요일 # S
+        monday: 월요일 # M
+        tuesday: 화요일 # T
+        wednesday: 수요일 # W
+        thursday: 목요일 # T
+        friday: 금요일 # F
+        saturday: 토요일 # S
       days_short:
-        sunday: 일
-        monday: 월
-        tuesday: 화
-        wednesday: 수
-        thursday: 목
-        friday: 금
-        saturday: 토
+        sunday: 일 # S
+        monday: 월 # M
+        tuesday: 화 # T
+        wednesday: 수 # W
+        thursday: 목 # T
+        friday: 금 # F
+        saturday: 토 # S
       days_initial:
-        sunday: 일
-        monday: 월
-        tuesday: 화
-        wednesday: 수
-        thursday: 목
-        friday: 금
-        saturday: 토
+        sunday: 일 # S
+        monday: 월 # M
+        tuesday: 화 # T
+        wednesday: 수 # W
+        thursday: 목 # T
+        friday: 금 # F
+        saturday: 토 # S
     layouts:
       partials:
         header:
-          close_menu: 메뉴 닫기
-          about: 소개
-          get_your_cr_on_the_locator: 등록하기
-          main_menu: 메인 메뉴
-          login_in: 로그인
-          dashboard: 대시보드
+          close_menu: 메뉴 닫기 # Close Menu
+          about: 소개 # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: 등록하기 # Get Listed
+          main_menu: 메인 메뉴 # Main Menu
+          login_in: 로그인 # Login
+          dashboard: 대시보드 # Dashboard
     home:
-      please_enter_location: "그룹 또는 대표를 검색하려면 위치 또는 우편번호를 입력하세요."
-      email_sent: '이메일이 성공적으로 전송되었습니다.'
+      please_enter_location: "그룹 또는 대표를 검색하려면 위치 또는 우편번호를 입력하세요." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: '이메일이 성공적으로 전송되었습니다.' # "Email sent successfully."
       index:
-        html_title: 홈
-        html_title_groups: 그룹
-        html_title_in: 에 있는
-        full_title: CR Locator
-        title: Locator
-        default_title: "자유를 찾고, 공동체를 찾고 - CR Locator"
-        enter: "검색을 시작하려면 위치 또는 우편번호를 입력하세요"
-        error: "검색 중 오류가 발생했습니다. 다시 시도해 주세요."
-        none_found_group: "%{radius} %{distance_unit} 이내에서 그룹을 찾을 수 없습니다"
-        none_found_rep: "%{radius} %{distance_unit} 이내에서 대표를 찾을 수 없습니다"
-        closest_group: "가장 가까운 그룹을 표시합니다."
-        closest_rep: "가장 가까운 대표를 표시합니다."
-        help: "도움말"
+        html_title: 홈 # Home
+        html_title_groups: 그룹 # Groups in
+        html_title_in: 에 있는 # in
+        full_title: CR Locator # CR Locator
+        default_title: "자유를 찾고, 공동체를 찾고 - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "검색을 시작하려면 위치 또는 우편번호를 입력하세요" # "Please enter a location or postal code to begin your search"
+        error: "검색 중 오류가 발생했습니다. 다시 시도해 주세요." # "An error occurred while searching. Please try again."
+        none_found_group: "%{radius} %{distance_unit} 이내에서 그룹을 찾을 수 없습니다" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "%{radius} %{distance_unit} 이내에서 대표를 찾을 수 없습니다" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "가장 가까운 그룹을 표시합니다." # "Showing the closest groups."
+        closest_rep: "가장 가까운 대표를 표시합니다." # "Showing the closest reps."
+        help: "도움말" # "Help"
       form:
-        search_title: 위치 / 우편번호
-        search_placeholder: 위치 입력
-        search_nearby: 주변 검색
-        location_name: 위치 이름
-        search_type: 유형
-        radius: 반경
-        day_of_week: 요일
+        search_title: 위치 / 우편번호 # Your location / ZIP code
+        search_placeholder: 위치 입력 # Enter a location
+        search_nearby: 주변 검색 # Search Nearby
+        location_name: 위치 이름 # Location name
+        search_type: 유형 # Type
+        radius: 반경 # Radius
+        day_of_week: 요일 # Days of the week
         within_10: "%{distance_unit} 10 이내"
         within_25: "%{distance_unit} 25 이내"
         within_50: "%{distance_unit} 50 이내"
@@ -89,46 +88,47 @@ ko:
         within_200: "%{distance_unit} 200 이내"
         within_250: "%{distance_unit} 250 이내"
         within_500: "%{distance_unit} 500 이내"
-        rep_ambassador: 대표 / 옹호자
-        all_reps: 모든 대표 / 옹호자
-        all_reps_filter: 대표 / 옹호자
-        cr_reps: CR 대표
-        landing_reps: Landing 대표
-        celebration_place_reps: Celebration Place 대표
+        groups: 그룹 # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: 대표 / 옹호자 # Rep / Advocate
+        all_reps: 모든 대표 / 옹호자 # All Reps / Advocates
+        all_reps_filter: 대표 / 옹호자 # Reps / Advocates
+        cr_reps: CR 대표 # CR Reps
+        landing_reps: Landing 대표 # Landing Reps
+        celebration_place_reps: Celebration Place 대표 # Celebration Place Reps
         ambassadors:
-          mental_health: 정신 건강 옹호자
-          cr_inside: CR Inside 옹호자
-          cr_international: CR International 옹호자
-          cultural_communities: 문화 공동체 옹호자
-          welcome_home: Welcome Home 옹호자
-          opioid: 오피오이드 옹호자
-          cpr: CPR 옹호자
-        all_groups: 모든 그룹
-        all_groups_filter: 그룹
-        online_large_group: 온라인 대형 그룹
-        online_open_share: 온라인 오픈 셰어 그룹
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Fellowship 식사
-        childcare: 보육
+          mental_health: 정신 건강 옹호자 # Mental Health Advocate
+          cr_inside: CR Inside 옹호자 # CR Inside Advocate
+          cr_international: CR International 옹호자 # CR International Advocate
+          cultural_communities: 문화 공동체 옹호자 # Cultural Communities Advocate
+          welcome_home: Welcome Home 옹호자 # Welcome Home Advocate
+          opioid: 오피오이드 옹호자 # Opioid Advocate
+          cpr: CPR 옹호자 # CPR Advocate
+        all_groups: 모든 그룹 # All Groups
+        all_groups_filter: 그룹 # Groups
+        online_large_group: 온라인 대형 그룹 # Online Large Group
+        online_open_share: 온라인 오픈 셰어 그룹 # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship 식사 # Fellowship Meal
+        childcare: 보육 # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: 이용 가능
-          offered_in: 제공 언어
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: 이용 가능 # Available
+          offered_in: 제공 언어 # Offered in
     results:
       partials:
         group:
-          directions: 길찾기
-          email: 이메일
-          language: 여기서 제공되는 언어
-          location: 위치
-          contact: 그룹 연락처
-          rep_contact: 대표 연락처
-          ministry_leader: 사역 리더
-          upcomming_step_study: 예정된 스텝 스터디
-          starting: 시작
-          additional_information: 추가 정보
+          directions: 길찾기 # Get Directions
+          email: 이메일 # Email
+          language: 여기서 제공되는 언어 # Languages Offered Here
+          location: 위치 # Location
+          contact: 그룹 연락처 # Group Contacts
+          rep_contact: 대표 연락처 # Rep Contact
+          ministry_leader: 사역 리더 # Ministry Leader
+          upcomming_step_study: 예정된 스텝 스터디 # Upcoming Step Studies
+          starting: 시작 # Starting
+          additional_information: 추가 정보 # Additional Information
         rep:
-          based_in: "%{location} 소재"
-          about: "%{rep_name} 소개"
-          groups: "%{rep_name}님이 매주 참여하는 그룹:"
+          based_in: "%{location} 소재" # "Based in %{location}"
+          about: "%{rep_name} 소개" # "A little bit about %{rep_name}"
+          groups: "%{rep_name}님이 매주 참여하는 그룹:" # "%{rep_name} is a part of the following groups weekly:"

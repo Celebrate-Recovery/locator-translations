@@ -9,139 +9,139 @@ af:
         current_password: Huidige wagwoord
         current_sign_in_at: ""
         current_sign_in_ip: ""
-        email: E-pos
+        email: E-pos # "Email address"
         encrypted_password: ""
         failed_attempts: ""
         last_sign_in_at: ""
         last_sign_in_ip: ""
         locked_at: ""
-        password: Wagwoord
-        password_confirmation: Wagwoord bevestiging
+        password: Wagwoord # "Password"
+        password_confirmation: Wagwoord bevestiging # "Confirm Password"
         remember_created_at: ""
-        remember_me: Onthou my
+        remember_me: Onthou my # "Remember me"
         reset_password_sent_at: ""
-        reset_password_token: Herstel wagwoord egtheidsbewys
+        reset_password_token: Herstel wagwoord egtheidsbewys # Reset password token
         sign_in_count: ""
         unconfirmed_email: ""
         unlock_token: Ontsluit egtheidsbewys
         updated_at: ""
     models:
       user:
-        one: Gebruiker
-        other: Gebruiker
+        one: Gebruiker # "(1 character minimum)"
+        other: Gebruiker # "(%{count} characters minimum)"
   devise:
     confirmations:
-      confirmed: Jou e-posadres is suksesvol bevestig.
+      confirmed: Jou e-posadres is suksesvol bevestig. # Your account has been activated and you are now signed in.
       new:
-        resend_confirmation_instructions: Stuur weer bevestigingsinstruksies
-      send_instructions: Jy sal 'n e-pos ontvang met instruksies vir hoe om jou e-posadres te bevestig oor 'n paar minute.
-      send_paranoid_instructions: "Indien jou e-posadres in ons databasis bestaan, sal jy 'n e-pos ontvang met instruksies vir hoe om jou e-posadres te bevestig oor 'n paar minute."
+        resend_confirmation_instructions: Stuur weer bevestigingsinstruksies # Resend confirmation instructions
+      send_instructions: Jy sal 'n e-pos ontvang met instruksies vir hoe om jou e-posadres te bevestig oor 'n paar minute. # You will receive an email with instructions for confirming your account in a few minutes.
+      send_paranoid_instructions: "Indien jou e-posadres in ons databasis bestaan, sal jy 'n e-pos ontvang met instruksies vir hoe om jou e-posadres te bevestig oor 'n paar minute." # If your email address exists in our database, you will receive an invitation email in a few minutes.
     failure:
-      already_authenticated: Jy is alreeds aangeteken.
-      inactive: Jou rekening is nog nie geaktiveer nie.
-      invalid: ""
-      last_attempt: Jy het nog een poging voor jou rekening gesluit sal word.
-      locked: Jou rekening is gesluit.
-      not_found_in_database: ""
-      timeout: Jou sessie het verstryk. Teken asseblief aan om voort te gaan.
-      unauthenticated: Jy moet aanteken of inteken voor jy voortgaan.
-      unconfirmed: Jy moet jou e-posadres bevestig voor jy voortgaan.
+      already_authenticated: Jy is alreeds aangeteken. # You are already signed in.
+      inactive: Jou rekening is nog nie geaktiveer nie. # Your account is not activated yet.
+      invalid: "" # Invalid email or password.
+      last_attempt: Jy het nog een poging voor jou rekening gesluit sal word. # "You have one more attempt before your account is locked."
+      locked: Jou rekening is gesluit. # Your account is locked.
+      not_found_in_database: "" # Invalid email or password.
+      timeout: Jou sessie het verstryk. Teken asseblief aan om voort te gaan. # Your session expired. Please sign in again to continue.
+      unauthenticated: Jy moet aanteken of inteken voor jy voortgaan. # You need to sign in or sign up before continuing.
+      unconfirmed: Jy moet jou e-posadres bevestig voor jy voortgaan. # You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Bevestig my rekening
-        greeting: "Welkom %{recipient}!"
-        instruction: 'Jy kan jou rekening e-pos bevestig deur die onderstaande skakel:'
-        subject: Bevestigingsinstruksies
+        action: Bevestig my rekening # Confirm my account
+        greeting: "Welkom %{recipient}!" # "Dear %{name},"
+        instruction: 'Jy kan jou rekening e-pos bevestig deur die onderstaande skakel:' # "You can confirm your account email through the link below:"
+        subject: Bevestigingsinstruksies # "Confirmation instructions"
       email_changed:
-        greeting: ""
+        greeting: "" # "Dear %{name},"
         message: ""
         message_unconfirmed: ""
-        subject: ""
+        subject: "" # "Email Changed"
       password_change:
-        greeting: "Hallo %{recipient}!"
-        message: Ons kontak jou om jou in kennis te stel dat jou wagwoord verander is.
-        subject: Wagwoord Verander
+        greeting: "Hallo %{recipient}!" # "Dear %{name},"
+        message: Ons kontak jou om jou in kennis te stel dat jou wagwoord verander is. # We're contacting you to notify you that your password has been changed.
+        subject: Wagwoord Verander # "Password Changed"
       reset_password_instructions:
-        action: Verander my wagwoord
-        greeting: "Hallo %{recipient}!"
-        instruction: "Iemand het 'n skakel versoek om jou wagwoord te verander, en jy kan dit doen deur die onderstaande skakel."
-        instruction_2: "As jy nie hierdie versoek het nie, ignoreer asseblief hierdie e-pos."
-        instruction_3: Jou wagwoord sal nie verander totdat jy die skakel hierbo besoek en 'n nuwe een skep nie.
-        subject: Herstel wagwoord instruksies
+        action: Verander my wagwoord # Change my password
+        greeting: "Hallo %{recipient}!" # "Dear %{name},"
+        instruction: "Iemand het 'n skakel versoek om jou wagwoord te verander, en jy kan dit doen deur die onderstaande skakel." # "Someone has requested a link to change your password. You can do this through the link below."
+        instruction_2: "As jy nie hierdie versoek het nie, ignoreer asseblief hierdie e-pos." # "If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one."
+        instruction_3: Jou wagwoord sal nie verander totdat jy die skakel hierbo besoek en 'n nuwe een skep nie. # Your password won't change until you access the link above and create a new one.
+        subject: Herstel wagwoord instruksies # "Reset password instructions"
       unlock_instructions:
-        action: Ontsluit my rekening
-        greeting: "Hallo %{recipient}!"
-        instruction: 'Klik op die onderstaande skakel om jou rekening te ontsluit:'
-        message: Jou rekening was gesluit as gevolg van 'n oormatige hoeveelheid onsuksesvolle aantekenpogings.
-        subject: Ontsluitingsinstruksies
+        action: Ontsluit my rekening # Unlock my account
+        greeting: "Hallo %{recipient}!" # "Dear %{name},"
+        instruction: 'Klik op die onderstaande skakel om jou rekening te ontsluit:' # "Click the link below to unlock your account:"
+        message: Jou rekening was gesluit as gevolg van 'n oormatige hoeveelheid onsuksesvolle aantekenpogings. # "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+        subject: Ontsluitingsinstruksies # "Unlock instructions"
     omniauth_callbacks:
-      failure: "Kon jou nie waarmerk vanaf %{kind} nie oor \"%{reason}\"."
-      success: "Suksesvol gewaarmerk vanaf %{kind} rekening."
+      failure: "Kon jou nie waarmerk vanaf %{kind} nie oor \"%{reason}\"." # "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Suksesvol gewaarmerk vanaf %{kind} rekening." # "Successfully authenticated from %{kind} account."
     passwords:
       edit:
-        change_my_password: Verander my wagwoord
-        change_your_password: Verander jou wagwoord
-        confirm_new_password: Bevestig nuwe wagwoord
-        new_password: Nuwe wagwoord
+        change_my_password: Verander my wagwoord # Change my password
+        change_your_password: Verander jou wagwoord # Change your password
+        confirm_new_password: Bevestig nuwe wagwoord # Confirm new password
+        new_password: Nuwe wagwoord # "New Password"
       new:
-        forgot_your_password: "Jou wagwoord vergeet?"
-        send_me_reset_password_instructions: Stuur wagwoordherstelinstruksies aan my
-      no_token: "Jy kan nie toegang tot hierdie bladsy kry sonder dat jy afkomstig van 'n wagwoord herstel e-pos is nie. Indien jy wel van 'n wagwoord herstel e-pos kom, maak asseblief seker dat jy die volle verskafde bronadres gebruik het."
-      send_instructions: Jy sal 'n e-pos ontvang met instruksies oor hoe om jou wagwoord te herstel oor 'n paar minute.
-      send_paranoid_instructions: "Indien jou e-posadres in ons databasis bestaan, sal jy 'n wagwoordherstelskakel by jou e-posadres ontvang binne 'n paar minute."
-      updated: Jou wagwoord was suksesvol gewysig. Jy is nou ingeteken.
-      updated_not_active: Jou wagwoord was suksesvol gewysig.
+        forgot_your_password: "Jou wagwoord vergeet?" # Forgot your password?
+        send_me_reset_password_instructions: Stuur wagwoordherstelinstruksies aan my # Send me reset password instructions
+      no_token: "Jy kan nie toegang tot hierdie bladsy kry sonder dat jy afkomstig van 'n wagwoord herstel e-pos is nie. Indien jy wel van 'n wagwoord herstel e-pos kom, maak asseblief seker dat jy die volle verskafde bronadres gebruik het." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: Jy sal 'n e-pos ontvang met instruksies oor hoe om jou wagwoord te herstel oor 'n paar minute. # You will receive an email with instructions on how to reset your password in a few minutes.
+      send_paranoid_instructions: "Indien jou e-posadres in ons databasis bestaan, sal jy 'n wagwoordherstelskakel by jou e-posadres ontvang binne 'n paar minute." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      updated: Jou wagwoord was suksesvol gewysig. Jy is nou ingeteken. # Your password has been changed successfully. You are now signed in.
+      updated_not_active: Jou wagwoord was suksesvol gewysig. # Your password has been changed successfully.
     registrations:
-      destroyed: Totsiens! Jou rekening was suksesvol gekanselleer. Ons hoop om jou gou weer te sien.
+      destroyed: Totsiens! Jou rekening was suksesvol gekanselleer. Ons hoop om jou gou weer te sien. # Goodbye! Your account has been successfully cancelled. We hope to see you again soon.
       edit:
-        are_you_sure: "Is jy seker?"
-        cancel_my_account: Kanselleer my rekening
-        currently_waiting_confirmation_for_email: 'Wag tans bevestiging vir: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: los skoon indien jy dit nie wil verander nie
-        title: "Wysig %{resource}"
-        unhappy: Ongelukkig
-        update: Opdateer
-        we_need_your_current_password_to_confirm_your_changes: ons benodig jou huidige wagwoord om jou veranderinge te bevestig
+        are_you_sure: "Is jy seker?" # Are you sure?
+        cancel_my_account: Kanselleer my rekening # Cancel my account
+        currently_waiting_confirmation_for_email: 'Wag tans bevestiging vir: %{email}' # "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: los skoon indien jy dit nie wil verander nie # Leave blank if you don't want to change it
+        title: "Wysig %{resource}" # "Edit %{resource}"
+        unhappy: Ongelukkig # Unhappy?
+        update: Opdateer # Update
+        we_need_your_current_password_to_confirm_your_changes: ons benodig jou huidige wagwoord om jou veranderinge te bevestig # We need your current password to confirm your changes
       new:
-        sign_up: Teken in
-      signed_up: Welkom! Jy het suksesvol ingeteken.
-      signed_up_but_inactive: Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening nog nie geaktiveer is nie.
-      signed_up_but_locked: Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening gesluit is.
-      signed_up_but_unconfirmed: "'n Boodskap met 'n bevestigingsskakel was gestuur na jou e-posadres. Volg asseblief die skakel om jou rekening te aktiveer."
-      update_needs_confirmation: "Jy het jou rekening suksesvol opgedateer, maar ons moet eerst jou nuwe e-posadres verifieer. Kyk asseblief na jou e-posse en volg die bevestigingsskakel om jou nuwe e-posadres te bevestig."
-      updated: Jou rekening was suksesvol opgedateer.
-      updated_but_not_signed_in: ""
+        sign_up: Teken in # Sign up
+      signed_up: Welkom! Jy het suksesvol ingeteken. # Welcome! You have signed up successfully.
+      signed_up_but_inactive: Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening nog nie geaktiveer is nie. # You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening gesluit is. # You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: "'n Boodskap met 'n bevestigingsskakel was gestuur na jou e-posadres. Volg asseblief die skakel om jou rekening te aktiveer." # A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: "Jy het jou rekening suksesvol opgedateer, maar ons moet eerst jou nuwe e-posadres verifieer. Kyk asseblief na jou e-posse en volg die bevestigingsskakel om jou nuwe e-posadres te bevestig." # You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Jou rekening was suksesvol opgedateer. # Your account has been updated successfully.
+      updated_but_not_signed_in: "" # Your account has been updated successfully, but since your password was changed, you need to sign in again.
     sessions:
-      already_signed_out: Suksesvol uitgeteken.
+      already_signed_out: Suksesvol uitgeteken. # Signed out successfully.
       new:
-        sign_in: Teken aan
-      signed_in: Suksesvol aangeteken.
-      signed_out: Suksesvol afgeteken.
+        sign_in: Teken aan # Sign in
+      signed_in: Suksesvol aangeteken. # Signed in successfully.
+      signed_out: Suksesvol afgeteken. # Signed out successfully.
     shared:
       links:
-        back: Terug
-        didn_t_receive_confirmation_instructions: "Nie bevestigingsinstruksies ontvang nie?"
-        didn_t_receive_unlock_instructions: "Het nie ontsluitingsinstruksies ontvang nie?"
-        forgot_your_password: "Jou wagwoord vergeet?"
-        sign_in: Teken aan
-        sign_in_with_provider: "Teken aan met %{provider}"
-        sign_up: Teken in
+        back: Terug # Back
+        didn_t_receive_confirmation_instructions: "Nie bevestigingsinstruksies ontvang nie?" # "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Het nie ontsluitingsinstruksies ontvang nie?" # "Didn't receive unlock instructions?"
+        forgot_your_password: "Jou wagwoord vergeet?" # Forgot your password?
+        sign_in: Teken aan # Sign in
+        sign_in_with_provider: "Teken aan met %{provider}" # "Sign in with %{provider}"
+        sign_up: Teken in # Sign up
       minimum_password_length:
-        one: ""
-        other: ""
+        one: "" # "(1 character minimum)"
+        other: "" # "(%{count} characters minimum)"
     unlocks:
       new:
-        resend_unlock_instructions: Stuur weer ontsluitingsinstruksies
-      send_instructions: Jy sal 'n e-pos ontvang met instruksies vir hoe om jou rekening te ontsluit binne 'n paar minute.
-      send_paranoid_instructions: "Indien jou rekening bestaan, sal jy 'n e-pos ontvang met instruksies vir hoe om dit te ontsluit oor 'n paar minute."
-      unlocked: Jou rekening was suksesvol ontsluit. Teken asseblief aan om voort te gaan.
+        resend_unlock_instructions: Stuur weer ontsluitingsinstruksies # Resend unlock instructions
+      send_instructions: Jy sal 'n e-pos ontvang met instruksies vir hoe om jou rekening te ontsluit binne 'n paar minute. # You will receive an email with instructions for how to unlock your account in a few minutes.
+      send_paranoid_instructions: "Indien jou rekening bestaan, sal jy 'n e-pos ontvang met instruksies vir hoe om dit te ontsluit oor 'n paar minute." # If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.
+      unlocked: Jou rekening was suksesvol ontsluit. Teken asseblief aan om voort te gaan. # Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: "was alreeds bevestig, probeer inteken"
-      confirmation_period_expired: "moet bevestig word binne %{period}, versoek asseblief 'n nuwe een"
-      expired: "het verstryk, versoek asseblief 'n nuwe een"
-      not_found: nie gevind nie
-      not_locked: was nie gesluit nie
+      already_confirmed: "was alreeds bevestig, probeer inteken" # was already confirmed, please try signing in
+      confirmation_period_expired: "moet bevestig word binne %{period}, versoek asseblief 'n nuwe een" # has expired, please request a new one
+      expired: "het verstryk, versoek asseblief 'n nuwe een" # has expired, please request a new one
+      not_found: nie gevind nie # not found
+      not_locked: was nie gesluit nie # was not locked
       not_saved:
-        one: '1 fout het verhoed dat hierdie %{resource} gestoor word:'
-        other: "%{count} foute het verhoed dat hierdie %{resource} gestoor word:"
+        one: '1 fout het verhoed dat hierdie %{resource} gestoor word:' # "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} foute het verhoed dat hierdie %{resource} gestoor word:" # "%{count} errors prohibited this %{resource} from being saved:"

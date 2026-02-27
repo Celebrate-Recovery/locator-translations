@@ -9,16 +9,16 @@ ro:
         current_password: Parola curentă
         current_sign_in_at: Autentificarea curentă la
         current_sign_in_ip: IP-ul sesiunii curente
-        email: Email
+        email: Email # "Email address"
         encrypted_password: Parolă criptată
         failed_attempts: Încercări eșuate
         last_sign_in_at: Ultima autentificare la
         last_sign_in_ip: IP-ul ultimei autentificări
         locked_at: Blocat la
-        password: Parolă
-        password_confirmation: Confirmare parolă
+        password: Parolă # "Password"
+        password_confirmation: Confirmare parolă # "Confirm Password"
         remember_created_at: Ține minte creat la
-        remember_me: Ține-mă minte
+        remember_me: Ține-mă minte # "Remember me"
         reset_password_sent_at: Resetarea parolei trimisă la
         reset_password_token: Resetează jetonul parolei
         sign_in_count: Contor autentificări
@@ -27,116 +27,116 @@ ro:
         updated_at: Actualizat la
     models:
       user:
-        one: Utilizator
+        one: Utilizator # "(1 character minimum)"
         few: Utilizator
-        other: Utilizator
+        other: Utilizator # "(%{count} characters minimum)"
   devise:
     confirmations:
-      confirmed: Contul dvs. a fost confirmat cu succes.
+      confirmed: Contul dvs. a fost confirmat cu succes. # Your account has been activated and you are now signed in.
       new:
-        resend_confirmation_instructions: Retrimite instrucțiunile de confirmare
-      send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să confirmați contul dvs. în câteva minute.
-      send_paranoid_instructions: "Dacă e-mailul dvs. există în baza noastră de date, veţi primi un e-mail cu instrucţiuni despre cum să vă confirmaţi contul în câteva minute."
+        resend_confirmation_instructions: Retrimite instrucțiunile de confirmare # Resend confirmation instructions
+      send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să confirmați contul dvs. în câteva minute. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Dacă e-mailul dvs. există în baza noastră de date, veţi primi un e-mail cu instrucţiuni despre cum să vă confirmaţi contul în câteva minute." # If your email address exists in our database, you will receive an invitation email in a few minutes.
     failure:
-      already_authenticated: Sunteţi deja autentificat
-      inactive: Contul dvs. nu a fost activat încă.
-      invalid: "Parolă sau %{authentication_keys}  invalid."
-      last_attempt: Mai aveți o șansă până când accountul vă va fi blocat.
-      locked: Contul dvs. este blocat.
-      not_found_in_database: "Parolă sau %{authentication_keys}  invalid."
-      timeout: "Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua."
-      unauthenticated: Trebuie să vă conectaţi sau să vă înscrieţi înainte de a continua.
-      unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua.
+      already_authenticated: Sunteţi deja autentificat # You are already signed in.
+      inactive: Contul dvs. nu a fost activat încă. # Your account is not activated yet.
+      invalid: "Parolă sau %{authentication_keys}  invalid." # Invalid email or password.
+      last_attempt: Mai aveți o șansă până când accountul vă va fi blocat. # "You have one more attempt before your account is locked."
+      locked: Contul dvs. este blocat. # Your account is locked.
+      not_found_in_database: "Parolă sau %{authentication_keys}  invalid." # Invalid email or password.
+      timeout: "Sesiunea dvs. a expirat, vă rugăm să vă autentificaţi din nou pentru a continua." # Your session expired. Please sign in again to continue.
+      unauthenticated: Trebuie să vă conectaţi sau să vă înscrieţi înainte de a continua. # You need to sign in or sign up before continuing.
+      unconfirmed: Trebuie să confirmaţi contul dvs. înainte de a continua. # You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
         action: Confirmă accontul meu
-        greeting: "Bine ați venit %{recipient}!"
+        greeting: "Bine ați venit %{recipient}!" # "Dear %{name},"
         instruction: 'Vă puteți confirma emailul prin link-ul de mai jos:'
-        subject: Instrucţiuni de confirmare
+        subject: Instrucţiuni de confirmare # "Reminder: Invitation instructions"
       email_changed:
-        greeting: "Bună %{recipient}!"
+        greeting: "Bună %{recipient}!" # "Dear %{name},"
         message: "Te contactăm pentru a te informa că adresa ta de email va fi înlocuită cu %{email}."
         message_unconfirmed: ""
-        subject: Adresă de email actualizată
+        subject: Adresă de email actualizată # "Reminder: Invitation instructions"
       password_change:
-        greeting: "Bună %{recipient}!"
+        greeting: "Bună %{recipient}!" # "Dear %{name},"
         message: Vă contactăm pentru a vă anunța ca parola dvs. a fost modificată.
-        subject: Parolă Schimbată
+        subject: Parolă Schimbată # "Reminder: Invitation instructions"
       reset_password_instructions:
         action: Schimbă parola
-        greeting: "Bună %{recipient}!"
+        greeting: "Bună %{recipient}!" # "Dear %{name},"
         instruction: "Cineva a cerut un link pentru a schimba parola, puteți să faceți acest lucru prin link-ul de mai jos."
         instruction_2: "Dacă nu ați cerut acest lucru, vă rugăm să ignorați acest email."
         instruction_3: Parola dvs. nu se v-a schimba până când nu accesați link-ul de mai sus și setați una nouă.
-        subject: Instrucțiuni pentru resetarea parolei
+        subject: Instrucțiuni pentru resetarea parolei # "Reminder: Invitation instructions"
       unlock_instructions:
         action: Deblochează-mi contul
-        greeting: "Bună %{recipient}!"
+        greeting: "Bună %{recipient}!" # "Dear %{name},"
         instruction: 'Apăsați pe link-ul de mai jos pentru a vă debloca contul:'
         message: Contul dumneavoastră a fost blocat din cauza unui număr ridicat de încercări de autentificare eșuate.
-        subject: Instrucțiuni pentru deblocarea contului
+        subject: Instrucțiuni pentru deblocarea contului # "Reminder: Invitation instructions"
     omniauth_callbacks:
-      failure: "Nu te-am putut autoriza de pe contul de %{kind} pentru că \"%{reason}\"."
-      success: "Autorizat cu success din contul de %{kind}."
+      failure: "Nu te-am putut autoriza de pe contul de %{kind} pentru că \"%{reason}\"." # "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Autorizat cu success din contul de %{kind}." # "Successfully authenticated from %{kind} account."
     passwords:
       edit:
         change_my_password: Schimbă parola mea
         change_your_password: Schimbați parola dvs.
         confirm_new_password: Confirmați parola nouă
-        new_password: Parolă nouă
+        new_password: Parolă nouă # "New Password"
       new:
-        forgot_your_password: "Ați uitat parola?"
-        send_me_reset_password_instructions: Trimiteți instrucțiuni de resetare a parolei
-      no_token: "Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că aţi utiliz at URL-ul complet furnizat către dumneavoastră."
-      send_instructions: Veţi primi un e-mail cu instrucţiuni pentru resetarea parolei dvs. în câteva minute.
-      send_paranoid_instructions: "Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail."
-      updated: Parola dvs. a fost schimbată cu succes. Sunteţi autentificat.
-      updated_not_active: Parola dvs. a fost schimbată cu succes.
+        forgot_your_password: "Ați uitat parola?" # Forgot your password?
+        send_me_reset_password_instructions: Trimiteți instrucțiuni de resetare a parolei # Send me reset password instructions
+      no_token: "Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că aţi utiliz at URL-ul complet furnizat către dumneavoastră." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: Veţi primi un e-mail cu instrucţiuni pentru resetarea parolei dvs. în câteva minute. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      updated: Parola dvs. a fost schimbată cu succes. Sunteţi autentificat. # "Your invitation was successfully updated."
+      updated_not_active: Parola dvs. a fost schimbată cu succes. # "Your invitation was successfully updated."
     registrations:
-      destroyed: Adio! Contul dvs. a fost anulat cu succes. Sperăm să vă vedem din nou în curând.
+      destroyed: Adio! Contul dvs. a fost anulat cu succes. Sperăm să vă vedem din nou în curând. # Invitation successfully removed.
       edit:
-        are_you_sure: "Sunteți sigur?"
-        cancel_my_account: Anulează contul
-        currently_waiting_confirmation_for_email: 'Se asteaptă confirmare pentru: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: lăsați gol dacă nu doriți să schimbați
-        title: "Editează %{resource}"
-        unhappy: Nefericit
-        update: Actualizați
-        we_need_your_current_password_to_confirm_your_changes: avem nevoie de parola curentă pentru a confirma schimbările
+        are_you_sure: "Sunteți sigur?" # Are you sure?
+        cancel_my_account: Anulează contul # Cancel my account
+        currently_waiting_confirmation_for_email: 'Se asteaptă confirmare pentru: %{email}' # "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: lăsați gol dacă nu doriți să schimbați # Leave blank if you don't want to change it
+        title: "Editează %{resource}" # "Resend Unlock Instructions - CR Locator"
+        unhappy: Nefericit # Unhappy?
+        update: Actualizați # Update
+        we_need_your_current_password_to_confirm_your_changes: avem nevoie de parola curentă pentru a confirma schimbările # We need your current password to confirm your changes
       new:
-        sign_up: Înregistrare
-      signed_up: Bine ai venit! V-aţi înscris cu succes.
-      signed_up_but_inactive: "V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. nu este încă activată."
-      signed_up_but_locked: "V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. este blocat."
-      signed_up_but_unconfirmed: Un mesaj cu un link de confirmare a fost trimis la adresa dvs. de e-mail. Vă rugăm sa deschideți link-ul pentru a activa contul.
-      update_needs_confirmation: "Aţi actualizat contul dvs. de succes, dar avem nevoie să verificăm adresa dvs. de e-mail. Vă rugăm să verificați adresa de email şi faceţi clic pe link-ul de confirmă pentru a finaliza confirmarea adresei dvs. de e-mail."
-      updated: Aţi actualizat contul dvs. cu succes.
-      updated_but_not_signed_in: ""
+        sign_up: Înregistrare # Sign up
+      signed_up: Bine ai venit! V-aţi înscris cu succes. # Welcome! You have signed up successfully.
+      signed_up_but_inactive: "V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. nu este încă activată." # You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: "V-aţi înscris cu succes. Cu toate acestea, nu am putut să vă autentificăm, deoarece contul dvs. este blocat." # You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: Un mesaj cu un link de confirmare a fost trimis la adresa dvs. de e-mail. Vă rugăm sa deschideți link-ul pentru a activa contul. # A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: "Aţi actualizat contul dvs. de succes, dar avem nevoie să verificăm adresa dvs. de e-mail. Vă rugăm să verificați adresa de email şi faceţi clic pe link-ul de confirmă pentru a finaliza confirmarea adresei dvs. de e-mail." # You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Aţi actualizat contul dvs. cu succes. # "Your invitation was successfully updated."
+      updated_but_not_signed_in: "" # Your account has been updated successfully, but since your password was changed, you need to sign in again.
     sessions:
-      already_signed_out: Deautentificarea s-a efectuat cu success.
+      already_signed_out: Deautentificarea s-a efectuat cu success. # Signed out successfully.
       new:
-        sign_in: Autentificare
-      signed_in: Autentificat cu succes.
-      signed_out: Deautentificarea s-a efectuat cu success.
+        sign_in: Autentificare # Sign in
+      signed_in: Autentificat cu succes. # Signed in successfully.
+      signed_out: Deautentificarea s-a efectuat cu success. # Signed out successfully.
     shared:
       links:
-        back: Înapoi
-        didn_t_receive_confirmation_instructions: "Nu ați primit instrucțiuni de confirmare?"
-        didn_t_receive_unlock_instructions: "Nu ați primit instrucțiuni pentru deblocare?"
-        forgot_your_password: "Ați uitat parola?"
-        sign_in: Autentificare
-        sign_in_with_provider: "Autentificat cu %{provider}"
-        sign_up: Înregistrare
+        back: Înapoi # Back
+        didn_t_receive_confirmation_instructions: "Nu ați primit instrucțiuni de confirmare?" # "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Nu ați primit instrucțiuni pentru deblocare?" # "Didn't receive unlock instructions?"
+        forgot_your_password: "Ați uitat parola?" # Forgot your password?
+        sign_in: Autentificare # Sign in
+        sign_in_with_provider: "Autentificat cu %{provider}" # "Sign in with %{provider}"
+        sign_up: Înregistrare # Sign up
       minimum_password_length:
-        one: "(minim %{count} caracter)"
+        one: "(minim %{count} caracter)" # "(1 character minimum)"
         few: "(minim %{count} caractere)"
-        other: "(minim %{count} caractere)"
+        other: "(minim %{count} caractere)" # "(%{count} characters minimum)"
     unlocks:
       new:
-        resend_unlock_instructions: Retrimite instrucțiuni pentru deblocare
-      send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să deblocați contul dvs. în câteva minute.
-      send_paranoid_instructions: "În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute."
-      unlocked: Contul dvs. a fost deblocat cu succes. Vă rugăm autentificați pentru a continua.
+        resend_unlock_instructions: Retrimite instrucțiuni pentru deblocare # Resend unlock instructions
+      send_instructions: Veţi primi un e-mail cu instrucţiuni despre cum să deblocați contul dvs. în câteva minute. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "În cazul în care contul dvs. există, veţi primi un e-mail cu instrucţiuni despre cum să-l deblocați în câteva minute." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      unlocked: Contul dvs. a fost deblocat cu succes. Vă rugăm autentificați pentru a continua. # Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
       already_confirmed: "a fost deja confirmat, vă rugăm să încercaţi să vă autentificați"
@@ -145,6 +145,6 @@ ro:
       not_found: nu există
       not_locked: nu este blocat
       not_saved:
-        one: '1 eroare nu a permis %{resource} să fie salvat:'
+        one: '1 eroare nu a permis %{resource} să fie salvat:' # "(1 character minimum)"
         few: "%{count} erori nu au permis %{resource} să fie salvat:"
-        other: "%{count} erori nu au permis %{resource} să fie salvat:"
+        other: "%{count} erori nu au permis %{resource} să fie salvat:" # "(%{count} characters minimum)"

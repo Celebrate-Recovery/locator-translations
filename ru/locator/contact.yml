@@ -1,17 +1,17 @@
 ru:
   locator:
     contact:
-      contact_title: контакт
-      success: Письмо успешно отправлено.
-      invalid: 'Неверная отправка. Попробуйте снова.'
+      contact_title: контакт # contact
+      success: Письмо успешно отправлено. # Email sent successfully.
+      invalid: 'Неверная отправка. Попробуйте снова.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Связаться с %{rep_name}"
-        detail: Используйте эту форму, чтобы отправить запрос %{rep_name}. Они постараются ответить в ближайшее время.
-        type: Тип представителя / Адвоката
-        ministry_leader: Руководитель служения
-        name: Имя
-        phone: Номер телефона
-        message: Сообщение
-        back: Назад к поиску
-        send: Отправить сообщение
-        no_results: По этому адресу ничего не найдено
+        title: "Связаться с %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Используйте эту форму, чтобы отправить запрос %{rep_name}. Они постараются ответить в ближайшее время. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Тип представителя / Адвоката # Rep / Advocate Type
+        ministry_leader: Руководитель служения # Ministry Leader
+        name: Имя # Name
+        phone: Номер телефона # Phone number
+        message: Сообщение # Message
+        back: Назад к поиску # Back to finder
+        send: Отправить сообщение # Send Message
+        no_results: По этому адресу ничего не найдено # Nothing was found at this address

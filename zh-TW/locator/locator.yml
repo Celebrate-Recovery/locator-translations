@@ -1,4 +1,4 @@
-zh:
+"zh-TW":
   locator:
     # ============================================================================
     # SHARED/COMMON TRANSLATIONS
@@ -97,7 +97,6 @@ zh:
         html_title_groups: 課程 # Groups in
         html_title_in: 在 # in
         full_title: CR 搜尋器 # CR Locator
-        title: 搜尋器 # Locator
         default_title: "尋找自由與支持團隊 - CR 搜尋器" # Find Freedom, Find Community - CR Locator
 
         # Search status messages

@@ -1,17 +1,17 @@
 nl:
   locator:
     contact:
-      contact_title: contact
-      success: E-mail succesvol verzonden.
-      invalid: 'Ongeldige formulierinzending. Probeer het opnieuw.'
+      contact_title: contact # contact
+      success: E-mail succesvol verzonden. # Email sent successfully.
+      invalid: 'Ongeldige formulierinzending. Probeer het opnieuw.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Neem contact op met %{rep_name}"
-        detail: Gebruik dit formulier om een verzoek te sturen naar %{rep_name}. Zij zullen zo snel mogelijk reageren.
-        type: Type vertegenwoordiger / pleitbezorger
-        ministry_leader: Leider van de bediening
-        name: Naam
-        phone: Telefoonnummer
-        message: Bericht
-        back: Terug naar zoeker
-        send: Bericht verzenden
-        no_results: Op dit adres is niets gevonden
+        title: "Neem contact op met %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Gebruik dit formulier om een verzoek te sturen naar %{rep_name}. Zij zullen zo snel mogelijk reageren. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Type vertegenwoordiger / pleitbezorger # Rep / Advocate Type
+        ministry_leader: Leider van de bediening # Ministry Leader
+        name: Naam # Name
+        phone: Telefoonnummer # Phone number
+        message: Bericht # Message
+        back: Terug naar zoeker # Back to finder
+        send: Bericht verzenden # Send Message
+        no_results: Op dit adres is niets gevonden # Nothing was found at this address

@@ -97,7 +97,6 @@ sw:
         html_title_groups: Vikundi katika # Groups in
         html_title_in: katika # in
         full_title: Kipataji CR # CR Locator
-        title: Kipataji # Locator
         default_title: "Tafuta Uhuru, Tafuta Jumuiya - Kipataji CR" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
@@ -131,6 +130,7 @@ sw:
         within_500: "ndani ya 500 %{distance_unit}" # within 500 %{distance_unit}
 
         # Rep/Advocate types
+        groups: Vikundi # Groups
         rep_ambassador: Mwakilishi / Mtetezi # Rep / Advocate
         all_reps: Wawakilishi / Watetezi Wote # All Reps / Advocates
         all_reps_filter: Wawakilishi / Watetezi # Reps / Advocates

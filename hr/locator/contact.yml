@@ -1,17 +1,17 @@
 hr:
   locator:
     contact:
-      contact_title: kontakt
-      success: E-mail uspješno poslan.
-      invalid: 'Nevažeća prijava. Pokušajte ponovno.'
+      contact_title: kontakt # contact
+      success: E-mail uspješno poslan. # Email sent successfully.
+      invalid: 'Nevažeća prijava. Pokušajte ponovno.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Javite se %{rep_name}"
-        detail: Koristite ovaj obrazac za slanje zahtjeva %{rep_name}. Potrudit će se odgovoriti vam na vrijeme.
-        type: Vrsta predstavnika / Zagovornika
-        ministry_leader: Voditelj službe
-        name: Ime
-        phone: Broj telefona
-        message: Poruka
-        back: Natrag na pretragu
-        send: Pošalji poruku
-        no_results: Na ovoj adresi nije ništa pronađeno
+        title: "Javite se %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Koristite ovaj obrazac za slanje zahtjeva %{rep_name}. Potrudit će se odgovoriti vam na vrijeme. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Vrsta predstavnika / Zagovornika # Rep / Advocate Type
+        ministry_leader: Voditelj službe # Ministry Leader
+        name: Ime # Name
+        phone: Broj telefona # Phone number
+        message: Poruka # Message
+        back: Natrag na pretragu # Back to finder
+        send: Pošalji poruku # Send Message
+        no_results: Na ovoj adresi nije ništa pronađeno # Nothing was found at this address

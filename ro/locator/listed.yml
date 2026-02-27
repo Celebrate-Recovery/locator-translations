@@ -2,33 +2,33 @@ ro:
   locator:
     info:
       listed:
-        page_title: "Înscrieți-vă grupul - CR Locator"
-        subtitle: "CR Locator"
-        title: "Înscrieți-vă grupul"
-        intro: "Vă mulțumim pentru interesul de a adăuga slujirea dvs. Celebrate Recovery la CR Locator! Citiți cerințele pentru adăugarea grupului dvs. la Locator mai jos:"
+        page_title: "Înscrieți-vă grupul - CR Locator" # "Get your group listed - CR Locator"
+        subtitle: "CR Locator" # "CR Locator"
+        title: "Înscrieți-vă grupul" # "If your CR DOES meet the requirements above:"
+        intro: "Vă mulțumim pentru interesul de a adăuga slujirea dvs. Celebrate Recovery la CR Locator! Citiți cerințele pentru adăugarea grupului dvs. la Locator mai jos:" # "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:"
         abbreviations:
-          fe_cr: "FE CR = Slujire Celebrate Recovery expresie completă"
-          osgo_cr: "OSGO CR = Slujire Celebrate Recovery doar grupuri de partajare deschise"
+          fe_cr: "FE CR = Slujire Celebrate Recovery expresie completă" # "FE CR = Full Expression Celebrate Recovery Ministry"
+          osgo_cr: "OSGO CR = Slujire Celebrate Recovery doar grupuri de partajare deschise" # "OSGO CR = Open Share Group Only Celebrate Recovery Ministry"
         requirements:
           running_time:
-            title: "(FE CR) Celebration Night sau (OSGO CR) Grupurile de partajare deschise rulează de minimum 90 de zile."
-            description: "Aceasta nu include studiile de pași/formarea inițială a liderilor înainte de lansarea Celebration Night."
+            title: "(FE CR) Celebration Night sau (OSGO CR) Grupurile de partajare deschise rulează de minimum 90 de zile." # "If your CR DOES meet the requirements above:"
+            description: "Aceasta nu include studiile de pași/formarea inițială a liderilor înainte de lansarea Celebration Night." # "This does not include the Step Studies/initial Leader training before the launch of Celebration Night."
           dna:
-            title: "(FE și OSGO CR) Biserica și conducerea CR sunt de acord, implementează și urmează ADN-ul Celebrate Recovery"
-            link_text: "DNA of Celebrate Recovery"
-            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
-            note: "(celebraterecovery.com > Resources > Our DNA)"
+            title: "(FE și OSGO CR) Biserica și conducerea CR sunt de acord, implementează și urmează ADN-ul Celebrate Recovery" # "If your CR DOES meet the requirements above:"
+            link_text: "DNA of Celebrate Recovery" # "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)" # "(celebraterecovery.com > Resources > Our DNA)"
           training:
-            title: "(OSGO CR) Liderii au completat formarea online"
-            description_html: "Videoclipurile de formare CR Open Share Group se găsesc pe pagina CR Community pe Mighty Networks. Accesați %{community_link} pentru a alege un plan și a vă înscrie. Există planuri gratuite și plătite. Formarea CR Open Share Group este inclusă în toate planurile. După înscriere, mergeți la FREE TRAINING în meniul de navigare pentru a găsi formarea."
-            community_url: "https://celebraterecovery.com/cr-community/"
+            title: "(OSGO CR) Liderii au completat formarea online" # "If your CR DOES meet the requirements above:"
+            description_html: "Videoclipurile de formare CR Open Share Group se găsesc pe pagina CR Community pe Mighty Networks. Accesați %{community_link} pentru a alege un plan și a vă înscrie. Există planuri gratuite și plătite. Formarea CR Open Share Group este inclusă în toate planurile. După înscriere, mergeți la FREE TRAINING în meniul de navigare pentru a găsi formarea." # "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training."
+            community_url: "https://celebraterecovery.com/cr-community/" # "https://celebraterecovery.com/cr-community/"
         next_steps:
           not_meeting:
-            title: "Dacă CR-ul dvs. NU îndeplinește cerințele de mai sus:"
-            content: "Efectuați modificările necesare la Celebrate Recovery înainte de a continua. Contactați un reprezentant Celebrate Recovery pentru întrebări. Reveniți la CR Locator pentru a căuta un reprezentant sau grup CR."
+            title: "Dacă CR-ul dvs. NU îndeplinește cerințele de mai sus:" # "If your CR DOES meet the requirements above:"
+            content: "Efectuați modificările necesare la Celebrate Recovery înainte de a continua. Contactați un reprezentant Celebrate Recovery pentru întrebări. Reveniți la CR Locator pentru a căuta un reprezentant sau grup CR." # "Click on the link below to begin the process of adding your CR to the Locator."
           meeting:
-            title: "Dacă CR-ul dvs. ÎNDEPLINEȘTE cerințele de mai sus:"
-            content: "Faceți clic pe linkul de mai jos pentru a începe procesul de adăugare a CR-ului dvs. la Locator."
+            title: "Dacă CR-ul dvs. ÎNDEPLINEȘTE cerințele de mai sus:" # "If your CR DOES meet the requirements above:"
+            content: "Faceți clic pe linkul de mai jos pentru a începe procesul de adăugare a CR-ului dvs. la Locator." # "Click on the link below to begin the process of adding your CR to the Locator."
         buttons:
-          dashboard: "Mergi la panoul de control"
-          setup: "Configurați grupul Celebrate Recovery"
+          dashboard: "Mergi la panoul de control" # "Go to your dashboard"
+          setup: "Configurați grupul Celebrate Recovery" # "Setup Your Celebrate Recovery Group"

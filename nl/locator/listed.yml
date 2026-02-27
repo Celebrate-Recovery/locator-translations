@@ -2,33 +2,33 @@ nl:
   locator:
     info:
       listed:
-        page_title: "Meld uw groep aan - CR Locator"
-        subtitle: "CR Locator"
-        title: "Meld uw groep aan"
-        intro: "Bedankt voor uw belangstelling om uw Celebrate Recovery-bediening toe te voegen aan de CR Locator! Lees hieronder de vereisten voor het toevoegen van uw groep aan de Locator:"
+        page_title: "Meld uw groep aan - CR Locator" # "Get your group listed - CR Locator"
+        subtitle: "CR Locator" # "CR Locator"
+        title: "Meld uw groep aan" # "If your CR DOES meet the requirements above:"
+        intro: "Bedankt voor uw belangstelling om uw Celebrate Recovery-bediening toe te voegen aan de CR Locator! Lees hieronder de vereisten voor het toevoegen van uw groep aan de Locator:" # "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:"
         abbreviations:
-          fe_cr: "FE CR = Full Expression Celebrate Recovery-bediening"
-          osgo_cr: "OSGO CR = Open Share Group Only Celebrate Recovery-bediening"
+          fe_cr: "FE CR = Full Expression Celebrate Recovery-bediening" # "FE CR = Full Expression Celebrate Recovery Ministry"
+          osgo_cr: "OSGO CR = Open Share Group Only Celebrate Recovery-bediening" # "OSGO CR = Open Share Group Only Celebrate Recovery Ministry"
         requirements:
           running_time:
-            title: "(FE CR) Celebration Night of (OSGO CR) Open Share Groups lopen minimaal 90 dagen."
-            description: "Dit omvat niet de stappenstudies/initiële leidersopleiding vóór de start van Celebration Night."
+            title: "(FE CR) Celebration Night of (OSGO CR) Open Share Groups lopen minimaal 90 dagen." # "If your CR DOES meet the requirements above:"
+            description: "Dit omvat niet de stappenstudies/initiële leidersopleiding vóór de start van Celebration Night." # "This does not include the Step Studies/initial Leader training before the launch of Celebration Night."
           dna:
-            title: "(FE en OSGO CR) Kerk en CR-leiderschap zijn het eens met, implementeren en volgen het DNA van Celebrate Recovery"
-            link_text: "DNA van Celebrate Recovery"
-            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
-            note: "(celebraterecovery.com > Resources > Our DNA)"
+            title: "(FE en OSGO CR) Kerk en CR-leiderschap zijn het eens met, implementeren en volgen het DNA van Celebrate Recovery" # "If your CR DOES meet the requirements above:"
+            link_text: "DNA van Celebrate Recovery" # "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)" # "(celebraterecovery.com > Resources > Our DNA)"
           training:
-            title: "(OSGO CR) Leiders hebben de online training voltooid"
-            description_html: "De CR Open Share Group-trainingsvideo's vindt u op de CR Community-pagina op Mighty Networks. Ga naar %{community_link} om een plan te kiezen en lid te worden. Er zijn gratis en betaalde plannen. De CR Open Share Group-training is in alle plannen inbegrepen. Ga na het lid worden naar FREE TRAINING in het navigatiemenu om de training te vinden."
-            community_url: "https://celebraterecovery.com/cr-community/"
+            title: "(OSGO CR) Leiders hebben de online training voltooid" # "If your CR DOES meet the requirements above:"
+            description_html: "De CR Open Share Group-trainingsvideo's vindt u op de CR Community-pagina op Mighty Networks. Ga naar %{community_link} om een plan te kiezen en lid te worden. Er zijn gratis en betaalde plannen. De CR Open Share Group-training is in alle plannen inbegrepen. Ga na het lid worden naar FREE TRAINING in het navigatiemenu om de training te vinden." # "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training."
+            community_url: "https://celebraterecovery.com/cr-community/" # "https://celebraterecovery.com/cr-community/"
         next_steps:
           not_meeting:
-            title: "Als uw CR NIET voldoet aan de bovenstaande vereisten:"
-            content: "Breng de nodige wijzigingen aan in uw Celebrate Recovery voordat u verder gaat. Neem contact op met een Celebrate Recovery-vertegenwoordiger bij vragen. Ga terug naar de CR Locator om een vertegenwoordiger of CR-groep te zoeken."
+            title: "Als uw CR NIET voldoet aan de bovenstaande vereisten:" # "If your CR DOES meet the requirements above:"
+            content: "Breng de nodige wijzigingen aan in uw Celebrate Recovery voordat u verder gaat. Neem contact op met een Celebrate Recovery-vertegenwoordiger bij vragen. Ga terug naar de CR Locator om een vertegenwoordiger of CR-groep te zoeken." # "Click on the link below to begin the process of adding your CR to the Locator."
           meeting:
-            title: "Als uw CR WEL voldoet aan de bovenstaande vereisten:"
-            content: "Klik op de onderstaande link om uw CR aan de Locator toe te voegen."
+            title: "Als uw CR WEL voldoet aan de bovenstaande vereisten:" # "If your CR DOES meet the requirements above:"
+            content: "Klik op de onderstaande link om uw CR aan de Locator toe te voegen." # "Click on the link below to begin the process of adding your CR to the Locator."
         buttons:
-          dashboard: "Ga naar uw dashboard"
-          setup: "Stel uw Celebrate Recovery-groep in"
+          dashboard: "Ga naar uw dashboard" # "Go to your dashboard"
+          setup: "Stel uw Celebrate Recovery-groep in" # "Setup Your Celebrate Recovery Group"

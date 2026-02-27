@@ -1,86 +1,85 @@
 de:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: E-Mail
-      details: Details
-      search: Suchen
-      filter: Filter
-      online: Online
-      in_person: Persönlich
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Große Gruppe
-      open_share_groups: Offene Share-Gruppen
-      step_studies: Schrittenstudien
-      distance: "%{distance_unit}"
-      mile: Meilen
-      kilometer: Kilometer
-      location: Standort
-      groups: Gruppen
-      reps: Repräsentanten
-      language: Sprache
-      format: Format
+      cr_locator: CR-Standortfinder # CR Locator
+      locator: Standortfinder # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: E-Mail # Email
+      details: Details # Details
+      search: Suchen # Search
+      filter: Filter # Filter
+      online: Online # Online
+      in_person: Persönlich # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Große Gruppe # Large Group
+      open_share_groups: Offene Share-Gruppen # Open Share Groups
+      step_studies: Schrittenstudien # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: Meilen # miles
+      kilometer: Kilometer # kilometers
+      location: Standort # Location
+      groups: Gruppen # "%{rep_name} is a part of the following groups weekly:"
+      reps: Repräsentanten # Reps
+      language: Sprache # Languages Offered Here
+      format: Format # Format
       days:
-        sunday: Sonntag
-        monday: Montag
-        tuesday: Dienstag
-        wednesday: Mittwoch
-        thursday: Donnerstag
-        friday: Freitag
-        saturday: Samstag
+        sunday: Sonntag # S
+        monday: Montag # M
+        tuesday: Dienstag # T
+        wednesday: Mittwoch # W
+        thursday: Donnerstag # T
+        friday: Freitag # F
+        saturday: Samstag # S
       days_short:
-        sunday: So
-        monday: Mo
-        tuesday: Di
-        wednesday: Mi
-        thursday: Do
-        friday: Fr
-        saturday: Sa
+        sunday: So # S
+        monday: Mo # M
+        tuesday: Di # T
+        wednesday: Mi # W
+        thursday: Do # T
+        friday: Fr # F
+        saturday: Sa # S
       days_initial:
-        sunday: S
-        monday: M
-        tuesday: D
-        wednesday: M
-        thursday: D
-        friday: F
-        saturday: S
+        sunday: S # S
+        monday: M # M
+        tuesday: D # T
+        wednesday: M # W
+        thursday: D # T
+        friday: F # F
+        saturday: S # S
     layouts:
       partials:
         header:
-          close_menu: Menü schließen
-          about: Über uns
-          get_your_cr_on_the_locator: Eintragen
-          main_menu: Hauptmenü
-          login_in: Anmelden
-          dashboard: Dashboard
+          close_menu: Menü schließen # Close Menu
+          about: Über uns # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Eintragen # Get Listed
+          main_menu: Hauptmenü # Main Menu
+          login_in: Anmelden # Login
+          dashboard: Dashboard # Dashboard
     home:
-      please_enter_location: "Bitte geben Sie einen Ort oder eine Postleitzahl ein, um nach Gruppen oder Repräsentanten zu suchen."
-      email_sent: 'E-Mail erfolgreich gesendet.'
+      please_enter_location: "Bitte geben Sie einen Ort oder eine Postleitzahl ein, um nach Gruppen oder Repräsentanten zu suchen." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'E-Mail erfolgreich gesendet.' # "Email sent successfully."
       index:
-        html_title: Startseite
-        html_title_groups: Gruppen in
-        html_title_in: in
-        full_title: CR Locator
-        title: Locator
-        default_title: "Freiheit finden, Gemeinschaft finden - CR Locator"
-        enter: "Bitte geben Sie einen Ort oder eine Postleitzahl ein, um die Suche zu starten"
-        error: "Bei der Suche ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
-        none_found_group: "Keine Gruppen innerhalb von %{radius} %{distance_unit} gefunden"
-        none_found_rep: "Keine Repräsentanten innerhalb von %{radius} %{distance_unit} gefunden"
-        closest_group: "Nächstgelegene Gruppen werden angezeigt."
-        closest_rep: "Nächstgelegene Repräsentanten werden angezeigt."
-        help: "Hilfe"
+        html_title: Startseite # Home
+        html_title_groups: Gruppen in # Groups in
+        html_title_in: in # in
+        full_title: CR Locator # CR Locator
+        default_title: "Freiheit finden, Gemeinschaft finden - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Bitte geben Sie einen Ort oder eine Postleitzahl ein, um die Suche zu starten" # "Please enter a location or postal code to begin your search"
+        error: "Bei der Suche ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut." # "An error occurred while searching. Please try again."
+        none_found_group: "Keine Gruppen innerhalb von %{radius} %{distance_unit} gefunden" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Keine Repräsentanten innerhalb von %{radius} %{distance_unit} gefunden" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Nächstgelegene Gruppen werden angezeigt." # "Showing the closest groups."
+        closest_rep: "Nächstgelegene Repräsentanten werden angezeigt." # "Showing the closest reps."
+        help: "Hilfe" # "Help"
       form:
-        search_title: Ihr Standort / Postleitzahl
-        search_placeholder: Ort eingeben
-        search_nearby: In der Nähe suchen
-        location_name: Ortsname
-        search_type: Typ
-        radius: Radius
-        day_of_week: Wochentage
+        search_title: Ihr Standort / Postleitzahl # Your location / ZIP code
+        search_placeholder: Ort eingeben # Enter a location
+        search_nearby: In der Nähe suchen # Search Nearby
+        location_name: Ortsname # Location name
+        search_type: Typ # Type
+        radius: Radius # Radius
+        day_of_week: Wochentage # Days of the week
         within_10: "innerhalb von 10 %{distance_unit}"
         within_25: "innerhalb von 25 %{distance_unit}"
         within_50: "innerhalb von 50 %{distance_unit}"
@@ -89,46 +88,47 @@ de:
         within_200: "innerhalb von 200 %{distance_unit}"
         within_250: "innerhalb von 250 %{distance_unit}"
         within_500: "innerhalb von 500 %{distance_unit}"
-        rep_ambassador: Repräsentant / Advocate
-        all_reps: Alle Repräsentanten / Advocates
-        all_reps_filter: Repräsentanten / Advocates
-        cr_reps: CR-Repräsentanten
-        landing_reps: Landing-Repräsentanten
-        celebration_place_reps: Celebration Place-Repräsentanten
+        groups: Gruppen # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Repräsentant / Advocate # Rep / Advocate
+        all_reps: Alle Repräsentanten / Advocates # All Reps / Advocates
+        all_reps_filter: Repräsentanten / Advocates # Reps / Advocates
+        cr_reps: CR-Repräsentanten # CR Reps
+        landing_reps: Landing-Repräsentanten # Landing Reps
+        celebration_place_reps: Celebration Place-Repräsentanten # Celebration Place Reps
         ambassadors:
-          mental_health: Advocate psychische Gesundheit
-          cr_inside: CR Inside Advocate
-          cr_international: CR International Advocate
-          cultural_communities: Advocate kulturelle Gemeinschaften
-          welcome_home: Welcome Home Advocate
-          opioid: Opioid Advocate
-          cpr: CPR Advocate
-        all_groups: Alle Gruppen
-        all_groups_filter: Gruppen
-        online_large_group: Online große Gruppe
-        online_open_share: Online Offene Share-Gruppen
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Fellowship-Mahl
-        childcare: Kinderbetreuung
+          mental_health: Advocate psychische Gesundheit # Mental Health Advocate
+          cr_inside: CR Inside Advocate # CR Inside Advocate
+          cr_international: CR International Advocate # CR International Advocate
+          cultural_communities: Advocate kulturelle Gemeinschaften # Cultural Communities Advocate
+          welcome_home: Welcome Home Advocate # Welcome Home Advocate
+          opioid: Opioid Advocate # Opioid Advocate
+          cpr: CPR Advocate # CPR Advocate
+        all_groups: Alle Gruppen # All Groups
+        all_groups_filter: Gruppen # Groups
+        online_large_group: Online große Gruppe # Online Large Group
+        online_open_share: Online Offene Share-Gruppen # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship-Mahl # Fellowship Meal
+        childcare: Kinderbetreuung # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Verfügbar
-          offered_in: Angeboten in
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Verfügbar # Available
+          offered_in: Angeboten in # Offered in
     results:
       partials:
         group:
-          directions: Route anzeigen
-          email: E-Mail
-          language: Hier angebotene Sprachen
-          location: Standort
-          contact: Gruppenkontakte
-          rep_contact: Repräsentantenkontakt
-          ministry_leader: Leiter der Dienststelle
-          upcomming_step_study: Kommende Schrittenstudien
-          starting: Start
-          additional_information: Zusätzliche Informationen
+          directions: Route anzeigen # Get Directions
+          email: E-Mail # Email
+          language: Hier angebotene Sprachen # Languages Offered Here
+          location: Standort # Location
+          contact: Gruppenkontakte # Group Contacts
+          rep_contact: Repräsentantenkontakt # Rep Contact
+          ministry_leader: Leiter der Dienststelle # Ministry Leader
+          upcomming_step_study: Kommende Schrittenstudien # Upcoming Step Studies
+          starting: Start # Starting
+          additional_information: Zusätzliche Informationen # Additional Information
         rep:
-          based_in: "Sitz in %{location}"
-          about: "Ein wenig über %{rep_name}"
-          groups: "%{rep_name} nimmt wöchentlich an folgenden Gruppen teil:"
+          based_in: "Sitz in %{location}" # "Based in %{location}"
+          about: "Ein wenig über %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} nimmt wöchentlich an folgenden Gruppen teil:" # "%{rep_name} is a part of the following groups weekly:"

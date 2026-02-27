@@ -1,86 +1,85 @@
 ro:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: E-mail
-      details: Detalii
-      search: Caută
-      filter: Filtrează
-      online: Online
-      in_person: Față în față
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Grup mare
-      open_share_groups: Grupuri de partajare deschise
-      step_studies: Studii de pași
-      distance: "%{distance_unit}"
-      mile: mile
-      kilometer: kilometri
-      location: Locație
-      groups: Grupuri
-      reps: Reprezentanți
-      language: Limbă
-      format: Format
+      cr_locator: Localizator CR # CR Locator
+      locator: Localizator # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: E-mail # Email
+      details: Detalii # Details
+      search: Caută # Search
+      filter: Filtrează # Filter
+      online: Online # Online
+      in_person: Față în față # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Grup mare # Large Group
+      open_share_groups: Grupuri de partajare deschise # Open Share Groups
+      step_studies: Studii de pași # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: mile # miles
+      kilometer: kilometri # kilometers
+      location: Locație # Location
+      groups: Grupuri # "%{rep_name} is a part of the following groups weekly:"
+      reps: Reprezentanți # Reps
+      language: Limbă # Languages Offered Here
+      format: Format # Format
       days:
-        sunday: Duminică
-        monday: Luni
-        tuesday: Marți
-        wednesday: Miercuri
-        thursday: Joi
-        friday: Vineri
-        saturday: Sâmbătă
+        sunday: Duminică # S
+        monday: Luni # M
+        tuesday: Marți # T
+        wednesday: Miercuri # W
+        thursday: Joi # T
+        friday: Vineri # F
+        saturday: Sâmbătă # S
       days_short:
-        sunday: Dum
-        monday: Lun
-        tuesday: Mar
-        wednesday: Mie
-        thursday: Joi
-        friday: Vin
-        saturday: Sâm
+        sunday: Dum # S
+        monday: Lun # M
+        tuesday: Mar # T
+        wednesday: Mie # W
+        thursday: Joi # T
+        friday: Vin # F
+        saturday: Sâm # S
       days_initial:
-        sunday: D
-        monday: L
-        tuesday: M
-        wednesday: M
-        thursday: J
-        friday: V
-        saturday: S
+        sunday: D # S
+        monday: L # M
+        tuesday: M # T
+        wednesday: M # W
+        thursday: J # T
+        friday: V # F
+        saturday: S # S
     layouts:
       partials:
         header:
-          close_menu: Închide meniul
-          about: Despre
-          get_your_cr_on_the_locator: Înscrie-te
-          main_menu: Meniu principal
-          login_in: Autentificare
-          dashboard: Panou
+          close_menu: Închide meniul # Close Menu
+          about: Despre # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Înscrie-te # Get Listed
+          main_menu: Meniu principal # Main Menu
+          login_in: Autentificare # Login
+          dashboard: Panou # Dashboard
     home:
-      please_enter_location: "Introduceți o locație sau cod poștal pentru a căuta grupuri sau reprezentanți."
-      email_sent: 'E-mail trimis cu succes.'
+      please_enter_location: "Introduceți o locație sau cod poștal pentru a căuta grupuri sau reprezentanți." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'E-mail trimis cu succes.' # "Email sent successfully."
       index:
-        html_title: Acasă
-        html_title_groups: Grupuri în
-        html_title_in: în
-        full_title: CR Locator
-        title: Locator
-        default_title: "Găsiți libertate, găsiți comunitate - CR Locator"
-        enter: "Introduceți o locație sau cod poștal pentru a începe căutarea"
-        error: "A apărut o eroare la căutare. Încercați din nou."
-        none_found_group: "Nu s-au găsit grupuri în raza de %{radius} %{distance_unit}"
-        none_found_rep: "Nu s-au găsit reprezentanți în raza de %{radius} %{distance_unit}"
-        closest_group: "Se afișează cele mai apropiate grupuri."
-        closest_rep: "Se afișează cei mai apropiați reprezentanți."
-        help: "Ajutor"
+        html_title: Acasă # Home
+        html_title_groups: Grupuri în # Groups in
+        html_title_in: în # in
+        full_title: CR Locator # CR Locator
+        default_title: "Găsiți libertate, găsiți comunitate - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Introduceți o locație sau cod poștal pentru a începe căutarea" # "Please enter a location or postal code to begin your search"
+        error: "A apărut o eroare la căutare. Încercați din nou." # "An error occurred while searching. Please try again."
+        none_found_group: "Nu s-au găsit grupuri în raza de %{radius} %{distance_unit}" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Nu s-au găsit reprezentanți în raza de %{radius} %{distance_unit}" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Se afișează cele mai apropiate grupuri." # "Showing the closest groups."
+        closest_rep: "Se afișează cei mai apropiați reprezentanți." # "Showing the closest reps."
+        help: "Ajutor" # "Help"
       form:
-        search_title: Locația dvs. / Cod poștal
-        search_placeholder: Introduceți o locație
-        search_nearby: Caută în apropiere
-        location_name: Nume locație
-        search_type: Tip
-        radius: Rază
-        day_of_week: Zile din săptămână
+        search_title: Locația dvs. / Cod poștal # Your location / ZIP code
+        search_placeholder: Introduceți o locație # Enter a location
+        search_nearby: Caută în apropiere # Search Nearby
+        location_name: Nume locație # Location name
+        search_type: Tip # Type
+        radius: Rază # Radius
+        day_of_week: Zile din săptămână # Days of the week
         within_10: "în raza de 10 %{distance_unit}"
         within_25: "în raza de 25 %{distance_unit}"
         within_50: "în raza de 50 %{distance_unit}"
@@ -89,46 +88,47 @@ ro:
         within_200: "în raza de 200 %{distance_unit}"
         within_250: "în raza de 250 %{distance_unit}"
         within_500: "în raza de 500 %{distance_unit}"
-        rep_ambassador: Reprezentant / Avocat
-        all_reps: Toți reprezentanții / Avocații
-        all_reps_filter: Reprezentanți / Avocați
-        cr_reps: Reprezentanți CR
-        landing_reps: Reprezentanți Landing
-        celebration_place_reps: Reprezentanți Celebration Place
+        groups: Grupuri # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Reprezentant / Avocat # Rep / Advocate
+        all_reps: Toți reprezentanții / Avocații # All Reps / Advocates
+        all_reps_filter: Reprezentanți / Avocați # Reps / Advocates
+        cr_reps: Reprezentanți CR # CR Reps
+        landing_reps: Reprezentanți Landing # Landing Reps
+        celebration_place_reps: Reprezentanți Celebration Place # Celebration Place Reps
         ambassadors:
-          mental_health: Avocat sănătate mintală
-          cr_inside: Avocat CR Inside
-          cr_international: Avocat CR International
-          cultural_communities: Avocat comunități culturale
-          welcome_home: Avocat Welcome Home
-          opioid: Avocat opioide
-          cpr: Avocat CPR
-        all_groups: Toate grupurile
-        all_groups_filter: Grupuri
-        online_large_group: Grup mare online
-        online_open_share: Grupuri de partajare deschise online
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Masă Fellowship
-        childcare: Îngrijire copii
+          mental_health: Avocat sănătate mintală # Mental Health Advocate
+          cr_inside: Avocat CR Inside # CR Inside Advocate
+          cr_international: Avocat CR International # CR International Advocate
+          cultural_communities: Avocat comunități culturale # Cultural Communities Advocate
+          welcome_home: Avocat Welcome Home # Welcome Home Advocate
+          opioid: Avocat opioide # Opioid Advocate
+          cpr: Avocat CPR # CPR Advocate
+        all_groups: Toate grupurile # All Groups
+        all_groups_filter: Grupuri # Groups
+        online_large_group: Grup mare online # Online Large Group
+        online_open_share: Grupuri de partajare deschise online # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Masă Fellowship # Fellowship Meal
+        childcare: Îngrijire copii # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Disponibil
-          offered_in: Oferit în
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Disponibil # Available
+          offered_in: Oferit în # Offered in
     results:
       partials:
         group:
-          directions: Direcții
-          email: E-mail
-          language: Limbi oferite aici
-          location: Locație
-          contact: Contacte grup
-          rep_contact: Contact reprezentant
-          ministry_leader: Lider serviciu
-          upcomming_step_study: Studii de pași viitoare
-          starting: Începe
-          additional_information: Informații suplimentare
+          directions: Direcții # Get Directions
+          email: E-mail # Email
+          language: Limbi oferite aici # Languages Offered Here
+          location: Locație # Location
+          contact: Contacte grup # Group Contacts
+          rep_contact: Contact reprezentant # Rep Contact
+          ministry_leader: Lider serviciu # Ministry Leader
+          upcomming_step_study: Studii de pași viitoare # Upcoming Step Studies
+          starting: Începe # Starting
+          additional_information: Informații suplimentare # Additional Information
         rep:
-          based_in: "Bazat în %{location}"
-          about: "Câteva despre %{rep_name}"
-          groups: "%{rep_name} participă săptămânal la următoarele grupuri:"
+          based_in: "Bazat în %{location}" # "Based in %{location}"
+          about: "Câteva despre %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} participă săptămânal la următoarele grupuri:" # "%{rep_name} is a part of the following groups weekly:"

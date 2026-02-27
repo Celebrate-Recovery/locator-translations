@@ -1,203 +1,203 @@
 sw:
   devise:
     confirmations:
-      confirmed: Akaunti yako imeanzishwa na sasa umeingia.
+      confirmed: Akaunti yako imeanzishwa na sasa umeingia. # Your account has been activated and you are now signed in.
       new:
-        title: "Tuma Tenzi Uthibitishaji - CR Locator"
-        heading: "Tuma tenzi za uthibitishaji"
-        email: "Anwani ya barua pepe"
-        resend_confirmation_instructions: Tuma tenzi za uthibitishaji
-      send_instructions: Utapokea barua pepe na maagizo ya kuthibitisha akaunti yako ndani ya dakika chache.
-      send_paranoid_instructions: Ikiwa anwani yako ya barua pepe iko kwenye hifadhi yetu ya data, utapokea barua pepe na maagizo ya kuthibitisha akaunti yako ndani ya dakika chache.
+        title: "Tuma Tenzi Uthibitishaji - CR Locator" # "Resend Unlock Instructions - CR Locator"
+        heading: "Tuma tenzi za uthibitishaji" # "Resend unlock instructions"
+        email: "Anwani ya barua pepe" # "Email address"
+        resend_confirmation_instructions: Tuma tenzi za uthibitishaji # Resend confirmation instructions
+      send_instructions: Utapokea barua pepe na maagizo ya kuthibitisha akaunti yako ndani ya dakika chache. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: Ikiwa anwani yako ya barua pepe iko kwenye hifadhi yetu ya data, utapokea barua pepe na maagizo ya kuthibitisha akaunti yako ndani ya dakika chache. # If your email address exists in our database, you will receive an invitation email in a few minutes.
 
     failure:
-      already_authenticated: Tayari umeingia.
-      inactive: Akaunti yako haijaanzishwa bado.
-      invalid: Barua pepe au nenosiri si sahihi.
-      locked: Akaunti yako imefungwa.
-      last_attempt: "Una jaribio moja zaidi kabla akaunti yako haijafungwa."
-      not_found_in_database: Barua pepe au nenosiri si sahihi.
-      timeout: Muda wako wa kuingia umekwisha. Tafadhali ingia tena ili kuendelea.
-      unauthenticated: Unahitaji kuingia au kujisajili kabla ya kuendelea.
-      unconfirmed: Lazima uthibitishe anwani yako ya barua pepe kabla ya kuendelea.
-      invited: "Una mwaliko unaosubiri, ukubali ili kumaliza kuunda akaunti yako."
+      already_authenticated: Tayari umeingia. # You are already signed in.
+      inactive: Akaunti yako haijaanzishwa bado. # Your account is not activated yet.
+      invalid: Barua pepe au nenosiri si sahihi. # Invalid email or password.
+      locked: Akaunti yako imefungwa. # Your account is locked.
+      last_attempt: "Una jaribio moja zaidi kabla akaunti yako haijafungwa." # "You have one more attempt before your account is locked."
+      not_found_in_database: Barua pepe au nenosiri si sahihi. # Invalid email or password.
+      timeout: Muda wako wa kuingia umekwisha. Tafadhali ingia tena ili kuendelea. # Your session expired. Please sign in again to continue.
+      unauthenticated: Unahitaji kuingia au kujisajili kabla ya kuendelea. # You need to sign in or sign up before continuing.
+      unconfirmed: Lazima uthibitishe anwani yako ya barua pepe kabla ya kuendelea. # You have to confirm your email address before continuing.
+      invited: "Una mwaliko unaosubiri, ukubali ili kumaliza kuunda akaunti yako." # User was successfully invited.
 
     mailer:
       confirmation_instructions:
-        subject: "Maagizo ya uthibitishaji"
-        greeting: "Mpendwa %{name},"
-        confirm_email: "Unaweza kuthibitisha barua pepe ya akaunti yako kupitia kiungo hapa chini:"
-        confirm_account: "Thibitisha akaunti yangu"
-        signature: "Asante,\nTimu ya Celebrate Recovery"
-        logo_alt: "Celebrate Recovery Locator"
-        footer: "Unapokea ujumbe huu kwa sababu barua pepe yako ilibadilishwa"
+        subject: "Maagizo ya uthibitishaji" # "Reminder: Invitation instructions"
+        greeting: "Mpendwa %{name}," # "Dear %{name},"
+        confirm_email: "Unaweza kuthibitisha barua pepe ya akaunti yako kupitia kiungo hapa chini:" # "You can confirm your account email through the link below:"
+        confirm_account: "Thibitisha akaunti yangu" # "Confirm my account"
+        signature: "Asante,\nTimu ya Celebrate Recovery" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator" # "Celebrate Recovery Locator"
+        footer: "Unapokea ujumbe huu kwa sababu barua pepe yako ilibadilishwa" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       reset_password_instructions:
-        subject: "Maagizo ya kurekebisha nenosiri"
-        greeting: "Mpendwa %{name},"
-        request_link: "Mtu ameomba kiungo cha kubadilisha nenosiri lako. Unaweza kufanya hivyo kupitia kiungo hapa chini."
-        change_password: "Badilisha nenosiri langu"
-        ignore_if_not_requested: "Ikiwa haukuomba hivi, tafadhali usiuzingatie barua pepe hii. Nenosiri lako halitabadilika hadi ufikie kiungo hapa juu na uunde jipya."
-        signature: "Asante,\nTimu ya Celebrate Recovery"
-        logo_alt: "Celebrate Recovery Locator"
-        footer: "Unapokea ujumbe huu kwa sababu una akaunti ya CR Locator na urekebishaji wa nenosiri kwa %{name} ulikamilika"
+        subject: "Maagizo ya kurekebisha nenosiri" # "Reminder: Invitation instructions"
+        greeting: "Mpendwa %{name}," # "Dear %{name},"
+        request_link: "Mtu ameomba kiungo cha kubadilisha nenosiri lako. Unaweza kufanya hivyo kupitia kiungo hapa chini." # "Someone has requested a link to change your password. You can do this through the link below."
+        change_password: "Badilisha nenosiri langu" # "Change my password"
+        ignore_if_not_requested: "Ikiwa haukuomba hivi, tafadhali usiuzingatie barua pepe hii. Nenosiri lako halitabadilika hadi ufikie kiungo hapa juu na uunde jipya." # "If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one."
+        signature: "Asante,\nTimu ya Celebrate Recovery" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator" # "Celebrate Recovery Locator"
+        footer: "Unapokea ujumbe huu kwa sababu una akaunti ya CR Locator na urekebishaji wa nenosiri kwa %{name} ulikamilika" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       unlock_instructions:
-        subject: "Maagizo ya kufungua"
-        greeting: "Mpendwa %{name},"
-        account_locked: "Akaunti yako imefungwa kwa sababu ya idadi kubwa ya majaribio ya kuingia yasiyofanikiwa."
-        click_link: "Bofya kiungo hapa chini kufungua akaunti yako:"
+        subject: "Maagizo ya kufungua" # "Reminder: Invitation instructions"
+        greeting: "Mpendwa %{name}," # "Dear %{name},"
+        account_locked: "Akaunti yako imefungwa kwa sababu ya idadi kubwa ya majaribio ya kuingia yasiyofanikiwa." # "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+        click_link: "Bofya kiungo hapa chini kufungua akaunti yako:" # "Click the link below to unlock your account:"
       email_changed:
-        subject: "Barua pepe Imebadilishwa"
-        greeting: "Mpendwa %{name},"
-        email_changing: "Tunawasiliana nawe kukuarifu kuwa barua pepe yako inabadilishwa kuwa %{email}."
-        email_changed: "Tunawasiliana nawe kukuarifu kuwa barua pepe yako imebadilishwa kuwa %{email}."
-        signature: "Asante,\nTimu ya Celebrate Recovery"
-        logo_alt: "Celebrate Recovery Locator"
-        footer: "Unapokea ujumbe huu kwa sababu barua pepe yako ilibadilishwa"
+        subject: "Barua pepe Imebadilishwa" # "Reminder: Invitation instructions"
+        greeting: "Mpendwa %{name}," # "Dear %{name},"
+        email_changing: "Tunawasiliana nawe kukuarifu kuwa barua pepe yako inabadilishwa kuwa %{email}." # "We're contacting you to notify you that your email is being changed to %{email}."
+        email_changed: "Tunawasiliana nawe kukuarifu kuwa barua pepe yako imebadilishwa kuwa %{email}." # "We're contacting you to notify you that your email has been changed to %{email}."
+        signature: "Asante,\nTimu ya Celebrate Recovery" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator" # "Celebrate Recovery Locator"
+        footer: "Unapokea ujumbe huu kwa sababu barua pepe yako ilibadilishwa" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       password_change:
-        subject: "Nenosiri Limebadilishwa"
-        greeting: "Mpendwa %{name},"
-        password_changed: "Tunawasiliana nawe kukuarifu kuwa nenosiri lako limebadilishwa."
-        signature: "Asante,\nTimu ya Celebrate Recovery"
-        logo_alt: "Celebrate Recovery Locator"
-        footer: "Unapokea ujumbe huu kwa sababu una akaunti ya CR Locator na nenosiri lako libadilishwa"
+        subject: "Nenosiri Limebadilishwa" # "Reminder: Invitation instructions"
+        greeting: "Mpendwa %{name}," # "Dear %{name},"
+        password_changed: "Tunawasiliana nawe kukuarifu kuwa nenosiri lako limebadilishwa." # "We're contacting you to notify you that your password has been changed."
+        signature: "Asante,\nTimu ya Celebrate Recovery" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator" # "Celebrate Recovery Locator"
+        footer: "Unapokea ujumbe huu kwa sababu una akaunti ya CR Locator na nenosiri lako libadilishwa" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       invitation_instructions:
-        subject: "Maagizo ya mwaliko"
-        greeting: "Mpendwa %{name},"
-        hello: "Habari %{email}"
-        someone_invited_you: "Umealikwa kujiunga na %{url}, unaweza kukubali kupitia kiungo hapa chini."
-        accept: "Kubali mwaliko"
-        accept_until: "Mwaliko huu utakwisha tarehe %{due_date}."
-        ignore: "Ikiwa hutaki kukubali mwaliko, tafadhali usiuzingatie barua pepe hii. Akaunti yako haitaundwa hadi ufikie kiungo hapa juu na uweke nenosiri lako."
+        subject: "Maagizo ya mwaliko" # "Reminder: Invitation instructions"
+        greeting: "Mpendwa %{name}," # "Dear %{name},"
+        hello: "Habari %{email}" # "Hello %{email}"
+        someone_invited_you: "Umealikwa kujiunga na %{url}, unaweza kukubali kupitia kiungo hapa chini." # "You have been invited to join %{url}, you can accept it through the link below."
+        accept: "Kubali mwaliko" # "Accept invitation"
+        accept_until: "Mwaliko huu utakwisha tarehe %{due_date}." # "This invitation will be due in %{due_date}."
+        ignore: "Ikiwa hutaki kukubali mwaliko, tafadhali usiuzingatie barua pepe hii. Akaunti yako haitaundwa hadi ufikie kiungo hapa juu na uweke nenosiri lako." # "If you don't want to accept the invitation, please ignore this email. Your account won't be created until you access the link above and set your password."
         role_level_1: "Akaunti yako itatumika kusimamia kanisa lako, kikundi, na orodha ya masomo ya hatua."
         role_level_5: "Akaunti yako itakuruhusu kusimamia orodha yako."
         role_level_50: "Akaunti yako itakuruhusu kusimamia orodha yako, na makanisa eneo lako."
-        signature: "Asante,\nTimu ya Celebrate Recovery"
-        logo_alt: "Celebrate Recovery Locator"
-        footer: "Unapokea ujumbe huu kwa sababu mtu ameandaa akaunti kwa ajili yako kwenye CR Locator"
+        signature: "Asante,\nTimu ya Celebrate Recovery" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Locator" # "Celebrate Recovery Locator"
+        footer: "Unapokea ujumbe huu kwa sababu mtu ameandaa akaunti kwa ajili yako kwenye CR Locator" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       invitation_instructions_reminder:
-        subject: "Ukumbusho: Maagizo ya mwaliko"
+        subject: "Ukumbusho: Maagizo ya mwaliko" # "Reminder: Invitation instructions"
 
     omniauth_callbacks:
-      failure: "Imeshindwa kukuthibitisha kutoka %{kind} kwa sababu \"%{reason}\"."
-      success: "Umethibitishwa kwa mafanikio kutoka akaunti ya %{kind}."
+      failure: "Imeshindwa kukuthibitisha kutoka %{kind} kwa sababu \"%{reason}\"." # "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Umethibitishwa kwa mafanikio kutoka akaunti ya %{kind}." # "Successfully authenticated from %{kind} account."
 
     passwords:
       new:
-        title: "Umesahau Nenosiri - CR Locator"
-        heading: "Umesahau nenosiri lako"
-        email: "Anwani ya barua pepe"
-        forgot_your_password: Umesahau nenosiri lako?
-        send_me_reset_password_instructions: Nitumie maagizo ya kurekebisha nenosiri
-      no_token: "Huwezi kufikia ukurasa huu bila kuja kutoka barua pepe ya kurekebisha nenosiri. Ikiwa unatoka barua pepe hiyo, tafadhali hakikisha umetumia URL kamili iliyotolewa."
-      send_instructions: Utapokea barua pepe na maagizo ya jinsi ya kurekebisha nenosiri lako ndani ya dakika chache.
-      send_paranoid_instructions: Ikiwa anwani yako ya barua pepe iko kwenye hifadhi yetu ya data, utapokea kiungo cha kurejesha nenosiri kwenye barua pepe yako ndani ya dakika chache.
-      updated: Nenosiri lako limebadilishwa kwa mafanikio. Sasa umeingia.
-      updated_not_active: Nenosiri lako limebadilishwa kwa mafanikio.
+        title: "Umesahau Nenosiri - CR Locator" # "Resend Unlock Instructions - CR Locator"
+        heading: "Umesahau nenosiri lako" # "Resend unlock instructions"
+        email: "Anwani ya barua pepe" # "Email address"
+        forgot_your_password: Umesahau nenosiri lako? # Forgot your password?
+        send_me_reset_password_instructions: Nitumie maagizo ya kurekebisha nenosiri # Send me reset password instructions
+      no_token: "Huwezi kufikia ukurasa huu bila kuja kutoka barua pepe ya kurekebisha nenosiri. Ikiwa unatoka barua pepe hiyo, tafadhali hakikisha umetumia URL kamili iliyotolewa." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: Utapokea barua pepe na maagizo ya jinsi ya kurekebisha nenosiri lako ndani ya dakika chache. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: Ikiwa anwani yako ya barua pepe iko kwenye hifadhi yetu ya data, utapokea kiungo cha kurejesha nenosiri kwenye barua pepe yako ndani ya dakika chache. # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      updated: Nenosiri lako limebadilishwa kwa mafanikio. Sasa umeingia. # "Your invitation was successfully updated."
+      updated_not_active: Nenosiri lako limebadilishwa kwa mafanikio. # "Your invitation was successfully updated."
 
     registrations:
-      destroyed: Kwaheri! Akaunti yako imefutwa kwa mafanikio. Tunatarajia kukuona tena hivi karibuni.
+      destroyed: Kwaheri! Akaunti yako imefutwa kwa mafanikio. Tunatarajia kukuona tena hivi karibuni. # Invitation successfully removed.
       edit:
-        title: "Hariri Wasifu - CR Locator"
-        page_title: "Mipangilio ya akaunti"
-        are_you_sure: Una uhakika?
-        cancel_my_account: Ghairi akaunti yangu
-        currently_waiting_confirmation_for_email: "Kwa sasa unasubiri uthibitishaji wa: %{email}"
-        leave_blank_if_you_don_t_want_to_change_it: Acha tupu ikiwa hutaki kubadilisha
-        title: "Hariri %{resource}"
-        unhappy: Huna furaha?
-        update: Sasisha
-        we_need_your_current_password_to_confirm_your_changes: Tunahitaji nenosiri lako la sasa kuthibitisha mabadiliko yako
-        phone_number: "Nambari ya Simu"
-        password_update: "Sasisha Nenosiri"
-        leave_blank: "(acha tupu ikiwa hutaki kubadilisha)"
-        new_password: "Nenosiri Jipya"
-        current_password_note: "(tunahitaji nenosiri lako la sasa kuthibitisha mabadiliko yako)"
-        update_account: "Sasisha Akaunti"
-        or_cancel_account: "Au ghairi akaunti yangu"
-        cancel_account: "Ghairi akaunti yangu"
+        title: "Hariri Wasifu - CR Locator" # "Resend Unlock Instructions - CR Locator"
+        page_title: "Mipangilio ya akaunti" # "Account settings"
+        are_you_sure: Una uhakika? # Are you sure?
+        cancel_my_account: Ghairi akaunti yangu # Cancel my account
+        currently_waiting_confirmation_for_email: "Kwa sasa unasubiri uthibitishaji wa: %{email}" # "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: Acha tupu ikiwa hutaki kubadilisha # Leave blank if you don't want to change it
+        title: "Hariri %{resource}" # "Resend Unlock Instructions - CR Locator"
+        unhappy: Huna furaha? # Unhappy?
+        update: Sasisha # Update
+        we_need_your_current_password_to_confirm_your_changes: Tunahitaji nenosiri lako la sasa kuthibitisha mabadiliko yako # We need your current password to confirm your changes
+        phone_number: "Nambari ya Simu" # "Phone Number"
+        password_update: "Sasisha Nenosiri" # "Password Update"
+        leave_blank: "(acha tupu ikiwa hutaki kubadilisha)" # "(leave blank if you don't want to change it)"
+        new_password: "Nenosiri Jipya" # "New Password"
+        current_password_note: "(tunahitaji nenosiri lako la sasa kuthibitisha mabadiliko yako)" # "(we need your current password to confirm your changes)"
+        update_account: "Sasisha Akaunti" # "Update Account"
+        or_cancel_account: "Au ghairi akaunti yangu" # "Or cancel my account"
+        cancel_account: "Ghairi akaunti yangu" # "Cancel my account"
       new:
-        title: "Jisajili - CR Locator"
-        heading: "Jisajili"
-        first_name: "Jina la Kwanza"
-        last_name: "Jina la Mwisho"
-        email: "Anwani ya Barua pepe"
-        phone_number: "Nambari ya Simu"
-        role: "Chagua Jukumu Lako"
-        role_note: "Kumbuka: Ikiwa unaishi kanisani na wewe ndiye kiongozi wa huduma, tafadhali chagua Kiongozi wa Huduma kwani utakuwa mwasiliani kwa wanaoanza. Msimamizi wako ataorodheshwa kama mwanachama wa wafanyakazi wa kanisa."
-        password: "Nenosiri"
-        password_confirmation: "Thibitisha Nenosiri"
-        sign_up: "Jisajili"
-      signed_up: Karibu! Umefanikiwa kujisajili.
-      signed_up_but_inactive: Umefanikiwa kujisajili. Hata hivyo, hatukuweza kukuingiza kwa sababu akaunti yako haijaanzishwa bado.
-      signed_up_but_locked: Umefanikiwa kujisajili. Hata hivyo, hatukuweza kukuingiza kwa sababu akaunti yako imefungwa.
-      signed_up_but_unconfirmed: Ujumbe na kiungo cha uthibitishaji umetumwa kwenye barua pepe yako. Tafadhali fuata kiungo ili kuanzisha akaunti yako.
-      update_needs_confirmation: Umefanikiwa kusasisha akaunti yako, lakini tunahitaji kuthibitisha anwani yako mpya ya barua pepe. Tafadhali angalia barua pepe yako na ufuate kiungo cha uthibitishaji kuthibitisha anwani mpya ya barua pepe.
-      updated: Akaunti yako imesasishwa kwa mafanikio.
-      updated_but_not_signed_in: Akaunti yako imesasishwa kwa mafanikio, lakini kwa sababu nenosiri libadilishwa, unahitaji kuingia tena.
+        title: "Jisajili - CR Locator" # "Resend Unlock Instructions - CR Locator"
+        heading: "Jisajili" # "Resend unlock instructions"
+        first_name: "Jina la Kwanza" # "First Name"
+        last_name: "Jina la Mwisho" # "Last Name"
+        email: "Anwani ya Barua pepe" # "Email address"
+        phone_number: "Nambari ya Simu" # "Phone Number"
+        role: "Chagua Jukumu Lako" # "Select Your Role"
+        role_note: "Kumbuka: Ikiwa unaishi kanisani na wewe ndiye kiongozi wa huduma, tafadhali chagua Kiongozi wa Huduma kwani utakuwa mwasiliani kwa wanaoanza. Msimamizi wako ataorodheshwa kama mwanachama wa wafanyakazi wa kanisa." # "Note: If you are on staff at the church and you are the ministry leader please select Ministry Leader as you will be the contact for newcomers. Your supervisor will be listed as the church staff member."
+        password: "Nenosiri" # "Password"
+        password_confirmation: "Thibitisha Nenosiri" # "Confirm Password"
+        sign_up: "Jisajili" # Sign up
+      signed_up: Karibu! Umefanikiwa kujisajili. # Welcome! You have signed up successfully.
+      signed_up_but_inactive: Umefanikiwa kujisajili. Hata hivyo, hatukuweza kukuingiza kwa sababu akaunti yako haijaanzishwa bado. # You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: Umefanikiwa kujisajili. Hata hivyo, hatukuweza kukuingiza kwa sababu akaunti yako imefungwa. # You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: Ujumbe na kiungo cha uthibitishaji umetumwa kwenye barua pepe yako. Tafadhali fuata kiungo ili kuanzisha akaunti yako. # A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: Umefanikiwa kusasisha akaunti yako, lakini tunahitaji kuthibitisha anwani yako mpya ya barua pepe. Tafadhali angalia barua pepe yako na ufuate kiungo cha uthibitishaji kuthibitisha anwani mpya ya barua pepe. # You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Akaunti yako imesasishwa kwa mafanikio. # "Your invitation was successfully updated."
+      updated_but_not_signed_in: Akaunti yako imesasishwa kwa mafanikio, lakini kwa sababu nenosiri libadilishwa, unahitaji kuingia tena. # Your account has been updated successfully, but since your password was changed, you need to sign in again.
 
     sessions:
-      already_signed_out: Umefanikiwa kutoka.
+      already_signed_out: Umefanikiwa kutoka. # Signed out successfully.
       new:
-        title: "Ingia - CR Locator"
-        heading: "Ingia kwenye akaunti yako"
-        email: "Anwani ya barua pepe"
-        password: "Nenosiri"
-        remember_me: "Nikumbuke"
-        forgot_your_password: "Umesahau nenosiri?"
-        sign_in: "Ingia"
-        back_to_locator: "Rudi kwenye Locator"
-      signed_in: Umefanikiwa kuingia.
-      signed_out: Umefanikiwa kutoka.
+        title: "Ingia - CR Locator" # "Resend Unlock Instructions - CR Locator"
+        heading: "Ingia kwenye akaunti yako" # "Resend unlock instructions"
+        email: "Anwani ya barua pepe" # "Email address"
+        password: "Nenosiri" # "Password"
+        remember_me: "Nikumbuke" # "Remember me"
+        forgot_your_password: "Umesahau nenosiri?" # Forgot your password?
+        sign_in: "Ingia" # Sign in
+        back_to_locator: "Rudi kwenye Locator" # "Back to the Locator"
+      signed_in: Umefanikiwa kuingia. # Signed in successfully.
+      signed_out: Umefanikiwa kutoka. # Signed out successfully.
 
     unlocks:
       new:
-        title: "Tuma Tenzi za Kufungua - CR Locator"
-        heading: "Tuma tenzi za kufungua"
-        email: "Anwani ya barua pepe"
-        resend_unlock_instructions: Tuma tenzi za kufungua
-      send_instructions: Utapokea barua pepe na maagizo ya jinsi ya kufungua akaunti yako ndani ya dakika chache.
-      send_paranoid_instructions: Ikiwa akaunti yako ipo, utapokea barua pepe na maagizo ya jinsi ya kufungua ndani ya dakika chache.
-      unlocked: Akaunti yako imefunguliwa kwa mafanikio. Tafadhali ingia ili kuendelea.
+        title: "Tuma Tenzi za Kufungua - CR Locator" # "Resend Unlock Instructions - CR Locator"
+        heading: "Tuma tenzi za kufungua" # "Resend unlock instructions"
+        email: "Anwani ya barua pepe" # "Email address"
+        resend_unlock_instructions: Tuma tenzi za kufungua # Resend unlock instructions
+      send_instructions: Utapokea barua pepe na maagizo ya jinsi ya kufungua akaunti yako ndani ya dakika chache. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: Ikiwa akaunti yako ipo, utapokea barua pepe na maagizo ya jinsi ya kufungua ndani ya dakika chache. # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      unlocked: Akaunti yako imefunguliwa kwa mafanikio. Tafadhali ingia ili kuendelea. # Your account has been unlocked successfully. Please sign in to continue.
 
     shared:
       links:
-        back: Rudi
-        didn_t_receive_confirmation_instructions: "Hukupokea maagizo ya uthibitishaji?"
-        didn_t_receive_unlock_instructions: "Hukupokea maagizo ya kufungua?"
-        forgot_your_password: Umesahau nenosiri lako?
-        sign_in: Ingia
-        sign_in_with_provider: "Ingia na %{provider}"
-        sign_up: Jisajili
-        no_account: "Si mwanachama?"
-        already_account: "Tayari una akaunti?"
-        forgot_password: "Umesahau nenosiri?"
-        confirmation: "Hukupokea maagizo ya uthibitishaji?"
-        unlock: "Hukupokea maagizo ya kufungua?"
+        back: Rudi # Back
+        didn_t_receive_confirmation_instructions: "Hukupokea maagizo ya uthibitishaji?" # "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Hukupokea maagizo ya kufungua?" # "Didn't receive unlock instructions?"
+        forgot_your_password: Umesahau nenosiri lako? # Forgot your password?
+        sign_in: Ingia # Sign in
+        sign_in_with_provider: "Ingia na %{provider}" # "Sign in with %{provider}"
+        sign_up: Jisajili # Sign up
+        no_account: "Si mwanachama?" # "Not a member?"
+        already_account: "Tayari una akaunti?" # "Already have an account?"
+        forgot_password: "Umesahau nenosiri?" # "Forgot password?"
+        confirmation: "Hukupokea maagizo ya uthibitishaji?" # "Didn't receive confirmation instructions?"
+        unlock: "Hukupokea maagizo ya kufungua?" # "Didn't receive unlock instructions?"
       minimum_password_length:
-        one: "(herufi 1 angalau)"
-        other: "(%{count} herufi angalau)"
+        one: "(herufi 1 angalau)" # "(1 character minimum)"
+        other: "(%{count} herufi angalau)" # "(%{count} characters minimum)"
 
     invitations:
       create:
-        send_instructions: Barua pepe ya mwaliko imetumwa kwa %{email}.
-        send_paranoid_instructions: Ikiwa anwani yako ya barua pepe iko kwenye hifadhi yetu ya data, utapokea barua pepe ya mwaliko ndani ya dakika chache.
-        invited: Mtumiaji alialikwa kwa mafanikio.
+        send_instructions: Barua pepe ya mwaliko imetumwa kwa %{email}. # An invitation email has been sent to %{email}.
+        send_paranoid_instructions: Ikiwa anwani yako ya barua pepe iko kwenye hifadhi yetu ya data, utapokea barua pepe ya mwaliko ndani ya dakika chache. # If your email address exists in our database, you will receive an invitation email in a few minutes.
+        invited: Mtumiaji alialikwa kwa mafanikio. # User was successfully invited.
       destroy:
-        destroyed: Mwaliko umefutwa kwa mafanikio.
+        destroyed: Mwaliko umefutwa kwa mafanikio. # Invitation successfully removed.
       edit:
-        header: Weka nenosiri lako
-        submit_button: Weka nenosiri langu
+        header: Weka nenosiri lako # Send invitation
+        submit_button: Weka nenosiri langu # Send an invitation
       new:
-        header: Tuma mwaliko
-        submit_button: Tuma mwaliko
+        header: Tuma mwaliko # Send invitation
+        submit_button: Tuma mwaliko # Send an invitation
       update:
-        updated: Nenosiri lako liliwekwa kwa mafanikio. Sasa umeingia.
-        updated_not_active: Nenosiri lako liliwekwa kwa mafanikio.
-      no_token: "Huwezi kufikia ukurasa huu bila kuja kutoka barua pepe halali ya mwaliko. Ikiwa unatoka barua pepe ya kurekebisha nenosiri, tafadhali hakikisha umetumia URL kamili iliyotolewa."
-      invitation_token_invalid: "Tokeni ya mwaliko iliyotolewa si halali!"
-      accepted: "Mwaliko umekubaliwa! Akaunti yako imeundwa kwa mafanikio."
-      removed: "Mwaliko umefutwa."
-      updated: "Mwaliko wako umesasishwa kwa mafanikio."
-      updated_not_active: "Mwaliko wako umesasishwa kwa mafanikio."
-      no_invitations_remaining: "Hakuna mialiko iliyobaki"
-      invitation_removed: "Mwaliko wako umefutwa."
+        updated: Nenosiri lako liliwekwa kwa mafanikio. Sasa umeingia. # "Your invitation was successfully updated."
+        updated_not_active: Nenosiri lako liliwekwa kwa mafanikio. # "Your invitation was successfully updated."
+      no_token: "Huwezi kufikia ukurasa huu bila kuja kutoka barua pepe halali ya mwaliko. Ikiwa unatoka barua pepe ya kurekebisha nenosiri, tafadhali hakikisha umetumia URL kamili iliyotolewa." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      invitation_token_invalid: "Tokeni ya mwaliko iliyotolewa si halali!" # "The invitation token provided is not valid!"
+      accepted: "Mwaliko umekubaliwa! Akaunti yako imeundwa kwa mafanikio." # "Invitation accepted! Your account has been successfully created."
+      removed: "Mwaliko umefutwa." # "Invitation removed."
+      updated: "Mwaliko wako umesasishwa kwa mafanikio." # "Your invitation was successfully updated."
+      updated_not_active: "Mwaliko wako umesasishwa kwa mafanikio." # "Your invitation was successfully updated."
+      no_invitations_remaining: "Hakuna mialiko iliyobaki" # "No invitations remaining"
+      invitation_removed: "Mwaliko wako umefutwa." # "Your invitation was removed."

@@ -9,36 +9,36 @@ en:
       cr_locator: CR Locator
       locator: Locator
       celebrate_recovery: Celebrate Recovery
-      
+
       # Common Actions
       email: Email
       details: Details
       search: Search
       filter: Filter
-      
+
       # Meeting Formats
       online: Online
       in_person: In Person
-      
+
       # Group Types
       landing: Landing
       celebration_place: Celebration Place
       large_group: Large Group
       open_share_groups: Open Share Groups
       step_studies: Step Studies
-      
+
       # Distance/Location
       distance: "%{distance_unit}"
       mile: miles
       kilometer: kilometers
       location: Location
-      
+
       # Common Labels
       groups: Groups
       reps: Reps
       language: Language
       format: Format
-      
+
       # Days of Week (Full)
       days:
         sunday: Sunday
@@ -48,7 +48,7 @@ en:
         thursday: Thursday
         friday: Friday
         saturday: Saturday
-      
+
       # Days of Week (Short)
       days_short:
         sunday: Sun
@@ -58,7 +58,7 @@ en:
         thursday: Thu
         friday: Fri
         saturday: Sat
-      
+
       # Days of Week (Initial)
       days_initial:
         sunday: S
@@ -88,7 +88,7 @@ en:
     home:
       # Controller-level messages
       please_enter_location: "Please enter a location or postal code to search for groups or reps."
-      email_sent: 'Email sent successfully.'
+      email_sent: "Email sent successfully."
 
       # Index page
       index:
@@ -97,7 +97,6 @@ en:
         html_title_groups: Groups in
         html_title_in: in
         full_title: CR Locator
-        title: Locator
         default_title: "Find Freedom, Find Community - CR Locator"
 
         # Search status messages
@@ -119,7 +118,7 @@ en:
         search_type: Type
         radius: Radius
         day_of_week: Days of the week
-        
+
         # Radius options (using interpolation)
         within_10: "within 10 %{distance_unit}"
         within_25: "within 25 %{distance_unit}"
@@ -137,7 +136,7 @@ en:
         cr_reps: CR Reps
         landing_reps: Landing Reps
         celebration_place_reps: Celebration Place Reps
-        
+
         # Ambassador types
         ambassadors:
           mental_health: Mental Health Advocate
@@ -153,7 +152,7 @@ en:
         all_groups_filter: Groups
         online_large_group: Online Large Group
         online_open_share: Online Open Share Groups
-        
+
         # Additional ministries
         fellowship_cafe: Fellowship Cafe
         fellowship_meal: Fellowship Meal

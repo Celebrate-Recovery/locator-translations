@@ -2,29 +2,29 @@ ar:
   locator:
     info:
       about:
-        page_title: "عن مكتشف المجموعات - CR Locator"
-        title: "عن موقع Celebrate Recovery Locator"
-        subtitle: "CR Locator"
-        intro: "مرحباً بك في موقع Celebrate Recovery Locator، أداة شاملة للعثور على مجموعات Celebrate Recovery ودراسات الخطوات بالقرب منك. تم تصميم الموقع لمساعدتك على التواصل مع مجتمع تعافي مسيحي، سواء كنت تبحث عن لقاءات حضورية أو دعم عبر الإنترنت."
+        page_title: "عن مكتشف المجموعات - CR Locator" # "About The Group Locator - CR Locator"
+        title: "عن موقع Celebrate Recovery Locator" # "About Celebrate Recovery"
+        subtitle: "CR Locator" # "CR Locator"
+        intro: "مرحباً بك في موقع Celebrate Recovery Locator، أداة شاملة للعثور على مجموعات Celebrate Recovery ودراسات الخطوات بالقرب منك. تم تصميم الموقع لمساعدتك على التواصل مع مجتمع تعافي مسيحي، سواء كنت تبحث عن لقاءات حضورية أو دعم عبر الإنترنت." # "Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support."
         testimonial:
-          quote: "عندما ظننت أنني بلغت الحضيض ولا أمل، استطعت إيجاد مجموعة قريبة والانضمام إلى مجتمع شفاء. أنا ممتن للأمل في هذا المجتمع من المؤمنين الذي يخلق مساحة آمنة لمشاركة الحياة في المسيح."
-          author: "Rodney Holmstrom"
-          location: "Rogers, AK"
+          quote: "عندما ظننت أنني بلغت الحضيض ولا أمل، استطعت إيجاد مجموعة قريبة والانضمام إلى مجتمع شفاء. أنا ممتن للأمل في هذا المجتمع من المؤمنين الذي يخلق مساحة آمنة لمشاركة الحياة في المسيح." # "When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ."
+          author: "Rodney Holmstrom" # "Rodney Holmstrom"
+          location: "Rogers, AK" # "Rogers, AK"
         sections:
           find_group:
-            title: "اعثر على مجموعة قريبة منك"
-            content: "تتيح أداة مكتشف المجموعات السهلة البحث عن لقاءات Celebrate Recovery بناءً على موقعك. أدخل عنوانك وسنقدم لك قائمة بالمجموعات القريبة. تتضمن كل إدراج معلومات عن أوقات اللقاءات والمواقع والمجالات الخاصة، لتجد الأنسب لرحلة تعافيك."
+            title: "اعثر على مجموعة قريبة منك" # "About Celebrate Recovery"
+            content: "تتيح أداة مكتشف المجموعات السهلة البحث عن لقاءات Celebrate Recovery بناءً على موقعك. أدخل عنوانك وسنقدم لك قائمة بالمجموعات القريبة. تتضمن كل إدراج معلومات عن أوقات اللقاءات والمواقع والمجالات الخاصة، لتجد الأنسب لرحلة تعافيك." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           step_studies:
-            title: "استكشف دراسات الخطوات"
-            content: "في Celebrate Recovery نقدم دراسات خطوات شاملة تعمق في مبادئ التعافي. يمكنك البحث عن دراسات الخطوات عبر الإنترنت وحضورياً، لاختيار الشكل المناسب لجدولك وتفضيلاتك. سواء فضّلت مجموعة عبر الإنترنت أو لقاءات حضورية، Celebrate Recovery يقدم خيارات لدعم نموك."
+            title: "استكشف دراسات الخطوات" # "About Celebrate Recovery"
+            content: "في Celebrate Recovery نقدم دراسات خطوات شاملة تعمق في مبادئ التعافي. يمكنك البحث عن دراسات الخطوات عبر الإنترنت وحضورياً، لاختيار الشكل المناسب لجدولك وتفضيلاتك. سواء فضّلت مجموعة عبر الإنترنت أو لقاءات حضورية، Celebrate Recovery يقدم خيارات لدعم نموك." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           connect:
-            title: "تواصل مع الممثلين والمدافعين"
-            content: "إلى جانب لقاءات المجموعات، تساعد منصتنا على التواصل مع ممثلي ومدافعي Celebrate Recovery المحليين. هؤلاء الأشخاص مكرّسون لتقديم التوجيه والإجابة على أسئلتك ودعمك في رحلة التعافي. استخدم البحث للعثور على الممثلين والمدافعين في منطقتك والتواصل معهم."
+            title: "تواصل مع الممثلين والمدافعين" # "About Celebrate Recovery"
+            content: "إلى جانب لقاءات المجموعات، تساعد منصتنا على التواصل مع ممثلي ومدافعي Celebrate Recovery المحليين. هؤلاء الأشخاص مكرّسون لتقديم التوجيه والإجابة على أسئلتك ودعمك في رحلة التعافي. استخدم البحث للعثور على الممثلين والمدافعين في منطقتك والتواصل معهم." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           churches:
-            title: "للكنائس"
-            content: "Celebrate Recovery فخور بالشراكة مع كنائس حول العالم. تتيح منصتنا للكنائس إدارة إدراجات مجموعاتها، مما يسهل الحفاظ على معلومات محدثة. يمكن للكنائس تخصيص إدراجاتها بصور ووصوف ومعلومات عن برامج Celebrate Recovery، لخلق حضور ترحيبي ومفيد لمن يطلبون المساعدة."
+            title: "للكنائس" # "About Celebrate Recovery"
+            content: "Celebrate Recovery فخور بالشراكة مع كنائس حول العالم. تتيح منصتنا للكنائس إدارة إدراجات مجموعاتها، مما يسهل الحفاظ على معلومات محدثة. يمكن للكنائس تخصيص إدراجاتها بصور ووصوف ومعلومات عن برامج Celebrate Recovery، لخلق حضور ترحيبي ومفيد لمن يطلبون المساعدة." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           about_cr:
-            title: "عن Celebrate Recovery"
-            content_html: "Celebrate Recovery برنامج تعافي مسيحي المركز يمكنك فيه إيجاد مجتمع وحرية من الجروح والعادات والعلاقات المعطلة. سواء كنت جديداً في التعافي أو تبحث عن دعم مستمر، Celebrate Recovery هنا لمساعدتك.<br /><br />في Celebrate Recovery نؤمن بقوة المجتمع والأمل الذي يأتي من السير معاً نحو الشفاء والاكتمال. انضم إلينا واكتشف مكاناً آمناً للحرية في المسيح.<br /><br />اعرف المزيد عن Celebrate Recovery %{cr_link} أو ارجع إلى %{locator_link} للعثور على مجموعة أو ممثل"
-            cr_link_text: "هنا"
-            locator_link_text: "CR Locator"
+            title: "عن Celebrate Recovery" # "About Celebrate Recovery"
+            content_html: "Celebrate Recovery برنامج تعافي مسيحي المركز يمكنك فيه إيجاد مجتمع وحرية من الجروح والعادات والعلاقات المعطلة. سواء كنت جديداً في التعافي أو تبحث عن دعم مستمر، Celebrate Recovery هنا لمساعدتك.<br /><br />في Celebrate Recovery نؤمن بقوة المجتمع والأمل الذي يأتي من السير معاً نحو الشفاء والاكتمال. انضم إلينا واكتشف مكاناً آمناً للحرية في المسيح.<br /><br />اعرف المزيد عن Celebrate Recovery %{cr_link} أو ارجع إلى %{locator_link} للعثور على مجموعة أو ممثل" # "Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative"
+            cr_link_text: "هنا" # "here"
+            locator_link_text: "CR Locator" # "CR Locator"

@@ -2,29 +2,29 @@ el:
   locator:
     info:
       about:
-        page_title: "Σχετικά με τον εντοπιστή ομάδων - CR Locator"
-        title: "Σχετικά με την ιστοσελίδα Celebrate Recovery Locator"
-        subtitle: "CR Locator"
-        intro: "Καλώς ήρθατε στην ιστοσελίδα Celebrate Recovery Locator, το εργαλείο εύρεσης ομάδων και μελετών βημάτων Celebrate Recovery κοντά σας. Η σελίδα σας βοηθά να συνδεθείτε με μια χριστοκεντρική κοινότητα ανάκαμψης, είτε ψάχνετε για προσωπικές συναντήσεις είτε για διαδικτυακή υποστήριξη."
+        page_title: "Σχετικά με τον εντοπιστή ομάδων - CR Locator" # "About The Group Locator - CR Locator"
+        title: "Σχετικά με την ιστοσελίδα Celebrate Recovery Locator" # "About Celebrate Recovery"
+        subtitle: "CR Locator" # "CR Locator"
+        intro: "Καλώς ήρθατε στην ιστοσελίδα Celebrate Recovery Locator, το εργαλείο εύρεσης ομάδων και μελετών βημάτων Celebrate Recovery κοντά σας. Η σελίδα σας βοηθά να συνδεθείτε με μια χριστοκεντρική κοινότητα ανάκαμψης, είτε ψάχνετε για προσωπικές συναντήσεις είτε για διαδικτυακή υποστήριξη." # "Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support."
         testimonial:
-          quote: "Όταν νόμιζα ότι είχα φτάσει στο χειρότερο σημείο και δεν υπήρχε ελπίδα, βρήκα μια ομάδα κοντά μου και μπήκα σε μια κοινότητα θεραπείας. Είμαι ευγνώμων για την ελπίδα σε αυτή την κοινότητα πιστών που δημιουργεί ασφαλές χώρο να μοιραζόμαστε τη ζωή στο Χριστό."
-          author: "Rodney Holmstrom"
-          location: "Rogers, AK"
+          quote: "Όταν νόμιζα ότι είχα φτάσει στο χειρότερο σημείο και δεν υπήρχε ελπίδα, βρήκα μια ομάδα κοντά μου και μπήκα σε μια κοινότητα θεραπείας. Είμαι ευγνώμων για την ελπίδα σε αυτή την κοινότητα πιστών που δημιουργεί ασφαλές χώρο να μοιραζόμαστε τη ζωή στο Χριστό." # "When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ."
+          author: "Rodney Holmstrom" # "Rodney Holmstrom"
+          location: "Rogers, AK" # "Rogers, AK"
         sections:
           find_group:
-            title: "Βρείτε μια ομάδα κοντά σας"
-            content: "Ο εύχρηστος εντοπιστής ομάδων σας επιτρέπει να αναζητήσετε συναντήσεις Celebrate Recovery με βάση την τοποθεσία σας. Εισάγετε τη διεύθυνσή σας και θα εμφανιστούν ομάδες κοντά σας. Κάθε εγγραφή περιλαμβάνει πληροφορίες για ώρες, τοποθεσίες και ειδικά θέματα, ώστε να βρείτε αυτό που σας ταιριάζει για την ανάκαμψή σας."
+            title: "Βρείτε μια ομάδα κοντά σας" # "About Celebrate Recovery"
+            content: "Ο εύχρηστος εντοπιστής ομάδων σας επιτρέπει να αναζητήσετε συναντήσεις Celebrate Recovery με βάση την τοποθεσία σας. Εισάγετε τη διεύθυνσή σας και θα εμφανιστούν ομάδες κοντά σας. Κάθε εγγραφή περιλαμβάνει πληροφορίες για ώρες, τοποθεσίες και ειδικά θέματα, ώστε να βρείτε αυτό που σας ταιριάζει για την ανάκαμψή σας." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           step_studies:
-            title: "Εξερευνήστε τις μελέτες βημάτων"
-            content: "Στο Celebrate Recovery προσφέρουμε μελέτες βημάτων που εμβαθαίνουν στις αρχές της ανάκαμψης. Μπορείτε να αναζητήσετε μελέτες βημάτων διαδικτυακά και προσωπικά, ώστε να βρείτε τη μορφή που σας ταιριάζει. Είτε προτιμάτε διαδικτυακή ομάδα είτε προσωπικές συναντήσεις, το Celebrate Recovery σας στηρίζει."
+            title: "Εξερευνήστε τις μελέτες βημάτων" # "About Celebrate Recovery"
+            content: "Στο Celebrate Recovery προσφέρουμε μελέτες βημάτων που εμβαθαίνουν στις αρχές της ανάκαμψης. Μπορείτε να αναζητήσετε μελέτες βημάτων διαδικτυακά και προσωπικά, ώστε να βρείτε τη μορφή που σας ταιριάζει. Είτε προτιμάτε διαδικτυακή ομάδα είτε προσωπικές συναντήσεις, το Celebrate Recovery σας στηρίζει." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           connect:
-            title: "Σύνδεση με αντιπροσώπους και συνήγορους"
-            content: "Εκτός από τις συναντήσεις ομάδων, η πλατφόρμα μας σας βοηθά να επικοινωνήσετε με τοπικούς αντιπροσώπους και συνήγορους Celebrate Recovery. Αυτά τα αφοσιωμένα άτομα είναι εκεί για να σας καθοδηγήσουν, να απαντήσουν σε ερωτήσεις και να σας στηρίξουν στην ανάκαμψή σας. Χρησιμοποιήστε την αναζήτηση για να βρείτε και να επικοινωνήσετε με αντιπροσώπους και συνήγορους στην περιοχή σας."
+            title: "Σύνδεση με αντιπροσώπους και συνήγορους" # "About Celebrate Recovery"
+            content: "Εκτός από τις συναντήσεις ομάδων, η πλατφόρμα μας σας βοηθά να επικοινωνήσετε με τοπικούς αντιπροσώπους και συνήγορους Celebrate Recovery. Αυτά τα αφοσιωμένα άτομα είναι εκεί για να σας καθοδηγήσουν, να απαντήσουν σε ερωτήσεις και να σας στηρίξουν στην ανάκαμψή σας. Χρησιμοποιήστε την αναζήτηση για να βρείτε και να επικοινωνήσετε με αντιπροσώπους και συνήγορους στην περιοχή σας." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           churches:
-            title: "Για εκκλησίες"
-            content: "Το Celebrate Recovery συνεργάζεται με εκκλησίες παγκοσμίως. Η πλατφόρμα μας επιτρέπει στις εκκλησίες να διαχειρίζονται τις δικές τους εγγραφές ομάδων, ώστε οι πληροφορίες να παραμένουν ενημερωμένες. Οι εκκλησίες μπορούν να προσαρμόσουν τις εγγραφές με φωτογραφίες, περιγραφές και πληροφορίες για τα προγράμματα Celebrate Recovery τους, δημιουργώντας ένα φιλόξενο περιβάλλον για όσους ζητούν βοήθεια."
+            title: "Για εκκλησίες" # "About Celebrate Recovery"
+            content: "Το Celebrate Recovery συνεργάζεται με εκκλησίες παγκοσμίως. Η πλατφόρμα μας επιτρέπει στις εκκλησίες να διαχειρίζονται τις δικές τους εγγραφές ομάδων, ώστε οι πληροφορίες να παραμένουν ενημερωμένες. Οι εκκλησίες μπορούν να προσαρμόσουν τις εγγραφές με φωτογραφίες, περιγραφές και πληροφορίες για τα προγράμματα Celebrate Recovery τους, δημιουργώντας ένα φιλόξενο περιβάλλον για όσους ζητούν βοήθεια." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           about_cr:
-            title: "Σχετικά με το Celebrate Recovery"
-            content_html: "Το Celebrate Recovery είναι ένα χριστοκεντρικό πρόγραμμα ανάκαμψης όπου μπορείτε να βρείτε κοινότητα και ελευθερία από πληγές, συνήθειες και εμπόδια. Είτε είστε νέοι στην ανάκαμψη είτε ζητάτε συνεχή υποστήριξη, το Celebrate Recovery είναι εδώ για εσάς.<br /><br />Στο Celebrate Recovery πιστεύουμε στη δύναμη της κοινότητας και την ελπίδα που έρχεται όταν περπατάμε μαζί προς θεραπεία και ολοκλήρωση. Γίνετε μέλος και ανακαλύψτε ένα ασφαλές μέρος για ελευθερία στο Χριστό.<br /><br />Μάθετε περισσότερα για το Celebrate Recovery %{cr_link} ή επιστρέψτε στο %{locator_link} για να βρείτε ομάδα ή αντιπρόσωπο"
-            cr_link_text: "εδώ"
-            locator_link_text: "CR Locator"
+            title: "Σχετικά με το Celebrate Recovery" # "About Celebrate Recovery"
+            content_html: "Το Celebrate Recovery είναι ένα χριστοκεντρικό πρόγραμμα ανάκαμψης όπου μπορείτε να βρείτε κοινότητα και ελευθερία από πληγές, συνήθειες και εμπόδια. Είτε είστε νέοι στην ανάκαμψη είτε ζητάτε συνεχή υποστήριξη, το Celebrate Recovery είναι εδώ για εσάς.<br /><br />Στο Celebrate Recovery πιστεύουμε στη δύναμη της κοινότητας και την ελπίδα που έρχεται όταν περπατάμε μαζί προς θεραπεία και ολοκλήρωση. Γίνετε μέλος και ανακαλύψτε ένα ασφαλές μέρος για ελευθερία στο Χριστό.<br /><br />Μάθετε περισσότερα για το Celebrate Recovery %{cr_link} ή επιστρέψτε στο %{locator_link} για να βρείτε ομάδα ή αντιπρόσωπο" # "Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative"
+            cr_link_text: "εδώ" # "here"
+            locator_link_text: "CR Locator" # "CR Locator"

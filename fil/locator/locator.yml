@@ -97,7 +97,6 @@ fil:
         html_title_groups: Mga Grupo sa # Groups in
         html_title_in: sa # in
         full_title: CR Tagahanap # CR Locator
-        title: Tagahanap # Locator
         default_title: "Hanapin ang Kalayaan, Hanapin ang Komunidad - CR Tagahanap" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
@@ -131,7 +130,8 @@ fil:
         within_250: "sa loob ng 250 %{distance_unit}" # within 250 %{distance_unit}
         within_500: "sa loob ng 500 %{distance_unit}" # within 500 %{distance_unit}
 
-        # Rep/Advocate types
+        # Rep/Advocate types (filter button labels)
+        groups: Mga Grupo # Groups
         rep_ambassador: Kinatawan / Embahador # Rep / Advocate
         all_reps: Lahat ng Kinatawan / Embahador # All Reps / Advocates
         all_reps_filter: Mga Kinatawan / Embahador # Reps / Advocates

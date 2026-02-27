@@ -1,203 +1,203 @@
 fil:
   devise:
     confirmations:
-      confirmed: Ang iyong account ay na-activate na at ikaw ay naka-sign in na.
+      confirmed: Ang iyong account ay na-activate na at ikaw ay naka-sign in na. # Your account has been activated and you are now signed in.
       new:
-        title: "Ipadala Muli ang Kumpirmasyon - CR Tagahanap"
-        heading: "Ipadala muli ang mga tagubilin para sa kumpirmasyon"
-        email: "Email address"
-        resend_confirmation_instructions: Ipadala muli ang mga tagubilin para sa kumpirmasyon
-      send_instructions: Makakatanggap ka ng email na may mga tagubilin para sa pagkumpirma ng iyong account sa loob ng ilang minuto.
-      send_paranoid_instructions: Kung ang iyong email address ay nasa aming database, makakatanggap ka ng email na may mga tagubilin para sa pagkumpirma ng iyong account sa loob ng ilang minuto.
+        title: "Ipadala Muli ang Kumpirmasyon - CR Tagahanap" # "Resend Unlock Instructions - CR Locator"
+        heading: "Ipadala muli ang mga tagubilin para sa kumpirmasyon" # "Resend unlock instructions"
+        email: "Email address" # "Email address"
+        resend_confirmation_instructions: Ipadala muli ang mga tagubilin para sa kumpirmasyon # Resend confirmation instructions
+      send_instructions: Makakatanggap ka ng email na may mga tagubilin para sa pagkumpirma ng iyong account sa loob ng ilang minuto. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: Kung ang iyong email address ay nasa aming database, makakatanggap ka ng email na may mga tagubilin para sa pagkumpirma ng iyong account sa loob ng ilang minuto. # If your email address exists in our database, you will receive an invitation email in a few minutes.
 
     failure:
-      already_authenticated: Ikaw ay naka-sign in na.
-      inactive: Ang iyong account ay hindi pa na-activate.
-      invalid: Hindi wastong email o password.
-      locked: Ang iyong account ay naka-lock.
-      last_attempt: "Mayroon ka pang isang pagkakataon bago ma-lock ang iyong account."
-      not_found_in_database: Hindi wastong email o password.
-      timeout: Ang iyong session ay nag-expire na. Mangyaring mag-sign in muli upang magpatuloy.
-      unauthenticated: Kailangan mong mag-sign in o mag-sign up bago magpatuloy.
-      unconfirmed: Kailangan mong kumpirmahin ang iyong email address bago magpatuloy.
-      invited: "Mayroon kang nakabinbing imbitasyon, tanggapin mo ito upang makumpleto ang paglikha ng iyong account."
+      already_authenticated: Ikaw ay naka-sign in na. # You are already signed in.
+      inactive: Ang iyong account ay hindi pa na-activate. # Your account is not activated yet.
+      invalid: Hindi wastong email o password. # Invalid email or password.
+      locked: Ang iyong account ay naka-lock. # Your account is locked.
+      last_attempt: "Mayroon ka pang isang pagkakataon bago ma-lock ang iyong account." # "You have one more attempt before your account is locked."
+      not_found_in_database: Hindi wastong email o password. # Invalid email or password.
+      timeout: Ang iyong session ay nag-expire na. Mangyaring mag-sign in muli upang magpatuloy. # Your session expired. Please sign in again to continue.
+      unauthenticated: Kailangan mong mag-sign in o mag-sign up bago magpatuloy. # You need to sign in or sign up before continuing.
+      unconfirmed: Kailangan mong kumpirmahin ang iyong email address bago magpatuloy. # You have to confirm your email address before continuing.
+      invited: "Mayroon kang nakabinbing imbitasyon, tanggapin mo ito upang makumpleto ang paglikha ng iyong account." # User was successfully invited.
 
     mailer:
       confirmation_instructions:
-        subject: "Mga tagubilin para sa kumpirmasyon"
-        greeting: "Mahal na %{name},"
-        confirm_email: "Maaari mong kumpirmahin ang iyong email account sa pamamagitan ng link sa ibaba:"
-        confirm_account: "Kumpirmahin ang aking account"
-        signature: "Salamat sa iyo,\nCelebrate Recovery Team"
-        logo_alt: "Celebrate Recovery Tagahanap"
-        footer: "Natatanggap mo ang komunikasyong ito dahil ang iyong email ay nabago"
+        subject: "Mga tagubilin para sa kumpirmasyon" # "Reminder: Invitation instructions"
+        greeting: "Mahal na %{name}," # "Dear %{name},"
+        confirm_email: "Maaari mong kumpirmahin ang iyong email account sa pamamagitan ng link sa ibaba:" # "You can confirm your account email through the link below:"
+        confirm_account: "Kumpirmahin ang aking account" # "Confirm my account"
+        signature: "Salamat sa iyo,\nCelebrate Recovery Team" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Tagahanap" # "Celebrate Recovery Locator"
+        footer: "Natatanggap mo ang komunikasyong ito dahil ang iyong email ay nabago" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       reset_password_instructions:
-        subject: "Mga tagubilin para sa pag-reset ng password"
-        greeting: "Mahal na %{name},"
-        request_link: "May humiling ng link para baguhin ang iyong password. Maaari mong gawin ito sa pamamagitan ng link sa ibaba."
-        change_password: "Palitan ang aking password"
-        ignore_if_not_requested: "Kung hindi mo hiniling ito, pakibalewala ang email na ito. Hindi magbabago ang iyong password hanggang sa i-access mo ang link sa itaas at gumawa ng bago."
-        signature: "Salamat sa iyo,\nCelebrate Recovery Team"
-        logo_alt: "Celebrate Recovery Tagahanap"
-        footer: "Natatanggap mo ang komunikasyong ito dahil mayroon kang CR Tagahanap account at ang pag-reset ng password para kay %{name} ay nakumpleto"
+        subject: "Mga tagubilin para sa pag-reset ng password" # "Reminder: Invitation instructions"
+        greeting: "Mahal na %{name}," # "Dear %{name},"
+        request_link: "May humiling ng link para baguhin ang iyong password. Maaari mong gawin ito sa pamamagitan ng link sa ibaba." # "Someone has requested a link to change your password. You can do this through the link below."
+        change_password: "Palitan ang aking password" # "Change my password"
+        ignore_if_not_requested: "Kung hindi mo hiniling ito, pakibalewala ang email na ito. Hindi magbabago ang iyong password hanggang sa i-access mo ang link sa itaas at gumawa ng bago." # "If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one."
+        signature: "Salamat sa iyo,\nCelebrate Recovery Team" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Tagahanap" # "Celebrate Recovery Locator"
+        footer: "Natatanggap mo ang komunikasyong ito dahil mayroon kang CR Tagahanap account at ang pag-reset ng password para kay %{name} ay nakumpleto" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       unlock_instructions:
-        subject: "Mga tagubilin para sa pag-unlock"
-        greeting: "Mahal na %{name},"
-        account_locked: "Ang iyong account ay na-lock dahil sa sobrang daming hindi matagumpay na pagsubok sa pag-sign in."
-        click_link: "I-click ang link sa ibaba upang i-unlock ang iyong account:"
+        subject: "Mga tagubilin para sa pag-unlock" # "Reminder: Invitation instructions"
+        greeting: "Mahal na %{name}," # "Dear %{name},"
+        account_locked: "Ang iyong account ay na-lock dahil sa sobrang daming hindi matagumpay na pagsubok sa pag-sign in." # "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+        click_link: "I-click ang link sa ibaba upang i-unlock ang iyong account:" # "Click the link below to unlock your account:"
       email_changed:
-        subject: "Nabago ang Email"
-        greeting: "Mahal na %{name},"
-        email_changing: "Kinakausap ka namin upang ipaalam sa iyo na ang iyong email ay binabago sa %{email}."
-        email_changed: "Kinakausap ka namin upang ipaalam sa iyo na ang iyong email ay nabago na sa %{email}."
-        signature: "Salamat sa iyo,\nCelebrate Recovery Team"
-        logo_alt: "Celebrate Recovery Tagahanap"
-        footer: "Natatanggap mo ang komunikasyong ito dahil ang iyong email ay nabago"
+        subject: "Nabago ang Email" # "Reminder: Invitation instructions"
+        greeting: "Mahal na %{name}," # "Dear %{name},"
+        email_changing: "Kinakausap ka namin upang ipaalam sa iyo na ang iyong email ay binabago sa %{email}." # "We're contacting you to notify you that your email is being changed to %{email}."
+        email_changed: "Kinakausap ka namin upang ipaalam sa iyo na ang iyong email ay nabago na sa %{email}." # "We're contacting you to notify you that your email has been changed to %{email}."
+        signature: "Salamat sa iyo,\nCelebrate Recovery Team" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Tagahanap" # "Celebrate Recovery Locator"
+        footer: "Natatanggap mo ang komunikasyong ito dahil ang iyong email ay nabago" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       password_change:
-        subject: "Nabago ang Password"
-        greeting: "Mahal na %{name},"
-        password_changed: "Kinakausap ka namin upang ipaalam sa iyo na ang iyong password ay nabago na."
-        signature: "Salamat sa iyo,\nCelebrate Recovery Team"
-        logo_alt: "Celebrate Recovery Tagahanap"
-        footer: "Natatanggap mo ang komunikasyong ito dahil mayroon kang CR Tagahanap account at ang iyong password ay nabago"
+        subject: "Nabago ang Password" # "Reminder: Invitation instructions"
+        greeting: "Mahal na %{name}," # "Dear %{name},"
+        password_changed: "Kinakausap ka namin upang ipaalam sa iyo na ang iyong password ay nabago na." # "We're contacting you to notify you that your password has been changed."
+        signature: "Salamat sa iyo,\nCelebrate Recovery Team" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Tagahanap" # "Celebrate Recovery Locator"
+        footer: "Natatanggap mo ang komunikasyong ito dahil mayroon kang CR Tagahanap account at ang iyong password ay nabago" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       invitation_instructions:
-        subject: "Mga tagubilin para sa imbitasyon"
-        greeting: "Mahal na %{name},"
-        hello: "Kamusta %{email}"
-        someone_invited_you: "Ikaw ay inimbitahan na sumali sa %{url}, maaari mong tanggapin ito sa pamamagitan ng link sa ibaba."
-        accept: "Tanggapin ang imbitasyon"
-        accept_until: "Ang imbitasyong ito ay may bisa hanggang %{due_date}."
-        ignore: "Kung ayaw mong tanggapin ang imbitasyon, pakibalewala ang email na ito. Hindi magagawa ang iyong account hanggang sa i-access mo ang link sa itaas at itakda ang iyong password."
+        subject: "Mga tagubilin para sa imbitasyon" # "Reminder: Invitation instructions"
+        greeting: "Mahal na %{name}," # "Dear %{name},"
+        hello: "Kamusta %{email}" # "Hello %{email}"
+        someone_invited_you: "Ikaw ay inimbitahan na sumali sa %{url}, maaari mong tanggapin ito sa pamamagitan ng link sa ibaba." # "You have been invited to join %{url}, you can accept it through the link below."
+        accept: "Tanggapin ang imbitasyon" # "Accept invitation"
+        accept_until: "Ang imbitasyong ito ay may bisa hanggang %{due_date}." # "This invitation will be due in %{due_date}."
+        ignore: "Kung ayaw mong tanggapin ang imbitasyon, pakibalewala ang email na ito. Hindi magagawa ang iyong account hanggang sa i-access mo ang link sa itaas at itakda ang iyong password." # "If you don't want to accept the invitation, please ignore this email. Your account won't be created until you access the link above and set your password."
         role_level_1: "Ang iyong account ay gagamitin upang pamahalaan ang iyong simbahan, grupo, at step study listings."
         role_level_5: "Ang iyong account ay papahintulutan kang pamahalaan ang iyong listing."
         role_level_50: "Ang iyong account ay papahintulutan kang pamahalaan ang iyong listing, at ang mga simbahan sa iyong lugar."
-        signature: "Salamat sa iyo,\nCelebrate Recovery Team"
-        logo_alt: "Celebrate Recovery Tagahanap"
-        footer: "Natatanggap mo ang komunikasyong ito dahil may nagsetup ng account para sa iyo sa CR Tagahanap"
+        signature: "Salamat sa iyo,\nCelebrate Recovery Team" # "Thank you,\nCelebrate Recovery Team"
+        logo_alt: "Celebrate Recovery Tagahanap" # "Celebrate Recovery Locator"
+        footer: "Natatanggap mo ang komunikasyong ito dahil may nagsetup ng account para sa iyo sa CR Tagahanap" # "You are receiving this communication because someone has setup an account for you on the CR Locator"
       invitation_instructions_reminder:
-        subject: "Paalala: Mga tagubilin para sa imbitasyon"
+        subject: "Paalala: Mga tagubilin para sa imbitasyon" # "Reminder: Invitation instructions"
 
     omniauth_callbacks:
-      failure: "Hindi ka ma-authenticate mula sa %{kind} dahil \"%{reason}\"."
-      success: "Matagumpay na na-authenticate mula sa %{kind} account."
+      failure: "Hindi ka ma-authenticate mula sa %{kind} dahil \"%{reason}\"." # "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Matagumpay na na-authenticate mula sa %{kind} account." # "Successfully authenticated from %{kind} account."
 
     passwords:
       new:
-        title: "Nakalimutan ang Password - CR Tagahanap"
-        heading: "Nakalimutan mo ba ang iyong password"
-        email: "Email address"
-        forgot_your_password: Nakalimutan mo ba ang iyong password?
-        send_me_reset_password_instructions: Padalhan ako ng mga tagubilin para sa pag-reset ng password
-      no_token: "Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang password reset email. Kung ikaw ay nanggagaling sa isang password reset email, mangyaring tiyakin na ginamit mo ang buong URL na ibinigay."
-      send_instructions: Makakatanggap ka ng email na may mga tagubilin kung paano i-reset ang iyong password sa loob ng ilang minuto.
-      send_paranoid_instructions: Kung ang iyong email address ay nasa aming database, makakatanggap ka ng link para sa pag-recover ng password sa iyong email address sa loob ng ilang minuto.
-      updated: Ang iyong password ay matagumpay na nabago. Ikaw ay naka-sign in na.
-      updated_not_active: Ang iyong password ay matagumpay na nabago.
+        title: "Nakalimutan ang Password - CR Tagahanap" # "Resend Unlock Instructions - CR Locator"
+        heading: "Nakalimutan mo ba ang iyong password" # "Resend unlock instructions"
+        email: "Email address" # "Email address"
+        forgot_your_password: Nakalimutan mo ba ang iyong password? # Forgot your password?
+        send_me_reset_password_instructions: Padalhan ako ng mga tagubilin para sa pag-reset ng password # Send me reset password instructions
+      no_token: "Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang password reset email. Kung ikaw ay nanggagaling sa isang password reset email, mangyaring tiyakin na ginamit mo ang buong URL na ibinigay." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: Makakatanggap ka ng email na may mga tagubilin kung paano i-reset ang iyong password sa loob ng ilang minuto. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: Kung ang iyong email address ay nasa aming database, makakatanggap ka ng link para sa pag-recover ng password sa iyong email address sa loob ng ilang minuto. # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      updated: Ang iyong password ay matagumpay na nabago. Ikaw ay naka-sign in na. # "Your invitation was successfully updated."
+      updated_not_active: Ang iyong password ay matagumpay na nabago. # "Your invitation was successfully updated."
 
     registrations:
-      destroyed: Paalam! Ang iyong account ay matagumpay na nakansela. Umaasa kaming makita ka muli sa lalong madaling panahon.
+      destroyed: Paalam! Ang iyong account ay matagumpay na nakansela. Umaasa kaming makita ka muli sa lalong madaling panahon. # Invitation successfully removed.
       edit:
-        title: "I-edit ang Profile - CR Tagahanap"
-        page_title: "Mga setting ng account"
-        are_you_sure: Sigurado ka ba?
-        cancel_my_account: Kanselahin ang aking account
-        currently_waiting_confirmation_for_email: "Kasalukuyang naghihintay ng kumpirmasyon para sa: %{email}"
-        leave_blank_if_you_don_t_want_to_change_it: Iwanang walang laman kung ayaw mong baguhin ito
-        title: "I-edit ang %{resource}"
-        unhappy: Hindi masaya?
-        update: I-update
-        we_need_your_current_password_to_confirm_your_changes: Kailangan namin ang iyong kasalukuyang password upang kumpirmahin ang iyong mga pagbabago
-        phone_number: "Numero ng Telepono"
-        password_update: "Pag-update ng Password"
-        leave_blank: "(iwanang walang laman kung ayaw mong baguhin ito)"
-        new_password: "Bagong Password"
-        current_password_note: "(kailangan namin ang iyong kasalukuyang password upang kumpirmahin ang iyong mga pagbabago)"
-        update_account: "I-update ang Account"
-        or_cancel_account: "O kanselahin ang aking account"
-        cancel_account: "Kanselahin ang aking account"
+        title: "I-edit ang Profile - CR Tagahanap" # "Resend Unlock Instructions - CR Locator"
+        page_title: "Mga setting ng account" # "Account settings"
+        are_you_sure: Sigurado ka ba? # Are you sure?
+        cancel_my_account: Kanselahin ang aking account # Cancel my account
+        currently_waiting_confirmation_for_email: "Kasalukuyang naghihintay ng kumpirmasyon para sa: %{email}" # "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: Iwanang walang laman kung ayaw mong baguhin ito # Leave blank if you don't want to change it
+        title: "I-edit ang %{resource}" # "Resend Unlock Instructions - CR Locator"
+        unhappy: Hindi masaya? # Unhappy?
+        update: I-update # Update
+        we_need_your_current_password_to_confirm_your_changes: Kailangan namin ang iyong kasalukuyang password upang kumpirmahin ang iyong mga pagbabago # We need your current password to confirm your changes
+        phone_number: "Numero ng Telepono" # "Phone Number"
+        password_update: "Pag-update ng Password" # "Password Update"
+        leave_blank: "(iwanang walang laman kung ayaw mong baguhin ito)" # "(leave blank if you don't want to change it)"
+        new_password: "Bagong Password" # "New Password"
+        current_password_note: "(kailangan namin ang iyong kasalukuyang password upang kumpirmahin ang iyong mga pagbabago)" # "(we need your current password to confirm your changes)"
+        update_account: "I-update ang Account" # "Update Account"
+        or_cancel_account: "O kanselahin ang aking account" # "Or cancel my account"
+        cancel_account: "Kanselahin ang aking account" # "Cancel my account"
       new:
-        title: "Mag-sign up - CR Tagahanap"
-        heading: "Mag-Sign Up"
-        first_name: "Pangalan"
-        last_name: "Apelyido"
-        email: "Email Address"
-        phone_number: "Numero ng Telepono"
-        role: "Piliin ang Iyong Tungkulin"
-        role_note: "Tandaan: Kung ikaw ay nasa staff ng simbahan at ikaw ang ministry leader, pakipili ang Ministry Leader dahil ikaw ang magiging contact para sa mga bagong dating. Ang iyong supervisor ay ililista bilang miyembro ng staff ng simbahan."
-        password: "Password"
-        password_confirmation: "Kumpirmahin ang Password"
-        sign_up: "Mag-sign up"
-      signed_up: Maligayang pagdating! Ikaw ay matagumpay na naka-sign up.
-      signed_up_but_inactive: Ikaw ay matagumpay na naka-sign up. Gayunpaman, hindi ka namin ma-sign in dahil ang iyong account ay hindi pa na-activate.
-      signed_up_but_locked: Ikaw ay matagumpay na naka-sign up. Gayunpaman, hindi ka namin ma-sign in dahil ang iyong account ay naka-lock.
-      signed_up_but_unconfirmed: Isang mensahe na may link para sa kumpirmasyon ay ipinadala sa iyong email address. Mangyaring sundin ang link upang i-activate ang iyong account.
-      update_needs_confirmation: Matagumpay mong na-update ang iyong account, ngunit kailangan naming i-verify ang iyong bagong email address. Pakitingnan ang iyong email at sundin ang link para sa kumpirmasyon upang kumpirmahin ang iyong bagong email address.
-      updated: Ang iyong account ay matagumpay na na-update.
-      updated_but_not_signed_in: Ang iyong account ay matagumpay na na-update, ngunit dahil nabago ang iyong password, kailangan mong mag-sign in muli.
+        title: "Mag-sign up - CR Tagahanap" # "Resend Unlock Instructions - CR Locator"
+        heading: "Mag-Sign Up" # "Resend unlock instructions"
+        first_name: "Pangalan" # "First Name"
+        last_name: "Apelyido" # "Last Name"
+        email: "Email Address" # "Email address"
+        phone_number: "Numero ng Telepono" # "Phone Number"
+        role: "Piliin ang Iyong Tungkulin" # "Select Your Role"
+        role_note: "Tandaan: Kung ikaw ay nasa staff ng simbahan at ikaw ang ministry leader, pakipili ang Ministry Leader dahil ikaw ang magiging contact para sa mga bagong dating. Ang iyong supervisor ay ililista bilang miyembro ng staff ng simbahan." # "Note: If you are on staff at the church and you are the ministry leader please select Ministry Leader as you will be the contact for newcomers. Your supervisor will be listed as the church staff member."
+        password: "Password" # "Password"
+        password_confirmation: "Kumpirmahin ang Password" # "Confirm Password"
+        sign_up: "Mag-sign up" # Sign up
+      signed_up: Maligayang pagdating! Ikaw ay matagumpay na naka-sign up. # Welcome! You have signed up successfully.
+      signed_up_but_inactive: Ikaw ay matagumpay na naka-sign up. Gayunpaman, hindi ka namin ma-sign in dahil ang iyong account ay hindi pa na-activate. # You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: Ikaw ay matagumpay na naka-sign up. Gayunpaman, hindi ka namin ma-sign in dahil ang iyong account ay naka-lock. # You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: Isang mensahe na may link para sa kumpirmasyon ay ipinadala sa iyong email address. Mangyaring sundin ang link upang i-activate ang iyong account. # A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: Matagumpay mong na-update ang iyong account, ngunit kailangan naming i-verify ang iyong bagong email address. Pakitingnan ang iyong email at sundin ang link para sa kumpirmasyon upang kumpirmahin ang iyong bagong email address. # You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Ang iyong account ay matagumpay na na-update. # "Your invitation was successfully updated."
+      updated_but_not_signed_in: Ang iyong account ay matagumpay na na-update, ngunit dahil nabago ang iyong password, kailangan mong mag-sign in muli. # Your account has been updated successfully, but since your password was changed, you need to sign in again.
 
     sessions:
-      already_signed_out: Matagumpay na naka-sign out.
+      already_signed_out: Matagumpay na naka-sign out. # Signed out successfully.
       new:
-        title: "Mag-sign in - CR Tagahanap"
-        heading: "Mag-sign in sa iyong account"
-        email: "Email address"
-        password: "Password"
-        remember_me: "Tandaan ako"
-        forgot_your_password: "Nakalimutan ang password?"
-        sign_in: "Mag-sign in"
-        back_to_locator: "Bumalik sa Tagahanap"
-      signed_in: Matagumpay na naka-sign in.
-      signed_out: Matagumpay na naka-sign out.
+        title: "Mag-sign in - CR Tagahanap" # "Resend Unlock Instructions - CR Locator"
+        heading: "Mag-sign in sa iyong account" # "Resend unlock instructions"
+        email: "Email address" # "Email address"
+        password: "Password" # "Password"
+        remember_me: "Tandaan ako" # "Remember me"
+        forgot_your_password: "Nakalimutan ang password?" # Forgot your password?
+        sign_in: "Mag-sign in" # Sign in
+        back_to_locator: "Bumalik sa Tagahanap" # "Back to the Locator"
+      signed_in: Matagumpay na naka-sign in. # Signed in successfully.
+      signed_out: Matagumpay na naka-sign out. # Signed out successfully.
 
     unlocks:
       new:
-        title: "Ipadala Muli ang Mga Tagubilin para sa Pag-unlock - CR Tagahanap"
-        heading: "Ipadala muli ang mga tagubilin para sa pag-unlock"
-        email: "Email address"
-        resend_unlock_instructions: Ipadala muli ang mga tagubilin para sa pag-unlock
-      send_instructions: Makakatanggap ka ng email na may mga tagubilin kung paano i-unlock ang iyong account sa loob ng ilang minuto.
-      send_paranoid_instructions: Kung ang iyong account ay umiiral, makakatanggap ka ng email na may mga tagubilin kung paano ito i-unlock sa loob ng ilang minuto.
-      unlocked: Ang iyong account ay matagumpay na na-unlock. Mangyaring mag-sign in upang magpatuloy.
+        title: "Ipadala Muli ang Mga Tagubilin para sa Pag-unlock - CR Tagahanap" # "Resend Unlock Instructions - CR Locator"
+        heading: "Ipadala muli ang mga tagubilin para sa pag-unlock" # "Resend unlock instructions"
+        email: "Email address" # "Email address"
+        resend_unlock_instructions: Ipadala muli ang mga tagubilin para sa pag-unlock # Resend unlock instructions
+      send_instructions: Makakatanggap ka ng email na may mga tagubilin kung paano i-unlock ang iyong account sa loob ng ilang minuto. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: Kung ang iyong account ay umiiral, makakatanggap ka ng email na may mga tagubilin kung paano ito i-unlock sa loob ng ilang minuto. # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      unlocked: Ang iyong account ay matagumpay na na-unlock. Mangyaring mag-sign in upang magpatuloy. # Your account has been unlocked successfully. Please sign in to continue.
 
     shared:
       links:
-        back: Bumalik
-        didn_t_receive_confirmation_instructions: "Hindi nakatanggap ng mga tagubilin para sa kumpirmasyon?"
-        didn_t_receive_unlock_instructions: "Hindi nakatanggap ng mga tagubilin para sa pag-unlock?"
-        forgot_your_password: Nakalimutan mo ba ang iyong password?
-        sign_in: Mag-sign in
-        sign_in_with_provider: "Mag-sign in gamit ang %{provider}"
-        sign_up: Mag-sign up
-        no_account: "Hindi pa miyembro?"
-        already_account: "Mayroon na bang account?"
-        forgot_password: "Nakalimutan ang password?"
-        confirmation: "Hindi nakatanggap ng mga tagubilin para sa kumpirmasyon?"
-        unlock: "Hindi nakatanggap ng mga tagubilin para sa pag-unlock?"
+        back: Bumalik # Back
+        didn_t_receive_confirmation_instructions: "Hindi nakatanggap ng mga tagubilin para sa kumpirmasyon?" # "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Hindi nakatanggap ng mga tagubilin para sa pag-unlock?" # "Didn't receive unlock instructions?"
+        forgot_your_password: Nakalimutan mo ba ang iyong password? # Forgot your password?
+        sign_in: Mag-sign in # Sign in
+        sign_in_with_provider: "Mag-sign in gamit ang %{provider}" # "Sign in with %{provider}"
+        sign_up: Mag-sign up # Sign up
+        no_account: "Hindi pa miyembro?" # "Not a member?"
+        already_account: "Mayroon na bang account?" # "Already have an account?"
+        forgot_password: "Nakalimutan ang password?" # "Forgot password?"
+        confirmation: "Hindi nakatanggap ng mga tagubilin para sa kumpirmasyon?" # "Didn't receive confirmation instructions?"
+        unlock: "Hindi nakatanggap ng mga tagubilin para sa pag-unlock?" # "Didn't receive unlock instructions?"
       minimum_password_length:
-        one: "(1 karakter ang minimum)"
-        other: "(%{count} na karakter ang minimum)"
+        one: "(1 karakter ang minimum)" # "(1 character minimum)"
+        other: "(%{count} na karakter ang minimum)" # "(%{count} characters minimum)"
 
     invitations:
       create:
-        send_instructions: Ang email ng imbitasyon ay ipinadala kay %{email}.
-        send_paranoid_instructions: Kung ang iyong email address ay nasa aming database, makakatanggap ka ng email ng imbitasyon sa loob ng ilang minuto.
-        invited: Ang user ay matagumpay na naimbitahan.
+        send_instructions: Ang email ng imbitasyon ay ipinadala kay %{email}. # An invitation email has been sent to %{email}.
+        send_paranoid_instructions: Kung ang iyong email address ay nasa aming database, makakatanggap ka ng email ng imbitasyon sa loob ng ilang minuto. # If your email address exists in our database, you will receive an invitation email in a few minutes.
+        invited: Ang user ay matagumpay na naimbitahan. # User was successfully invited.
       destroy:
-        destroyed: Matagumpay na tinanggal ang imbitasyon.
+        destroyed: Matagumpay na tinanggal ang imbitasyon. # Invitation successfully removed.
       edit:
-        header: Itakda ang iyong password
-        submit_button: Itakda ang aking password
+        header: Itakda ang iyong password # Send invitation
+        submit_button: Itakda ang aking password # Send an invitation
       new:
-        header: Magpadala ng imbitasyon
-        submit_button: Magpadala ng imbitasyon
+        header: Magpadala ng imbitasyon # Send invitation
+        submit_button: Magpadala ng imbitasyon # Send an invitation
       update:
-        updated: Ang iyong password ay matagumpay na naitakda. Ikaw ay naka-sign in na.
-        updated_not_active: Ang iyong password ay matagumpay na naitakda.
-      no_token: "Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang wastong email ng imbitasyon. Kung ikaw ay nanggagaling sa isang email ng pag-reset ng password, mangyaring tiyakin na ginamit mo ang buong URL na ibinigay."
-      invitation_token_invalid: "Ang token ng imbitasyon na ibinigay ay hindi wasto!"
-      accepted: "Ang imbitasyon ay tinanggap! Ang iyong account ay matagumpay na nalikha."
-      removed: "Tinanggal na ang imbitasyon."
-      updated: "Ang iyong imbitasyon ay matagumpay na na-update."
-      updated_not_active: "Ang iyong imbitasyon ay matagumpay na na-update."
-      no_invitations_remaining: "Walang natitirang mga imbitasyon"
-      invitation_removed: "Ang iyong imbitasyon ay tinanggal."
+        updated: Ang iyong password ay matagumpay na naitakda. Ikaw ay naka-sign in na. # "Your invitation was successfully updated."
+        updated_not_active: Ang iyong password ay matagumpay na naitakda. # "Your invitation was successfully updated."
+      no_token: "Hindi mo ma-access ang pahinang ito nang hindi nanggagaling sa isang wastong email ng imbitasyon. Kung ikaw ay nanggagaling sa isang email ng pag-reset ng password, mangyaring tiyakin na ginamit mo ang buong URL na ibinigay." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      invitation_token_invalid: "Ang token ng imbitasyon na ibinigay ay hindi wasto!" # "The invitation token provided is not valid!"
+      accepted: "Ang imbitasyon ay tinanggap! Ang iyong account ay matagumpay na nalikha." # "Invitation accepted! Your account has been successfully created."
+      removed: "Tinanggal na ang imbitasyon." # "Invitation removed."
+      updated: "Ang iyong imbitasyon ay matagumpay na na-update." # "Your invitation was successfully updated."
+      updated_not_active: "Ang iyong imbitasyon ay matagumpay na na-update." # "Your invitation was successfully updated."
+      no_invitations_remaining: "Walang natitirang mga imbitasyon" # "No invitations remaining"
+      invitation_removed: "Ang iyong imbitasyon ay tinanggal." # "Your invitation was removed."

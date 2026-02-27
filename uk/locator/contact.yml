@@ -1,17 +1,17 @@
 uk:
   locator:
     contact:
-      contact_title: контакт
-      success: Лист успішно надіслано.
-      invalid: 'Невірне надсилання. Спробуйте ще раз.'
+      contact_title: контакт # contact
+      success: Лист успішно надіслано. # Email sent successfully.
+      invalid: 'Невірне надсилання. Спробуйте ще раз.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Зв'язатися з %{rep_name}"
-        detail: Скористайтеся цією формою, щоб надіслати запит %{rep_name}. Вони постараються відповісти вчасно.
-        type: Тип представника / Адвоката
-        ministry_leader: Керівник служіння
-        name: Ім'я
-        phone: Номер телефону
-        message: Повідомлення
-        back: Назад до пошуку
-        send: Надіслати повідомлення
-        no_results: За цією адресою нічого не знайдено
+        title: "Зв'язатися з %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Скористайтеся цією формою, щоб надіслати запит %{rep_name}. Вони постараються відповісти вчасно. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Тип представника / Адвоката # Rep / Advocate Type
+        ministry_leader: Керівник служіння # Ministry Leader
+        name: Ім'я # Name
+        phone: Номер телефону # Phone number
+        message: Повідомлення # Message
+        back: Назад до пошуку # Back to finder
+        send: Надіслати повідомлення # Send Message
+        no_results: За цією адресою нічого не знайдено # Nothing was found at this address

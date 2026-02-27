@@ -1,17 +1,17 @@
 da:
   locator:
     contact:
-      contact_title: kontakt
-      success: E-mail sendt.
-      invalid: 'Ugyldig indsendelse. Prøv igen.'
+      contact_title: kontakt # contact
+      success: E-mail sendt. # Email sent successfully.
+      invalid: 'Ugyldig indsendelse. Prøv igen.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Kontakt %{rep_name}"
-        detail: Brug dette skema til at sende en anmodning til %{rep_name}. De vil gøre deres bedste for at vende tilbage til dig rettidigt.
-        type: Type repræsentant / fortaler
-        ministry_leader: Tjenesteleder
-        name: Navn
-        phone: Telefonnummer
-        message: Besked
-        back: Tilbage til søger
-        send: Send besked
-        no_results: Der blev ikke fundet noget på denne adresse
+        title: "Kontakt %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Brug dette skema til at sende en anmodning til %{rep_name}. De vil gøre deres bedste for at vende tilbage til dig rettidigt. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Type repræsentant / fortaler # Rep / Advocate Type
+        ministry_leader: Tjenesteleder # Ministry Leader
+        name: Navn # Name
+        phone: Telefonnummer # Phone number
+        message: Besked # Message
+        back: Tilbage til søger # Back to finder
+        send: Send besked # Send Message
+        no_results: Der blev ikke fundet noget på denne adresse # Nothing was found at this address

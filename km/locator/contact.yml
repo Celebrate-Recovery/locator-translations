@@ -1,17 +1,17 @@
 km:
   locator:
     contact:
-      contact_title: ទំនាក់ទំនង
-      success: ផ្ញើអ៉ីមែលជោគជ័យ។
-      invalid: 'ការដាក់ស្នើមិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀត។'
+      contact_title: ទំនាក់ទំនង # contact
+      success: ផ្ញើអ៉ីមែលជោគជ័យ។ # Email sent successfully.
+      invalid: 'ការដាក់ស្នើមិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀត។' # 'Invalid form submission. Please try again.'
       contact:
-        title: "ទំនាក់ទំនងជាមួយ %{rep_name}"
-        detail: ប្រើទម្រង់នេះដើម្បីផ្ញើសំណើទៅ %{rep_name}។ ពួកគេនឹងខិតខំឆ្លើយតបឱ្យទាន់ពេល។
-        type: ប្រភេទតំណាង / អ្នកគាំទ្រ
-        ministry_leader: អ្នកដឹកនាំសេវា
-        name: ឈ្មោះ
-        phone: លេខទូរស័ព្ទ
-        message: សារ
-        back: ត្រឡប់ទៅកម្មវិធីស្វែងរក
-        send: ផ្ញើសារ
-        no_results: រកមិនឃើញអ្វីនៅអាសយដ្ឋាននេះ
+        title: "ទំនាក់ទំនងជាមួយ %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: ប្រើទម្រង់នេះដើម្បីផ្ញើសំណើទៅ %{rep_name}។ ពួកគេនឹងខិតខំឆ្លើយតបឱ្យទាន់ពេល។ # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: ប្រភេទតំណាង / អ្នកគាំទ្រ # Rep / Advocate Type
+        ministry_leader: អ្នកដឹកនាំសេវា # Ministry Leader
+        name: ឈ្មោះ # Name
+        phone: លេខទូរស័ព្ទ # Phone number
+        message: សារ # Message
+        back: ត្រឡប់ទៅកម្មវិធីស្វែងរក # Back to finder
+        send: ផ្ញើសារ # Send Message
+        no_results: រកមិនឃើញអ្វីនៅអាសយដ្ឋាននេះ # Nothing was found at this address

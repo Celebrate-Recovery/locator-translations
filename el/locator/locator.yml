@@ -1,86 +1,85 @@
 el:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: Email
-      details: Λεπτομέρειες
-      search: Αναζήτηση
-      filter: Φίλτρο
-      online: Διαδικτυακά
-      in_person: Προσωπικά
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Μεγάλη ομάδα
-      open_share_groups: Ομάδες ανοιχτού διαμοιρασμού
-      step_studies: Μελέτες βημάτων
-      distance: "%{distance_unit}"
-      mile: μίλια
-      kilometer: χιλιόμετρα
-      location: Τοποθεσία
-      groups: Ομάδες
-      reps: Αντιπρόσωποι
-      language: Γλώσσα
-      format: Μορφή
+      cr_locator: Εντοπιστής CR # CR Locator
+      locator: Εντοπιστής # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: Email # Email
+      details: Λεπτομέρειες # Details
+      search: Αναζήτηση # Search
+      filter: Φίλτρο # Filter
+      online: Διαδικτυακά # Online
+      in_person: Προσωπικά # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Μεγάλη ομάδα # Large Group
+      open_share_groups: Ομάδες ανοιχτού διαμοιρασμού # Open Share Groups
+      step_studies: Μελέτες βημάτων # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: μίλια # miles
+      kilometer: χιλιόμετρα # kilometers
+      location: Τοποθεσία # Location
+      groups: Ομάδες # "%{rep_name} is a part of the following groups weekly:"
+      reps: Αντιπρόσωποι # Reps
+      language: Γλώσσα # Languages Offered Here
+      format: Μορφή # Format
       days:
-        sunday: Κυριακή
-        monday: Δευτέρα
-        tuesday: Τρίτη
-        wednesday: Τετάρτη
-        thursday: Πέμπτη
-        friday: Παρασκευή
-        saturday: Σάββατο
+        sunday: Κυριακή # S
+        monday: Δευτέρα # M
+        tuesday: Τρίτη # T
+        wednesday: Τετάρτη # W
+        thursday: Πέμπτη # T
+        friday: Παρασκευή # F
+        saturday: Σάββατο # S
       days_short:
-        sunday: Κυρ
-        monday: Δευ
-        tuesday: Τρι
-        wednesday: Τετ
-        thursday: Πεμ
-        friday: Παρ
-        saturday: Σαβ
+        sunday: Κυρ # S
+        monday: Δευ # M
+        tuesday: Τρι # T
+        wednesday: Τετ # W
+        thursday: Πεμ # T
+        friday: Παρ # F
+        saturday: Σαβ # S
       days_initial:
-        sunday: Κ
-        monday: Δ
-        tuesday: Τ
-        wednesday: Τ
-        thursday: Π
-        friday: Π
-        saturday: Σ
+        sunday: Κ # S
+        monday: Δ # M
+        tuesday: Τ # T
+        wednesday: Τ # W
+        thursday: Π # T
+        friday: Π # F
+        saturday: Σ # S
     layouts:
       partials:
         header:
-          close_menu: Κλείσιμο μενού
-          about: Σχετικά
-          get_your_cr_on_the_locator: Εγγραφή
-          main_menu: Κύριο μενού
-          login_in: Σύνδεση
-          dashboard: Πίνακας ελέγχου
+          close_menu: Κλείσιμο μενού # Close Menu
+          about: Σχετικά # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Εγγραφή # Get Listed
+          main_menu: Κύριο μενού # Main Menu
+          login_in: Σύνδεση # Login
+          dashboard: Πίνακας ελέγχου # Dashboard
     home:
-      please_enter_location: "Εισάγετε τοποθεσία ή ταχυδρομικό κώδικα για αναζήτηση ομάδων ή αντιπροσώπων."
-      email_sent: 'Το email στάλθηκε επιτυχώς.'
+      please_enter_location: "Εισάγετε τοποθεσία ή ταχυδρομικό κώδικα για αναζήτηση ομάδων ή αντιπροσώπων." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'Το email στάλθηκε επιτυχώς.' # "Email sent successfully."
       index:
-        html_title: Αρχική
-        html_title_groups: Ομάδες στο
-        html_title_in: στο
-        full_title: CR Locator
-        title: Locator
-        default_title: "Βρείτε ελευθερία, βρείτε κοινότητα - CR Locator"
-        enter: "Εισάγετε τοποθεσία ή ταχυδρομικό κώδικα για να ξεκινήσετε την αναζήτηση"
-        error: "Προέκυψε σφάλμα κατά την αναζήτηση. Δοκιμάστε ξανά."
-        none_found_group: "Δεν βρέθηκαν ομάδες εντός %{radius} %{distance_unit}"
-        none_found_rep: "Δεν βρέθηκαν αντιπρόσωποι εντός %{radius} %{distance_unit}"
-        closest_group: "Εμφανίζονται οι πλησιέστερες ομάδες."
-        closest_rep: "Εμφανίζονται οι πλησιέστεροι αντιπρόσωποι."
-        help: "Βοήθεια"
+        html_title: Αρχική # Home
+        html_title_groups: Ομάδες στο # Groups in
+        html_title_in: στο # in
+        full_title: CR Locator # CR Locator
+        default_title: "Βρείτε ελευθερία, βρείτε κοινότητα - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Εισάγετε τοποθεσία ή ταχυδρομικό κώδικα για να ξεκινήσετε την αναζήτηση" # "Please enter a location or postal code to begin your search"
+        error: "Προέκυψε σφάλμα κατά την αναζήτηση. Δοκιμάστε ξανά." # "An error occurred while searching. Please try again."
+        none_found_group: "Δεν βρέθηκαν ομάδες εντός %{radius} %{distance_unit}" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Δεν βρέθηκαν αντιπρόσωποι εντός %{radius} %{distance_unit}" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Εμφανίζονται οι πλησιέστερες ομάδες." # "Showing the closest groups."
+        closest_rep: "Εμφανίζονται οι πλησιέστεροι αντιπρόσωποι." # "Showing the closest reps."
+        help: "Βοήθεια" # "Help"
       form:
-        search_title: Η τοποθεσία σας / Ταχυδρομικός κώδικας
-        search_placeholder: Εισάγετε τοποθεσία
-        search_nearby: Αναζήτηση κοντά
-        location_name: Όνομα τοποθεσίας
-        search_type: Τύπος
-        radius: Ακτίνα
-        day_of_week: Ημέρες εβδομάδας
+        search_title: Η τοποθεσία σας / Ταχυδρομικός κώδικας # Your location / ZIP code
+        search_placeholder: Εισάγετε τοποθεσία # Enter a location
+        search_nearby: Αναζήτηση κοντά # Search Nearby
+        location_name: Όνομα τοποθεσίας # Location name
+        search_type: Τύπος # Type
+        radius: Ακτίνα # Radius
+        day_of_week: Ημέρες εβδομάδας # Days of the week
         within_10: "εντός 10 %{distance_unit}"
         within_25: "εντός 25 %{distance_unit}"
         within_50: "εντός 50 %{distance_unit}"
@@ -89,46 +88,47 @@ el:
         within_200: "εντός 200 %{distance_unit}"
         within_250: "εντός 250 %{distance_unit}"
         within_500: "εντός 500 %{distance_unit}"
-        rep_ambassador: Αντιπρόσωπος / Συνήγορος
-        all_reps: Όλοι οι αντιπρόσωποι / Συνήγοροι
-        all_reps_filter: Αντιπρόσωποι / Συνήγοροι
-        cr_reps: Αντιπρόσωποι CR
-        landing_reps: Αντιπρόσωποι Landing
-        celebration_place_reps: Αντιπρόσωποι Celebration Place
+        groups: Ομάδες # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Αντιπρόσωπος / Συνήγορος # Rep / Advocate
+        all_reps: Όλοι οι αντιπρόσωποι / Συνήγοροι # All Reps / Advocates
+        all_reps_filter: Αντιπρόσωποι / Συνήγοροι # Reps / Advocates
+        cr_reps: Αντιπρόσωποι CR # CR Reps
+        landing_reps: Αντιπρόσωποι Landing # Landing Reps
+        celebration_place_reps: Αντιπρόσωποι Celebration Place # Celebration Place Reps
         ambassadors:
-          mental_health: Συνήγορος ψυχικής υγείας
-          cr_inside: Συνήγορος CR Inside
-          cr_international: Συνήγορος CR International
-          cultural_communities: Συνήγορος πολιτιστικών κοινοτήτων
-          welcome_home: Συνήγορος Welcome Home
-          opioid: Συνήγορος οπιοειδών
-          cpr: Συνήγορος CPR
-        all_groups: Όλες οι ομάδες
-        all_groups_filter: Ομάδες
-        online_large_group: Διαδικτυακή μεγάλη ομάδα
-        online_open_share: Διαδικτυακές ομάδες ανοιχτού διαμοιρασμού
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Γεύμα Fellowship
-        childcare: Παιδική φροντίδα
+          mental_health: Συνήγορος ψυχικής υγείας # Mental Health Advocate
+          cr_inside: Συνήγορος CR Inside # CR Inside Advocate
+          cr_international: Συνήγορος CR International # CR International Advocate
+          cultural_communities: Συνήγορος πολιτιστικών κοινοτήτων # Cultural Communities Advocate
+          welcome_home: Συνήγορος Welcome Home # Welcome Home Advocate
+          opioid: Συνήγορος οπιοειδών # Opioid Advocate
+          cpr: Συνήγορος CPR # CPR Advocate
+        all_groups: Όλες οι ομάδες # All Groups
+        all_groups_filter: Ομάδες # Groups
+        online_large_group: Διαδικτυακή μεγάλη ομάδα # Online Large Group
+        online_open_share: Διαδικτυακές ομάδες ανοιχτού διαμοιρασμού # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Γεύμα Fellowship # Fellowship Meal
+        childcare: Παιδική φροντίδα # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Διαθέσιμο
-          offered_in: Προσφέρεται σε
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Διαθέσιμο # Available
+          offered_in: Προσφέρεται σε # Offered in
     results:
       partials:
         group:
-          directions: Οδηγίες
-          email: Email
-          language: Γλώσσες που προσφέρονται εδώ
-          location: Τοποθεσία
-          contact: Επαφές ομάδας
-          rep_contact: Επαφή αντιπροσώπου
-          ministry_leader: Υπεύθυνος υπηρεσίας
-          upcomming_step_study: Επερχόμενες μελέτες βημάτων
-          starting: Έναρξη
-          additional_information: Επιπλέον πληροφορίες
+          directions: Οδηγίες # Get Directions
+          email: Email # Email
+          language: Γλώσσες που προσφέρονται εδώ # Languages Offered Here
+          location: Τοποθεσία # Location
+          contact: Επαφές ομάδας # Group Contacts
+          rep_contact: Επαφή αντιπροσώπου # Rep Contact
+          ministry_leader: Υπεύθυνος υπηρεσίας # Ministry Leader
+          upcomming_step_study: Επερχόμενες μελέτες βημάτων # Upcoming Step Studies
+          starting: Έναρξη # Starting
+          additional_information: Επιπλέον πληροφορίες # Additional Information
         rep:
-          based_in: "Βάση στο %{location}"
-          about: "Λίγα λόγια για τον/την %{rep_name}"
-          groups: "Ο/Η %{rep_name} συμμετέχει εβδομαδιαίως στις ακόλουθες ομάδες:"
+          based_in: "Βάση στο %{location}" # "Based in %{location}"
+          about: "Λίγα λόγια για τον/την %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "Ο/Η %{rep_name} συμμετέχει εβδομαδιαίως στις ακόλουθες ομάδες:" # "%{rep_name} is a part of the following groups weekly:"

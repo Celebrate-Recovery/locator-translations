@@ -1,17 +1,17 @@
 vi:
   locator:
     contact:
-      contact_title: liên hệ
-      success: Đã gửi email thành công.
-      invalid: 'Gửi không hợp lệ. Vui lòng thử lại.'
+      contact_title: liên hệ # contact
+      success: Đã gửi email thành công. # Email sent successfully.
+      invalid: 'Gửi không hợp lệ. Vui lòng thử lại.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Liên hệ với %{rep_name}"
-        detail: Dùng form này để gửi yêu cầu đến %{rep_name}. Họ sẽ cố gắng phản hồi bạn kịp thời.
-        type: Loại đại diện / Người ủng hộ
-        ministry_leader: Trưởng chức vụ
-        name: Tên
-        phone: Số điện thoại
-        message: Tin nhắn
-        back: Quay lại tìm kiếm
-        send: Gửi tin nhắn
-        no_results: Không tìm thấy gì tại địa chỉ này
+        title: "Liên hệ với %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Dùng form này để gửi yêu cầu đến %{rep_name}. Họ sẽ cố gắng phản hồi bạn kịp thời. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Loại đại diện / Người ủng hộ # Rep / Advocate Type
+        ministry_leader: Trưởng chức vụ # Ministry Leader
+        name: Tên # Name
+        phone: Số điện thoại # Phone number
+        message: Tin nhắn # Message
+        back: Quay lại tìm kiếm # Back to finder
+        send: Gửi tin nhắn # Send Message
+        no_results: Không tìm thấy gì tại địa chỉ này # Nothing was found at this address

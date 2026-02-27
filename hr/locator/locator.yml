@@ -1,86 +1,85 @@
 hr:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: E-mail
-      details: Detalji
-      search: Pretraži
-      filter: Filter
-      online: Online
-      in_person: Osobno
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Velika grupa
-      open_share_groups: Grupe otvorene dijeljenja
-      step_studies: Studiji koraka
-      distance: "%{distance_unit}"
-      mile: milja
-      kilometer: kilometara
-      location: Lokacija
-      groups: Grupe
-      reps: Predstavnici
-      language: Jezik
-      format: Format
+      cr_locator: CR Lokator # CR Locator
+      locator: Lokator # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: E-mail # Email
+      details: Detalji # Details
+      search: Pretraži # Search
+      filter: Filter # Filter
+      online: Online # Online
+      in_person: Osobno # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Velika grupa # Large Group
+      open_share_groups: Grupe otvorene dijeljenja # Open Share Groups
+      step_studies: Studiji koraka # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: milja # miles
+      kilometer: kilometara # kilometers
+      location: Lokacija # Location
+      groups: Grupe # "%{rep_name} is a part of the following groups weekly:"
+      reps: Predstavnici # Reps
+      language: Jezik # Languages Offered Here
+      format: Format # Format
       days:
-        sunday: Nedjelja
-        monday: Ponedjeljak
-        tuesday: Utorak
-        wednesday: Srijeda
-        thursday: Četvrtak
-        friday: Petak
-        saturday: Subota
+        sunday: Nedjelja # S
+        monday: Ponedjeljak # M
+        tuesday: Utorak # T
+        wednesday: Srijeda # W
+        thursday: Četvrtak # T
+        friday: Petak # F
+        saturday: Subota # S
       days_short:
-        sunday: Ned
-        monday: Pon
-        tuesday: Uto
-        wednesday: Sri
-        thursday: Čet
-        friday: Pet
-        saturday: Sub
+        sunday: Ned # S
+        monday: Pon # M
+        tuesday: Uto # T
+        wednesday: Sri # W
+        thursday: Čet # T
+        friday: Pet # F
+        saturday: Sub # S
       days_initial:
-        sunday: N
-        monday: P
-        tuesday: U
-        wednesday: S
-        thursday: Č
-        friday: P
-        saturday: S
+        sunday: N # S
+        monday: P # M
+        tuesday: U # T
+        wednesday: S # W
+        thursday: Č # T
+        friday: P # F
+        saturday: S # S
     layouts:
       partials:
         header:
-          close_menu: Zatvori izbornik
-          about: O nama
-          get_your_cr_on_the_locator: Prijavi se
-          main_menu: Glavni izbornik
-          login_in: Prijava
-          dashboard: Nadzorna ploča
+          close_menu: Zatvori izbornik # Close Menu
+          about: O nama # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Prijavi se # Get Listed
+          main_menu: Glavni izbornik # Main Menu
+          login_in: Prijava # Login
+          dashboard: Nadzorna ploča # Dashboard
     home:
-      please_enter_location: "Unesite lokaciju ili poštanski broj za pretragu grupa ili predstavnika."
-      email_sent: 'E-mail uspješno poslan.'
+      please_enter_location: "Unesite lokaciju ili poštanski broj za pretragu grupa ili predstavnika." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'E-mail uspješno poslan.' # "Email sent successfully."
       index:
-        html_title: Početna
-        html_title_groups: Grupe u
-        html_title_in: u
-        full_title: CR Locator
-        title: Locator
-        default_title: "Pronađite slobodu, pronađite zajednicu - CR Locator"
-        enter: "Unesite lokaciju ili poštanski broj za početak pretrage"
-        error: "Došlo je do greške pri pretrazi. Pokušajte ponovno."
-        none_found_group: "Nije pronađena nijedna grupa unutar %{radius} %{distance_unit}"
-        none_found_rep: "Nije pronađen nijedan predstavnik unutar %{radius} %{distance_unit}"
-        closest_group: "Prikazuju se najbliže grupe."
-        closest_rep: "Prikazuju se najbliži predstavnici."
-        help: "Pomoć"
+        html_title: Početna # Home
+        html_title_groups: Grupe u # Groups in
+        html_title_in: u # in
+        full_title: CR Locator # CR Locator
+        default_title: "Pronađite slobodu, pronađite zajednicu - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Unesite lokaciju ili poštanski broj za početak pretrage" # "Please enter a location or postal code to begin your search"
+        error: "Došlo je do greške pri pretrazi. Pokušajte ponovno." # "An error occurred while searching. Please try again."
+        none_found_group: "Nije pronađena nijedna grupa unutar %{radius} %{distance_unit}" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Nije pronađen nijedan predstavnik unutar %{radius} %{distance_unit}" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Prikazuju se najbliže grupe." # "Showing the closest groups."
+        closest_rep: "Prikazuju se najbliži predstavnici." # "Showing the closest reps."
+        help: "Pomoć" # "Help"
       form:
-        search_title: Vaša lokacija / poštanski broj
-        search_placeholder: Unesite lokaciju
-        search_nearby: Pretraži u blizini
-        location_name: Naziv lokacije
-        search_type: Vrsta
-        radius: Radius
-        day_of_week: Dani u tjednu
+        search_title: Vaša lokacija / poštanski broj # Your location / ZIP code
+        search_placeholder: Unesite lokaciju # Enter a location
+        search_nearby: Pretraži u blizini # Search Nearby
+        location_name: Naziv lokacije # Location name
+        search_type: Vrsta # Type
+        radius: Radius # Radius
+        day_of_week: Dani u tjednu # Days of the week
         within_10: "unutar 10 %{distance_unit}"
         within_25: "unutar 25 %{distance_unit}"
         within_50: "unutar 50 %{distance_unit}"
@@ -89,46 +88,47 @@ hr:
         within_200: "unutar 200 %{distance_unit}"
         within_250: "unutar 250 %{distance_unit}"
         within_500: "unutar 500 %{distance_unit}"
-        rep_ambassador: Predstavnik / Zagovornik
-        all_reps: Svi predstavnici / Zagovornici
-        all_reps_filter: Predstavnici / Zagovornici
-        cr_reps: CR predstavnici
-        landing_reps: Landing predstavnici
-        celebration_place_reps: Celebration Place predstavnici
+        groups: Grupe # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Predstavnik / Zagovornik # Rep / Advocate
+        all_reps: Svi predstavnici / Zagovornici # All Reps / Advocates
+        all_reps_filter: Predstavnici / Zagovornici # Reps / Advocates
+        cr_reps: CR predstavnici # CR Reps
+        landing_reps: Landing predstavnici # Landing Reps
+        celebration_place_reps: Celebration Place predstavnici # Celebration Place Reps
         ambassadors:
-          mental_health: Zagovornik mentalnog zdravlja
-          cr_inside: Zagovornik CR Inside
-          cr_international: Zagovornik CR International
-          cultural_communities: Zagovornik kulturnih zajednica
-          welcome_home: Zagovornik Welcome Home
-          opioid: Zagovornik opioida
-          cpr: Zagovornik CPR
-        all_groups: Sve grupe
-        all_groups_filter: Grupe
-        online_large_group: Online velika grupa
-        online_open_share: Online grupe otvorene dijeljenja
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Fellowship obrok
-        childcare: Dječja njega
+          mental_health: Zagovornik mentalnog zdravlja # Mental Health Advocate
+          cr_inside: Zagovornik CR Inside # CR Inside Advocate
+          cr_international: Zagovornik CR International # CR International Advocate
+          cultural_communities: Zagovornik kulturnih zajednica # Cultural Communities Advocate
+          welcome_home: Zagovornik Welcome Home # Welcome Home Advocate
+          opioid: Zagovornik opioida # Opioid Advocate
+          cpr: Zagovornik CPR # CPR Advocate
+        all_groups: Sve grupe # All Groups
+        all_groups_filter: Grupe # Groups
+        online_large_group: Online velika grupa # Online Large Group
+        online_open_share: Online grupe otvorene dijeljenja # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship obrok # Fellowship Meal
+        childcare: Dječja njega # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Dostupno
-          offered_in: Nudi se na
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Dostupno # Available
+          offered_in: Nudi se na # Offered in
     results:
       partials:
         group:
-          directions: Prikaži put
-          email: E-mail
-          language: Jezici koji se ovdje nude
-          location: Lokacija
-          contact: Kontakti grupe
-          rep_contact: Kontakt predstavnika
-          ministry_leader: Voditelj službe
-          upcomming_step_study: Nadolazeći studiji koraka
-          starting: Početak
-          additional_information: Dodatne informacije
+          directions: Prikaži put # Get Directions
+          email: E-mail # Email
+          language: Jezici koji se ovdje nude # Languages Offered Here
+          location: Lokacija # Location
+          contact: Kontakti grupe # Group Contacts
+          rep_contact: Kontakt predstavnika # Rep Contact
+          ministry_leader: Voditelj službe # Ministry Leader
+          upcomming_step_study: Nadolazeći studiji koraka # Upcoming Step Studies
+          starting: Početak # Starting
+          additional_information: Dodatne informacije # Additional Information
         rep:
-          based_in: "Sjedište u %{location}"
-          about: "Malo o %{rep_name}"
-          groups: "%{rep_name} sudjeluje u sljedećim grupama tjedno:"
+          based_in: "Sjedište u %{location}" # "Based in %{location}"
+          about: "Malo o %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} sudjeluje u sljedećim grupama tjedno:" # "%{rep_name} is a part of the following groups weekly:"

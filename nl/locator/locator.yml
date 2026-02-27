@@ -1,86 +1,85 @@
 nl:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: E-mail
-      details: Details
-      search: Zoeken
-      filter: Filter
-      online: Online
-      in_person: Persoonlijk
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Grote groep
-      open_share_groups: Open Share-groepen
-      step_studies: Stappenstudies
-      distance: "%{distance_unit}"
-      mile: mijl
-      kilometer: kilometer
-      location: Locatie
-      groups: Groepen
-      reps: Vertegenwoordigers
-      language: Taal
-      format: Formaat
+      cr_locator: CR Zoeker # CR Locator
+      locator: Zoeker # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: E-mail # Email
+      details: Details # Details
+      search: Zoeken # Search
+      filter: Filter # Filter
+      online: Online # Online
+      in_person: Persoonlijk # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Grote groep # Large Group
+      open_share_groups: Open Share-groepen # Open Share Groups
+      step_studies: Stappenstudies # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: mijl # miles
+      kilometer: kilometer # kilometers
+      location: Locatie # Location
+      groups: Groepen # "%{rep_name} is a part of the following groups weekly:"
+      reps: Vertegenwoordigers # Reps
+      language: Taal # Languages Offered Here
+      format: Formaat # Format
       days:
-        sunday: zondag
-        monday: maandag
-        tuesday: dinsdag
-        wednesday: woensdag
-        thursday: donderdag
-        friday: vrijdag
-        saturday: zaterdag
+        sunday: zondag # S
+        monday: maandag # M
+        tuesday: dinsdag # T
+        wednesday: woensdag # W
+        thursday: donderdag # T
+        friday: vrijdag # F
+        saturday: zaterdag # S
       days_short:
-        sunday: zo
-        monday: ma
-        tuesday: di
-        wednesday: wo
-        thursday: do
-        friday: vr
-        saturday: za
+        sunday: zo # S
+        monday: ma # M
+        tuesday: di # T
+        wednesday: wo # W
+        thursday: do # T
+        friday: vr # F
+        saturday: za # S
       days_initial:
-        sunday: Z
-        monday: M
-        tuesday: D
-        wednesday: W
-        thursday: D
-        friday: V
-        saturday: Z
+        sunday: Z # S
+        monday: M # M
+        tuesday: D # T
+        wednesday: W # W
+        thursday: D # T
+        friday: V # F
+        saturday: Z # S
     layouts:
       partials:
         header:
-          close_menu: Menu sluiten
-          about: Over
-          get_your_cr_on_the_locator: Aanmelden
-          main_menu: Hoofdmenu
-          login_in: Inloggen
-          dashboard: Dashboard
+          close_menu: Menu sluiten # Close Menu
+          about: Over # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Aanmelden # Get Listed
+          main_menu: Hoofdmenu # Main Menu
+          login_in: Inloggen # Login
+          dashboard: Dashboard # Dashboard
     home:
-      please_enter_location: "Voer een locatie of postcode in om te zoeken naar groepen of vertegenwoordigers."
-      email_sent: 'E-mail succesvol verzonden.'
+      please_enter_location: "Voer een locatie of postcode in om te zoeken naar groepen of vertegenwoordigers." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'E-mail succesvol verzonden.' # "Email sent successfully."
       index:
-        html_title: Home
-        html_title_groups: Groepen in
-        html_title_in: in
-        full_title: CR Locator
-        title: Locator
-        default_title: "Vind vrijheid, vind gemeenschap - CR Locator"
-        enter: "Voer een locatie of postcode in om te beginnen met zoeken"
-        error: "Er is een fout opgetreden bij het zoeken. Probeer het opnieuw."
-        none_found_group: "Geen groepen gevonden binnen %{radius} %{distance_unit}"
-        none_found_rep: "Geen vertegenwoordigers gevonden binnen %{radius} %{distance_unit}"
-        closest_group: "Dichtstbijzijnde groepen worden getoond."
-        closest_rep: "Dichtstbijzijnde vertegenwoordigers worden getoond."
-        help: "Help"
+        html_title: Home # Home
+        html_title_groups: Groepen in # Groups in
+        html_title_in: in # in
+        full_title: CR Locator # CR Locator
+        default_title: "Vind vrijheid, vind gemeenschap - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Voer een locatie of postcode in om te beginnen met zoeken" # "Please enter a location or postal code to begin your search"
+        error: "Er is een fout opgetreden bij het zoeken. Probeer het opnieuw." # "An error occurred while searching. Please try again."
+        none_found_group: "Geen groepen gevonden binnen %{radius} %{distance_unit}" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Geen vertegenwoordigers gevonden binnen %{radius} %{distance_unit}" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Dichtstbijzijnde groepen worden getoond." # "Showing the closest groups."
+        closest_rep: "Dichtstbijzijnde vertegenwoordigers worden getoond." # "Showing the closest reps."
+        help: "Help" # "Help"
       form:
-        search_title: Uw locatie / postcode
-        search_placeholder: Voer een locatie in
-        search_nearby: Zoek in de buurt
-        location_name: Locatienaam
-        search_type: Type
-        radius: Straal
-        day_of_week: Dagen van de week
+        search_title: Uw locatie / postcode # Your location / ZIP code
+        search_placeholder: Voer een locatie in # Enter a location
+        search_nearby: Zoek in de buurt # Search Nearby
+        location_name: Locatienaam # Location name
+        search_type: Type # Type
+        radius: Straal # Radius
+        day_of_week: Dagen van de week # Days of the week
         within_10: "binnen 10 %{distance_unit}"
         within_25: "binnen 25 %{distance_unit}"
         within_50: "binnen 50 %{distance_unit}"
@@ -89,46 +88,47 @@ nl:
         within_200: "binnen 200 %{distance_unit}"
         within_250: "binnen 250 %{distance_unit}"
         within_500: "binnen 500 %{distance_unit}"
-        rep_ambassador: Vertegenwoordiger / pleitbezorger
-        all_reps: Alle vertegenwoordigers / pleitbezorgers
-        all_reps_filter: Vertegenwoordigers / pleitbezorgers
-        cr_reps: CR-vertegenwoordigers
-        landing_reps: Landing-vertegenwoordigers
-        celebration_place_reps: Celebration Place-vertegenwoordigers
+        groups: Groepen # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Vertegenwoordiger / pleitbezorger # Rep / Advocate
+        all_reps: Alle vertegenwoordigers / pleitbezorgers # All Reps / Advocates
+        all_reps_filter: Vertegenwoordigers / pleitbezorgers # Reps / Advocates
+        cr_reps: CR-vertegenwoordigers # CR Reps
+        landing_reps: Landing-vertegenwoordigers # Landing Reps
+        celebration_place_reps: Celebration Place-vertegenwoordigers # Celebration Place Reps
         ambassadors:
-          mental_health: Pleitbezorger geestelijke gezondheid
-          cr_inside: CR Inside-pleitbezorger
-          cr_international: CR International-pleitbezorger
-          cultural_communities: Pleitbezorger culturele gemeenschappen
-          welcome_home: Welcome Home-pleitbezorger
-          opioid: Opioïde-pleitbezorger
-          cpr: CPR-pleitbezorger
-        all_groups: Alle groepen
-        all_groups_filter: Groepen
-        online_large_group: Online grote groep
-        online_open_share: Online Open Share-groepen
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Fellowship-maaltijd
-        childcare: Kinderopvang
+          mental_health: Pleitbezorger geestelijke gezondheid # Mental Health Advocate
+          cr_inside: CR Inside-pleitbezorger # CR Inside Advocate
+          cr_international: CR International-pleitbezorger # CR International Advocate
+          cultural_communities: Pleitbezorger culturele gemeenschappen # Cultural Communities Advocate
+          welcome_home: Welcome Home-pleitbezorger # Welcome Home Advocate
+          opioid: Opioïde-pleitbezorger # Opioid Advocate
+          cpr: CPR-pleitbezorger # CPR Advocate
+        all_groups: Alle groepen # All Groups
+        all_groups_filter: Groepen # Groups
+        online_large_group: Online grote groep # Online Large Group
+        online_open_share: Online Open Share-groepen # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship-maaltijd # Fellowship Meal
+        childcare: Kinderopvang # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Beschikbaar
-          offered_in: Aangeboden in
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Beschikbaar # Available
+          offered_in: Aangeboden in # Offered in
     results:
       partials:
         group:
-          directions: Routebeschrijving
-          email: E-mail
-          language: Talen die hier worden aangeboden
-          location: Locatie
-          contact: Groepscontacten
-          rep_contact: Contact vertegenwoordiger
-          ministry_leader: Leider van de bediening
-          upcomming_step_study: Komende stappenstudies
-          starting: Start
-          additional_information: Aanvullende informatie
+          directions: Routebeschrijving # Get Directions
+          email: E-mail # Email
+          language: Talen die hier worden aangeboden # Languages Offered Here
+          location: Locatie # Location
+          contact: Groepscontacten # Group Contacts
+          rep_contact: Contact vertegenwoordiger # Rep Contact
+          ministry_leader: Leider van de bediening # Ministry Leader
+          upcomming_step_study: Komende stappenstudies # Upcoming Step Studies
+          starting: Start # Starting
+          additional_information: Aanvullende informatie # Additional Information
         rep:
-          based_in: "Gevestigd in %{location}"
-          about: "Een beetje over %{rep_name}"
-          groups: "%{rep_name} neemt wekelijks deel aan de volgende groepen:"
+          based_in: "Gevestigd in %{location}" # "Based in %{location}"
+          about: "Een beetje over %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} neemt wekelijks deel aan de volgende groepen:" # "%{rep_name} is a part of the following groups weekly:"

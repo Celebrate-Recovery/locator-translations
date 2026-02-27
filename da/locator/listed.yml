@@ -2,33 +2,33 @@ da:
   locator:
     info:
       listed:
-        page_title: "Få din gruppe listet - CR Locator"
-        subtitle: "CR Locator"
-        title: "Få din gruppe listet"
-        intro: "Tak for din interesse i at tilføje din Celebrate Recovery-tjeneste til CR Locator! Læs kravene for at tilføje din gruppe til Lokatoren nedenfor:"
+        page_title: "Få din gruppe listet - CR Locator" # "Get your group listed - CR Locator"
+        subtitle: "CR Locator" # "CR Locator"
+        title: "Få din gruppe listet" # "If your CR DOES meet the requirements above:"
+        intro: "Tak for din interesse i at tilføje din Celebrate Recovery-tjeneste til CR Locator! Læs kravene for at tilføje din gruppe til Lokatoren nedenfor:" # "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:"
         abbreviations:
-          fe_cr: "FE CR = Full Expression Celebrate Recovery-tjeneste"
-          osgo_cr: "OSGO CR = Open Share Group Only Celebrate Recovery-tjeneste"
+          fe_cr: "FE CR = Full Expression Celebrate Recovery-tjeneste" # "FE CR = Full Expression Celebrate Recovery Ministry"
+          osgo_cr: "OSGO CR = Open Share Group Only Celebrate Recovery-tjeneste" # "OSGO CR = Open Share Group Only Celebrate Recovery Ministry"
         requirements:
           running_time:
-            title: "(FE CR) Celebration Night eller (OSGO CR) Open Share Groups har kørt i mindst 90 dage."
-            description: "Dette inkluderer ikke trin-studier/indledende ledertræning før lanceringen af Celebration Night."
+            title: "(FE CR) Celebration Night eller (OSGO CR) Open Share Groups har kørt i mindst 90 dage." # "If your CR DOES meet the requirements above:"
+            description: "Dette inkluderer ikke trin-studier/indledende ledertræning før lanceringen af Celebration Night." # "This does not include the Step Studies/initial Leader training before the launch of Celebration Night."
           dna:
-            title: "(FE og OSGO CR) Kirke og CR-ledelse er enige om, implementerer og følger Celebrate Recoverys DNA"
-            link_text: "DNA of Celebrate Recovery"
-            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
-            note: "(celebraterecovery.com > Resources > Our DNA)"
+            title: "(FE og OSGO CR) Kirke og CR-ledelse er enige om, implementerer og følger Celebrate Recoverys DNA" # "If your CR DOES meet the requirements above:"
+            link_text: "DNA of Celebrate Recovery" # "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)" # "(celebraterecovery.com > Resources > Our DNA)"
           training:
-            title: "(OSGO CR) Lederne har gennemført online træningen"
-            description_html: "CR Open Share Group-træningsvideoer findes på CR Community-siden på Mighty Networks. Gå til %{community_link} for at vælge en plan og tilmelde dig. Der er gratis og betalte planer. CR Open Share Group-træningen er inkluderet i alle planer. Når du er tilmeldt, gå til FREE TRAINING i navigationsmenuen for at finde træningen."
-            community_url: "https://celebraterecovery.com/cr-community/"
+            title: "(OSGO CR) Lederne har gennemført online træningen" # "If your CR DOES meet the requirements above:"
+            description_html: "CR Open Share Group-træningsvideoer findes på CR Community-siden på Mighty Networks. Gå til %{community_link} for at vælge en plan og tilmelde dig. Der er gratis og betalte planer. CR Open Share Group-træningen er inkluderet i alle planer. Når du er tilmeldt, gå til FREE TRAINING i navigationsmenuen for at finde træningen." # "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training."
+            community_url: "https://celebraterecovery.com/cr-community/" # "https://celebraterecovery.com/cr-community/"
         next_steps:
           not_meeting:
-            title: "Hvis din CR IKKE opfylder kravene ovenfor:"
-            content: "Foretag de nødvendige ændringer i din Celebrate Recovery, før du fortsætter. Kontakt en Celebrate Recovery-repræsentant ved spørgsmål. Gå tilbage til CR Locator for at søge efter en repræsentant eller CR-gruppe."
+            title: "Hvis din CR IKKE opfylder kravene ovenfor:" # "If your CR DOES meet the requirements above:"
+            content: "Foretag de nødvendige ændringer i din Celebrate Recovery, før du fortsætter. Kontakt en Celebrate Recovery-repræsentant ved spørgsmål. Gå tilbage til CR Locator for at søge efter en repræsentant eller CR-gruppe." # "Click on the link below to begin the process of adding your CR to the Locator."
           meeting:
-            title: "Hvis din CR OPFYLDER kravene ovenfor:"
-            content: "Klik på linket nedenfor for at tilføje din CR til Lokatoren."
+            title: "Hvis din CR OPFYLDER kravene ovenfor:" # "If your CR DOES meet the requirements above:"
+            content: "Klik på linket nedenfor for at tilføje din CR til Lokatoren." # "Click on the link below to begin the process of adding your CR to the Locator."
         buttons:
-          dashboard: "Gå til dit dashboard"
-          setup: "Opret din Celebrate Recovery-gruppe"
+          dashboard: "Gå til dit dashboard" # "Go to your dashboard"
+          setup: "Opret din Celebrate Recovery-gruppe" # "Setup Your Celebrate Recovery Group"

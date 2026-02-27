@@ -1,86 +1,85 @@
 zh-CN:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: 电子邮件
-      details: 详情
-      search: 搜索
-      filter: 筛选
-      online: 在线
-      in_person: 线下
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: 大组
-      open_share_groups: 开放分享小组
-      step_studies: 步骤学习
-      distance: "%{distance_unit}"
-      mile: 英里
-      kilometer: 公里
-      location: 地点
-      groups: 小组
-      reps: 代表
-      language: 语言
-      format: 形式
+      cr_locator: CR 定位器 # CR Locator
+      locator: 定位器 # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: 电子邮件 # Email
+      details: 详情 # Details
+      search: 搜索 # Search
+      filter: 筛选 # Filter
+      online: 在线 # Online
+      in_person: 线下 # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: 大组 # Large Group
+      open_share_groups: 开放分享小组 # Open Share Groups
+      step_studies: 步骤学习 # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: 英里 # miles
+      kilometer: 公里 # kilometers
+      location: 地点 # Location
+      groups: 小组 # "%{rep_name} is a part of the following groups weekly:"
+      reps: 代表 # Reps
+      language: 语言 # Languages Offered Here
+      format: 形式 # Format
       days:
-        sunday: 星期日
-        monday: 星期一
-        tuesday: 星期二
-        wednesday: 星期三
-        thursday: 星期四
-        friday: 星期五
-        saturday: 星期六
+        sunday: 星期日 # S
+        monday: 星期一 # M
+        tuesday: 星期二 # T
+        wednesday: 星期三 # W
+        thursday: 星期四 # T
+        friday: 星期五 # F
+        saturday: 星期六 # S
       days_short:
-        sunday: 周日
-        monday: 周一
-        tuesday: 周二
-        wednesday: 周三
-        thursday: 周四
-        friday: 周五
-        saturday: 周六
+        sunday: 周日 # S
+        monday: 周一 # M
+        tuesday: 周二 # T
+        wednesday: 周三 # W
+        thursday: 周四 # T
+        friday: 周五 # F
+        saturday: 周六 # S
       days_initial:
-        sunday: 日
-        monday: 一
-        tuesday: 二
-        wednesday: 三
-        thursday: 四
-        friday: 五
-        saturday: 六
+        sunday: 日 # S
+        monday: 一 # M
+        tuesday: 二 # T
+        wednesday: 三 # W
+        thursday: 四 # T
+        friday: 五 # F
+        saturday: 六 # S
     layouts:
       partials:
         header:
-          close_menu: 关闭菜单
-          about: 关于
-          get_your_cr_on_the_locator: 登记
-          main_menu: 主菜单
-          login_in: 登录
-          dashboard: 控制台
+          close_menu: 关闭菜单 # Close Menu
+          about: 关于 # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: 登记 # Get Listed
+          main_menu: 主菜单 # Main Menu
+          login_in: 登录 # Login
+          dashboard: 控制台 # Dashboard
     home:
-      please_enter_location: "请输入地点或邮政编码以搜索小组或代表。"
-      email_sent: '邮件已成功发送。'
+      please_enter_location: "请输入地点或邮政编码以搜索小组或代表。" # "Please enter a location or postal code to search for groups or reps."
+      email_sent: '邮件已成功发送。' # "Email sent successfully."
       index:
-        html_title: 首页
-        html_title_groups: 小组
-        html_title_in: 在
-        full_title: CR Locator
-        title: Locator
-        default_title: "寻找自由，寻找群体 - CR Locator"
-        enter: "请输入地点或邮政编码开始搜索"
-        error: "搜索时出错，请重试。"
-        none_found_group: "在 %{radius} %{distance_unit} 内未找到小组"
-        none_found_rep: "在 %{radius} %{distance_unit} 内未找到代表"
-        closest_group: "显示最近的小组。"
-        closest_rep: "显示最近的代表。"
-        help: "帮助"
+        html_title: 首页 # Home
+        html_title_groups: 小组 # Groups in
+        html_title_in: 在 # in
+        full_title: CR Locator # CR Locator
+        default_title: "寻找自由，寻找群体 - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "请输入地点或邮政编码开始搜索" # "Please enter a location or postal code to begin your search"
+        error: "搜索时出错，请重试。" # "An error occurred while searching. Please try again."
+        none_found_group: "在 %{radius} %{distance_unit} 内未找到小组" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "在 %{radius} %{distance_unit} 内未找到代表" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "显示最近的小组。" # "Showing the closest groups."
+        closest_rep: "显示最近的代表。" # "Showing the closest reps."
+        help: "帮助" # "Help"
       form:
-        search_title: 您的地点 / 邮政编码
-        search_placeholder: 输入地点
-        search_nearby: 附近搜索
-        location_name: 地点名称
-        search_type: 类型
-        radius: 半径
-        day_of_week: 星期几
+        search_title: 您的地点 / 邮政编码 # Your location / ZIP code
+        search_placeholder: 输入地点 # Enter a location
+        search_nearby: 附近搜索 # Search Nearby
+        location_name: 地点名称 # Location name
+        search_type: 类型 # Type
+        radius: 半径 # Radius
+        day_of_week: 星期几 # Days of the week
         within_10: "10 %{distance_unit} 内"
         within_25: "25 %{distance_unit} 内"
         within_50: "50 %{distance_unit} 内"
@@ -89,46 +88,46 @@ zh-CN:
         within_200: "200 %{distance_unit} 内"
         within_250: "250 %{distance_unit} 内"
         within_500: "500 %{distance_unit} 内"
-        rep_ambassador: 代表 / 倡导者
-        all_reps: 所有代表 / 倡导者
-        all_reps_filter: 代表 / 倡导者
-        cr_reps: CR 代表
-        landing_reps: Landing 代表
-        celebration_place_reps: Celebration Place 代表
+        rep_ambassador: 代表 / 倡导者 # Rep / Advocate
+        all_reps: 所有代表 / 倡导者 # All Reps / Advocates
+        all_reps_filter: 代表 / 倡导者 # Reps / Advocates
+        cr_reps: CR 代表 # CR Reps
+        landing_reps: Landing 代表 # Landing Reps
+        celebration_place_reps: Celebration Place 代表 # Celebration Place Reps
         ambassadors:
-          mental_health: 心理健康倡导者
-          cr_inside: CR Inside 倡导者
-          cr_international: CR International 倡导者
-          cultural_communities: 文化群体倡导者
-          welcome_home: Welcome Home 倡导者
-          opioid: 阿片类倡导者
-          cpr: CPR 倡导者
-        all_groups: 所有小组
-        all_groups_filter: 小组
-        online_large_group: 在线大组
-        online_open_share: 在线开放分享小组
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Fellowship 聚餐
-        childcare: 儿童看护
+          mental_health: 心理健康倡导者 # Mental Health Advocate
+          cr_inside: CR Inside 倡导者 # CR Inside Advocate
+          cr_international: CR International 倡导者 # CR International Advocate
+          cultural_communities: 文化群体倡导者 # Cultural Communities Advocate
+          welcome_home: Welcome Home 倡导者 # Welcome Home Advocate
+          opioid: 阿片类倡导者 # Opioid Advocate
+          cpr: CPR 倡导者 # CPR Advocate
+        all_groups: 所有小组 # All Groups
+        all_groups_filter: 小组 # Groups
+        online_large_group: 在线大组 # Online Large Group
+        online_open_share: 在线开放分享小组 # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship 聚餐 # Fellowship Meal
+        childcare: 儿童看护 # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: 可用
-          offered_in: 提供语言
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: 可用 # Available
+          offered_in: 提供语言 # Offered in
     results:
       partials:
         group:
-          directions: 获取路线
-          email: 电子邮件
-          language: 此处提供的语言
-          location: 地点
-          contact: 小组联系人
-          rep_contact: 代表联系人
-          ministry_leader: 事工负责人
-          upcomming_step_study: 即将进行的步骤学习
-          starting: 开始
-          additional_information: 更多信息
+          directions: 获取路线 # Get Directions
+          email: 电子邮件 # Email
+          language: 此处提供的语言 # Languages Offered Here
+          location: 地点 # Location
+          contact: 小组联系人 # Group Contacts
+          rep_contact: 代表联系人 # Rep Contact
+          ministry_leader: 事工负责人 # Ministry Leader
+          upcomming_step_study: 即将进行的步骤学习 # Upcoming Step Studies
+          starting: 开始 # Starting
+          additional_information: 更多信息 # Additional Information
         rep:
-          based_in: "位于 %{location}"
-          about: "关于 %{rep_name}"
-          groups: "%{rep_name} 每周参与以下小组："
+          based_in: "位于 %{location}" # "Based in %{location}"
+          about: "关于 %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} 每周参与以下小组：" # "%{rep_name} is a part of the following groups weekly:"

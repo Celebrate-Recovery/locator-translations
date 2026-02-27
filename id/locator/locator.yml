@@ -1,86 +1,85 @@
 id:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: Email
-      details: Detail
-      search: Cari
-      filter: Filter
-      online: Daring
-      in_person: Tatap muka
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Kelompok besar
-      open_share_groups: Kelompok Berbagi Terbuka
-      step_studies: Studi Langkah
-      distance: "%{distance_unit}"
-      mile: mil
-      kilometer: kilometer
-      location: Lokasi
-      groups: Kelompok
-      reps: Perwakilan
-      language: Bahasa
-      format: Format
+      cr_locator: Pencari CR # CR Locator
+      locator: Pencari # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: Email # Email
+      details: Detail # Details
+      search: Cari # Search
+      filter: Filter # Filter
+      online: Daring # Online
+      in_person: Tatap muka # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Kelompok besar # Large Group
+      open_share_groups: Kelompok Berbagi Terbuka # Open Share Groups
+      step_studies: Studi Langkah # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: mil # miles
+      kilometer: kilometer # kilometers
+      location: Lokasi # Location
+      groups: Kelompok # "%{rep_name} is a part of the following groups weekly:"
+      reps: Perwakilan # Reps
+      language: Bahasa # Languages Offered Here
+      format: Format # Format
       days:
-        sunday: Minggu
-        monday: Senin
-        tuesday: Selasa
-        wednesday: Rabu
-        thursday: Kamis
-        friday: Jumat
-        saturday: Sabtu
+        sunday: Minggu # S
+        monday: Senin # M
+        tuesday: Selasa # T
+        wednesday: Rabu # W
+        thursday: Kamis # T
+        friday: Jumat # F
+        saturday: Sabtu # S
       days_short:
-        sunday: Min
-        monday: Sen
-        tuesday: Sel
-        wednesday: Rab
-        thursday: Kam
-        friday: Jum
-        saturday: Sab
+        sunday: Min # S
+        monday: Sen # M
+        tuesday: Sel # T
+        wednesday: Rab # W
+        thursday: Kam # T
+        friday: Jum # F
+        saturday: Sab # S
       days_initial:
-        sunday: M
-        monday: S
-        tuesday: S
-        wednesday: R
-        thursday: K
-        friday: J
-        saturday: S
+        sunday: M # S
+        monday: S # M
+        tuesday: S # T
+        wednesday: R # W
+        thursday: K # T
+        friday: J # F
+        saturday: S # S
     layouts:
       partials:
         header:
-          close_menu: Tutup menu
-          about: Tentang
-          get_your_cr_on_the_locator: Daftar
-          main_menu: Menu utama
-          login_in: Masuk
-          dashboard: Dasbor
+          close_menu: Tutup menu # Close Menu
+          about: Tentang # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Daftar # Get Listed
+          main_menu: Menu utama # Main Menu
+          login_in: Masuk # Login
+          dashboard: Dasbor # Dashboard
     home:
-      please_enter_location: "Silakan masukkan lokasi atau kode pos untuk mencari kelompok atau perwakilan."
-      email_sent: 'Email berhasil dikirim.'
+      please_enter_location: "Silakan masukkan lokasi atau kode pos untuk mencari kelompok atau perwakilan." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'Email berhasil dikirim.' # "Email sent successfully."
       index:
-        html_title: Beranda
-        html_title_groups: Kelompok di
-        html_title_in: di
-        full_title: CR Locator
-        title: Locator
-        default_title: "Temukan Kebebasan, Temukan Komunitas - CR Locator"
-        enter: "Masukkan lokasi atau kode pos untuk memulai pencarian"
-        error: "Terjadi kesalahan saat mencari. Silakan coba lagi."
-        none_found_group: "Tidak ada kelompok ditemukan dalam %{radius} %{distance_unit}"
-        none_found_rep: "Tidak ada perwakilan ditemukan dalam %{radius} %{distance_unit}"
-        closest_group: "Menampilkan kelompok terdekat."
-        closest_rep: "Menampilkan perwakilan terdekat."
-        help: "Bantuan"
+        html_title: Beranda # Home
+        html_title_groups: Kelompok di # Groups in
+        html_title_in: di # in
+        full_title: CR Locator # CR Locator
+        default_title: "Temukan Kebebasan, Temukan Komunitas - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Masukkan lokasi atau kode pos untuk memulai pencarian" # "Please enter a location or postal code to begin your search"
+        error: "Terjadi kesalahan saat mencari. Silakan coba lagi." # "An error occurred while searching. Please try again."
+        none_found_group: "Tidak ada kelompok ditemukan dalam %{radius} %{distance_unit}" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Tidak ada perwakilan ditemukan dalam %{radius} %{distance_unit}" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Menampilkan kelompok terdekat." # "Showing the closest groups."
+        closest_rep: "Menampilkan perwakilan terdekat." # "Showing the closest reps."
+        help: "Bantuan" # "Help"
       form:
-        search_title: Lokasi / Kode pos Anda
-        search_placeholder: Masukkan lokasi
-        search_nearby: Cari di dekat sini
-        location_name: Nama lokasi
-        search_type: Tipe
-        radius: Radius
-        day_of_week: Hari dalam seminggu
+        search_title: Lokasi / Kode pos Anda # Your location / ZIP code
+        search_placeholder: Masukkan lokasi # Enter a location
+        search_nearby: Cari di dekat sini # Search Nearby
+        location_name: Nama lokasi # Location name
+        search_type: Tipe # Type
+        radius: Radius # Radius
+        day_of_week: Hari dalam seminggu # Days of the week
         within_10: "dalam 10 %{distance_unit}"
         within_25: "dalam 25 %{distance_unit}"
         within_50: "dalam 50 %{distance_unit}"
@@ -89,46 +88,47 @@ id:
         within_200: "dalam 200 %{distance_unit}"
         within_250: "dalam 250 %{distance_unit}"
         within_500: "dalam 500 %{distance_unit}"
-        rep_ambassador: Perwakilan / Advokat
-        all_reps: Semua perwakilan / Advokat
-        all_reps_filter: Perwakilan / Advokat
-        cr_reps: Perwakilan CR
-        landing_reps: Perwakilan Landing
-        celebration_place_reps: Perwakilan Celebration Place
+        groups: Kelompok # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Perwakilan / Advokat # Rep / Advocate
+        all_reps: Semua perwakilan / Advokat # All Reps / Advocates
+        all_reps_filter: Perwakilan / Advokat # Reps / Advocates
+        cr_reps: Perwakilan CR # CR Reps
+        landing_reps: Perwakilan Landing # Landing Reps
+        celebration_place_reps: Perwakilan Celebration Place # Celebration Place Reps
         ambassadors:
-          mental_health: Advokat kesehatan mental
-          cr_inside: Advokat CR Inside
-          cr_international: Advokat CR International
-          cultural_communities: Advokat komunitas budaya
-          welcome_home: Advokat Welcome Home
-          opioid: Advokat opioid
-          cpr: Advokat CPR
-        all_groups: Semua kelompok
-        all_groups_filter: Kelompok
-        online_large_group: Kelompok besar daring
-        online_open_share: Kelompok Berbagi Terbuka daring
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Makan Fellowship
-        childcare: Pengasuhan anak
+          mental_health: Advokat kesehatan mental # Mental Health Advocate
+          cr_inside: Advokat CR Inside # CR Inside Advocate
+          cr_international: Advokat CR International # CR International Advocate
+          cultural_communities: Advokat komunitas budaya # Cultural Communities Advocate
+          welcome_home: Advokat Welcome Home # Welcome Home Advocate
+          opioid: Advokat opioid # Opioid Advocate
+          cpr: Advokat CPR # CPR Advocate
+        all_groups: Semua kelompok # All Groups
+        all_groups_filter: Kelompok # Groups
+        online_large_group: Kelompok besar daring # Online Large Group
+        online_open_share: Kelompok Berbagi Terbuka daring # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Makan Fellowship # Fellowship Meal
+        childcare: Pengasuhan anak # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Tersedia
-          offered_in: Ditawarkan dalam
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Tersedia # Available
+          offered_in: Ditawarkan dalam # Offered in
     results:
       partials:
         group:
-          directions: Dapatkan petunjuk arah
-          email: Email
-          language: Bahasa yang ditawarkan di sini
-          location: Lokasi
-          contact: Kontak kelompok
-          rep_contact: Kontak perwakilan
-          ministry_leader: Pemimpin pelayanan
-          upcomming_step_study: Studi Langkah mendatang
-          starting: Mulai
-          additional_information: Informasi tambahan
+          directions: Dapatkan petunjuk arah # Get Directions
+          email: Email # Email
+          language: Bahasa yang ditawarkan di sini # Languages Offered Here
+          location: Lokasi # Location
+          contact: Kontak kelompok # Group Contacts
+          rep_contact: Kontak perwakilan # Rep Contact
+          ministry_leader: Pemimpin pelayanan # Ministry Leader
+          upcomming_step_study: Studi Langkah mendatang # Upcoming Step Studies
+          starting: Mulai # Starting
+          additional_information: Informasi tambahan # Additional Information
         rep:
-          based_in: "Berbasis di %{location}"
-          about: "Sedikit tentang %{rep_name}"
-          groups: "%{rep_name} berpartisipasi dalam kelompok berikut setiap minggu:"
+          based_in: "Berbasis di %{location}" # "Based in %{location}"
+          about: "Sedikit tentang %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} berpartisipasi dalam kelompok berikut setiap minggu:" # "%{rep_name} is a part of the following groups weekly:"

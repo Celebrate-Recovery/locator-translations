@@ -1,86 +1,85 @@
 uk:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: Email
-      details: Деталі
-      search: Пошук
-      filter: Фільтр
-      online: Онлайн
-      in_person: Особисто
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Велика група
-      open_share_groups: Групи відкритого обміну
-      step_studies: Вивчення кроків
-      distance: "%{distance_unit}"
-      mile: миль
-      kilometer: кілометрів
-      location: Місце
-      groups: Групи
-      reps: Представники
-      language: Мова
-      format: Формат
+      cr_locator: Локатор CR # CR Locator
+      locator: Локатор # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: Email # Email
+      details: Деталі # Details
+      search: Пошук # Search
+      filter: Фільтр # Filter
+      online: Онлайн # Online
+      in_person: Особисто # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Велика група # Large Group
+      open_share_groups: Групи відкритого обміну # Open Share Groups
+      step_studies: Вивчення кроків # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: миль # miles
+      kilometer: кілометрів # kilometers
+      location: Місце # Location
+      groups: Групи # "%{rep_name} is a part of the following groups weekly:"
+      reps: Представники # Reps
+      language: Мова # Languages Offered Here
+      format: Формат # Format
       days:
-        sunday: Неділя
-        monday: Понеділок
-        tuesday: Вівторок
-        wednesday: Середа
-        thursday: Четвер
-        friday: П'ятниця
-        saturday: Субота
+        sunday: Неділя # S
+        monday: Понеділок # M
+        tuesday: Вівторок # T
+        wednesday: Середа # W
+        thursday: Четвер # T
+        friday: П'ятниця # F
+        saturday: Субота # S
       days_short:
-        sunday: Нд
-        monday: Пн
-        tuesday: Вт
-        wednesday: Ср
-        thursday: Чт
-        friday: Пт
-        saturday: Сб
+        sunday: Нд # S
+        monday: Пн # M
+        tuesday: Вт # T
+        wednesday: Ср # W
+        thursday: Чт # T
+        friday: Пт # F
+        saturday: Сб # S
       days_initial:
-        sunday: Н
-        monday: П
-        tuesday: В
-        wednesday: С
-        thursday: Ч
-        friday: П
-        saturday: С
+        sunday: Н # S
+        monday: П # M
+        tuesday: В # T
+        wednesday: С # W
+        thursday: Ч # T
+        friday: П # F
+        saturday: С # S
     layouts:
       partials:
         header:
-          close_menu: Закрити меню
-          about: Про нас
-          get_your_cr_on_the_locator: Зареєструватися
-          main_menu: Головне меню
-          login_in: Увійти
-          dashboard: Панель
+          close_menu: Закрити меню # Close Menu
+          about: Про нас # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Зареєструватися # Get Listed
+          main_menu: Головне меню # Main Menu
+          login_in: Увійти # Login
+          dashboard: Панель # Dashboard
     home:
-      please_enter_location: "Введіть місце або поштовий індекс для пошуку груп або представників."
-      email_sent: 'Лист успішно надіслано.'
+      please_enter_location: "Введіть місце або поштовий індекс для пошуку груп або представників." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'Лист успішно надіслано.' # "Email sent successfully."
       index:
-        html_title: Головна
-        html_title_groups: Групи в
-        html_title_in: в
-        full_title: CR Locator
-        title: Locator
-        default_title: "Знайдіть свободу, знайдіть спільноту - CR Locator"
-        enter: "Введіть місце або поштовий індекс для початку пошуку"
-        error: "Під час пошуку сталася помилка. Спробуйте ще раз."
-        none_found_group: "Групи в радіусі %{radius} %{distance_unit} не знайдено"
-        none_found_rep: "Представників у радіусі %{radius} %{distance_unit} не знайдено"
-        closest_group: "Показано найближчі групи."
-        closest_rep: "Показано найближчих представників."
-        help: "Допомога"
+        html_title: Головна # Home
+        html_title_groups: Групи в # Groups in
+        html_title_in: в # in
+        full_title: CR Locator # CR Locator
+        default_title: "Знайдіть свободу, знайдіть спільноту - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Введіть місце або поштовий індекс для початку пошуку" # "Please enter a location or postal code to begin your search"
+        error: "Під час пошуку сталася помилка. Спробуйте ще раз." # "An error occurred while searching. Please try again."
+        none_found_group: "Групи в радіусі %{radius} %{distance_unit} не знайдено" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Представників у радіусі %{radius} %{distance_unit} не знайдено" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Показано найближчі групи." # "Showing the closest groups."
+        closest_rep: "Показано найближчих представників." # "Showing the closest reps."
+        help: "Допомога" # "Help"
       form:
-        search_title: Ваше місце / індекс
-        search_placeholder: Введіть місце
-        search_nearby: Шукати поруч
-        location_name: Назва місця
-        search_type: Тип
-        radius: Радіус
-        day_of_week: Дні тижня
+        search_title: Ваше місце / індекс # Your location / ZIP code
+        search_placeholder: Введіть місце # Enter a location
+        search_nearby: Шукати поруч # Search Nearby
+        location_name: Назва місця # Location name
+        search_type: Тип # Type
+        radius: Радіус # Radius
+        day_of_week: Дні тижня # Days of the week
         within_10: "в радіусі 10 %{distance_unit}"
         within_25: "в радіусі 25 %{distance_unit}"
         within_50: "в радіусі 50 %{distance_unit}"
@@ -89,46 +88,47 @@ uk:
         within_200: "в радіусі 200 %{distance_unit}"
         within_250: "в радіусі 250 %{distance_unit}"
         within_500: "в радіусі 500 %{distance_unit}"
-        rep_ambassador: Представник / Адвокат
-        all_reps: Усі представники / Адвокати
-        all_reps_filter: Представники / Адвокати
-        cr_reps: Представники CR
-        landing_reps: Представники Landing
-        celebration_place_reps: Представники Celebration Place
+        groups: Групи # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Представник / Адвокат # Rep / Advocate
+        all_reps: Усі представники / Адвокати # All Reps / Advocates
+        all_reps_filter: Представники / Адвокати # Reps / Advocates
+        cr_reps: Представники CR # CR Reps
+        landing_reps: Представники Landing # Landing Reps
+        celebration_place_reps: Представники Celebration Place # Celebration Place Reps
         ambassadors:
-          mental_health: Адвокат психічного здоров'я
-          cr_inside: Адвокат CR Inside
-          cr_international: Адвокат CR International
-          cultural_communities: Адвокат культурних спільнот
-          welcome_home: Адвокат Welcome Home
-          opioid: Адвокат опіоїдів
-          cpr: Адвокат CPR
-        all_groups: Усі групи
-        all_groups_filter: Групи
-        online_large_group: Онлайн велика група
-        online_open_share: Онлайн групи відкритого обміну
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Трапеза Fellowship
-        childcare: Дитяча кімната
+          mental_health: Адвокат психічного здоров'я # Mental Health Advocate
+          cr_inside: Адвокат CR Inside # CR Inside Advocate
+          cr_international: Адвокат CR International # CR International Advocate
+          cultural_communities: Адвокат культурних спільнот # Cultural Communities Advocate
+          welcome_home: Адвокат Welcome Home # Welcome Home Advocate
+          opioid: Адвокат опіоїдів # Opioid Advocate
+          cpr: Адвокат CPR # CPR Advocate
+        all_groups: Усі групи # All Groups
+        all_groups_filter: Групи # Groups
+        online_large_group: Онлайн велика група # Online Large Group
+        online_open_share: Онлайн групи відкритого обміну # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Трапеза Fellowship # Fellowship Meal
+        childcare: Дитяча кімната # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Доступно
-          offered_in: Проводиться мовою
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Доступно # Available
+          offered_in: Проводиться мовою # Offered in
     results:
       partials:
         group:
-          directions: Маршрут
-          email: Email
-          language: Мови проведення
-          location: Місце
-          contact: Контакти групи
-          rep_contact: Контакт представника
-          ministry_leader: Керівник служіння
-          upcomming_step_study: Майбутні вивчення кроків
-          starting: Початок
-          additional_information: Додаткова інформація
+          directions: Маршрут # Get Directions
+          email: Email # Email
+          language: Мови проведення # Languages Offered Here
+          location: Місце # Location
+          contact: Контакти групи # Group Contacts
+          rep_contact: Контакт представника # Rep Contact
+          ministry_leader: Керівник служіння # Ministry Leader
+          upcomming_step_study: Майбутні вивчення кроків # Upcoming Step Studies
+          starting: Початок # Starting
+          additional_information: Додаткова інформація # Additional Information
         rep:
-          based_in: "Розташований у %{location}"
-          about: "Трохи про %{rep_name}"
-          groups: "%{rep_name} щотижня бере участь у таких групах:"
+          based_in: "Розташований у %{location}" # "Based in %{location}"
+          about: "Трохи про %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} щотижня бере участь у таких групах:" # "%{rep_name} is a part of the following groups weekly:"

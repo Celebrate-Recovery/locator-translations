@@ -2,29 +2,29 @@ ko:
   locator:
     info:
       about:
-        page_title: "그룹 로케이터 소개 - CR Locator"
-        title: "Celebrate Recovery 로케이터 사이트 소개"
-        subtitle: "CR Locator"
-        intro: "Celebrate Recovery 로케이터 사이트에 오신 것을 환영합니다. 가까운 Celebrate Recovery 그룹과 스텝 스터디를 찾을 수 있는 도구입니다. 대면 모임이든 온라인 지원이든, 그리스도 중심의 회복 공동체와 연결하도록 도와드립니다."
+        page_title: "그룹 로케이터 소개 - CR Locator" # "About The Group Locator - CR Locator"
+        title: "Celebrate Recovery 로케이터 사이트 소개" # "About Celebrate Recovery"
+        subtitle: "CR Locator" # "CR Locator"
+        intro: "Celebrate Recovery 로케이터 사이트에 오신 것을 환영합니다. 가까운 Celebrate Recovery 그룹과 스텝 스터디를 찾을 수 있는 도구입니다. 대면 모임이든 온라인 지원이든, 그리스도 중심의 회복 공동체와 연결하도록 도와드립니다." # "Welcome to the Celebrate Recovery Locator Site, your comprehensive tool for finding Celebrate Recovery groups and step studies near you. Our site is designed to help you connect with a Christ-centered recovery community, whether you're looking for in-person meetings or online support."
         testimonial:
-          quote: "제가 바닥을 쳤다고 생각하고 희망이 없을 때, 가까운 그룹을 찾아 치유의 공동체에 합류할 수 있었습니다. 그리스도 안에서 삶을 나누는 안전한 공간을 만드는 이 믿는 이들의 공동체 안에 있는 희망에 감사합니다."
-          author: "Rodney Holmstrom"
-          location: "Rogers, AK"
+          quote: "제가 바닥을 쳤다고 생각하고 희망이 없을 때, 가까운 그룹을 찾아 치유의 공동체에 합류할 수 있었습니다. 그리스도 안에서 삶을 나누는 안전한 공간을 만드는 이 믿는 이들의 공동체 안에 있는 희망에 감사합니다." # "When I thought I had hit rock bottom and there was no hope, I was able to find a group near me to join a community of healing. I am grateful for the hope in this community of believers that creates a safe space to share life in Christ."
+          author: "Rodney Holmstrom" # "Rodney Holmstrom"
+          location: "Rogers, AK" # "Rogers, AK"
         sections:
           find_group:
-            title: "가까운 그룹 찾기"
-            content: "쉬운 그룹 로케이터로 현재 위치를 기준으로 Celebrate Recovery 모임을 검색할 수 있습니다. 주소를 입력하면 가까운 그룹 목록을 보여 드립니다. 각 목록에는 모임 시간, 장소, 특별 초점에 대한 정보가 있어 회복 여정에 맞는 그룹을 찾을 수 있습니다."
+            title: "가까운 그룹 찾기" # "About Celebrate Recovery"
+            content: "쉬운 그룹 로케이터로 현재 위치를 기준으로 Celebrate Recovery 모임을 검색할 수 있습니다. 주소를 입력하면 가까운 그룹 목록을 보여 드립니다. 각 목록에는 모임 시간, 장소, 특별 초점에 대한 정보가 있어 회복 여정에 맞는 그룹을 찾을 수 있습니다." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           step_studies:
-            title: "스텝 스터디 탐색"
-            content: "Celebrate Recovery에서는 회복 원칙을 깊이 다루는 스텝 스터디를 제공합니다. 온라인과 대면 모두 검색하여 일정과 선호에 맞는 형식을 찾을 수 있습니다. 온라인 그룹이든 대면 모임이든 Celebrate Recovery가 성장을 지원합니다."
+            title: "스텝 스터디 탐색" # "About Celebrate Recovery"
+            content: "Celebrate Recovery에서는 회복 원칙을 깊이 다루는 스텝 스터디를 제공합니다. 온라인과 대면 모두 검색하여 일정과 선호에 맞는 형식을 찾을 수 있습니다. 온라인 그룹이든 대면 모임이든 Celebrate Recovery가 성장을 지원합니다." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           connect:
-            title: "대표 및 옹호자와 연결"
-            content: "그룹 모임 외에도 이 플랫폼은 지역 Celebrate Recovery 대표 및 옹호자와 연결하도록 도와줍니다. 이 분들은 안내, 질문에 대한 답변, 회복 여정에 대한 지원을 제공합니다. 검색 기능으로 지역 대표 및 옹호자를 찾고 연락할 수 있습니다."
+            title: "대표 및 옹호자와 연결" # "About Celebrate Recovery"
+            content: "그룹 모임 외에도 이 플랫폼은 지역 Celebrate Recovery 대표 및 옹호자와 연결하도록 도와줍니다. 이 분들은 안내, 질문에 대한 답변, 회복 여정에 대한 지원을 제공합니다. 검색 기능으로 지역 대표 및 옹호자를 찾고 연락할 수 있습니다." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           churches:
-            title: "교회를 위한"
-            content: "Celebrate Recovery는 전 세계 교회와 협력합니다. 이 플랫폼으로 교회가 자체 그룹 목록을 관리해 정보를 최신으로 유지할 수 있습니다. 교회는 사진, 설명, Celebrate Recovery 프로그램 정보로 목록을 꾸밀 수 있어 도움을 구하는 이들을 위한 환영하는 공간을 만듭니다."
+            title: "교회를 위한" # "About Celebrate Recovery"
+            content: "Celebrate Recovery는 전 세계 교회와 협력합니다. 이 플랫폼으로 교회가 자체 그룹 목록을 관리해 정보를 최신으로 유지할 수 있습니다. 교회는 사진, 설명, Celebrate Recovery 프로그램 정보로 목록을 꾸밀 수 있어 도움을 구하는 이들을 위한 환영하는 공간을 만듭니다." # "Celebrate Recovery is proud to partner with churches worldwide. Our platform allows churches to manage their own group listings, making it easy to keep information up-to-date and accurate. Churches can customize their listings with photos, detailed descriptions, and information about their specific Celebrate Recovery programs, creating a welcoming and informative presence for those seeking help."
           about_cr:
-            title: "Celebrate Recovery 소개"
-            content_html: "Celebrate Recovery는 상처, 습관, 집착에서 벗어나 공동체와 자유를 찾을 수 있는 그리스도 중심 회복 프로그램입니다. 회복이 처음이든 지속적인 지원을 구하든 Celebrate Recovery가 도와드립니다.<br /><br />Celebrate Recovery는 공동체의 힘과 함께 치유와 온전함으로 나아갈 때 오는 희망을 믿습니다. 함께하시고 그리스도 안에서 자유를 찾는 안전한 장소를 발견하세요.<br /><br />Celebrate Recovery 자세히 보기 %{cr_link} 또는 그룹/대표 찾기 %{locator_link} 로 돌아가기"
-            cr_link_text: "여기"
-            locator_link_text: "CR Locator"
+            title: "Celebrate Recovery 소개" # "About Celebrate Recovery"
+            content_html: "Celebrate Recovery는 상처, 습관, 집착에서 벗어나 공동체와 자유를 찾을 수 있는 그리스도 중심 회복 프로그램입니다. 회복이 처음이든 지속적인 지원을 구하든 Celebrate Recovery가 도와드립니다.<br /><br />Celebrate Recovery는 공동체의 힘과 함께 치유와 온전함으로 나아갈 때 오는 희망을 믿습니다. 함께하시고 그리스도 안에서 자유를 찾는 안전한 장소를 발견하세요.<br /><br />Celebrate Recovery 자세히 보기 %{cr_link} 또는 그룹/대표 찾기 %{locator_link} 로 돌아가기" # "Celebrate Recovery is a Christ-centered recovery program where you can find community and freedom from your hurts, habits, and hang-ups. Whether you're new to recovery or seeking ongoing support, Celebrate Recovery is here to help.<br /><br />At Celebrate Recovery, we believe in the power of community and the hope that comes from walking together toward healing and wholeness. Join us and discover a safe place to find freedom in Christ.<br /><br />Learn more about Celebrate Recovery %{cr_link} or return to the %{locator_link} to find a group or representative"
+            cr_link_text: "여기" # "here"
+            locator_link_text: "CR Locator" # "CR Locator"

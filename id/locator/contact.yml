@@ -1,17 +1,17 @@
 id:
   locator:
     contact:
-      contact_title: kontak
-      success: Email berhasil dikirim.
-      invalid: 'Pengiriman tidak valid. Silakan coba lagi.'
+      contact_title: kontak # contact
+      success: Email berhasil dikirim. # Email sent successfully.
+      invalid: 'Pengiriman tidak valid. Silakan coba lagi.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Hubungi %{rep_name}"
-        detail: Gunakan formulir ini untuk mengirim permintaan ke %{rep_name}. Mereka akan berusaha membalas Anda tepat waktu.
-        type: Tipe perwakilan / Advokat
-        ministry_leader: Pemimpin pelayanan
-        name: Nama
-        phone: Nomor telepon
-        message: Pesan
-        back: Kembali ke pencari
-        send: Kirim pesan
-        no_results: Tidak ada yang ditemukan di alamat ini
+        title: "Hubungi %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Gunakan formulir ini untuk mengirim permintaan ke %{rep_name}. Mereka akan berusaha membalas Anda tepat waktu. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Tipe perwakilan / Advokat # Rep / Advocate Type
+        ministry_leader: Pemimpin pelayanan # Ministry Leader
+        name: Nama # Name
+        phone: Nomor telepon # Phone number
+        message: Pesan # Message
+        back: Kembali ke pencari # Back to finder
+        send: Kirim pesan # Send Message
+        no_results: Tidak ada yang ditemukan di alamat ini # Nothing was found at this address

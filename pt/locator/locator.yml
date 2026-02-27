@@ -97,7 +97,6 @@ pt:
         html_title_groups: Grupos em # Groups in
         html_title_in: em # in
         full_title: Encontre um CR # CR Locator
-        title: Localizador # Locator
         default_title: "Encontre Liberdade, Encontre Comunhão - Encontre um CR" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
@@ -131,7 +130,8 @@ pt:
         within_250: "dentro de 250 %{distance_unit}" # within 250 %{distance_unit}
         within_500: "dentro de 500 %{distance_unit}" # within 500 %{distance_unit}
 
-        # Rep/Advocate types
+        # Rep/Advocate types (filter button labels)
+        groups: Grupos # Groups
         rep_ambassador: Representante/Embaixador # Rep / Advocate
         all_reps: Todos os Representantes/Embaixadores # All Reps / Advocates
         all_reps_filter: Representantes/Embaixadores # Reps / Advocates

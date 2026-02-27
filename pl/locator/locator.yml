@@ -1,86 +1,85 @@
 pl:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: E-mail
-      details: Szczegóły
-      search: Szukaj
-      filter: Filtruj
-      online: Online
-      in_person: Na żywo
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Duża grupa
-      open_share_groups: Grupy otwartego dzielenia
-      step_studies: Studia kroków
-      distance: "%{distance_unit}"
-      mile: mil
-      kilometer: kilometrów
-      location: Lokalizacja
-      groups: Grupy
-      reps: Reprezentanci
-      language: Język
-      format: Format
+      cr_locator: Lokalizator CR # CR Locator
+      locator: Lokalizator # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: E-mail # Email
+      details: Szczegóły # Details
+      search: Szukaj # Search
+      filter: Filtruj # Filter
+      online: Online # Online
+      in_person: Na żywo # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Duża grupa # Large Group
+      open_share_groups: Grupy otwartego dzielenia # Open Share Groups
+      step_studies: Studia kroków # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: mil # miles
+      kilometer: kilometrów # kilometers
+      location: Lokalizacja # Location
+      groups: Grupy # "%{rep_name} is a part of the following groups weekly:"
+      reps: Reprezentanci # Reps
+      language: Język # Languages Offered Here
+      format: Format # Format
       days:
-        sunday: Niedziela
-        monday: Poniedziałek
-        tuesday: Wtorek
-        wednesday: Środa
-        thursday: Czwartek
-        friday: Piątek
-        saturday: Sobota
+        sunday: Niedziela # S
+        monday: Poniedziałek # M
+        tuesday: Wtorek # T
+        wednesday: Środa # W
+        thursday: Czwartek # T
+        friday: Piątek # F
+        saturday: Sobota # S
       days_short:
-        sunday: Nd
-        monday: Pn
-        tuesday: Wt
-        wednesday: Śr
-        thursday: Cz
-        friday: Pt
-        saturday: Sb
+        sunday: Nd # S
+        monday: Pn # M
+        tuesday: Wt # T
+        wednesday: Śr # W
+        thursday: Cz # T
+        friday: Pt # F
+        saturday: Sb # S
       days_initial:
-        sunday: N
-        monday: P
-        tuesday: W
-        wednesday: Ś
-        thursday: C
-        friday: P
-        saturday: S
+        sunday: N # S
+        monday: P # M
+        tuesday: W # T
+        wednesday: Ś # W
+        thursday: C # T
+        friday: P # F
+        saturday: S # S
     layouts:
       partials:
         header:
-          close_menu: Zamknij menu
-          about: O nas
-          get_your_cr_on_the_locator: Zarejestruj się
-          main_menu: Menu główne
-          login_in: Zaloguj
-          dashboard: Panel
+          close_menu: Zamknij menu # Close Menu
+          about: O nas # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Zarejestruj się # Get Listed
+          main_menu: Menu główne # Main Menu
+          login_in: Zaloguj # Login
+          dashboard: Panel # Dashboard
     home:
-      please_enter_location: "Wprowadź lokalizację lub kod pocztowy, aby wyszukać grupy lub reprezentantów."
-      email_sent: 'E-mail wysłany pomyślnie.'
+      please_enter_location: "Wprowadź lokalizację lub kod pocztowy, aby wyszukać grupy lub reprezentantów." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'E-mail wysłany pomyślnie.' # "Email sent successfully."
       index:
-        html_title: Strona główna
-        html_title_groups: Grupy w
-        html_title_in: w
-        full_title: CR Locator
-        title: Locator
-        default_title: "Znajdź wolność, znajdź wspólnotę - CR Locator"
-        enter: "Wprowadź lokalizację lub kod pocztowy, aby rozpocząć wyszukiwanie"
-        error: "Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie."
-        none_found_group: "Nie znaleziono grup w promieniu %{radius} %{distance_unit}"
-        none_found_rep: "Nie znaleziono reprezentantów w promieniu %{radius} %{distance_unit}"
-        closest_group: "Wyświetlanie najbliższych grup."
-        closest_rep: "Wyświetlanie najbliższych reprezentantów."
-        help: "Pomoc"
+        html_title: Strona główna # Home
+        html_title_groups: Grupy w # Groups in
+        html_title_in: w # in
+        full_title: CR Locator # CR Locator
+        default_title: "Znajdź wolność, znajdź wspólnotę - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Wprowadź lokalizację lub kod pocztowy, aby rozpocząć wyszukiwanie" # "Please enter a location or postal code to begin your search"
+        error: "Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie." # "An error occurred while searching. Please try again."
+        none_found_group: "Nie znaleziono grup w promieniu %{radius} %{distance_unit}" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Nie znaleziono reprezentantów w promieniu %{radius} %{distance_unit}" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Wyświetlanie najbliższych grup." # "Showing the closest groups."
+        closest_rep: "Wyświetlanie najbliższych reprezentantów." # "Showing the closest reps."
+        help: "Pomoc" # "Help"
       form:
-        search_title: Twoja lokalizacja / kod pocztowy
-        search_placeholder: Wprowadź lokalizację
-        search_nearby: Szukaj w pobliżu
-        location_name: Nazwa miejsca
-        search_type: Typ
-        radius: Promień
-        day_of_week: Dni tygodnia
+        search_title: Twoja lokalizacja / kod pocztowy # Your location / ZIP code
+        search_placeholder: Wprowadź lokalizację # Enter a location
+        search_nearby: Szukaj w pobliżu # Search Nearby
+        location_name: Nazwa miejsca # Location name
+        search_type: Typ # Type
+        radius: Promień # Radius
+        day_of_week: Dni tygodnia # Days of the week
         within_10: "w promieniu 10 %{distance_unit}"
         within_25: "w promieniu 25 %{distance_unit}"
         within_50: "w promieniu 50 %{distance_unit}"
@@ -89,46 +88,47 @@ pl:
         within_200: "w promieniu 200 %{distance_unit}"
         within_250: "w promieniu 250 %{distance_unit}"
         within_500: "w promieniu 500 %{distance_unit}"
-        rep_ambassador: Reprezentant / Adwokat
-        all_reps: Wszyscy reprezentanci / Adwokaci
-        all_reps_filter: Reprezentanci / Adwokaci
-        cr_reps: Reprezentanci CR
-        landing_reps: Reprezentanci Landing
-        celebration_place_reps: Reprezentanci Celebration Place
+        groups: Grupy # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Reprezentant / Adwokat # Rep / Advocate
+        all_reps: Wszyscy reprezentanci / Adwokaci # All Reps / Advocates
+        all_reps_filter: Reprezentanci / Adwokaci # Reps / Advocates
+        cr_reps: Reprezentanci CR # CR Reps
+        landing_reps: Reprezentanci Landing # Landing Reps
+        celebration_place_reps: Reprezentanci Celebration Place # Celebration Place Reps
         ambassadors:
-          mental_health: Adwokat zdrowia psychicznego
-          cr_inside: Adwokat CR Inside
-          cr_international: Adwokat CR International
-          cultural_communities: Adwokat społeczności kulturowych
-          welcome_home: Adwokat Welcome Home
-          opioid: Adwokat opioidów
-          cpr: Adwokat CPR
-        all_groups: Wszystkie grupy
-        all_groups_filter: Grupy
-        online_large_group: Duża grupa online
-        online_open_share: Grupy otwartego dzielenia online
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Posiłek Fellowship
-        childcare: Opieka nad dziećmi
+          mental_health: Adwokat zdrowia psychicznego # Mental Health Advocate
+          cr_inside: Adwokat CR Inside # CR Inside Advocate
+          cr_international: Adwokat CR International # CR International Advocate
+          cultural_communities: Adwokat społeczności kulturowych # Cultural Communities Advocate
+          welcome_home: Adwokat Welcome Home # Welcome Home Advocate
+          opioid: Adwokat opioidów # Opioid Advocate
+          cpr: Adwokat CPR # CPR Advocate
+        all_groups: Wszystkie grupy # All Groups
+        all_groups_filter: Grupy # Groups
+        online_large_group: Duża grupa online # Online Large Group
+        online_open_share: Grupy otwartego dzielenia online # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Posiłek Fellowship # Fellowship Meal
+        childcare: Opieka nad dziećmi # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Dostępne
-          offered_in: Prowadzone w
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Dostępne # Available
+          offered_in: Prowadzone w # Offered in
     results:
       partials:
         group:
-          directions: Pokaż trasę
-          email: E-mail
-          language: Języki oferowane tutaj
-          location: Lokalizacja
-          contact: Kontakty grupy
-          rep_contact: Kontakt do reprezentanta
-          ministry_leader: Lider posługi
-          upcomming_step_study: Nadchodzące studia kroków
-          starting: Początek
-          additional_information: Dodatkowe informacje
+          directions: Pokaż trasę # Get Directions
+          email: E-mail # Email
+          language: Języki oferowane tutaj # Languages Offered Here
+          location: Lokalizacja # Location
+          contact: Kontakty grupy # Group Contacts
+          rep_contact: Kontakt do reprezentanta # Rep Contact
+          ministry_leader: Lider posługi # Ministry Leader
+          upcomming_step_study: Nadchodzące studia kroków # Upcoming Step Studies
+          starting: Początek # Starting
+          additional_information: Dodatkowe informacje # Additional Information
         rep:
-          based_in: "Siedziba w %{location}"
-          about: "Kilka słów o %{rep_name}"
-          groups: "%{rep_name} uczestniczy tygodniowo w następujących grupach:"
+          based_in: "Siedziba w %{location}" # "Based in %{location}"
+          about: "Kilka słów o %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} uczestniczy tygodniowo w następujących grupach:" # "%{rep_name} is a part of the following groups weekly:"

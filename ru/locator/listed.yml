@@ -2,33 +2,33 @@ ru:
   locator:
     info:
       listed:
-        page_title: "Зарегистрировать группу - CR Locator"
-        subtitle: "CR Locator"
-        title: "Зарегистрировать вашу группу"
-        intro: "Благодарим за интерес к добавлению вашего служения Celebrate Recovery в CR Locator! Прочитайте требования для добавления группы в локатор ниже:"
+        page_title: "Зарегистрировать группу - CR Locator" # "Get your group listed - CR Locator"
+        subtitle: "CR Locator" # "CR Locator"
+        title: "Зарегистрировать вашу группу" # "If your CR DOES meet the requirements above:"
+        intro: "Благодарим за интерес к добавлению вашего служения Celebrate Recovery в CR Locator! Прочитайте требования для добавления группы в локатор ниже:" # "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:"
         abbreviations:
-          fe_cr: "FE CR = Служение Celebrate Recovery полного выражения"
-          osgo_cr: "OSGO CR = Служение Celebrate Recovery только групп открытого обмена"
+          fe_cr: "FE CR = Служение Celebrate Recovery полного выражения" # "FE CR = Full Expression Celebrate Recovery Ministry"
+          osgo_cr: "OSGO CR = Служение Celebrate Recovery только групп открытого обмена" # "OSGO CR = Open Share Group Only Celebrate Recovery Ministry"
         requirements:
           running_time:
-            title: "(FE CR) Celebration Night или (OSGO CR) Группы открытого обмена проводятся не менее 90 дней."
-            description: "Это не включает изучения шагов/начальную подготовку лидеров до запуска Celebration Night."
+            title: "(FE CR) Celebration Night или (OSGO CR) Группы открытого обмена проводятся не менее 90 дней." # "If your CR DOES meet the requirements above:"
+            description: "Это не включает изучения шагов/начальную подготовку лидеров до запуска Celebration Night." # "This does not include the Step Studies/initial Leader training before the launch of Celebration Night."
           dna:
-            title: "(FE и OSGO CR) Церковь и руководство CR согласны с, применяют и следуют ДНК Celebrate Recovery"
-            link_text: "DNA of Celebrate Recovery"
-            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
-            note: "(celebraterecovery.com > Resources > Our DNA)"
+            title: "(FE и OSGO CR) Церковь и руководство CR согласны с, применяют и следуют ДНК Celebrate Recovery" # "If your CR DOES meet the requirements above:"
+            link_text: "DNA of Celebrate Recovery" # "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)" # "(celebraterecovery.com > Resources > Our DNA)"
           training:
-            title: "(OSGO CR) Лидеры прошли онлайн-обучение"
-            description_html: "Видео обучения CR Open Share Group находятся на странице CR Community в Mighty Networks. Перейдите по %{community_link}, чтобы выбрать план и присоединиться. Есть бесплатные и платные планы. Обучение CR Open Share Group входит во все планы. После присоединения перейдите в FREE TRAINING в меню навигации, чтобы найти обучение."
-            community_url: "https://celebraterecovery.com/cr-community/"
+            title: "(OSGO CR) Лидеры прошли онлайн-обучение" # "If your CR DOES meet the requirements above:"
+            description_html: "Видео обучения CR Open Share Group находятся на странице CR Community в Mighty Networks. Перейдите по %{community_link}, чтобы выбрать план и присоединиться. Есть бесплатные и платные планы. Обучение CR Open Share Group входит во все планы. После присоединения перейдите в FREE TRAINING в меню навигации, чтобы найти обучение." # "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training."
+            community_url: "https://celebraterecovery.com/cr-community/" # "https://celebraterecovery.com/cr-community/"
         next_steps:
           not_meeting:
-            title: "Если ваше CR НЕ соответствует указанным требованиям:"
-            content: "Внесите необходимые изменения в ваше Celebrate Recovery перед продолжением. По вопросам обращайтесь к представителю Celebrate Recovery. Вернитесь в CR Locator для поиска представителя или группы CR."
+            title: "Если ваше CR НЕ соответствует указанным требованиям:" # "If your CR DOES meet the requirements above:"
+            content: "Внесите необходимые изменения в ваше Celebrate Recovery перед продолжением. По вопросам обращайтесь к представителю Celebrate Recovery. Вернитесь в CR Locator для поиска представителя или группы CR." # "Click on the link below to begin the process of adding your CR to the Locator."
           meeting:
-            title: "Если ваше CR СООТВЕТСТВУЕТ указанным требованиям:"
-            content: "Нажмите на ссылку ниже, чтобы начать добавление вашего CR в локатор."
+            title: "Если ваше CR СООТВЕТСТВУЕТ указанным требованиям:" # "If your CR DOES meet the requirements above:"
+            content: "Нажмите на ссылку ниже, чтобы начать добавление вашего CR в локатор." # "Click on the link below to begin the process of adding your CR to the Locator."
         buttons:
-          dashboard: "Перейти в панель"
-          setup: "Настроить группу Celebrate Recovery"
+          dashboard: "Перейти в панель" # "Go to your dashboard"
+          setup: "Настроить группу Celebrate Recovery" # "Setup Your Celebrate Recovery Group"

@@ -2,33 +2,33 @@ id:
   locator:
     info:
       listed:
-        page_title: "Daftarkan kelompok Anda - CR Locator"
-        subtitle: "CR Locator"
-        title: "Daftarkan kelompok Anda"
-        intro: "Terima kasih atas minat Anda menambahkan Pelayanan Celebrate Recovery ke CR Locator! Silakan baca persyaratan untuk menambahkan kelompok Anda ke Locator di bawah ini:"
+        page_title: "Daftarkan kelompok Anda - CR Locator" # "Get your group listed - CR Locator"
+        subtitle: "CR Locator" # "CR Locator"
+        title: "Daftarkan kelompok Anda" # "If your CR DOES meet the requirements above:"
+        intro: "Terima kasih atas minat Anda menambahkan Pelayanan Celebrate Recovery ke CR Locator! Silakan baca persyaratan untuk menambahkan kelompok Anda ke Locator di bawah ini:" # "Thank you for your interest in adding your Celebrate Recovery Ministry to the CR Locator! Please read the requirements for adding your group to the Locator, below:"
         abbreviations:
-          fe_cr: "FE CR = Pelayanan Celebrate Recovery Ekspresi Penuh"
-          osgo_cr: "OSGO CR = Pelayanan Celebrate Recovery Hanya Kelompok Berbagi Terbuka"
+          fe_cr: "FE CR = Pelayanan Celebrate Recovery Ekspresi Penuh" # "FE CR = Full Expression Celebrate Recovery Ministry"
+          osgo_cr: "OSGO CR = Pelayanan Celebrate Recovery Hanya Kelompok Berbagi Terbuka" # "OSGO CR = Open Share Group Only Celebrate Recovery Ministry"
         requirements:
           running_time:
-            title: "(FE CR) Malam Perayaan atau (OSGO CR) Kelompok Berbagi Terbuka telah berjalan minimal 90 hari."
-            description: "Ini tidak termasuk Studi Langkah/pelatihan Pemimpin awal sebelum peluncuran Malam Perayaan."
+            title: "(FE CR) Malam Perayaan atau (OSGO CR) Kelompok Berbagi Terbuka telah berjalan minimal 90 hari." # "If your CR DOES meet the requirements above:"
+            description: "Ini tidak termasuk Studi Langkah/pelatihan Pemimpin awal sebelum peluncuran Malam Perayaan." # "This does not include the Step Studies/initial Leader training before the launch of Celebration Night."
           dna:
-            title: "(FE dan OSGO CR) Gereja dan Kepemimpinan CR setuju, menerapkan, dan mengikuti DNA Celebrate Recovery"
-            link_text: "DNA of Celebrate Recovery"
-            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
-            note: "(celebraterecovery.com > Resources > Our DNA)"
+            title: "(FE dan OSGO CR) Gereja dan Kepemimpinan CR setuju, menerapkan, dan mengikuti DNA Celebrate Recovery" # "If your CR DOES meet the requirements above:"
+            link_text: "DNA of Celebrate Recovery" # "DNA of Celebrate Recovery"
+            link_url: "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf" # "https://celebraterecovery.com/wp-content/uploads/2024/06/DNA-of-Celebrate-Recovery.pdf"
+            note: "(celebraterecovery.com > Resources > Our DNA)" # "(celebraterecovery.com > Resources > Our DNA)"
           training:
-            title: "(OSGO CR) Pemimpin telah menyelesaikan Pelatihan Daring"
-            description_html: "Video pelatihan CR Kelompok Berbagi Terbuka tersedia di halaman CR Community di Mighty Networks. Kunjungi %{community_link} untuk memilih paket dan bergabung. Ada paket gratis dan berbayar. Pelatihan CR Kelompok Berbagi Terbuka termasuk dalam semua paket. Setelah bergabung, buka FREE TRAINING di menu navigasi untuk menemukan pelatihan."
-            community_url: "https://celebraterecovery.com/cr-community/"
+            title: "(OSGO CR) Pemimpin telah menyelesaikan Pelatihan Daring" # "If your CR DOES meet the requirements above:"
+            description_html: "Video pelatihan CR Kelompok Berbagi Terbuka tersedia di halaman CR Community di Mighty Networks. Kunjungi %{community_link} untuk memilih paket dan bergabung. Ada paket gratis dan berbayar. Pelatihan CR Kelompok Berbagi Terbuka termasuk dalam semua paket. Setelah bergabung, buka FREE TRAINING di menu navigasi untuk menemukan pelatihan." # "The CR Open Share Group training videos can be found on the CR Community page on Mighty Networks. Go to %{community_link} to choose a plan and join. There are free and paid plans to choose from. The CR Open Share Group training is included in all plans. Once you join, go to the FREE TRAINING space in the navigation menu to find the training."
+            community_url: "https://celebraterecovery.com/cr-community/" # "https://celebraterecovery.com/cr-community/"
         next_steps:
           not_meeting:
-            title: "Jika CR Anda TIDAK memenuhi persyaratan di atas:"
-            content: "Lakukan perubahan yang diperlukan di Celebrate Recovery Anda sebelum melanjutkan. Silakan hubungi Perwakilan Celebrate Recovery jika ada pertanyaan. Kembali ke CR Locator untuk mencari Perwakilan atau kelompok CR."
+            title: "Jika CR Anda TIDAK memenuhi persyaratan di atas:" # "If your CR DOES meet the requirements above:"
+            content: "Lakukan perubahan yang diperlukan di Celebrate Recovery Anda sebelum melanjutkan. Silakan hubungi Perwakilan Celebrate Recovery jika ada pertanyaan. Kembali ke CR Locator untuk mencari Perwakilan atau kelompok CR." # "Click on the link below to begin the process of adding your CR to the Locator."
           meeting:
-            title: "Jika CR Anda MEMENUHI persyaratan di atas:"
-            content: "Klik tautan di bawah untuk memulai proses menambahkan CR Anda ke Locator."
+            title: "Jika CR Anda MEMENUHI persyaratan di atas:" # "If your CR DOES meet the requirements above:"
+            content: "Klik tautan di bawah untuk memulai proses menambahkan CR Anda ke Locator." # "Click on the link below to begin the process of adding your CR to the Locator."
         buttons:
-          dashboard: "Buka dasbor"
-          setup: "Siapkan kelompok Celebrate Recovery Anda"
+          dashboard: "Buka dasbor" # "Go to your dashboard"
+          setup: "Siapkan kelompok Celebrate Recovery Anda" # "Setup Your Celebrate Recovery Group"

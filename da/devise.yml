@@ -9,16 +9,16 @@ da:
         current_password: Nuværende adgangskode
         current_sign_in_at: Nuværende log ind tidspunkt
         current_sign_in_ip: Nuværende log ind IP
-        email: E-mail
+        email: E-mail # "Email address"
         encrypted_password: Krypteret adgangskode
         failed_attempts: Mislykkede forsøg
         last_sign_in_at: Sidste log ind tidspunkt
         last_sign_in_ip: Sidste log ind IP
         locked_at: Låst
-        password: Adgangskode
-        password_confirmation: Gentag adgangskode
+        password: Adgangskode # "Password"
+        password_confirmation: Gentag adgangskode # "Confirm Password"
         remember_created_at: Husk mig tidspunkt
-        remember_me: Husk mig
+        remember_me: Husk mig # "Remember me"
         reset_password_sent_at: Nulstil adgangskode
         reset_password_token: Nulstil adgangskode nøgle
         sign_in_count: Log ind antal
@@ -27,114 +27,114 @@ da:
         updated_at: Opdateret
     models:
       user:
-        one: Bruger
-        other: Bruger
+        one: Bruger # "(1 character minimum)"
+        other: Bruger # "(%{count} characters minimum)"
   devise:
     confirmations:
-      confirmed: Din e-mail er nu bekræftet.
+      confirmed: Din e-mail er nu bekræftet. # Your account has been activated and you are now signed in.
       new:
-        resend_confirmation_instructions: Gensend bekræftelsesinstruktioner
-      send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du bekræfter din e-mail."
-      send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du bekræfter din e-mail."
+        resend_confirmation_instructions: Gensend bekræftelsesinstruktioner # Resend confirmation instructions
+      send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du bekræfter din e-mail." # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du bekræfter din e-mail." # If your email address exists in our database, you will receive an invitation email in a few minutes.
     failure:
-      already_authenticated: Du er allerede logget ind.
-      inactive: Din konto er endnu ikke aktiveret.
-      invalid: "Ugyldig %{authentication_keys} eller adgangskode."
-      last_attempt: "Du har ét forsøg mere, før din konto bliver låst."
-      locked: Din konto er låst.
-      not_found_in_database: "Ugyldig %{authentication_keys} eller adgangskode."
-      timeout: Din adgang er udløbet. Venligst log ind igen for at fortsætte.
-      unauthenticated: Du skal logge ind eller oprette en konto for at kunne fortsætte.
-      unconfirmed: "Du skal bekræfte din e-mail, før du kan fortsætte."
+      already_authenticated: Du er allerede logget ind. # You are already signed in.
+      inactive: Din konto er endnu ikke aktiveret. # Your account is not activated yet.
+      invalid: "Ugyldig %{authentication_keys} eller adgangskode." # Invalid email or password.
+      last_attempt: "Du har ét forsøg mere, før din konto bliver låst." # "You have one more attempt before your account is locked."
+      locked: Din konto er låst. # Your account is locked.
+      not_found_in_database: "Ugyldig %{authentication_keys} eller adgangskode." # Invalid email or password.
+      timeout: Din adgang er udløbet. Venligst log ind igen for at fortsætte. # Your session expired. Please sign in again to continue.
+      unauthenticated: Du skal logge ind eller oprette en konto for at kunne fortsætte. # You need to sign in or sign up before continuing.
+      unconfirmed: "Du skal bekræfte din e-mail, før du kan fortsætte." # You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
         action: Bekræft min konto
-        greeting: "Velkommen %{recipient}"
+        greeting: "Velkommen %{recipient}" # "Dear %{name},"
         instruction: 'Du kan bekræfte din konto og e-mail via linket herunder:'
-        subject: Bekræftelsesinstruktioner
+        subject: Bekræftelsesinstruktioner # "Reminder: Invitation instructions"
       email_changed:
-        greeting: "Hej %{recipient}"
+        greeting: "Hej %{recipient}" # "Dear %{name},"
         message: "Vi skriver til dig for at oplyse dig om, at din e-mail er blevet ændret til %{email}."
         message_unconfirmed: "Vi kontakter dig for at fortælle at din email er ændret til %{email}."
-        subject: E-mail ændret
+        subject: E-mail ændret # "Reminder: Invitation instructions"
       password_change:
-        greeting: "Hej %{recipient}"
+        greeting: "Hej %{recipient}" # "Dear %{name},"
         message: "Vi skriver til dig for at oplyse dig om, at din adgangskode er blevet ændret."
-        subject: Adgangskode ændret
+        subject: Adgangskode ændret # "Reminder: Invitation instructions"
       reset_password_instructions:
         action: Skift adgangskode
-        greeting: "Hej %{recipient}"
+        greeting: "Hej %{recipient}" # "Dear %{name},"
         instruction: Der er blevet anmodet om at ændre din adgangskode. Du kan ændre den via linket herunder.
         instruction_2: "Hvis du ikke har anmodet om dette, så se venligst bort fra denne mail."
         instruction_3: "Din adgangskode forbliver uændret, indtil du laver en ny via linket herover."
-        subject: Skift-adgangskode-instruktioner
+        subject: Skift-adgangskode-instruktioner # "Reminder: Invitation instructions"
       unlock_instructions:
         action: Lås min konto op
-        greeting: "Hej %{recipient}"
+        greeting: "Hej %{recipient}" # "Dear %{name},"
         instruction: 'Klik på linket herunder for at låse din konto op:'
         message: Din konto er blevet låst efter for mange forkerte forsøg på at logge ind.
-        subject: Låse-op-instruktioner
+        subject: Låse-op-instruktioner # "Reminder: Invitation instructions"
     omniauth_callbacks:
-      failure: "Kunne ikke godkende %{kind} fordi \"%{reason}\"."
-      success: "Godkendt %{kind} konto."
+      failure: "Kunne ikke godkende %{kind} fordi \"%{reason}\"." # "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Godkendt %{kind} konto." # "Successfully authenticated from %{kind} account."
     passwords:
       edit:
         change_my_password: Skift min adgangskode
         change_your_password: Skift din adgangskode
         confirm_new_password: Bekræft ny adgangskode
-        new_password: Ny adgangskode
+        new_password: Ny adgangskode # "New Password"
       new:
-        forgot_your_password: "Glemt adgangskode?"
-        send_me_reset_password_instructions: Send mig instruktioner om at skifte adgangskode
-      no_token: "Du kan ikke tilgå denne side uden at komme fra en mail med instruktioner om, hvordan du skifter din adgangskode. Hvis du kommer fra en sådan mail, så tjek venligst, at du har benyttet det fulde link, som er angivet."
-      send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du skifter din adgangskode."
-      send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du skifter din adgangskode."
-      updated: "Din adgangskode er ændret, og du er nu logget ind."
-      updated_not_active: Din adgangskode er ændret.
+        forgot_your_password: "Glemt adgangskode?" # Forgot your password?
+        send_me_reset_password_instructions: Send mig instruktioner om at skifte adgangskode # Send me reset password instructions
+      no_token: "Du kan ikke tilgå denne side uden at komme fra en mail med instruktioner om, hvordan du skifter din adgangskode. Hvis du kommer fra en sådan mail, så tjek venligst, at du har benyttet det fulde link, som er angivet." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du skifter din adgangskode." # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du skifter din adgangskode." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      updated: "Din adgangskode er ændret, og du er nu logget ind." # "Your invitation was successfully updated."
+      updated_not_active: Din adgangskode er ændret. # "Your invitation was successfully updated."
     registrations:
-      destroyed: Din konto er nu lukket.
+      destroyed: Din konto er nu lukket. # Invitation successfully removed.
       edit:
-        are_you_sure: "Er du sikker?"
-        cancel_my_account: Luk min konto
-        currently_waiting_confirmation_for_email: 'Afventer bekræftelse af: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: "lad være tomt, hvis du ikke ønsker at ændre "
-        title: "Rediger %{resource}"
-        unhappy: "Utilfreds?"
-        update: Opdater
-        we_need_your_current_password_to_confirm_your_changes: vi skal bruge din nuværende adgangskode for at bekræfte ændringerne.
+        are_you_sure: "Er du sikker?" # Are you sure?
+        cancel_my_account: Luk min konto # Cancel my account
+        currently_waiting_confirmation_for_email: 'Afventer bekræftelse af: %{email}' # "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "lad være tomt, hvis du ikke ønsker at ændre " # Leave blank if you don't want to change it
+        title: "Rediger %{resource}" # "Resend Unlock Instructions - CR Locator"
+        unhappy: "Utilfreds?" # Unhappy?
+        update: Opdater # Update
+        we_need_your_current_password_to_confirm_your_changes: vi skal bruge din nuværende adgangskode for at bekræfte ændringerne. # We need your current password to confirm your changes
       new:
-        sign_up: Opret konto
-      signed_up: Velkommen! Din konto er nu oprettet.
-      signed_up_but_inactive: "Din konto er oprettet, men vi kunne ikke logge dig ind, da din konto endnu ikke er blevet aktiveret."
-      signed_up_but_locked: "Din konto er oprettet, men vi kunne ikke logge dig ind, da din konto er låst."
-      signed_up_but_unconfirmed: En besked med et bekræftelses-link er blevet sendt til din e-mail. Tryk venligst på linket for at aktivere din konto.
-      update_needs_confirmation: "Du har nu opdateret din konto, men vi skal godkende din nye e-mail. Tjek venligst din mail og tryk på bekræftelses-linket for at godkende."
-      updated: Din konto er opdateret.
-      updated_but_not_signed_in: "Din konto er blevet opdateret, men du skal logge ind igen fordi dit kodeord er ændret."
+        sign_up: Opret konto # Sign up
+      signed_up: Velkommen! Din konto er nu oprettet. # Welcome! You have signed up successfully.
+      signed_up_but_inactive: "Din konto er oprettet, men vi kunne ikke logge dig ind, da din konto endnu ikke er blevet aktiveret." # You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: "Din konto er oprettet, men vi kunne ikke logge dig ind, da din konto er låst." # You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: En besked med et bekræftelses-link er blevet sendt til din e-mail. Tryk venligst på linket for at aktivere din konto. # A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: "Du har nu opdateret din konto, men vi skal godkende din nye e-mail. Tjek venligst din mail og tryk på bekræftelses-linket for at godkende." # You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Din konto er opdateret. # "Your invitation was successfully updated."
+      updated_but_not_signed_in: "Din konto er blevet opdateret, men du skal logge ind igen fordi dit kodeord er ændret." # Your account has been updated successfully, but since your password was changed, you need to sign in again.
     sessions:
-      already_signed_out: Logget ud
+      already_signed_out: Logget ud # Signed out successfully.
       new:
-        sign_in: Log ind
-      signed_in: Logget ind.
-      signed_out: Logget ud.
+        sign_in: Log ind # Sign in
+      signed_in: Logget ind. # Signed in successfully.
+      signed_out: Logget ud. # Signed out successfully.
     shared:
       links:
-        back: Tilbage
-        didn_t_receive_confirmation_instructions: "Har du ikke modtaget bekræftelsesinstruktioner?"
-        didn_t_receive_unlock_instructions: "Har du ikke modtaget låse-op-instruktioner?"
-        forgot_your_password: "Glemt adgangskode?"
-        sign_in: Log ind
-        sign_in_with_provider: "Log ind med %{provider}"
-        sign_up: Opret konto
+        back: Tilbage # Back
+        didn_t_receive_confirmation_instructions: "Har du ikke modtaget bekræftelsesinstruktioner?" # "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Har du ikke modtaget låse-op-instruktioner?" # "Didn't receive unlock instructions?"
+        forgot_your_password: "Glemt adgangskode?" # Forgot your password?
+        sign_in: Log ind # Sign in
+        sign_in_with_provider: "Log ind med %{provider}" # "Sign in with %{provider}"
+        sign_up: Opret konto # Sign up
       minimum_password_length:
-        one: "(Mindst %{count} tegn)"
-        other: "(Mindst %{count} tegn)"
+        one: "(Mindst %{count} tegn)" # "(1 character minimum)"
+        other: "(Mindst %{count} tegn)" # "(%{count} characters minimum)"
     unlocks:
       new:
-        resend_unlock_instructions: Gensend låse-op-instruktioner
-      send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du låser din konto op."
-      send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du låser din konto op."
-      unlocked: Din konto er nu låst op. Venligst log ind for at fortsætte.
+        resend_unlock_instructions: Gensend låse-op-instruktioner # Resend unlock instructions
+      send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du låser din konto op." # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du låser din konto op." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      unlocked: Din konto er nu låst op. Venligst log ind for at fortsætte. # Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
       already_confirmed: "er allerede bekræftet, prøv venligst at logge ind"
@@ -143,5 +143,5 @@ da:
       not_found: ikke fundet
       not_locked: var ikke låst
       not_saved:
-        one: 'En fejl medførte, at denne %{resource} ikke kunne gemmes:'
-        other: "%{count} fejl medførte, at denne %{resource} ikke kunne gemmes:"
+        one: 'En fejl medførte, at denne %{resource} ikke kunne gemmes:' # "(1 character minimum)"
+        other: "%{count} fejl medførte, at denne %{resource} ikke kunne gemmes:" # "(%{count} characters minimum)"

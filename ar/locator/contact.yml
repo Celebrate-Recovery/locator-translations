@@ -1,17 +1,17 @@
 ar:
   locator:
     contact:
-      contact_title: اتصل
-      success: تم إرسال البريد الإلكتروني بنجاح.
-      invalid: 'إرسال غير صالح. يرجى المحاولة مرة أخرى.'
+      contact_title: اتصل # contact
+      success: تم إرسال البريد الإلكتروني بنجاح. # Email sent successfully.
+      invalid: 'إرسال غير صالح. يرجى المحاولة مرة أخرى.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "تواصل مع %{rep_name}"
-        detail: استخدم هذه النموذج لإرسال طلب إلى %{rep_name}. سيبذلون قصارى جهدهم للرد عليك في الوقت المناسب.
-        type: نوع الممثل / المدافع
-        ministry_leader: قائد الخدمة
-        name: الاسم
-        phone: رقم الهاتف
-        message: الرسالة
-        back: العودة إلى البحث
-        send: إرسال رسالة
-        no_results: لم يتم العثور على شيء في هذا العنوان
+        title: "تواصل مع %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: استخدم هذه النموذج لإرسال طلب إلى %{rep_name}. سيبذلون قصارى جهدهم للرد عليك في الوقت المناسب. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: نوع الممثل / المدافع # Rep / Advocate Type
+        ministry_leader: قائد الخدمة # Ministry Leader
+        name: الاسم # Name
+        phone: رقم الهاتف # Phone number
+        message: الرسالة # Message
+        back: العودة إلى البحث # Back to finder
+        send: إرسال رسالة # Send Message
+        no_results: لم يتم العثور على شيء في هذا العنوان # Nothing was found at this address

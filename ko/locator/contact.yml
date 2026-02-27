@@ -1,17 +1,17 @@
 ko:
   locator:
     contact:
-      contact_title: 연락처
-      success: 이메일이 성공적으로 전송되었습니다.
-      invalid: '제출이 올바르지 않습니다. 다시 시도해 주세요.'
+      contact_title: 연락처 # contact
+      success: 이메일이 성공적으로 전송되었습니다. # Email sent successfully.
+      invalid: '제출이 올바르지 않습니다. 다시 시도해 주세요.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "%{rep_name}에게 연락하기"
-        detail: 이 양식을 사용하여 %{rep_name}에게 요청을 보내세요. 가능한 한 빨리 답변 드리겠습니다.
-        type: 대표 / 옹호자 유형
-        ministry_leader: 사역 리더
-        name: 이름
-        phone: 전화번호
-        message: 메시지
-        back: 찾기로 돌아가기
-        send: 메시지 보내기
-        no_results: 이 주소에서 찾을 수 있는 항목이 없습니다
+        title: "%{rep_name}에게 연락하기" # "Get in touch with %{rep_name}"
+        detail: 이 양식을 사용하여 %{rep_name}에게 요청을 보내세요. 가능한 한 빨리 답변 드리겠습니다. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: 대표 / 옹호자 유형 # Rep / Advocate Type
+        ministry_leader: 사역 리더 # Ministry Leader
+        name: 이름 # Name
+        phone: 전화번호 # Phone number
+        message: 메시지 # Message
+        back: 찾기로 돌아가기 # Back to finder
+        send: 메시지 보내기 # Send Message
+        no_results: 이 주소에서 찾을 수 있는 항목이 없습니다 # Nothing was found at this address

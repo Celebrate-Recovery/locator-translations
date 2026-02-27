@@ -1,17 +1,17 @@
 zh-CN:
   locator:
     contact:
-      contact_title: 联系
-      success: 邮件已成功发送。
-      invalid: '提交无效，请重试。'
+      contact_title: 联系 # contact
+      success: 邮件已成功发送。 # Email sent successfully.
+      invalid: '提交无效，请重试。' # 'Invalid form submission. Please try again.'
       contact:
-        title: "联系 %{rep_name}"
-        detail: 使用此表单向 %{rep_name} 发送请求，他们会尽快回复您。
-        type: 代表 / 倡导者类型
-        ministry_leader: 事工负责人
-        name: 姓名
-        phone: 电话号码
-        message: 留言
-        back: 返回查找
-        send: 发送消息
-        no_results: 在此地址未找到任何内容
+        title: "联系 %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: 使用此表单向 %{rep_name} 发送请求，他们会尽快回复您。 # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: 代表 / 倡导者类型 # Rep / Advocate Type
+        ministry_leader: 事工负责人 # Ministry Leader
+        name: 姓名 # Name
+        phone: 电话号码 # Phone number
+        message: 留言 # Message
+        back: 返回查找 # Back to finder
+        send: 发送消息 # Send Message
+        no_results: 在此地址未找到任何内容 # Nothing was found at this address

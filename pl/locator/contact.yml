@@ -1,17 +1,17 @@
 pl:
   locator:
     contact:
-      contact_title: kontakt
-      success: E-mail wysłany pomyślnie.
-      invalid: 'Nieprawidłowe dane. Spróbuj ponownie.'
+      contact_title: kontakt # contact
+      success: E-mail wysłany pomyślnie. # Email sent successfully.
+      invalid: 'Nieprawidłowe dane. Spróbuj ponownie.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Skontaktuj się z %{rep_name}"
-        detail: Użyj tego formularza, aby wysłać wiadomość do %{rep_name}. Postara się odpowiedzieć w możliwie krótkim czasie.
-        type: Typ reprezentanta / Adwokata
-        ministry_leader: Lider posługi
-        name: Imię i nazwisko
-        phone: Numer telefonu
-        message: Wiadomość
-        back: Powrót do wyszukiwarki
-        send: Wyślij wiadomość
-        no_results: Pod tym adresem nic nie znaleziono
+        title: "Skontaktuj się z %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Użyj tego formularza, aby wysłać wiadomość do %{rep_name}. Postara się odpowiedzieć w możliwie krótkim czasie. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Typ reprezentanta / Adwokata # Rep / Advocate Type
+        ministry_leader: Lider posługi # Ministry Leader
+        name: Imię i nazwisko # Name
+        phone: Numer telefonu # Phone number
+        message: Wiadomość # Message
+        back: Powrót do wyszukiwarki # Back to finder
+        send: Wyślij wiadomość # Send Message
+        no_results: Pod tym adresem nic nie znaleziono # Nothing was found at this address

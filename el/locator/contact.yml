@@ -1,17 +1,17 @@
 el:
   locator:
     contact:
-      contact_title: επαφή
-      success: Το email στάλθηκε επιτυχώς.
-      invalid: 'Μη έγκυρη υποβολή. Δοκιμάστε ξανά.'
+      contact_title: επαφή # contact
+      success: Το email στάλθηκε επιτυχώς. # Email sent successfully.
+      invalid: 'Μη έγκυρη υποβολή. Δοκιμάστε ξανά.' # 'Invalid form submission. Please try again.'
       contact:
-        title: "Επικοινωνήστε με τον/την %{rep_name}"
-        detail: Χρησιμοποιήστε αυτή τη φόρμα για να στείλετε αίτημα στον/στην %{rep_name}. Θα προσπαθήσει να απαντήσει εγκαίρως.
-        type: Τύπος αντιπροσώπου / Συνήγορου
-        ministry_leader: Υπεύθυνος υπηρεσίας
-        name: Όνομα
-        phone: Αριθμός τηλεφώνου
-        message: Μήνυμα
-        back: Πίσω στον εντοπιστή
-        send: Αποστολή μηνύματος
-        no_results: Δεν βρέθηκε τίποτα σε αυτή τη διεύθυνση
+        title: "Επικοινωνήστε με τον/την %{rep_name}" # "Get in touch with %{rep_name}"
+        detail: Χρησιμοποιήστε αυτή τη φόρμα για να στείλετε αίτημα στον/στην %{rep_name}. Θα προσπαθήσει να απαντήσει εγκαίρως. # Use this form to send a request over to %{rep_name}. They will do their best to get back to you in a timely manner.
+        type: Τύπος αντιπροσώπου / Συνήγορου # Rep / Advocate Type
+        ministry_leader: Υπεύθυνος υπηρεσίας # Ministry Leader
+        name: Όνομα # Name
+        phone: Αριθμός τηλεφώνου # Phone number
+        message: Μήνυμα # Message
+        back: Πίσω στον εντοπιστή # Back to finder
+        send: Αποστολή μηνύματος # Send Message
+        no_results: Δεν βρέθηκε τίποτα σε αυτή τη διεύθυνση # Nothing was found at this address

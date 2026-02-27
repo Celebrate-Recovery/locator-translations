@@ -6,68 +6,79 @@ en:
     # ============================================================================
     shared:
       # Brand & App Names
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      
+      cr_locator: CR Locator # CR Locator
+      locator: Locator # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+
       # Common Actions
-      email: Email
-      details: Details
-      search: Search
-      filter: Filter
-      
+      email: Email # Email
+      details: Details # Details
+      search: Search # Search
+      filter: Filter # Filter
+
       # Meeting Formats
-      online: Online
-      in_person: In Person
-      
+      online: Online # Online
+      in_person: In Person # In Person
+
       # Group Types
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Large Group
-      open_share_groups: Open Share Groups
-      step_studies: Step Studies
-      
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Large Group # Large Group
+      open_share_groups: Open Share Groups # Open Share Groups
+      step_studies: Step Studies # Step Studies
+      cr_reps: CR Reps # CR Reps
+      landing_reps: Landing Reps # Landing Reps
+      celebration_place_reps: Celebration Place Reps # Celebration Place Reps
+      ambassadors:
+        mental_health: Mental Health Advocate # Mental Health Advocate
+        cr_inside: CR Inside Advocate # CR Inside Advocate
+        cr_international: CR International Advocate # CR International Advocate
+        cultural_communities: Cultural Communities Advocate # Cultural Communities Advocate
+        welcome_home: Welcome Home Advocate # Welcome Home Advocate
+        opioid: Opioid Advocate # Opioid Advocate
+        cpr: CPR Advocate # CPR Advocate
+
       # Distance/Location
-      distance: "%{distance_unit}"
-      mile: miles
-      kilometer: kilometers
-      location: Location
-      
+      distance: "%{distance_unit}" # %{distance_unit}
+      mile: miles # miles
+      kilometer: kilometers # kilometers
+      location: Location # Location
+
       # Common Labels
-      groups: Groups
-      reps: Reps
-      language: Language
-      format: Format
-      
+      groups: Groups # Groups
+      reps: Reps # Reps
+      language: Language # Language
+      format: Format # Format
+
       # Days of Week (Full)
       days:
-        sunday: Sunday
-        monday: Monday
-        tuesday: Tuesday
-        wednesday: Wednesday
-        thursday: Thursday
-        friday: Friday
-        saturday: Saturday
-      
+        sunday: Sunday # Sunday
+        monday: Monday # Monday
+        tuesday: Tuesday # Tuesday
+        wednesday: Wednesday # Wednesday
+        thursday: Thursday # Thursday
+        friday: Friday # Friday
+        saturday: Saturday # Saturday
+
       # Days of Week (Short)
       days_short:
-        sunday: Sun
-        monday: Mon
-        tuesday: Tue
-        wednesday: Wed
-        thursday: Thu
-        friday: Fri
-        saturday: Sat
-      
+        sunday: Sun # Sun
+        monday: Mon # Mon
+        tuesday: Tue # Tue
+        wednesday: Wed # Wed
+        thursday: Thu # Thu
+        friday: Fri # Fri
+        saturday: Sat # Sat
+
       # Days of Week (Initial)
       days_initial:
-        sunday: S
-        monday: M
-        tuesday: T
-        wednesday: W
-        thursday: T
-        friday: F
-        saturday: S
+        sunday: S # S
+        monday: M # M
+        tuesday: T # T
+        wednesday: W # W
+        thursday: T # T
+        friday: F # F
+        saturday: S # S
 
     # ============================================================================
     # LAYOUT TRANSLATIONS
@@ -75,96 +86,96 @@ en:
     layouts:
       partials:
         header:
-          close_menu: Close Menu
-          about: About
-          get_your_cr_on_the_locator: Get Listed
-          main_menu: Main Menu
-          login_in: Login
-          dashboard: Dashboard
+          close_menu: Close Menu # Close Menu
+          about: About # About
+          get_your_cr_on_the_locator: Get Listed # Get Listed
+          main_menu: Main Menu # Main Menu
+          login_in: Login # Login
+          dashboard: Dashboard # Dashboard
 
     # ============================================================================
     # HOME PAGE TRANSLATIONS
     # ============================================================================
     home:
       # Controller-level messages
-      please_enter_location: "Please enter a location or postal code to search for groups or reps."
-      email_sent: 'Email sent successfully.'
+      please_enter_location: "Please enter a location or postal code to search for groups or reps." # Please enter a location or postal code to search for groups or reps.
+      email_sent: "Email sent successfully." # Email sent successfully.
 
       # Index page
       index:
         # Page metadata
-        html_title: Home
-        html_title_groups: Groups in
-        html_title_in: in
-        full_title: CR Locator
-        title: Locator
-        default_title: "Find Freedom, Find Community - CR Locator"
+        html_title: Home # Home
+        html_title_groups: Groups in # Groups in
+        html_title_in: in # in
+        full_title: CR Locator # CR Locator
+        default_title: "Find Freedom, Find Community - CR Locator" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
-        enter: "Please enter a location or postal code to begin your search"
-        error: "An error occurred while searching. Please try again."
-        none_found_group: "No groups found within %{radius} %{distance_unit}"
-        none_found_rep: "No reps found within %{radius} %{distance_unit}"
-        closest_group: "Showing the closest groups."
-        closest_rep: "Showing the closest reps."
-        help: "Help"
+        enter: "Please enter a location or postal code to begin your search" # Please enter a location or postal code to begin your search
+        error: "An error occurred while searching. Please try again." # An error occurred while searching. Please try again.
+        none_found_group: "No groups found within %{radius} %{distance_unit}" # No groups found within %{radius} %{distance_unit}
+        none_found_rep: "No reps found within %{radius} %{distance_unit}" # No reps found within %{radius} %{distance_unit}
+        closest_group: "Showing the closest groups." # Showing the closest groups.
+        closest_rep: "Showing the closest reps." # Showing the closest reps.
+        help: "Help" # Help
 
       # Search form
       form:
         # Form labels
-        search_title: Your location / ZIP code
-        search_placeholder: Enter a location
-        search_nearby: Search Nearby
-        location_name: Location name
-        search_type: Type
-        radius: Radius
-        day_of_week: Days of the week
-        
-        # Radius options (using interpolation)
-        within_10: "within 10 %{distance_unit}"
-        within_25: "within 25 %{distance_unit}"
-        within_50: "within 50 %{distance_unit}"
-        within_100: "within 100 %{distance_unit}"
-        within_150: "within 150 %{distance_unit}"
-        within_200: "within 200 %{distance_unit}"
-        within_250: "within 250 %{distance_unit}"
-        within_500: "within 500 %{distance_unit}"
+        search_title: Your location / ZIP code # Your location / ZIP code
+        search_placeholder: Enter a location # Enter a location
+        search_nearby: Search Nearby # Search Nearby
+        location_name: Location name # Location name
+        search_type: Type # Type
+        radius: Radius # Radius
+        day_of_week: Days of the week # Days of the week
 
-        # Rep/Advocate types
-        rep_ambassador: Rep / Advocate
-        all_reps: All Reps / Advocates
-        all_reps_filter: Reps / Advocates
-        cr_reps: CR Reps
-        landing_reps: Landing Reps
-        celebration_place_reps: Celebration Place Reps
-        
+        # Radius options (using interpolation)
+        within_10: "within 10 %{distance_unit}" # within 10 %{distance_unit}
+        within_25: "within 25 %{distance_unit}" # within 25 %{distance_unit}
+        within_50: "within 50 %{distance_unit}" # within 50 %{distance_unit}
+        within_100: "within 100 %{distance_unit}" # within 100 %{distance_unit}
+        within_150: "within 150 %{distance_unit}" # within 150 %{distance_unit}
+        within_200: "within 200 %{distance_unit}" # within 200 %{distance_unit}
+        within_250: "within 250 %{distance_unit}" # within 250 %{distance_unit}
+        within_500: "within 500 %{distance_unit}" # within 500 %{distance_unit}
+
+        # Rep/Advocate types (filter button labels)
+        groups: Groups # Groups
+        rep_ambassador: Rep / Advocate # Rep / Advocate
+        all_reps: All Reps / Advocates # All Reps / Advocates
+        all_reps_filter: Reps / Advocates # Reps / Advocates
+        cr_reps: CR Reps # CR Reps
+        landing_reps: Landing Reps # Landing Reps
+        celebration_place_reps: Celebration Place Reps # Celebration Place Reps
+
         # Ambassador types
         ambassadors:
-          mental_health: Mental Health Advocate
-          cr_inside: CR Inside Advocate
-          cr_international: CR International Advocate
-          cultural_communities: Cultural Communities Advocate
-          welcome_home: Welcome Home Advocate
-          opioid: Opioid Advocate
-          cpr: CPR Advocate
+          mental_health: Mental Health Advocate # Mental Health Advocate
+          cr_inside: CR Inside Advocate # CR Inside Advocate
+          cr_international: CR International Advocate # CR International Advocate
+          cultural_communities: Cultural Communities Advocate # Cultural Communities Advocate
+          welcome_home: Welcome Home Advocate # Welcome Home Advocate
+          opioid: Opioid Advocate # Opioid Advocate
+          cpr: CPR Advocate # CPR Advocate
 
         # Group types
-        all_groups: All Groups
-        all_groups_filter: Groups
-        online_large_group: Online Large Group
-        online_open_share: Online Open Share Groups
-        
+        all_groups: All Groups # All Groups
+        all_groups_filter: Groups # Groups
+        online_large_group: Online Large Group # Online Large Group
+        online_open_share: Online Open Share Groups # Online Open Share Groups
+
         # Additional ministries
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Fellowship Meal
-        childcare: Childcare
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Fellowship Meal # Fellowship Meal
+        childcare: Childcare # Childcare
 
       # Group partial
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Available
-          offered_in: Offered in
+          distance: "%{distance_unit}" # %{distance_unit}
+          available: Available # Available
+          offered_in: Offered in # Offered in
 
     # ============================================================================
     # RESULTS PAGE TRANSLATIONS
@@ -172,18 +183,18 @@ en:
     results:
       partials:
         group:
-          directions: Get Directions
-          email: Email
-          language: Languages Offered Here
-          location: Location
-          contact: Group Contacts
-          rep_contact: Rep Contact
-          ministry_leader: Ministry Leader
-          upcomming_step_study: Upcoming Step Studies
-          starting: Starting
-          additional_information: Additional Information
+          directions: Get Directions # Get Directions
+          email: Email # Email
+          language: Languages Offered Here # Languages Offered Here
+          location: Location # Location
+          contact: Group Contacts # Group Contacts
+          rep_contact: Rep Contact # Rep Contact
+          ministry_leader: Ministry Leader # Ministry Leader
+          upcomming_step_study: Upcoming Step Studies # Upcoming Step Studies
+          starting: Starting # Starting
+          additional_information: Additional Information # Additional Information
 
         rep:
-          based_in: "Based in %{location}"
-          about: "A little bit about %{rep_name}"
-          groups: "%{rep_name} is a part of the following groups weekly:"
+          based_in: "Based in %{location}" # Based in %{location}
+          about: "A little bit about %{rep_name}" # A little bit about %{rep_name}
+          groups: "%{rep_name} is a part of the following groups weekly:" # %{rep_name} is a part of the following groups weekly:

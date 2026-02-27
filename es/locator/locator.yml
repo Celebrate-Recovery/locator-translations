@@ -9,36 +9,36 @@ es:
       cr_locator: Localizador CR # CR Locator
       locator: Localizador # Locator
       celebrate_recovery: Celebrate Recovery # Celebrate Recovery
-      
+
       # Common Actions
       email: Correo electrónico # Email
       details: Detalles # Details
       search: Búsqueda # Search
       filter: Filtro # Filter
-      
+
       # Meeting Formats
       online: En línea # Online
       in_person: En persona # In Person
-      
+
       # Group Types
       landing: Aterrizaje # Landing
       celebration_place: Lugar de celebración # Celebration Place
       large_group: Grupo grande # Large Group
       open_share_groups: Grupos abiertos para compartir # Open Share Groups
       step_studies: Estudios de pasos # Step Studies
-      
+
       # Distance/Location
       distance: "%{distance_unit}" # %{distance_unit}
       mile: millas # miles
       kilometer: kilómetros # kilometers
       location: Ubicación # Location
-      
+
       # Common Labels
       groups: Grupos # Groups
       reps: Representantes # Reps
       language: Idioma # Language
       format: Formato # Format
-      
+
       # Days of Week (Full)
       days:
         sunday: Domingo # Sunday
@@ -48,7 +48,7 @@ es:
         thursday: Jueves # Thursday
         friday: Viernes # Friday
         saturday: Sábado # Saturday
-      
+
       # Days of Week (Short)
       days_short:
         sunday: Dom # Sun
@@ -58,7 +58,7 @@ es:
         thursday: Jue # Thu
         friday: Vie # Fri
         saturday: Sáb # Sat
-      
+
       # Days of Week (Initial)
       days_initial:
         sunday: D # S
@@ -88,7 +88,7 @@ es:
     home:
       # Controller-level messages
       please_enter_location: "Por favor, ingresa una ubicación o código postal para buscar grupos o representantes." # Please enter a location or postal code to search for groups or reps.
-      email_sent: 'Correo electrónico enviado con éxito.' # Email sent successfully.
+      email_sent: "Correo electrónico enviado con éxito." # Email sent successfully.
 
       # Index page
       index:
@@ -97,13 +97,12 @@ es:
         html_title_groups: Grupos en # Groups in
         html_title_in: en # in
         full_title: Localizador CR # CR Locator
-        title: Localizador # Locator
         default_title: "Encuentra la libertad, encuentra la comunidad - Localizador CR" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
         enter: "Por favor, ingresa una ubicación o código postal para comenzar tu búsqueda" # Please enter a location or postal code to begin your search
         error: "Ocurrió un error al buscar. Por favor, inténtalo de nuevo." # An error occurred while searching. Please try again.
-        
+
         none_found_group: "No se encontraron grupos en un radio de %{radius} %{distance_unit}" # No groups found within %{radius} %{distance_unit}
         none_found_rep: "No se encontraron representantes/embajadores en un radio de %{radius} %{distance_unit}" # No reps found within %{radius} %{distance_unit}
         closest_group: "Mostrando los grupos más cercanos." # Showing the closest groups.
@@ -120,7 +119,7 @@ es:
         search_type: "Tipo" # Type
         radius: "Radio" # Radius
         day_of_week: Día de la semana # Days of the week
-        
+
         # Radius options (using interpolation)
         within_10: "dentro de 10 %{distance_unit}" # within 10 %{distance_unit}
         within_25: "dentro de 25 %{distance_unit}" # within 25 %{distance_unit}
@@ -131,14 +130,15 @@ es:
         within_250: "dentro de 250 %{distance_unit}" # within 250 %{distance_unit}
         within_500: "dentro de 500 %{distance_unit}" # within 500 %{distance_unit}
 
-        # Rep/Advocate types
+        # Rep/Advocate types (filter button labels)
+        groups: Grupos # Groups
         rep_ambassador: Representante/Embajador # Rep / Advocate
         all_reps: Todos los Representantes / Embajadores # All Reps / Advocates
         all_reps_filter: Representantes / Embajadores # Reps / Advocates
         cr_reps: Representantes de CR # CR Reps
         landing_reps: Representantes de Aterrizaje # Landing Reps
         celebration_place_reps: Representantes de Lugar de Celebración # Celebration Place Reps
-        
+
         # Ambassador types
         ambassadors:
           mental_health: Embajador de Salud Mental # Mental Health Advocate
@@ -154,7 +154,7 @@ es:
         all_groups_filter: Grupos # Groups
         online_large_group: Grupo grande en línea # Online Large Group
         online_open_share: Grupos abierto para compartir en línea # Online Open Share Groups
-        
+
         # Additional ministries
         fellowship_cafe: Cafe de compañerismo # Fellowship Cafe
         fellowship_meal: Comida de compañerismo # Fellowship Meal

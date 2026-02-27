@@ -9,16 +9,16 @@ ru:
         current_password: Текущий пароль
         current_sign_in_at: Дата текущего входа
         current_sign_in_ip: IP текущего входа
-        email: Эл. почта
+        email: Эл. почта # "Email address"
         encrypted_password: Зашифрованный пароль
         failed_attempts: Неудачные попытки
         last_sign_in_at: Дата последнего входа
         last_sign_in_ip: IP последнего входа
         locked_at: Дата блокировки
-        password: Пароль
-        password_confirmation: Подтверждение пароля
+        password: Пароль # "Password"
+        password_confirmation: Подтверждение пароля # "Confirm Password"
         remember_created_at: Дата создания запоминания
-        remember_me: Запомнить меня
+        remember_me: Запомнить меня # "Remember me"
         reset_password_sent_at: Дата отправки сброса пароля
         reset_password_token: Токен сброса пароля
         sign_in_count: Количество входов
@@ -27,118 +27,118 @@ ru:
         updated_at: Дата обновления
     models:
       user:
-        one: Пользователь
+        one: Пользователь # "(1 character minimum)"
         few: Пользователя
         many: Пользователей
-        other: Пользователей
+        other: Пользователей # "(%{count} characters minimum)"
   devise:
     confirmations:
-      confirmed: Ваш адрес эл. почты успешно подтверждён.
+      confirmed: Ваш адрес эл. почты успешно подтверждён. # Your account has been activated and you are now signed in.
       new:
-        resend_confirmation_instructions: Выслать повторно письмо с активацией
-      send_instructions: В течение нескольких минут вы получите письмо с инструкциями по подтверждению адреса эл. почты.
-      send_paranoid_instructions: "Если ваш адрес эл. почты есть в системе, то в течение нескольких минут вы получите письмо с инструкциями по его подтверждению."
+        resend_confirmation_instructions: Выслать повторно письмо с активацией # Resend confirmation instructions
+      send_instructions: В течение нескольких минут вы получите письмо с инструкциями по подтверждению адреса эл. почты. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Если ваш адрес эл. почты есть в системе, то в течение нескольких минут вы получите письмо с инструкциями по его подтверждению." # If your email address exists in our database, you will receive an invitation email in a few minutes.
     failure:
-      already_authenticated: Вы уже вошли в систему.
-      inactive: Ваша учётная запись ещё не активирована.
-      invalid: "%{authentication_keys} или пароль неверны."
-      last_attempt: У вас осталась последняя попытка ввода пароля до блокировки учётной записи.
-      locked: Ваша учётная запись заблокирована.
-      not_found_in_database: "%{authentication_keys} или пароль неверны."
-      timeout: "Ваш сеанс закончился. Пожалуйста, войдите в систему снова."
-      unauthenticated: Вам необходимо войти в систему или зарегистрироваться.
-      unconfirmed: Вы должны подтвердить вашу учётную запись.
+      already_authenticated: Вы уже вошли в систему. # You are already signed in.
+      inactive: Ваша учётная запись ещё не активирована. # Your account is not activated yet.
+      invalid: "%{authentication_keys} или пароль неверны." # Invalid email or password.
+      last_attempt: У вас осталась последняя попытка ввода пароля до блокировки учётной записи. # "You have one more attempt before your account is locked."
+      locked: Ваша учётная запись заблокирована. # Your account is locked.
+      not_found_in_database: "%{authentication_keys} или пароль неверны." # Invalid email or password.
+      timeout: "Ваш сеанс закончился. Пожалуйста, войдите в систему снова." # Your session expired. Please sign in again to continue.
+      unauthenticated: Вам необходимо войти в систему или зарегистрироваться. # You need to sign in or sign up before continuing.
+      unconfirmed: Вы должны подтвердить вашу учётную запись. # You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
         action: Активировать
-        greeting: "Приветствуем, %{recipient}!"
+        greeting: "Приветствуем, %{recipient}!" # "Dear %{name},"
         instruction: 'Вы можете активировать свою учётную запись, нажав ссылку снизу:'
-        subject: Инструкции по подтверждению учётной записи
+        subject: Инструкции по подтверждению учётной записи # "Reminder: Invitation instructions"
       email_changed:
-        greeting: "Здравствуйте, %{recipient}!"
+        greeting: "Здравствуйте, %{recipient}!" # "Dear %{name},"
         message: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш адрес электронной почты был изменён на %{email}."
         message_unconfirmed: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш адрес электронной почты будет изменён на %{email}."
-        subject: Эл. адрес изменён
+        subject: Эл. адрес изменён # "Reminder: Invitation instructions"
       password_change:
-        greeting: "Здравствуйте, %{recipient}!"
+        greeting: "Здравствуйте, %{recipient}!" # "Dear %{name},"
         message: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш пароль был изменён."
-        subject: Пароль изменён
+        subject: Пароль изменён # "Reminder: Invitation instructions"
       reset_password_instructions:
         action: Сменить пароль
-        greeting: "Здравствуйте, %{recipient}!"
+        greeting: "Здравствуйте, %{recipient}!" # "Dear %{name},"
         instruction: "Вы (или кто-то ещё) запросили изменение пароля. Для изменения пароля нажмите ссылку ниже:"
         instruction_2: Если вы не запрашивали изменение пароля – проигнорируйте это письмо.
         instruction_3: "Ваш пароль не изменится, пока вы не нажмёте на ссылку и не введёте новый."
-        subject: Инструкции по восстановлению пароля
+        subject: Инструкции по восстановлению пароля # "Reminder: Invitation instructions"
       unlock_instructions:
         action: Разблокировать учётную запись
-        greeting: "Здравствуйте, %{recipient}!"
+        greeting: "Здравствуйте, %{recipient}!" # "Dear %{name},"
         instruction: 'Нажмите по ссылке для активации учётной записи:'
         message: Ваша учётная запись была заблокирована в связи с превышением предела неудачных попыток входа.
-        subject: Инструкции по снятию блокировки учётной записи
+        subject: Инструкции по снятию блокировки учётной записи # "Reminder: Invitation instructions"
     omniauth_callbacks:
-      failure: "Вы не можете войти под учётной записью из %{kind}, т.к. «%{reason}»."
-      success: "Вход выполнен под учётной записью из %{kind}."
+      failure: "Вы не можете войти под учётной записью из %{kind}, т.к. «%{reason}»." # "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Вход выполнен под учётной записью из %{kind}." # "Successfully authenticated from %{kind} account."
     passwords:
       edit:
         change_my_password: Изменить мой пароль
         change_your_password: Изменить пароль
         confirm_new_password: Повторите новый пароль
-        new_password: Новый пароль
+        new_password: Новый пароль # "New Password"
       new:
-        forgot_your_password: "Забыли пароль?"
-        send_me_reset_password_instructions: Выслать новый пароль
-      no_token: "Доступ к этой странице возможен только по ссылке из письма о восстановлении пароля. Если вы пришли по такой ссылке, пожалуйста, убедитесь, что вы скопировали всю ссылку целиком."
-      send_instructions: В течение нескольких минут вы получите письмо с инструкциями по восстановлению пароля.
-      send_paranoid_instructions: "Если ваш адрес эл. почты есть в системе, то в течение нескольких минут вы получите письмо с инструкциями по восстановлению пароля."
-      updated: Ваш пароль изменён. Теперь вы вошли в систему.
-      updated_not_active: Ваш пароль изменён.
+        forgot_your_password: "Забыли пароль?" # Forgot your password?
+        send_me_reset_password_instructions: Выслать новый пароль # Send me reset password instructions
+      no_token: "Доступ к этой странице возможен только по ссылке из письма о восстановлении пароля. Если вы пришли по такой ссылке, пожалуйста, убедитесь, что вы скопировали всю ссылку целиком." # "You can't access this page without coming from a valid invitation email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: В течение нескольких минут вы получите письмо с инструкциями по восстановлению пароля. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Если ваш адрес эл. почты есть в системе, то в течение нескольких минут вы получите письмо с инструкциями по восстановлению пароля." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      updated: Ваш пароль изменён. Теперь вы вошли в систему. # "Your invitation was successfully updated."
+      updated_not_active: Ваш пароль изменён. # "Your invitation was successfully updated."
     registrations:
-      destroyed: До свидания! Ваша учётная запись удалена. Надеемся снова увидеть вас.
+      destroyed: До свидания! Ваша учётная запись удалена. Надеемся снова увидеть вас. # Invitation successfully removed.
       edit:
-        are_you_sure: "Вы уверены?"
-        cancel_my_account: Удалить учётную запись
-        currently_waiting_confirmation_for_email: 'Ожидается подтверждение почты: %{email}'
-        leave_blank_if_you_don_t_want_to_change_it: "оставьте поле пустым, если не хотите его менять"
-        title: "%{resource}: изменение"
-        unhappy: "Разочарованы?"
-        update: Обновить
-        we_need_your_current_password_to_confirm_your_changes: введите текущий пароль для подтверждения изменений
+        are_you_sure: "Вы уверены?" # Are you sure?
+        cancel_my_account: Удалить учётную запись # Cancel my account
+        currently_waiting_confirmation_for_email: 'Ожидается подтверждение почты: %{email}' # "Currently waiting confirmation for: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "оставьте поле пустым, если не хотите его менять" # Leave blank if you don't want to change it
+        title: "%{resource}: изменение" # "Resend Unlock Instructions - CR Locator"
+        unhappy: "Разочарованы?" # Unhappy?
+        update: Обновить # Update
+        we_need_your_current_password_to_confirm_your_changes: введите текущий пароль для подтверждения изменений # We need your current password to confirm your changes
       new:
-        sign_up: Регистрация
-      signed_up: Добро пожаловать! Вы успешно зарегистрировались.
-      signed_up_but_inactive: "Вы успешно зарегистрированы. Однако, вы не можете войти в систему, потому что ваша учётная запись не активирована."
-      signed_up_but_locked: "Вы успешно зарегистрированы. Однако, вы не можете войти в систему, потому что ваша учётная запись заблокирована."
-      signed_up_but_unconfirmed: "Письмо со ссылкой для подтверждения было отправлено на ваш адрес эл. почты. Пожалуйста, перейдите по ссылке, чтобы подтвердить учётную запись."
-      update_needs_confirmation: "Вы успешно обновили данные учетной записи, но необходимо подтвердить новый адрес эл. почты. Пожалуйста, проверьте почтовый ящик и перейдите по ссылке, чтобы закончить процедуру проверки нового адреса."
-      updated: Ваша учётная запись обновлена.
-      updated_but_not_signed_in: "Ваша учётная запись обновлена, но так как пароль был изменён, необходимо войти в систему снова."
+        sign_up: Регистрация # Sign up
+      signed_up: Добро пожаловать! Вы успешно зарегистрировались. # Welcome! You have signed up successfully.
+      signed_up_but_inactive: "Вы успешно зарегистрированы. Однако, вы не можете войти в систему, потому что ваша учётная запись не активирована." # You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: "Вы успешно зарегистрированы. Однако, вы не можете войти в систему, потому что ваша учётная запись заблокирована." # You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: "Письмо со ссылкой для подтверждения было отправлено на ваш адрес эл. почты. Пожалуйста, перейдите по ссылке, чтобы подтвердить учётную запись." # A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: "Вы успешно обновили данные учетной записи, но необходимо подтвердить новый адрес эл. почты. Пожалуйста, проверьте почтовый ящик и перейдите по ссылке, чтобы закончить процедуру проверки нового адреса." # You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Ваша учётная запись обновлена. # "Your invitation was successfully updated."
+      updated_but_not_signed_in: "Ваша учётная запись обновлена, но так как пароль был изменён, необходимо войти в систему снова." # Your account has been updated successfully, but since your password was changed, you need to sign in again.
     sessions:
-      already_signed_out: Выход из системы уже выполнен.
+      already_signed_out: Выход из системы уже выполнен. # Signed out successfully.
       new:
-        sign_in: Войти
-      signed_in: Вход в систему выполнен.
-      signed_out: Выход из системы выполнен.
+        sign_in: Войти # Sign in
+      signed_in: Вход в систему выполнен. # Signed in successfully.
+      signed_out: Выход из системы выполнен. # Signed out successfully.
     shared:
       links:
-        back: Назад
-        didn_t_receive_confirmation_instructions: "Не получили подтверждение?"
-        didn_t_receive_unlock_instructions: "Не получили код разблокировки?"
-        forgot_your_password: "Забыли пароль?"
-        sign_in: Войти
-        sign_in_with_provider: "Войти с помощью: %{provider}"
-        sign_up: Регистрация
+        back: Назад # Back
+        didn_t_receive_confirmation_instructions: "Не получили подтверждение?" # "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Не получили код разблокировки?" # "Didn't receive unlock instructions?"
+        forgot_your_password: "Забыли пароль?" # Forgot your password?
+        sign_in: Войти # Sign in
+        sign_in_with_provider: "Войти с помощью: %{provider}" # "Sign in with %{provider}"
+        sign_up: Регистрация # Sign up
       minimum_password_length:
-        one: "(минимум %{count} символ)"
+        one: "(минимум %{count} символ)" # "(1 character minimum)"
         few: "(минимум символов: %{count})"
         many: "(минимум символов: %{count})"
-        other: "(минимум символов: %{count})"
+        other: "(минимум символов: %{count})" # "(%{count} characters minimum)"
     unlocks:
       new:
-        resend_unlock_instructions: Выслать подтверждение заново
-      send_instructions: В течение нескольких минут вы получите письмо с инструкциями по разблокировке учётной записи.
-      send_paranoid_instructions: "Если ваша учётная запись существует, то в течение нескольких минут вы получите письмо с инструкциями по её разблокировке."
-      unlocked: Ваша учётная запись разблокирована. Теперь вы можете войти в систему.
+        resend_unlock_instructions: Выслать подтверждение заново # Resend unlock instructions
+      send_instructions: В течение нескольких минут вы получите письмо с инструкциями по разблокировке учётной записи. # An invitation email has been sent to %{email}.
+      send_paranoid_instructions: "Если ваша учётная запись существует, то в течение нескольких минут вы получите письмо с инструкциями по её разблокировке." # If your email address exists in our database, you will receive an invitation email in a few minutes.
+      unlocked: Ваша учётная запись разблокирована. Теперь вы можете войти в систему. # Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
       already_confirmed: "– уже подтверждено. Пожалуйста, попробуйте войти в систему"
@@ -147,7 +147,7 @@ ru:
       not_found: – не найдено
       not_locked: – не заблокировано
       not_saved:
-        one: '%{resource}: сохранение не удалось из-за одной ошибки:'
+        one: '%{resource}: сохранение не удалось из-за одной ошибки:' # "(1 character minimum)"
         few: "%{resource}: сохранение не удалось из-за %{count} ошибок:"
         many: "%{resource}: сохранение не удалось из-за %{count} ошибок:"
-        other: "%{resource}: сохранение не удалось из-за %{count} ошибок:"
+        other: "%{resource}: сохранение не удалось из-за %{count} ошибок:" # "(%{count} characters minimum)"

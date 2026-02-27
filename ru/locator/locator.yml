@@ -1,86 +1,85 @@
 ru:
   locator:
     shared:
-      cr_locator: CR Locator
-      locator: Locator
-      celebrate_recovery: Celebrate Recovery
-      email: Email
-      details: Подробнее
-      search: Поиск
-      filter: Фильтр
-      online: Онлайн
-      in_person: Лично
-      landing: Landing
-      celebration_place: Celebration Place
-      large_group: Большая группа
-      open_share_groups: Группы открытого обмена
-      step_studies: Изучение шагов
-      distance: "%{distance_unit}"
-      mile: миль
-      kilometer: километров
-      location: Место
-      groups: Группы
-      reps: Представители
-      language: Язык
-      format: Формат
+      cr_locator: Локатор CR # CR Locator
+      locator: Локатор # Locator
+      celebrate_recovery: Celebrate Recovery # Celebrate Recovery
+      email: Email # Email
+      details: Подробнее # Details
+      search: Поиск # Search
+      filter: Фильтр # Filter
+      online: Онлайн # Online
+      in_person: Лично # In Person
+      landing: Landing # Landing
+      celebration_place: Celebration Place # Celebration Place
+      large_group: Большая группа # Large Group
+      open_share_groups: Группы открытого обмена # Open Share Groups
+      step_studies: Изучение шагов # Step Studies
+      distance: "%{distance_unit}" # "%{distance_unit}"
+      mile: миль # miles
+      kilometer: километров # kilometers
+      location: Место # Location
+      groups: Группы # "%{rep_name} is a part of the following groups weekly:"
+      reps: Представители # Reps
+      language: Язык # Languages Offered Here
+      format: Формат # Format
       days:
-        sunday: Воскресенье
-        monday: Понедельник
-        tuesday: Вторник
-        wednesday: Среда
-        thursday: Четверг
-        friday: Пятница
-        saturday: Суббота
+        sunday: Воскресенье # S
+        monday: Понедельник # M
+        tuesday: Вторник # T
+        wednesday: Среда # W
+        thursday: Четверг # T
+        friday: Пятница # F
+        saturday: Суббота # S
       days_short:
-        sunday: Вс
-        monday: Пн
-        tuesday: Вт
-        wednesday: Ср
-        thursday: Чт
-        friday: Пт
-        saturday: Сб
+        sunday: Вс # S
+        monday: Пн # M
+        tuesday: Вт # T
+        wednesday: Ср # W
+        thursday: Чт # T
+        friday: Пт # F
+        saturday: Сб # S
       days_initial:
-        sunday: В
-        monday: П
-        tuesday: В
-        wednesday: С
-        thursday: Ч
-        friday: П
-        saturday: С
+        sunday: В # S
+        monday: П # M
+        tuesday: В # T
+        wednesday: С # W
+        thursday: Ч # T
+        friday: П # F
+        saturday: С # S
     layouts:
       partials:
         header:
-          close_menu: Закрыть меню
-          about: О нас
-          get_your_cr_on_the_locator: Зарегистрироваться
-          main_menu: Главное меню
-          login_in: Вход
-          dashboard: Панель
+          close_menu: Закрыть меню # Close Menu
+          about: О нас # "A little bit about %{rep_name}"
+          get_your_cr_on_the_locator: Зарегистрироваться # Get Listed
+          main_menu: Главное меню # Main Menu
+          login_in: Вход # Login
+          dashboard: Панель # Dashboard
     home:
-      please_enter_location: "Введите место или почтовый индекс для поиска групп или представителей."
-      email_sent: 'Письмо успешно отправлено.'
+      please_enter_location: "Введите место или почтовый индекс для поиска групп или представителей." # "Please enter a location or postal code to search for groups or reps."
+      email_sent: 'Письмо успешно отправлено.' # "Email sent successfully."
       index:
-        html_title: Главная
-        html_title_groups: Группы в
-        html_title_in: в
-        full_title: CR Locator
-        title: Locator
-        default_title: "Найдите свободу, найдите сообщество - CR Locator"
-        enter: "Введите место или почтовый индекс для начала поиска"
-        error: "Произошла ошибка при поиске. Попробуйте снова."
-        none_found_group: "Группы в радиусе %{radius} %{distance_unit} не найдены"
-        none_found_rep: "Представители в радиусе %{radius} %{distance_unit} не найдены"
-        closest_group: "Показаны ближайшие группы."
-        closest_rep: "Показаны ближайшие представители."
-        help: "Помощь"
+        html_title: Главная # Home
+        html_title_groups: Группы в # Groups in
+        html_title_in: в # in
+        full_title: CR Locator # CR Locator
+        default_title: "Найдите свободу, найдите сообщество - CR Locator" # "Find Freedom, Find Community - CR Locator"
+        enter: "Введите место или почтовый индекс для начала поиска" # "Please enter a location or postal code to begin your search"
+        error: "Произошла ошибка при поиске. Попробуйте снова." # "An error occurred while searching. Please try again."
+        none_found_group: "Группы в радиусе %{radius} %{distance_unit} не найдены" # "No groups found within %{radius} %{distance_unit}"
+        none_found_rep: "Представители в радиусе %{radius} %{distance_unit} не найдены" # "No reps found within %{radius} %{distance_unit}"
+        closest_group: "Показаны ближайшие группы." # "Showing the closest groups."
+        closest_rep: "Показаны ближайшие представители." # "Showing the closest reps."
+        help: "Помощь" # "Help"
       form:
-        search_title: Ваше местоположение / индекс
-        search_placeholder: Введите место
-        search_nearby: Искать рядом
-        location_name: Название места
-        search_type: Тип
-        radius: Радиус
-        day_of_week: Дни недели
+        search_title: Ваше местоположение / индекс # Your location / ZIP code
+        search_placeholder: Введите место # Enter a location
+        search_nearby: Искать рядом # Search Nearby
+        location_name: Название места # Location name
+        search_type: Тип # Type
+        radius: Радиус # Radius
+        day_of_week: Дни недели # Days of the week
         within_10: "в радиусе 10 %{distance_unit}"
         within_25: "в радиусе 25 %{distance_unit}"
         within_50: "в радиусе 50 %{distance_unit}"
@@ -89,46 +88,47 @@ ru:
         within_200: "в радиусе 200 %{distance_unit}"
         within_250: "в радиусе 250 %{distance_unit}"
         within_500: "в радиусе 500 %{distance_unit}"
-        rep_ambassador: Представитель / Адвокат
-        all_reps: Все представители / Адвокаты
-        all_reps_filter: Представители / Адвокаты
-        cr_reps: Представители CR
-        landing_reps: Представители Landing
-        celebration_place_reps: Представители Celebration Place
+        groups: Группы # "%{rep_name} is a part of the following groups weekly:"
+        rep_ambassador: Представитель / Адвокат # Rep / Advocate
+        all_reps: Все представители / Адвокаты # All Reps / Advocates
+        all_reps_filter: Представители / Адвокаты # Reps / Advocates
+        cr_reps: Представители CR # CR Reps
+        landing_reps: Представители Landing # Landing Reps
+        celebration_place_reps: Представители Celebration Place # Celebration Place Reps
         ambassadors:
-          mental_health: Адвокат психического здоровья
-          cr_inside: Адвокат CR Inside
-          cr_international: Адвокат CR International
-          cultural_communities: Адвокат культурных сообществ
-          welcome_home: Адвокат Welcome Home
-          opioid: Адвокат опиоидов
-          cpr: Адвокат CPR
-        all_groups: Все группы
-        all_groups_filter: Группы
-        online_large_group: Онлайн большая группа
-        online_open_share: Онлайн группы открытого обмена
-        fellowship_cafe: Fellowship Cafe
-        fellowship_meal: Трапеза Fellowship
-        childcare: Детская комната
+          mental_health: Адвокат психического здоровья # Mental Health Advocate
+          cr_inside: Адвокат CR Inside # CR Inside Advocate
+          cr_international: Адвокат CR International # CR International Advocate
+          cultural_communities: Адвокат культурных сообществ # Cultural Communities Advocate
+          welcome_home: Адвокат Welcome Home # Welcome Home Advocate
+          opioid: Адвокат опиоидов # Opioid Advocate
+          cpr: Адвокат CPR # CPR Advocate
+        all_groups: Все группы # All Groups
+        all_groups_filter: Группы # Groups
+        online_large_group: Онлайн большая группа # Online Large Group
+        online_open_share: Онлайн группы открытого обмена # Online Open Share Groups
+        fellowship_cafe: Fellowship Cafe # Fellowship Cafe
+        fellowship_meal: Трапеза Fellowship # Fellowship Meal
+        childcare: Детская комната # Childcare
       partials:
         group:
-          distance: "%{distance_unit}"
-          available: Доступно
-          offered_in: Проводится на
+          distance: "%{distance_unit}" # "%{distance_unit}"
+          available: Доступно # Available
+          offered_in: Проводится на # Offered in
     results:
       partials:
         group:
-          directions: Маршрут
-          email: Email
-          language: Языки проведения
-          location: Место
-          contact: Контакты группы
-          rep_contact: Контакт представителя
-          ministry_leader: Руководитель служения
-          upcomming_step_study: Предстоящие изучения шагов
-          starting: Начало
-          additional_information: Дополнительная информация
+          directions: Маршрут # Get Directions
+          email: Email # Email
+          language: Языки проведения # Languages Offered Here
+          location: Место # Location
+          contact: Контакты группы # Group Contacts
+          rep_contact: Контакт представителя # Rep Contact
+          ministry_leader: Руководитель служения # Ministry Leader
+          upcomming_step_study: Предстоящие изучения шагов # Upcoming Step Studies
+          starting: Начало # Starting
+          additional_information: Дополнительная информация # Additional Information
         rep:
-          based_in: "Находится в %{location}"
-          about: "Немного о %{rep_name}"
-          groups: "%{rep_name} еженедельно участвует в следующих группах:"
+          based_in: "Находится в %{location}" # "Based in %{location}"
+          about: "Немного о %{rep_name}" # "A little bit about %{rep_name}"
+          groups: "%{rep_name} еженедельно участвует в следующих группах:" # "%{rep_name} is a part of the following groups weekly:"

@@ -25,7 +25,20 @@ fr:
       celebration_place: Lieu de célébration # Celebration Place
       large_group: Grand groupe # Large Group
       open_share_groups: Groupes de partage ouverts # Open Share Groups
+      online_large_group: Grand groupe en ligne # Online Large Group
+      online_open_share: Groupes de partage en ligne # Online Open Share Groups
       step_studies: Études par étapes # Step Studies
+      fellowship_cafe: Café de communion # Fellowship Cafe
+      fellowship_meal: Repas de communion # Fellowship Meal
+      childcare: Garde d'enfants # Childcare
+      cr_reps: Représentants CR # CR Reps
+      ambassadors:
+        cr_inside: Ambassadeur CR Inside # CR Inside Advocate
+        cr_international: Ambassadeur CR International # CR International Advocate
+        cultural_communities: Ambassadeur des communautés culturelles # Cultural Communities Advocate
+        welcome_home: Ambassadeur Welcome Home # Welcome Home Advocate
+        opioid: Ambassadeur Opioid # Opioid Advocate
+        cpr: Ambassadeur CPR # CPR Advocate
 
       # Distance/Location
       distance: "%{distance_unit}" # %{distance_unit}
@@ -97,7 +110,6 @@ fr:
         html_title_groups: Groupes en # Groups in
         html_title_in: dans # in
         full_title: Localisateur CR # CR Locator
-        title: Localisateur # Locator
         default_title: "Trouvez la liberté, trouvez la communauté - Localisateur CR" # Find Freedom, Find Community - CR Locator
 
         # Search status messages
