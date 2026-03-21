@@ -1,0 +1,21 @@
+ro:
+  locator:
+    info:
+      start:
+        page_title: "Înregistrați-vă grupul - CR Locator"
+        subtitle: "CR Locator"
+        title: "Cum să vă înregistrați grupul CR în Locator"
+        intro: "Vă mulțumim pentru interesul dumneavoastră de a adăuga Ministerul Celebrate Recovery la CR Locator! Vă rugăm să bifați căsuțele de mai jos care indică faptul că îndepliniți cerințele pentru a vă adăuga grupul."
+        ministries: "Ministerele Celebrate Recovery adăugate la Locator pot consta dintr-o Seară Generală de Întâlnire (Large Group și grupuri Open Share) sau numai grupuri Open Share, cu sau fără Fellowship Dinner și/sau Fellowship Cafe."
+        question_1: "Seara noastră Generală de Întâlnire sau grupurile Open Share funcționează pentru public de minimum 90 de zile."
+        question_1_details: "Vă rugăm să nu bifați această căsuță dacă nu funcționați deja pentru public de cel puțin 90 de zile. Cele 90 de zile de funcționare nu includ Step Studies de pre-lansare și formarea liderilor pentru a pregăti deschiderea CR-ului dumneavoastră pentru public. Reprezentanții CR nu pot aproba grupurile până când acestea nu au îndeplinit această cerință."
+        question_2: "Biserica noastră și Conducerea CR sunt de acord, implementează și urmează ADN-ul Celebrate Recovery."
+        question_2_details_html: "Liderul Ministerului CR și membrul personalului bisericii căruia Liderul Ministerului îi raportează vor trebui să semneze un formular de acord pentru ca CR-ul să fie aprobat pentru adăugarea la Locator. ADN-ul poate fi găsit la <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA."
+        question_3: "Liderii noștri au finalizat formarea online despre cum să înceapă un Celebrate Recovery și/sau un Open Share Group Doar CR."
+        question_3_details_html: "Aceasta nu este obligatorie, dar reprezintă o informație utilă pentru Reprezentantul CR care vă va aproba cererea de adăugare la Locator. Videoclipurile de formare pot fi găsite pe CR Official pe Mighty Networks. Accesați <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> pentru mai multe informații."
+        requirements: "Dacă CR-ul dumneavoastră NU îndeplinește primele două cerințe de mai sus, nu continuați. Faceți mai întâi modificările necesare la Celebrate Recovery. Vă rugăm să contactați un Reprezentant Celebrate Recovery dacă aveți întrebări."
+        find_rep: "Reveniți la CR Locator pentru a căuta un Reprezentant sau un grup CR."
+        requirements_met: "Dacă CR-ul dumneavoastră ÎNDEPLINEȘTE cerințele de mai sus, faceți clic pe linkul de mai jos pentru a începe procesul de adăugare a CR-ului dumneavoastră la Locator."
+        buttons:
+          dashboard: "Mergeți la tabloul de bord"
+          setup: "Să începem"

@@ -1,0 +1,21 @@
+sw:
+  locator:
+    info:
+      start:
+        page_title: "Orodhesha kikundi chako - CR Locator"
+        subtitle: "CR Locator"
+        title: "Jinsi ya kuorodhesha kikundi chako cha CR kwenye Locator"
+        intro: "Asante kwa nia yako ya kuongeza Huduma yako ya Celebrate Recovery kwenye CR Locator! Tafadhali weka alama kwenye visanduku hapa chini vinavyoonyesha kwamba unakidhi mahitaji ya kuongeza kikundi chako."
+        ministries: "Huduma za Celebrate Recovery zinazoongezwa kwenye Locator zinaweza kuwa na Usiku wa Mkutano wa Jumla (Large Group na vikundi vya Open Share) au vikundi vya Open Share peke yake, kwa au bila Fellowship Dinner na/au Fellowship Cafe."
+        question_1: "Usiku wetu wa Mkutano wa Jumla au vikundi vya Open Share vimekuwa vikifanya kazi kwa umma kwa angalau siku 90."
+        question_1_details: "Tafadhali usiweke alama kwenye kisanduku hiki kama hujawa ukifanya kazi kwa umma kwa angalau siku 90. Siku 90 za kufanya kazi hazijumuishi Step Studies za kabla ya uzinduzi na mafunzo ya viongozi kujiandaa kufungua CR yako kwa umma. Wawakilishi wa CR hawawezi kupitisha vikundi hadi wakidhi hitaji hili."
+        question_2: "Kanisa letu na Uongozi wa CR wanakubaliana, wanatekeleza na wanafuata DNA ya Celebrate Recovery."
+        question_2_details_html: "Kiongozi wa Huduma ya CR na mwanachama wa wafanyakazi wa kanisa ambaye Kiongozi wa Huduma anamripoti watahitajika kusaini fomu ya makubaliano ili CR ipate idhini ya kuongezwa kwenye Locator. DNA inaweza kupatikana kwenye <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA."
+        question_3: "Viongozi wetu wamekamilisha mafunzo ya mtandaoni kuhusu jinsi ya kuanzisha Celebrate Recovery na/au Open Share Group ya CR peke yake."
+        question_3_details_html: "Hii si lazima, lakini ni taarifa ya manufaa kwa Mwakilishi wa CR atakayeidhinisha ombi lako la kuongezwa kwenye Locator. Video za mafunzo zinaweza kupatikana kwenye CR Official kwenye Mighty Networks. Nenda kwenye <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> kwa maelezo zaidi."
+        requirements: "Kama CR yako HAIFIKII mahitaji mawili ya kwanza hapo juu, usiendelee. Fanya mabadiliko yanayohitajika kwenye Celebrate Recovery yako kwanza. Tafadhali wasiliana na Mwakilishi wa Celebrate Recovery kama una maswali."
+        find_rep: "Rudi kwenye CR Locator kutafuta Mwakilishi au kikundi cha CR."
+        requirements_met: "Kama CR yako INAKIDHI mahitaji hapo juu, bonyeza kwenye kiungo hapa chini kuanza mchakato wa kuongeza CR yako kwenye Locator."
+        buttons:
+          dashboard: "Nenda kwenye dashibodi yako"
+          setup: "Hebu tuanze"

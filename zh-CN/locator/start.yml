@@ -1,0 +1,21 @@
+zh-CN:
+  locator:
+    info:
+      start:
+        page_title: "将您的小组添加到列表 - CR Locator"
+        subtitle: "CR Locator"
+        title: "如何将您的 CR 小组添加到 Locator"
+        intro: "感谢您有兴趣将您的 Celebrate Recovery 事工添加到 CR Locator！请勾选下面的复选框，表明您满足添加小组的要求。"
+        ministries: "添加到 Locator 的 Celebrate Recovery 事工可以由一般聚会之夜（Large Group 和 Open Share 小组）或仅 Open Share 小组组成，可以有也可以没有 Fellowship Dinner 和/或 Fellowship Cafe。"
+        question_1: "我们的一般聚会之夜或 Open Share 小组已面向公众运营至少 90 天。"
+        question_1_details: "如果您尚未面向公众运营至少 90 天，请不要勾选此框。90 天的运营时间不包括预启动的 Step Studies 和领袖培训，这些是为向公众开放您的 CR 所做的准备。CR 代表在小组满足此要求之前无法批准。"
+        question_2: "我们的教会和 CR 领导层同意、实施并遵循 Celebrate Recovery 的 DNA。"
+        question_2_details_html: "CR 事工领袖以及事工领袖所报告的教会工作人员将需要签署一份协议表格，以便 CR 获得批准添加到 Locator。DNA 可以在 <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA 上找到。"
+        question_3: "我们的领袖已完成有关如何开始 Celebrate Recovery 和/或仅 Open Share Group CR 的在线培训。"
+        question_3_details_html: "这不是必需的，但对于将批准您添加到 Locator 请求的 CR 代表来说是有用的信息。培训视频可以在 Mighty Networks 上的 CR Official 找到。访问 <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> 获取更多信息。"
+        requirements: "如果您的 CR 不满足上述前两项要求，请勿继续。请先在您的 Celebrate Recovery 进行必要的更改。如果您有任何问题，请联系 Celebrate Recovery 代表。"
+        find_rep: "返回 CR Locator 搜索代表或 CR 小组。"
+        requirements_met: "如果您的 CR 满足上述要求，请点击下面的链接开始将您的 CR 添加到 Locator 的流程。"
+        buttons:
+          dashboard: "前往您的仪表板"
+          setup: "让我们开始吧"

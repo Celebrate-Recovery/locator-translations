@@ -1,0 +1,21 @@
+id:
+  locator:
+    info:
+      start:
+        page_title: "Daftarkan kelompok Anda - CR Locator"
+        subtitle: "CR Locator"
+        title: "Cara mendaftarkan kelompok CR Anda di Locator"
+        intro: "Terima kasih atas minat Anda untuk menambahkan Pelayanan Celebrate Recovery Anda ke CR Locator! Silakan centang kotak di bawah ini yang menunjukkan bahwa Anda memenuhi persyaratan untuk menambahkan kelompok Anda."
+        ministries: "Pelayanan Celebrate Recovery yang ditambahkan ke Locator dapat terdiri dari Malam Pertemuan Umum (Large Group dan kelompok Open Share) atau hanya kelompok Open Share, dengan atau tanpa Fellowship Dinner dan/atau Fellowship Cafe."
+        question_1: "Malam Pertemuan Umum atau kelompok Open Share kami telah berjalan untuk umum selama minimal 90 hari."
+        question_1_details: "Jangan centang kotak ini jika Anda belum berjalan untuk umum setidaknya selama 90 hari. 90 hari beroperasi tidak termasuk Step Studies pra-peluncuran dan pelatihan pemimpin untuk mempersiapkan pembukaan CR Anda untuk umum. Perwakilan CR tidak dapat menyetujui kelompok sampai mereka memenuhi persyaratan ini."
+        question_2: "Gereja dan Kepemimpinan CR kami menyetujui, menerapkan, dan mengikuti DNA dari Celebrate Recovery."
+        question_2_details_html: "Pemimpin Pelayanan CR dan anggota staf gereja kepada siapa Pemimpin Pelayanan melapor akan diminta untuk menandatangani formulir perjanjian agar CR disetujui untuk ditambahkan ke Locator. DNA dapat ditemukan di <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA."
+        question_3: "Pemimpin kami telah menyelesaikan pelatihan online tentang cara memulai Celebrate Recovery dan/atau Open Share Group CR Saja."
+        question_3_details_html: "Ini tidak diwajibkan, tetapi merupakan informasi yang berguna bagi Perwakilan CR yang akan menyetujui permintaan Anda untuk ditambahkan ke Locator. Video pelatihan dapat ditemukan di CR Official di Mighty Networks. Kunjungi <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> untuk informasi lebih lanjut."
+        requirements: "Jika CR Anda TIDAK memenuhi dua persyaratan pertama di atas, jangan lanjutkan. Lakukan perubahan yang diperlukan di Celebrate Recovery Anda terlebih dahulu. Silakan hubungi Perwakilan Celebrate Recovery jika Anda memiliki pertanyaan."
+        find_rep: "Kembali ke CR Locator untuk mencari Perwakilan atau kelompok CR."
+        requirements_met: "Jika CR Anda MEMENUHI persyaratan di atas, klik tautan di bawah untuk memulai proses penambahan CR Anda ke Locator."
+        buttons:
+          dashboard: "Buka dashboard Anda"
+          setup: "Ayo mulai"

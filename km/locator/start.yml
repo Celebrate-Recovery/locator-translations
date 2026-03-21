@@ -1,0 +1,21 @@
+km:
+  locator:
+    info:
+      start:
+        page_title: "ចុះឈ្មោះក្រុមរបស់អ្នក - CR Locator"
+        subtitle: "CR Locator"
+        title: "របៀបចុះបញ្ជីក្រុម CR របស់អ្នកនៅលើ Locator"
+        intro: "សូមអរគុណចំពោះការចាប់អារម្មណ៍របស់អ្នកក្នុងការបន្ថែម Celebrate Recovery Ministry របស់អ្នកទៅ CR Locator! សូមដាក់សញ្ញាធីកនៅប្រអប់ខាងក្រោម ដែលបញ្ជាក់ថាអ្នកបំពេញតាមលក្ខខណ្ឌក្នុងការបន្ថែមក្រុមរបស់អ្នក។"
+        ministries: "Celebrate Recovery Ministries ដែលត្រូវបានបន្ថែមទៅ Locator អាចរួមមាន ភ្ជាប់ទៅនឹងយប់ប្រជុំទូទៅ (Large Group និងក្រុម Open Share) ឬតែក្រុម Open Share ប៉ុណ្ណោះ ដោយមានឬគ្មាន Fellowship Dinner និង/ឬ Fellowship Cafe។"
+        question_1: "យប់ប្រជុំទូទៅ ឬក្រុម Open Share របស់យើងបានដំណើរការសម្រាប់សាធារណជនយ៉ាងហោចណាស់ 90 ថ្ងៃ។"
+        question_1_details: "សូមកុំដាក់សញ្ញាធីកក្នុងប្រអប់នេះ ប្រសិនបើអ្នកមិនទាន់ដំណើរការសម្រាប់សាធារណជនយ៉ាងហោចណាស់ 90 ថ្ងៃ។ 90 ថ្ងៃនៃការដំណើរការមិនរួមបញ្ចូល Step Studies មុនការដំណើរការ និងការបណ្តុះបណ្តាលអ្នកដឹកនាំដើម្បីរៀបចំបើក CR របស់អ្នកចំពោះសាធារណជន។ CR Reps មិនអាចអនុម័តក្រុមដោតល់ពួកគេបំពេញតាមតម្រូវការនេះ។"
+        question_2: "វត្តអារាម និងភាពជាអ្នកដឹកនាំ CR របស់យើងយល់ព្រម អនុវត្ត និងអនុវត្តតាម DNA នៃ Celebrate Recovery។"
+        question_2_details_html: "អ្នកដឹកនាំ CR Ministry និងបុគ្គលិកសាសនាដែល Ministry Leader ទទួលខុសត្រូវ នឹងត្រូវបានស្នើឱ្យចុះហត្ថលេខាលើទម្រង់បែបបទសម្រាប់ CR ដើម្បីត្រូវបានអនុម័តឱ្យបន្ថែមទៅ Locator។ DNA អាចរកបាននៅ <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA។"
+        question_3: "អ្នកដឹកនាំរបស់យើងបានបញ្ចប់ការបណ្តុះបណ្តាលតាមអ៊ីនធឺណិតអំពីរបៀបចាប់ផ្តើម Celebrate Recovery និង/ឬ Open Share Group CR តែប៉ុណ្ណោះ។"
+        question_3_details_html: "នេះមិនតម្រូវទេ ប៉ុន្តែជាព័ត៌មានដែលមានប្រយោជន៍សម្រាប់ CR Rep ដែលនឹងអនុម័តសំណើរបស់អ្នកដើម្បីបន្ថែមទៅ Locator។ វីដេអូបណ្តុះបណ្តាលអាចរកបាននៅ CR Official នៅ Mighty Networks។ ចូលទៅ <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> សម្រាប់ព័ត៌មានបន្ថែម។"
+        requirements: "ប្រសិនបើ CR របស់អ្នកមិនបំពេញតាមតម្រូវការពីរដំបូងខាងលើ សូមកុំបន្ត។ ធ្វើការផ្លាស់ប្តូរចាំបាច់នៅ Celebrate Recovery របស់អ្នកជាមុន។ សូមទាក់ទងទៅ Celebrate Recovery Representative ប្រសិនបើអ្នកមានសំណួរ។"
+        find_rep: "ត្រឡប់ទៅ CR Locator ដើម្បីស្វែងរក Rep ឬក្រុម CR។"
+        requirements_met: "ប្រសិនបើ CR របស់អ្នកបំពេញតាមតម្រូវការខាងលើ ចុចលើតំណខាងក្រោមដើម្បីចាប់ផ្តើមដំណើរការបន្ថែម CR របស់អ្នកទៅ Locator។"
+        buttons:
+          dashboard: "ទៅ dashboard របស់អ្នក"
+          setup: "តោះចាប់ផ្តើម"

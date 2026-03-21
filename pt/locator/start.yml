@@ -1,0 +1,21 @@
+pt:
+  locator:
+    info:
+      start:
+        page_title: "Cadastre seu grupo - CR Locator"
+        subtitle: "CR Locator"
+        title: "Como cadastrar seu grupo CR no Locator"
+        intro: "Obrigado pelo seu interesse em adicionar seu Ministério Celebrate Recovery ao CR Locator! Por favor, marque as caixas abaixo indicando que você atende aos requisitos para adicionar seu grupo."
+        ministries: "Os Ministérios Celebrate Recovery adicionados ao Locator podem ser compostos por uma Noite de Reunião Geral (Large Group e grupos Open Share) ou apenas grupos Open Share, com ou sem Fellowship Dinner e/ou Fellowship Cafe."
+        question_1: "Nossa Noite de Reunião Geral ou grupos Open Share estão em funcionamento para o público há pelo menos 90 dias."
+        question_1_details: "Por favor, não marque esta caixa se você ainda não está em funcionamento para o público há pelo menos 90 dias. Os 90 dias de funcionamento não incluem os Step Studies pré-lançamento e o treinamento de líderes para preparar a abertura do seu CR ao público. Os Representantes CR não podem aprovar grupos até que tenham cumprido este requisito."
+        question_2: "Nossa Igreja e Liderança CR concordam, implementam e seguem o DNA do Celebrate Recovery."
+        question_2_details_html: "O Líder do Ministério CR e o membro da equipe da igreja a quem o Líder do Ministério se reporta precisarão assinar um formulário de acordo para que o CR seja aprovado para ser adicionado ao Locator. O DNA pode ser encontrado em <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA."
+        question_3: "Nossos Líderes concluíram o treinamento online sobre como iniciar um Celebrate Recovery e/ou Open Share Group Apenas CR."
+        question_3_details_html: "Isso não é obrigatório, mas é uma informação útil para o Representante CR que aprovará sua solicitação de adição ao Locator. Os vídeos de treinamento podem ser encontrados no CR Official no Mighty Networks. Acesse <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> para mais informações."
+        requirements: "Se o seu CR NÃO atende aos dois primeiros requisitos acima, não prossiga. Faça as mudanças necessárias no seu Celebrate Recovery primeiro. Por favor, entre em contato com um Representante Celebrate Recovery se tiver alguma dúvida."
+        find_rep: "Retorne ao CR Locator para pesquisar um Representante ou grupo CR."
+        requirements_met: "Se o seu CR ATENDE aos requisitos acima, clique no link abaixo para iniciar o processo de adição do seu CR ao Locator."
+        buttons:
+          dashboard: "Vá para o seu painel"
+          setup: "Vamos começar"

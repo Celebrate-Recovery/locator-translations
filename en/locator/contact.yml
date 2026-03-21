@@ -5,6 +5,7 @@ en:
       contact_title: contact # contact
       success: Email sent successfully. # Email sent successfully.
       invalid: 'Invalid form submission. Please try again.' # Invalid form submission. Please try again.
+      inactive_recipient: "This contact's email address is no longer valid and has been removed. Please try another way to reach them."
       
       # Contact form view
       contact:

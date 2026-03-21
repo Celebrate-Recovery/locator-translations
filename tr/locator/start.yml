@@ -1,0 +1,21 @@
+tr:
+  locator:
+    info:
+      start:
+        page_title: "Grubunuzu listeleyin - CR Locator"
+        subtitle: "CR Locator"
+        title: "CR grubunuzu Locator'a nasıl ekleyebilirsiniz"
+        intro: "Celebrate Recovery Hizmetinizi CR Locator'a eklemeye gösterdiğiniz ilgi için teşekkür ederiz! Lütfen aşağıdaki grubunuzu ekleme gereksinimlerini karşıladığınızı gösteren kutuları işaretleyin."
+        ministries: "Locator'a eklenen Celebrate Recovery Hizmetleri, bir Genel Toplantı Gecesinden (Large Group ve Open Share Grupları) veya yalnızca Open Share Gruplarından oluşabilir; Fellowship Dinner ve/veya Fellowship Cafe ile veya olmaksızın."
+        question_1: "Genel Toplantı Gecemiz veya Open Share Gruplarımız en az 90 gün boyunca halka açık şekilde faaliyettedir."
+        question_1_details: "Henüz en az 90 gün boyunca halka açık şekilde faaliyette değilseniz lütfen bu kutuyu işaretlemeyin. 90 günlük faaliyet süresi, CR'nizi halka açmaya hazırlamak için yapılan ön başlangıç Step Studies'lerini ve lider eğitimini kapsamaz. CR Temsilcileri, bu gereksinimi karşılayana kadar grupları onaylayamaz."
+        question_2: "Kilisemiz ve CR Liderliği, Celebrate Recovery'nin DNA'sını kabul eder, uygular ve takip eder."
+        question_2_details_html: "CR Hizmet Lideri ve Hizmet Liderinin raporladığı kilise personeli, CR'nin Locator'a eklenmek üzere onaylanması için bir anlaşma formunu imzalamaları gerekecektir. DNA, <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA adresinde bulunabilir."
+        question_3: "Liderlerimiz, Celebrate Recovery ve/veya yalnızca Open Share Group CR'nin nasıl başlatılacağına dair çevrimiçi eğitimi tamamladı."
+        question_3_details_html: "Bu zorunlu değildir, ancak Locator'a eklenme talebinizi onaylayacak CR Temsilcisi için yararlı bir bilgidir. Eğitim videoları Mighty Networks'teki CR Official'da bulunabilir. Daha fazla bilgi için <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> adresine gidin."
+        requirements: "CR'niz yukarıdaki ilk iki gereksinimi KARŞILAMIYORSA devam etmeyin. Önce Celebrate Recovery'nizde gerekli değişiklikleri yapın. Sorularınız varsa lütfen bir Celebrate Recovery Temsilcisiyle iletişime geçin."
+        find_rep: "Bir Temsilci veya CR grubu aramak için CR Locator'a geri dönün."
+        requirements_met: "CR'niz yukarıdaki gereksinimleri KARŞILIYORSA, CR'nizi Locator'a ekleme sürecini başlatmak için aşağıdaki bağlantıya tıklayın."
+        buttons:
+          dashboard: "Panonuza gidin"
+          setup: "Hadi başlayalım"

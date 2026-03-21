@@ -1,0 +1,21 @@
+nl:
+  locator:
+    info:
+      start:
+        page_title: "Laat uw groep vermelden - CR Locator"
+        subtitle: "CR Locator"
+        title: "Hoe u uw CR-groep op de Locator kunt laten vermelden"
+        intro: "Bedankt voor uw interesse in het toevoegen van uw Celebrate Recovery Bediening aan de CR Locator! Vink de onderstaande vakjes aan om aan te geven dat u voldoet aan de vereisten om uw groep toe te voegen."
+        ministries: "Celebrate Recovery Bedieningen die aan de Locator worden toegevoegd, kunnen bestaan uit een Algemene Vergaderavond (Large Group en Open Share Groepen) of alleen Open Share Groepen, met of zonder Fellowship Dinner en/of Fellowship Cafe."
+        question_1: "Onze Algemene Vergaderavond of Open Share Groepen zijn al minimaal 90 dagen voor het publiek actief."
+        question_1_details: "Vink dit vakje niet aan als u nog niet al minimaal 90 dagen voor het publiek actief bent. De 90 dagen activiteit omvat niet de pre-lancering Step Studies en leiderschapstraining ter voorbereiding op het openstellen van uw CR voor het publiek. CR Vertegenwoordigers kunnen groepen pas goedkeuren als aan deze vereiste is voldaan."
+        question_2: "Onze Kerk en CR-leiderschap stemmen in met, implementeren en volgen het DNA van Celebrate Recovery."
+        question_2_details_html: "De CR Bediening Leider en het kerkmedewerker aan wie de Bediening Leider rapporteert, zullen een overeenkomstformulier moeten ondertekenen om het CR goed te laten keuren voor toevoeging aan de Locator. Het DNA is te vinden op <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA."
+        question_3: "Onze Leiders hebben een online training gevolgd over hoe ze een Celebrate Recovery en/of Open Share Group Alleen CR kunnen starten."
+        question_3_details_html: "Dit is niet verplicht, maar is nuttige informatie voor de CR Vertegenwoordiger die uw verzoek om aan de Locator toegevoegd te worden, zal goedkeuren. De trainingsvideo's zijn te vinden op CR Official op Mighty Networks. Ga naar <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> voor meer informatie."
+        requirements: "Als uw CR NIET voldoet aan de eerste twee vereisten hierboven, ga dan niet verder. Breng eerst de nodige wijzigingen aan bij uw Celebrate Recovery. Neem contact op met een Celebrate Recovery Vertegenwoordiger als u vragen heeft."
+        find_rep: "Keer terug naar de CR Locator om te zoeken naar een Vertegenwoordiger of CR-groep."
+        requirements_met: "Als uw CR WEL voldoet aan de bovenstaande vereisten, klik dan op de onderstaande link om het proces te starten voor het toevoegen van uw CR aan de Locator."
+        buttons:
+          dashboard: "Ga naar uw dashboard"
+          setup: "Laten we beginnen"

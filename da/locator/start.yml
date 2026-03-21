@@ -1,0 +1,21 @@
+da:
+  locator:
+    info:
+      start:
+        page_title: "Få din gruppe opført - CR Locator"
+        subtitle: "CR Locator"
+        title: "Sådan får du din CR-gruppe opført på Locator"
+        intro: "Tak for din interesse i at tilføje dit Celebrate Recovery Ministerium til CR Locator! Sæt venligst kryds i felterne nedenfor, der angiver, at du opfylder kravene for at tilføje din gruppe."
+        ministries: "Celebrate Recovery Ministerier, der tilføjes til Locator, kan bestå af enten en Generel Mødeaften (Large Group og Open Share Grupper) eller kun Open Share Grupper, med eller uden Fellowship Dinner og/eller Fellowship Cafe."
+        question_1: "Vores Generelle Mødeaften eller Open Share Grupper har været åbne for offentligheden i minimum 90 dage."
+        question_1_details: "Sæt venligst ikke kryds i dette felt, hvis du ikke allerede har været åben for offentligheden i mindst 90 dage. De 90 dage inkluderer ikke præ-lancering Step Studies og lederuddannelse til forberedelse af åbning af CR for offentligheden. CR Repræsentanter kan ikke godkende grupper, før de har opfyldt dette krav."
+        question_2: "Vores Kirke og CR Lederskab er enige om, implementerer og følger DNA'et for Celebrate Recovery."
+        question_2_details_html: "CR Ministerium Lederen og den kirkestabsperson, som Ministerium Lederen refererer til, vil blive bedt om at underskrive en aftaleformular for at få CR godkendt til at blive tilføjet til Locator. DNA'et kan findes på <a href=\"https://celebraterecovery.com\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com</a> &rsaquo; Resources &rsaquo; Our DNA."
+        question_3: "Vores Ledere har gennemført online uddannelse i, hvordan man starter en Celebrate Recovery og/eller Open Share Group Kun CR."
+        question_3_details_html: "Dette er ikke påkrævet, men er nyttig information for den CR Repræsentant, der vil godkende din anmodning om at blive tilføjet til Locator. Uddannelsesvideoerne kan findes på CR Official på Mighty Networks. Gå til <a href=\"https://celebraterecovery.com/cr-community/\" target=\"_blank\" class=\"underline hover:text-gray-700\">celebraterecovery.com/cr-community/</a> for mere information."
+        requirements: "Hvis din CR IKKE opfylder de to første krav ovenfor, skal du ikke fortsætte. Foretag de nødvendige ændringer ved dit Celebrate Recovery først. Kontakt venligst en Celebrate Recovery Repræsentant, hvis du har spørgsmål."
+        find_rep: "Vend tilbage til CR Locator for at søge efter en Repræsentant eller CR-gruppe."
+        requirements_met: "Hvis din CR OPFYLDER kravene ovenfor, skal du klikke på linket nedenfor for at begynde processen med at tilføje din CR til Locator."
+        buttons:
+          dashboard: "Gå til dit dashboard"
+          setup: "Lad os komme i gang"
