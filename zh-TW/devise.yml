@@ -27,6 +27,7 @@ zh-TW:
         updated_at: 更新於
     models:
       user:
+        one: 使用者 # "(%{count} characters minimum)"
         other: 使用者 # "(%{count} characters minimum)"
   devise:
     confirmations:
@@ -126,6 +127,7 @@ zh-TW:
         sign_in_with_provider: "用 %{provider} 登入" # "Sign in with %{provider}"
         sign_up: 註冊 # Sign up
       minimum_password_length:
+        one: "（最少%{count}個字符）" # "(%{count} characters minimum)"
         other: "（最少%{count}個字符）" # "(%{count} characters minimum)"
     unlocks:
       new:
@@ -141,4 +143,5 @@ zh-TW:
       not_found: 找不到。
       not_locked: 並未被鎖定。
       not_saved:
+        one: "有 %{count} 個錯誤導致 %{resource} 不能被儲存：" # "(%{count} characters minimum)"
         other: "有 %{count} 個錯誤導致 %{resource} 不能被儲存：" # "(%{count} characters minimum)"

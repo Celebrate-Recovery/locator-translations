@@ -27,6 +27,7 @@ ja:
         updated_at: 更新日
     models:
       user:
+        one: ユーザー # "(%{count} characters minimum)"
         other: ユーザー # "(%{count} characters minimum)"
   devise:
     confirmations:
@@ -126,6 +127,7 @@ ja:
         sign_in_with_provider: "%{provider}でログイン" # "Sign in with %{provider}"
         sign_up: アカウント登録 # Sign up
       minimum_password_length:
+        one: "（%{count}字以上）" # "(%{count} characters minimum)"
         other: "（%{count}字以上）" # "(%{count} characters minimum)"
     unlocks:
       new:
@@ -141,4 +143,5 @@ ja:
       not_found: は見つかりませんでした。
       not_locked: はロックされていません。
       not_saved:
+        one: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。" # "(%{count} characters minimum)"
         other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。" # "(%{count} characters minimum)"

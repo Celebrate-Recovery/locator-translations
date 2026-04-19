@@ -27,6 +27,7 @@ km:
         updated_at: ថ្ងៃដែលបានធ្វើបច្ចុប្បន្នភាព
     models:
       user:
+        one: អ្នកប្រើប្រាស់ # "(%{count} characters minimum)"
         other: អ្នកប្រើប្រាស់ # "(%{count} characters minimum)"
   devise:
     confirmations:
@@ -126,6 +127,7 @@ km:
         sign_in_with_provider: "ចូលតាមរយ: %{provider}" # "Sign in with %{provider}"
         sign_up: ចុះឈ្មោះ # Sign up
       minimum_password_length:
+        one: "(ច្រើនជាង%{count}តួអក្សរ។)" # "(%{count} characters minimum)"
         other: "(ច្រើនជាង%{count}តួអក្សរ។)" # "(%{count} characters minimum)"
     unlocks:
       new:
@@ -141,4 +143,5 @@ km:
       not_found: ស្វែងរកមិនឃើញ
       not_locked: មិនបានចាក់សោ
       not_saved:
+        one: "%{resource}មិនត្រូវបានរក្សាទុកដោយសារមានកំហុស។" # "(%{count} characters minimum)"
         other: "%{resource}មិនត្រូវបានរក្សាទុកដោយសារមានកំហុស។" # "(%{count} characters minimum)"
